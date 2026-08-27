@@ -230,3 +230,63 @@ Note: this supersedes the scan's reading of this as a structural dead end.
    improve answers over time.
 3. **Open blockers:** support email address; community guidelines; Giulia's
    screen recordings for the cancel and change-card paths.
+
+---
+
+## 15. Where do I find the replay of a show I missed?
+**Status:** `live-data` — do not hardcode.
+
+Replays have changed and Giulia is changing them further. The app must **scrape
+the current structure from the community** via the MCP server at answer time
+rather than storing a fixed answer.
+
+---
+
+## 16. Is there a show today, and is it live or a rerun?
+**Status:** `live-data` — do not hardcode.
+
+Answer: **give them the calendar.** Pull it live via `list_events`.
+
+Note the known data defect: the two shows titled "CST" are stored with Eastern
+offsets while Coffee with Chas is stored in Central. Normalise before showing a
+time, or Central members get an answer an hour wrong.
+
+---
+
+## 17. I'm new and not very technical — where do I start?
+**Status:** `pending-user`
+
+Giulia is building a **new onboarding**. Hold this answer until it exists, then
+point at the new flow.
+
+---
+
+## 18. Who is my state's director or coordinator?
+**Status:** `dropped`
+
+> "Most states have no state director, so let's skip that for now as a
+> question. I would like to get that outside of the community as a thing."
+> — Giulia
+
+Remove from the FAQ set. Revisit if the role structure changes.
+
+---
+
+## 19. Is this message, email or account really from PPN, or is it a scam?
+**Status:** `dropped`
+
+> "Let's forget about the scam — this is really a PPN community, that's for
+> sure." — Giulia
+
+Remove from the FAQ set.
+
+---
+
+# Architecture decisions arising
+
+- **Two answer types so far:** static answers, and **triage** (ask back).
+- **Third type: live-data answers.** Replays (Q15) and the show calendar (Q16)
+  must be fetched from the community at answer time, never stored. Both are
+  actively changing.
+- Normalise event timezones before display — the stored offsets are
+  inconsistent across the three shows.
