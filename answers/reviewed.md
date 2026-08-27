@@ -290,3 +290,55 @@ Remove from the FAQ set.
   actively changing.
 - Normalise event timezones before display — the stored offsets are
   inconsistent across the three shows.
+
+---
+
+## 20. I'm paying but I can't get into what I pay for
+**Status:** `dropped`
+
+> "That's a strange one, because if they cannot get into what they pay for,
+> they are in what they pay for. So that's something I think will not happen
+> again." — Giulia
+
+Historic artifact of the Discord era: members paid for the community but were
+locked out of Talk Time on a *separate* platform. With Talk Time now inside the
+community, the gap that produced this question no longer exists.
+
+---
+
+## 21. My post, a whole room, or a host has disappeared
+**Status:** `confirmed` — keep.
+
+Rooms genuinely do move during restructuring, so this stays. Answer should
+cover "what changed recently" rather than treating it as moderation.
+
+---
+
+## 22. How do I find and get into a specific room?
+**Status:** `confirmed` — answer from the map.
+
+> "That's perfect that you map them." — Giulia
+
+Serve from `map/destinations.json` — all 126 destinations with URLs and
+member-language aliases. Never link a destination flagged `safeToLink: false`.
+
+---
+
+## 23. Am I in the right room, and what do the coloured bars mean?
+**Status:** `partially-dropped`
+
+**There are no coloured bars** — obsolete after the relaunch. Drop that half.
+Keep "am I in the right room", which the Humanitarian Projects case proves is
+real: a member asked where the room was while standing inside it.
+
+---
+
+## 24. The print is too small for me to read
+**Status:** `confirmed`
+
+Not a Mighty Networks problem — the text is a normal size. It reads small on a
+phone, and text size is controlled by the member's own device.
+
+Answer: explain it is a device setting, then recommend enlarging the font size
+on their screen. Give the steps per device rather than a generic line, since
+this audience abandoned setup over exactly this.
