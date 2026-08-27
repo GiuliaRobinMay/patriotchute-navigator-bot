@@ -1,0 +1,773 @@
+<title>PPN Navigator</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Zilla+Slab:wght@500;600;700&family=Source+Sans+3:ital,wght@0,400;0,600;0,700;1,400&display=swap">
+
+<style>
+:root{
+  --navy:#14284A; --navy-2:#1E3A66; --red:#A82B33; --red-2:#8E2129;
+  --denim:#5B7FA6; --wheat:#C6912F; --olive:#6B7F4E;
+  --ground:#EDF1F6; --surface:#FCFBF8; --surface-2:#F2F5F9;
+  --ink:#16233A; --ink-2:#3E5069; --ink-3:#6A7B92;
+  --rule:#D3DCE7; --rule-2:#E4EAF1;
+  --focus:#A82B33;
+  --shadow:0 1px 2px rgba(20,40,74,.06),0 8px 24px rgba(20,40,74,.07);
+  --radius:10px;
+  --base:18px;
+}
+@media (prefers-color-scheme:dark){
+  :root:not([data-theme="light"]){
+    --navy:#0D1626; --navy-2:#1B2B47; --red:#E06B70; --red-2:#C9545A;
+    --denim:#8FB3D6; --wheat:#DFB25C; --olive:#9BAE7C;
+    --ground:#0B1220; --surface:#141F33; --surface-2:#1B2740;
+    --ink:#E9EDF3; --ink-2:#BCC8D8; --ink-3:#8B9AB0;
+    --rule:#2A3A56; --rule-2:#22314A;
+    --focus:#E06B70;
+    --shadow:0 1px 2px rgba(0,0,0,.4),0 8px 24px rgba(0,0,0,.35);
+  }
+}
+:root[data-theme="dark"]{
+  --navy:#0D1626; --navy-2:#1B2B47; --red:#E06B70; --red-2:#C9545A;
+  --denim:#8FB3D6; --wheat:#DFB25C; --olive:#9BAE7C;
+  --ground:#0B1220; --surface:#141F33; --surface-2:#1B2740;
+  --ink:#E9EDF3; --ink-2:#BCC8D8; --ink-3:#8B9AB0;
+  --rule:#2A3A56; --rule-2:#22314A;
+  --focus:#E06B70;
+  --shadow:0 1px 2px rgba(0,0,0,.4),0 8px 24px rgba(0,0,0,.35);
+}
+
+*{box-sizing:border-box}
+body{
+  margin:0; background:var(--ground); color:var(--ink);
+  font-family:"Source Sans 3",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;
+  font-size:var(--base); line-height:1.6; -webkit-font-smoothing:antialiased;
+}
+h1,h2,h3{font-family:"Zilla Slab",Georgia,"Times New Roman",serif; text-wrap:balance; margin:0}
+a{color:var(--red)}
+:focus-visible{outline:3px solid var(--focus); outline-offset:2px; border-radius:4px}
+@media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
+
+/* ---- masthead ---- */
+.masthead{
+  background:var(--navy); color:#fff; padding:.85rem clamp(.9rem,3vw,1.6rem);
+  display:flex; align-items:center; gap:.9rem; position:sticky; top:0; z-index:30;
+  border-bottom:3px solid var(--red);
+}
+.badge{width:46px;height:46px;flex:none;border-radius:50%;display:block}
+.mast-text{flex:1;min-width:0}
+.eyebrow{
+  font-size:.66rem; letter-spacing:.16em; text-transform:uppercase;
+  color:#9DBBD8; font-weight:700; display:block; line-height:1.3;
+}
+.mast-text strong{font-family:"Zilla Slab",Georgia,serif;font-size:1.42rem;font-weight:700;display:block;line-height:1.15}
+.textsize{display:flex;align-items:center;gap:.4rem;flex:none}
+.textsize span{font-size:.72rem;letter-spacing:.1em;text-transform:uppercase;color:#9DBBD8;font-weight:700}
+.tbtn{
+  background:rgba(255,255,255,.1); color:#fff; border:1px solid rgba(255,255,255,.28);
+  border-radius:6px; cursor:pointer; font-family:inherit; font-weight:700;
+  width:34px; height:34px; line-height:1; font-size:1rem;
+}
+.tbtn:hover{background:rgba(255,255,255,.2)}
+.tbtn[aria-pressed="true"]{background:var(--red);border-color:var(--red)}
+
+/* ---- shell ---- */
+.shell{
+  max-width:1240px; margin:0 auto; padding:clamp(.9rem,2.5vw,1.5rem);
+  display:grid; grid-template-columns:minmax(0,1fr) 340px; gap:clamp(.9rem,2vw,1.4rem);
+  align-items:start;
+}
+@media (max-width:900px){ .shell{grid-template-columns:minmax(0,1fr)} .browser{order:-1} }
+
+/* ---- cards ---- */
+.card{
+  background:var(--surface); border:1px solid var(--rule); border-radius:var(--radius);
+  box-shadow:var(--shadow); padding:clamp(1.1rem,3vw,1.7rem);
+}
+.stream{display:flex;flex-direction:column;gap:1rem}
+.msg{display:flex;gap:.75rem;align-items:flex-start}
+.msg .badge{width:38px;height:38px;margin-top:.3rem}
+.msg .card{flex:1;min-width:0}
+.card h2{font-size:1.45rem;color:var(--navy-2);margin-bottom:.5rem;line-height:1.2}
+:root[data-theme="dark"] .card h2{color:var(--denim)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]) .card h2{color:var(--denim)}}
+.card p{margin:0 0 .85rem}
+.card p:last-child{margin-bottom:0}
+.lead{max-width:64ch}
+
+/* ---- checklist ---- */
+.checks{list-style:none;padding:0;margin:0 0 .4rem;display:flex;flex-direction:column;gap:.55rem}
+.checks li{display:flex;gap:.6rem;align-items:baseline}
+.checks .tick{color:var(--olive);font-weight:700;flex:none}
+.checks b{color:var(--navy-2);font-weight:700}
+:root[data-theme="dark"] .checks b{color:var(--ink)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]) .checks b{color:var(--ink)}}
+
+/* ---- steps ---- */
+ol.steps{margin:0 0 1rem;padding-left:1.35rem;display:flex;flex-direction:column;gap:.5rem}
+ol.steps li{padding-left:.2rem}
+
+/* ---- table ---- */
+.tablewrap{overflow-x:auto;margin:0 0 1rem;border:1px solid var(--rule);border-radius:8px}
+table{border-collapse:collapse;width:100%;font-size:.97rem;min-width:420px}
+thead th{
+  background:var(--surface-2); text-align:left; padding:.6rem .8rem;
+  font-size:.68rem; letter-spacing:.13em; text-transform:uppercase;
+  color:var(--ink-3); font-weight:700; border-bottom:1px solid var(--rule);
+}
+td{padding:.65rem .8rem;border-bottom:1px solid var(--rule-2);vertical-align:top}
+tbody tr:last-child td{border-bottom:0}
+td.when{color:var(--red);font-weight:700;white-space:nowrap;font-variant-numeric:tabular-nums}
+
+/* ---- callout ---- */
+.callout{
+  border-left:4px solid var(--denim); background:var(--surface-2);
+  padding:.8rem 1rem; margin:0 0 1rem; border-radius:0 6px 6px 0;
+}
+.callout.warn{border-left-color:var(--wheat)}
+.callout p{margin:0}
+
+/* ---- cta ---- */
+.cta{
+  display:inline-block; background:var(--red); color:#fff; text-decoration:none;
+  font-weight:700; padding:.72rem 1.15rem; border-radius:7px; font-size:1.02rem;
+  border:0; cursor:pointer; font-family:inherit;
+}
+.cta:hover{background:var(--red-2)}
+.source{font-size:.8rem;color:var(--ink-3);margin:.5rem 0 0}
+
+/* ---- related / feedback ---- */
+.divider{border:0;border-top:1px solid var(--rule-2);margin:1.1rem 0 .85rem}
+.label{font-size:.68rem;letter-spacing:.14em;text-transform:uppercase;color:var(--ink-3);font-weight:700;margin:0 0 .55rem}
+.chips{display:flex;flex-wrap:wrap;gap:.5rem}
+.chip{
+  background:var(--surface-2); border:1px solid var(--rule); color:var(--ink);
+  border-radius:999px; padding:.45rem .9rem; font:inherit; font-size:.94rem;
+  cursor:pointer;
+}
+.chip:hover{border-color:var(--denim);background:var(--surface)}
+.feedback{display:flex;align-items:center;gap:.6rem;flex-wrap:wrap;margin-top:1rem;font-size:.94rem;color:var(--ink-2)}
+.fb{background:var(--surface-2);border:1px solid var(--rule);border-radius:999px;padding:.35rem .85rem;font:inherit;font-size:.92rem;cursor:pointer;color:var(--ink)}
+.fb:hover{border-color:var(--denim)}
+.fb[aria-pressed="true"]{background:var(--olive);border-color:var(--olive);color:#fff}
+
+/* ---- browser ---- */
+.browser{
+  background:var(--surface); border:1px solid var(--rule); border-top:4px solid var(--wheat);
+  border-radius:var(--radius); box-shadow:var(--shadow); padding:1.2rem; position:sticky; top:5.4rem;
+}
+@media (max-width:900px){.browser{position:static}}
+.browser h2{font-size:1.28rem;color:var(--navy-2);margin-bottom:.35rem;line-height:1.2}
+:root[data-theme="dark"] .browser h2{color:var(--denim)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]) .browser h2{color:var(--denim)}}
+.browser>p{color:var(--ink-2);font-size:.95rem;margin:0 0 1rem}
+.cats{display:flex;flex-direction:column;gap:.5rem}
+.cat{border:1px solid var(--rule);border-radius:8px;overflow:hidden;background:var(--surface)}
+.cat.open{border-color:var(--navy-2)}
+.cat>button{
+  width:100%; display:flex; align-items:center; gap:.6rem; padding:.75rem .9rem;
+  background:none; border:0; cursor:pointer; font:inherit; font-weight:700;
+  color:var(--ink); text-align:left;
+}
+.cat>button:hover{background:var(--surface-2)}
+.dot{width:11px;height:11px;border-radius:50%;flex:none}
+.cat>button .arrow{margin-left:auto;color:var(--ink-3);font-size:.75rem;transition:transform .15s}
+.cat.open>button .arrow{transform:rotate(90deg)}
+.catlist{list-style:none;margin:0;padding:0 0 .5rem;display:none;flex-direction:column}
+.cat.open .catlist{display:flex}
+.catlist button{
+  width:100%; text-align:left; background:none; border:0; cursor:pointer; font:inherit;
+  color:var(--ink-2); padding:.45rem .9rem .45rem 2.15rem; line-height:1.4;
+}
+.catlist button:hover{color:var(--red);background:var(--surface-2)}
+.browser .foot{font-size:.9rem;color:var(--ink-3);margin:1rem 0 0;padding-top:.9rem;border-top:1px solid var(--rule-2)}
+
+/* ---- ask bar ---- */
+.askbar{
+  position:sticky; bottom:0; z-index:20; background:var(--ground);
+  border-top:1px solid var(--rule); padding:.8rem clamp(.9rem,3vw,1.6rem);
+}
+.askinner{max-width:1240px;margin:0 auto;display:flex;gap:.7rem}
+.askinner input{
+  flex:1; min-width:0; padding:.85rem 1rem; font:inherit; font-size:1.02rem;
+  border:2px solid var(--rule); border-radius:8px; background:var(--surface); color:var(--ink);
+}
+.askinner input:focus{border-color:var(--denim);outline:none}
+.askinner input::placeholder{color:var(--ink-3)}
+
+/* ---- triage form ---- */
+.triage{display:flex;flex-direction:column;gap:1rem;margin:0 0 1rem}
+.field label{display:block;font-weight:700;margin-bottom:.4rem;color:var(--navy-2)}
+:root[data-theme="dark"] .field label{color:var(--ink)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]) .field label{color:var(--ink)}}
+.field input,.field select,.field textarea{
+  width:100%; padding:.6rem .75rem; font:inherit; border:1px solid var(--rule);
+  border-radius:6px; background:var(--surface-2); color:var(--ink);
+}
+.field textarea{min-height:5rem;resize:vertical}
+.out{
+  background:var(--surface-2); border:1px dashed var(--denim); border-radius:8px;
+  padding:.9rem 1rem; white-space:pre-wrap; font-size:.96rem; margin:0 0 .9rem;
+}
+
+/* ---- room finder ---- */
+.roomsearch{
+  width:100%; padding:.7rem .9rem; font:inherit; border:2px solid var(--rule);
+  border-radius:8px; background:var(--surface-2); color:var(--ink); margin:0 0 1rem;
+}
+.roomsearch:focus{border-color:var(--denim);outline:none}
+.roomlist{list-style:none;margin:0;padding:0;max-height:26rem;overflow-y:auto;display:flex;flex-direction:column;gap:.15rem}
+.roomlist li a{
+  display:flex; gap:.6rem; align-items:baseline; padding:.5rem .6rem;
+  text-decoration:none; color:var(--ink); border-radius:6px;
+}
+.roomlist li a:hover{background:var(--surface-2)}
+.roomlist .rname{font-weight:600}
+.roomlist .rcat{margin-left:auto;font-size:.74rem;letter-spacing:.08em;text-transform:uppercase;color:var(--ink-3);white-space:nowrap}
+.count{font-size:.9rem;color:var(--ink-3);margin:0 0 .6rem}
+.pending{
+  display:inline-block; font-size:.68rem; letter-spacing:.12em; text-transform:uppercase;
+  font-weight:700; color:#fff; background:var(--wheat); padding:.15rem .5rem; border-radius:4px;
+  vertical-align:middle; margin-left:.5rem;
+}
+.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+</style>
+
+<header class="masthead">
+  <svg class="badge" viewBox="0 0 64 64" role="img" aria-label="PPN Navigator">
+    <circle cx="32" cy="32" r="31" fill="#FCFBF8" stroke="#A82B33" stroke-width="2"/>
+    <path d="M32 9 L47 15 V32 C47 42 40 49 32 53 C24 49 17 42 17 32 V15 Z" fill="#14284A"/>
+    <path d="M32 13 L43 17.5 V27 H32 Z" fill="#14284A"/>
+    <path d="M32 27 H43 V32 C43 34 42.8 35.8 42.4 37.5 H32 Z" fill="#A82B33"/>
+    <path d="M32 37.5 H42.4 C41.4 41.6 38.2 46 32 49.5 Z" fill="#FCFBF8"/>
+    <path d="M32 27 H21 V32 C21 34 21.2 35.8 21.6 37.5 H32 Z" fill="#FCFBF8"/>
+    <path d="M32 37.5 H21.6 C22.6 41.6 25.8 46 32 49.5 Z" fill="#A82B33"/>
+    <path d="M26 20.5 l1.1 2.6 2.8.2 -2.1 1.9 .6 2.7 -2.4-1.5 -2.4 1.5 .6-2.7 -2.1-1.9 2.8-.2 Z" fill="#FCFBF8"/>
+  </svg>
+  <div class="mast-text">
+    <span class="eyebrow">Patriot Party News</span>
+    <strong>PPN Navigator</strong>
+  </div>
+  <div class="textsize">
+    <span aria-hidden="true">Text</span>
+    <button class="tbtn" id="tminus" aria-label="Make the text smaller">&minus;</button>
+    <button class="tbtn" id="tplus" aria-label="Make the text bigger">+</button>
+  </div>
+</header>
+
+<div class="shell">
+  <main class="stream" id="stream" aria-live="polite"></main>
+
+  <aside class="browser">
+    <p class="label">Find your way around</p>
+    <h2>What are you looking for?</h2>
+    <p>Pick a topic, or type your question at the bottom. I'll point you to the exact room &mdash; and give you the link.</p>
+    <div class="cats" id="cats"></div>
+    <p class="foot">Can't find it? Post in <strong>HOME | Members Lobby</strong> and an admin will pick it up.</p>
+  </aside>
+</div>
+
+<div class="askbar">
+  <form class="askinner" id="askform">
+    <label class="sr" for="ask">Ask a question</label>
+    <input id="ask" type="text" placeholder="Ask a question&hellip;" autocomplete="off">
+    <button class="cta" type="submit">Ask</button>
+  </form>
+</div>
+
+<script>
+const ROOMS = __ROOMS__;
+
+const TALKTIME = "https://www.patriotchute.com/spaces/24638548/page";
+const HUMANITARIAN = "https://www.patriotchute.com/spaces/4758493/feed";
+
+const SHOWS = [
+  {name:"Coffee with Chas", day:"Mon&ndash;Fri", time:"9:00 AM CT", where:"Inside the community only",
+   url:"https://www.patriotchute.com/spaces/18992734"},
+  {name:"PPN News &mdash; Noon", day:"Mon&ndash;Fri", time:"12:00 PM CT", where:"In the community, Rumble, or the website",
+   url:"https://www.patriotchute.com/spaces/24417514"},
+  {name:"PPN News &mdash; Evening", day:"Mon&ndash;Fri", time:"8:00 PM CT", where:"In the community, Rumble, or the website",
+   url:"https://www.patriotchute.com/spaces/4759408"}
+];
+
+const A = {};
+
+A["talk-time"] = {
+  q:"Where is Talk Time, and how do I get in?",
+  h:"Talk Time is inside the community now",
+  body:`<p>You no longer need Discord, Telegram or Signal. Talk Time lives right here in PPN, and you will not lose access to it again.</p>`,
+  steps:["Open <b>Talk Time 2.0</b> using the button below.",
+         "If you have not joined yet, join with your <b>Google account</b> and pick your state.",
+         "That's it &mdash; you're in. You can chat nationally and with your own state, and join the live talks."],
+  cta:{label:"Open Talk Time 2.0", url:TALKTIME},
+  related:["state-group","telegram","lost-access"]
+};
+
+A["lost-access"] = {
+  q:"I've lost access to Talk Time &mdash; how do I get back in?",
+  h:"This has been fixed &mdash; Talk Time moved inside the community",
+  body:`<p>The old Talk Time ran on Discord, outside PPN. That is what kept knocking people out: expired invites, name checks, and suspensions you had nothing to do with.</p>
+        <p>Talk Time now runs <b>inside the community</b>. There is no separate app to get locked out of.</p>`,
+  steps:["Open <b>Talk Time 2.0</b> below.",
+         "Join with your <b>Google account</b> and pick your state.",
+         "You're back in."],
+  cta:{label:"Open Talk Time 2.0", url:TALKTIME},
+  related:["talk-time","state-group"]
+};
+
+A["state-group"] = {
+  q:"How do I find and join my state's group?",
+  h:"Your state group is inside Talk Time 2.0",
+  body:`<p>State groups now live inside Talk Time, together with the national chat. One place, one login.</p>`,
+  steps:["Open <b>Talk Time 2.0</b> below.",
+         "Join with your <b>Google account</b>.",
+         "Pick <b>your state</b>.",
+         "You can now talk with your state and nationally, and join the live talks."],
+  cta:{label:"Open Talk Time 2.0", url:TALKTIME},
+  related:["talk-time","find-room"]
+};
+
+A["telegram"] = {
+  q:"Do I need Telegram or Signal?",
+  h:"No &mdash; Telegram and Signal are no longer used",
+  body:`<p>You do not need to install anything. Both have been replaced by <b>PPN Talk Time</b> inside the community.</p>
+        <p>If you see an old post pointing at a Telegram or Signal link, it is out of date. Use Talk Time instead.</p>`,
+  cta:{label:"Open Talk Time 2.0", url:TALKTIME},
+  related:["talk-time","state-group"]
+};
+
+A["watch-live"] = {
+  q:"Where do I watch today's live show?",
+  h:"Where each show plays",
+  body:`<p>Three shows, Monday to Friday. Where you can watch depends on the show.</p>`,
+  table:{head:["Show","Day","Time (CT)","Where to watch"],
+         rows:SHOWS.map(s=>[`<a href="${s.url}" target="_blank" rel="noopener">${s.name}</a>`,s.day,
+                            `<span class="when">${s.time}</span>`,s.where])},
+  callout:`<b>Coffee with Chas is community-only.</b> It is not on Rumble or the website &mdash; watch it here.`,
+  source:"Times from the community events calendar.",
+  related:["schedule","replays"]
+};
+
+A["schedule"] = {
+  q:"Is there a show today?",
+  h:"The show calendar",
+  body:`<p>Shows run <b>Monday to Friday</b>. There are no weekend shows.</p>`,
+  table:{head:["Show","Day","Time (CT)"],
+         rows:SHOWS.map(s=>[`<a href="${s.url}" target="_blank" rel="noopener">${s.name}</a>`,s.day,
+                            `<span class="when">${s.time}</span>`])},
+  source:"Pulled from the community events calendar.",
+  related:["watch-live","replays"]
+};
+
+A["replays"] = {
+  q:"Where do I find the replay of a show I missed?",
+  h:"Replays are moving",
+  pending:true,
+  body:`<p>Replays are being reorganised right now, so we are not going to send you somewhere that will be wrong next week.</p>
+        <p>For the moment, open the room for the show you missed &mdash; the recording is posted there.</p>`,
+  table:{head:["Show","Go to its room"],
+         rows:SHOWS.map(s=>[s.name,`<a href="${s.url}" target="_blank" rel="noopener">Open room</a>`])},
+  related:["watch-live","schedule"]
+};
+
+A["humanitarian"] = {
+  q:"How do I submit my humanitarian project?",
+  h:"There is no form &mdash; write it up and post it",
+  body:`<p>People have hunted for a humanitarian project form for years. There isn't one, and that is the honest answer.</p>
+        <p>Write your project up in your own words &mdash; you can use ChatGPT or Grok to help you put it together &mdash; then paste it straight into the Humanitarian Projects room.</p>`,
+  callout:`Post the project <b>in the room itself</b>. That is where it gets seen.`,
+  cta:{label:"Open Humanitarian Projects", url:HUMANITARIAN},
+  source:"Confirmed by Chas Carter in the Humanitarian Projects room.",
+  related:["find-room"]
+};
+
+A["cancel"] = {
+  q:"How do I cancel my subscription?",
+  h:"You cancel it yourself, in your account settings",
+  pending:true,
+  body:`<p>Your membership is billed through Mighty Networks, and only you can cancel it &mdash; the PPN team has no access to your card or bank details.</p>`,
+  steps:["Click your <b>profile picture</b>.",
+         "Go to <b>Plans and Access</b>.",
+         "Find your active subscription.",
+         "Click <b>Cancel Subscription</b>."],
+  callout:`You keep access until the end of the billing period you have already paid for.`,
+  callout2:{warn:true, html:`<b>If you signed up through the iPhone or iPad app</b>, you must cancel through Apple instead: <b>Settings &rarr; your name &rarr; Media &amp; Purchases &rarr; Subscriptions</b>. Cancelling inside PPN will not stop an Apple charge.`},
+  source:"A step-by-step video is being recorded and will replace these steps.",
+  related:["change-card","still-charged"]
+};
+
+A["change-card"] = {
+  q:"How do I change the card I pay with?",
+  h:"Update your card in your billing settings",
+  pending:true,
+  body:`<p>This is handled in your Mighty Networks account settings.</p>`,
+  steps:["Click your <b>profile picture</b>.",
+         "Go to <b>Personal Settings</b>.",
+         "Open <b>Account</b>, then <b>Billing</b>.",
+         "Update your card there."],
+  callout2:{warn:true, html:`<b>Use a web browser, not the phone app.</b> Card changes often cannot be completed in the app. Go to <b>patriotchute.com</b> in Chrome or Safari instead.`},
+  source:"A step-by-step video is being recorded and will replace these steps.",
+  related:["cancel","still-charged"]
+};
+
+A["still-charged"] = {
+  q:"I cancelled but I'm still being charged",
+  h:"Send us the details and we'll look into it",
+  pending:true,
+  body:`<p>We're sorry &mdash; that should not happen, and we will sort it out.</p>
+        <p>Email the support team with these three things:</p>`,
+  steps:["The <b>email address</b> on your PPN account.",
+         "Your <b>name</b>.",
+         "The <b>amount</b> you were charged."],
+  callout2:{warn:true, html:`<b>One thing to check first.</b> If you originally signed up through the iPhone or iPad app, Apple bills you, not PPN &mdash; and cancelling inside PPN will not stop it. Check <b>Settings &rarr; your name &rarr; Media &amp; Purchases &rarr; Subscriptions</b> on your phone.`},
+  source:"Support email address to be added.",
+  related:["cancel","change-card"]
+};
+
+A["find-room"] = {
+  q:"How do I find a room?",
+  h:"Every room in the community",
+  body:`<p>Type what you're looking for &mdash; the room name, your state, or just a word like &ldquo;prayer&rdquo; or &ldquo;veterans&rdquo;. Click any result to go straight there.</p>`,
+  rooms:true,
+  related:["state-group","disappeared"]
+};
+
+A["disappeared"] = {
+  q:"My post, a room, or a host has disappeared",
+  h:"Rooms do move &mdash; here's how to check",
+  body:`<p>The community is being reorganised, so rooms genuinely get renamed or moved. Most of the time nothing has been deleted and nobody has been removed &mdash; it has just changed place.</p>`,
+  steps:["Search for it in the room finder below &mdash; try the old name <i>and</i> a word from it.",
+         "Check <b>Community News</b> for anything announced recently.",
+         "Still gone? Post in <b>HOME | Members Lobby</b> with the name of what you're looking for."],
+  cta:{label:"Search all rooms", action:"find-room"},
+  related:["find-room"]
+};
+
+A["text-small"] = {
+  q:"The print is too small for me to read",
+  h:"Make the text bigger on your own screen",
+  body:`<p>Good news &mdash; nothing is wrong with the site. Text size is set by your own phone or computer, so you can make it as large as you like and it will stay that way everywhere.</p>
+        <p>You can also use the <b>Text + button at the top of this page</b> right now.</p>`,
+  table:{head:["Your device","How to enlarge the text"],
+    rows:[
+      ["iPhone or iPad","Settings &rarr; Display &amp; Brightness &rarr; <b>Text Size</b>, then drag the slider right"],
+      ["iPhone or iPad (bigger still)","Settings &rarr; Accessibility &rarr; Display &amp; Text Size &rarr; <b>Larger Text</b>"],
+      ["Android phone","Settings &rarr; Display &rarr; <b>Font size</b>, then drag the slider right"],
+      ["Windows computer","Settings &rarr; Accessibility &rarr; <b>Text size</b>, then drag the slider right"],
+      ["Any computer browser","Hold <b>Ctrl</b> (or <b>&#8984;</b> on a Mac) and press <b>+</b> a few times"]
+    ]},
+  related:["app-trouble"]
+};
+
+A["start-here"] = {
+  q:"I'm new &mdash; where do I start?",
+  h:"A new welcome guide is on the way",
+  pending:true,
+  body:`<p>We're building a new step-by-step welcome for new members. Until it's ready, these three things will get you going:</p>`,
+  steps:[`Join <b>Talk Time</b> and pick your state &mdash; that's where the conversation happens.`,
+         `Find out <b>when the shows are</b> and where to watch them.`,
+         `Have a look around the rooms and join the ones that interest you.`],
+  cta:{label:"Open Talk Time 2.0", url:TALKTIME},
+  related:["talk-time","schedule","find-room"]
+};
+
+A["guidelines"] = {
+  q:"My post was removed, or I was muted &mdash; why?",
+  h:"Community guidelines are being written",
+  pending:true,
+  body:`<p>We're putting proper community guidelines in writing so that everyone knows where they stand. Until they're published, we don't want to guess at a rule that isn't written down yet.</p>
+        <p>If something of yours was removed, post in <b>HOME | Members Lobby</b> and an admin will explain what happened.</p>`,
+  related:["disappeared"]
+};
+
+/* ---------- triage ---------- */
+A["app-trouble"] = {
+  q:"The app is not working properly",
+  h:"Let's narrow it down",
+  body:`<p>&ldquo;It's not working&rdquo; can be a dozen different things, so there's no single fix we can give you. Answer these three and we'll know where to look.</p>`,
+  triage:{
+    id:"app",
+    fields:[
+      {k:"url", label:"What web address are you using?", type:"text", ph:"e.g. patriotchute.com, or the phone app"},
+      {k:"device", label:"What are you using?", type:"select",
+       opts:["iPhone","iPad","Android phone","Android tablet","Windows computer","Mac computer","Not sure"]},
+      {k:"what", label:"What happens? Tell us a little more.", type:"textarea",
+       ph:"e.g. it goes back to the sign-in page every time I tap a room"}
+    ],
+    note:"A screenshot helps a lot &mdash; add one to your post if you can."
+  },
+  related:["text-small","find-room"]
+};
+
+A["notifications"] = {
+  q:"My notifications are on but I'm not getting any",
+  h:"Let's narrow it down",
+  body:`<p>Notifications travel three different ways &mdash; in the app, on your phone's lock screen, and by email &mdash; and each one can fail for a different reason. Answer these and we'll know which one to chase.</p>`,
+  triage:{
+    id:"notif",
+    fields:[
+      {k:"device", label:"What are you using?", type:"select",
+       opts:["iPhone","iPad","Android phone","Android tablet","Windows computer","Mac computer","Not sure"]},
+      {k:"how", label:"How do you normally open PPN?", type:"select",
+       opts:["The phone app","A web browser (Chrome, Safari, Edge)","Both","Not sure"]},
+      {k:"which", label:"Which notifications are missing?", type:"select",
+       opts:["Live show alerts","Replies to my posts","Emails","All of them","Not sure"]},
+      {k:"when", label:"When did it last work?", type:"text", ph:"e.g. it stopped about two weeks ago"}
+    ],
+    note:"A screenshot of your notification settings helps a lot."
+  },
+  related:["app-trouble"]
+};
+
+A["locked-out"] = {
+  q:"I'm locked out &mdash; I can't get in",
+  h:"Where are you locked out?",
+  body:`<p>You're signed in to the community right now, so whatever is refusing you is somewhere else. Tell us where and we can point you at the right fix.</p>`,
+  triage:{
+    id:"lock",
+    fields:[
+      {k:"where", label:"Where are you being locked out?", type:"select",
+       opts:["Talk Time","The phone app","The billing or account settings screen","The website in a browser","Somewhere else"]},
+      {k:"device", label:"What are you using?", type:"select",
+       opts:["iPhone","iPad","Android phone","Android tablet","Windows computer","Mac computer","Not sure"]},
+      {k:"msg", label:"What does the screen say?", type:"textarea",
+       ph:"Type the message you see, word for word if you can"}
+    ],
+    note:"A screenshot of the message is the fastest way for us to spot it."
+  },
+  related:["talk-time","cancel"]
+};
+
+/* ---------- categories ---------- */
+const CATS = [
+  {name:"Getting started", color:"var(--navy-2)", qs:["start-here","talk-time","find-room","schedule"]},
+  {name:"Talk Time &amp; your state", color:"var(--red)", qs:["talk-time","state-group","lost-access","telegram"]},
+  {name:"Live shows &amp; replays", color:"var(--denim)", qs:["watch-live","schedule","replays"]},
+  {name:"Your account &amp; billing", color:"var(--wheat)", qs:["cancel","change-card","still-charged"]},
+  {name:"Find a room", color:"var(--olive)", qs:["find-room","disappeared","humanitarian"]},
+  {name:"Something's not working", color:"var(--ink-3)", qs:["app-trouble","notifications","locked-out","text-small"]}
+];
+
+/* ---------- rendering ---------- */
+const stream = document.getElementById("stream");
+const BADGE = document.querySelector(".masthead .badge").outerHTML;
+
+function esc(s){return String(s).replace(/[<>&"]/g,c=>({"<":"&lt;",">":"&gt;","&":"&amp;",'"':"&quot;"}[c]))}
+
+function el(html){const t=document.createElement("template");t.innerHTML=html.trim();return t.content.firstElementChild}
+
+function renderAnswer(key){
+  const a = A[key]; if(!a) return;
+  const msg = document.createElement("div"); msg.className="msg";
+  msg.innerHTML = BADGE.replace('class="badge"','class="badge" aria-hidden="true"');
+  const card = document.createElement("div"); card.className="card";
+
+  let h = `<h2>${a.h}${a.pending?'<span class="pending">Being updated</span>':''}</h2>`;
+  h += `<div class="lead">${a.body||""}</div>`;
+  if(a.steps) h += `<ol class="steps">${a.steps.map(s=>`<li>${s}</li>`).join("")}</ol>`;
+  if(a.table){
+    h += `<div class="tablewrap"><table><thead><tr>${a.table.head.map(x=>`<th>${x}</th>`).join("")}</tr></thead><tbody>`
+      + a.table.rows.map(r=>`<tr>${r.map((c,i)=>`<td${i===2&&a.table.head.length>3?' class="when"':''}>${c}</td>`).join("")}</tr>`).join("")
+      + `</tbody></table></div>`;
+  }
+  if(a.callout) h += `<div class="callout"><p>${a.callout}</p></div>`;
+  if(a.callout2) h += `<div class="callout ${a.callout2.warn?'warn':''}"><p>${a.callout2.html}</p></div>`;
+  if(a.rooms) h += roomFinderHTML();
+  if(a.triage) h += triageHTML(a.triage);
+  if(a.cta){
+    h += a.cta.url
+      ? `<a class="cta" href="${a.cta.url}" target="_blank" rel="noopener">${a.cta.label}</a>`
+      : `<button class="cta" data-goto="${a.cta.action}">${a.cta.label}</button>`;
+  }
+  if(a.source) h += `<p class="source">${a.source}</p>`;
+
+  const rel = (a.related||[]).filter(k=>A[k]);
+  h += `<hr class="divider">`;
+  if(rel.length){
+    h += `<p class="label">Related</p><div class="chips">`
+      + rel.map(k=>`<button class="chip" data-goto="${k}">${A[k].q}</button>`).join("") + `</div>`;
+  }
+  h += `<div class="feedback"><span>Did this help?</span>
+        <button class="fb" data-fb="y">&#128077; Yes</button>
+        <button class="fb" data-fb="n">&#128078; No</button></div>`;
+
+  card.innerHTML = h;
+  msg.appendChild(card);
+  stream.appendChild(msg);
+
+  card.querySelectorAll("[data-goto]").forEach(b=>b.addEventListener("click",()=>go(b.dataset.goto)));
+  card.querySelectorAll("[data-fb]").forEach(b=>b.addEventListener("click",()=>{
+    card.querySelectorAll("[data-fb]").forEach(o=>o.setAttribute("aria-pressed","false"));
+    b.setAttribute("aria-pressed","true");
+  }));
+  if(a.rooms) wireRoomFinder(card);
+  if(a.triage) wireTriage(card,a.triage);
+
+  msg.scrollIntoView({behavior:"smooth",block:"start"});
+}
+
+function roomFinderHTML(){
+  return `<label class="sr" for="rs">Search rooms</label>
+    <input class="roomsearch" id="rs" type="text" placeholder="Type a room name, your state, or a word&hellip;" autocomplete="off">
+    <p class="count" data-count></p><ul class="roomlist" data-rooms></ul>`;
+}
+function wireRoomFinder(card){
+  const input=card.querySelector(".roomsearch"), list=card.querySelector("[data-rooms]"), count=card.querySelector("[data-count]");
+  function draw(q){
+    const t=q.trim().toLowerCase();
+    const hits = !t ? ROOMS : ROOMS.filter(r =>
+      r.t.toLowerCase().includes(t) || r.c.toLowerCase().includes(t) ||
+      (r.a||[]).some(x=>x.includes(t)));
+    count.textContent = t ? `${hits.length} room${hits.length===1?"":"s"} match "${q.trim()}"` : `${ROOMS.length} rooms`;
+    list.innerHTML = hits.slice(0,200).map(r =>
+      `<li><a href="${r.u}" target="_blank" rel="noopener"><span class="rname">${esc(r.t)}</span><span class="rcat">${esc(r.c)}</span></a></li>`
+    ).join("") || `<li><a>Nothing matched. Try a shorter word.</a></li>`;
+  }
+  input.addEventListener("input",()=>draw(input.value));
+  draw("");
+}
+
+function triageHTML(t){
+  return `<div class="triage">` + t.fields.map(f=>{
+    const id=`${t.id}-${f.k}`;
+    let ctrl;
+    if(f.type==="select") ctrl=`<select id="${id}" data-k="${f.k}"><option value="">Choose one&hellip;</option>`+f.opts.map(o=>`<option>${o}</option>`).join("")+`</select>`;
+    else if(f.type==="textarea") ctrl=`<textarea id="${id}" data-k="${f.k}" placeholder="${f.ph||""}"></textarea>`;
+    else ctrl=`<input id="${id}" type="text" data-k="${f.k}" placeholder="${f.ph||""}">`;
+    return `<div class="field"><label for="${id}">${f.label}</label>${ctrl}</div>`;
+  }).join("") + `</div>
+  <div class="callout"><p>${t.note}</p></div>
+  <button class="cta" data-build>Write this up for me</button>
+  <div data-result></div>`;
+}
+function wireTriage(card,t){
+  const btn=card.querySelector("[data-build]"), out=card.querySelector("[data-result]");
+  btn.addEventListener("click",()=>{
+    const parts=[];
+    t.fields.forEach(f=>{
+      const v=card.querySelector(`[data-k="${f.k}"]`).value.trim();
+      if(v) parts.push(`${f.label.replace(/\?$/,"")}: ${v}`);
+    });
+    if(!parts.length){ out.innerHTML=`<p class="source">Fill in at least one answer above first.</p>`; return; }
+    const text = parts.join("\n") + "\n\n(Please add a screenshot if you can.)";
+    out.innerHTML = `<hr class="divider"><p class="label">Copy this into a post in the Members Lobby</p>
+      <div class="out">${esc(text)}</div>
+      <a class="cta" href="https://www.patriotchute.com/spaces/4755493" target="_blank" rel="noopener">Open Members Lobby</a>`;
+  });
+}
+
+function go(key){ renderAnswer(key); }
+
+/* ---------- browser ---------- */
+const catsEl=document.getElementById("cats");
+CATS.forEach((c,i)=>{
+  const d=el(`<div class="cat${i===0?" open":""}">
+    <button aria-expanded="${i===0}"><span class="dot" style="background:${c.color}"></span>${c.name}<span class="arrow">&#9654;</span></button>
+    <ul class="catlist">${c.qs.filter(k=>A[k]).map(k=>`<li><button data-goto="${k}">${A[k].q}</button></li>`).join("")}</ul>
+  </div>`);
+  d.querySelector("button").addEventListener("click",()=>{
+    const open=d.classList.toggle("open");
+    d.querySelector("button").setAttribute("aria-expanded",String(open));
+  });
+  d.querySelectorAll("[data-goto]").forEach(b=>b.addEventListener("click",()=>go(b.dataset.goto)));
+  catsEl.appendChild(d);
+});
+
+/* ---------- search ---------- */
+const SYN = {
+  "cancel":"cancel","unsubscribe":"cancel","stop paying":"cancel","refund":"still-charged",
+  "charged":"still-charged","charge":"still-charged","billing":"change-card","card":"change-card",
+  "payment":"change-card","pay":"change-card",
+  "talk time":"talk-time","talktime":"talk-time","patriot talk":"talk-time","discord":"talk-time",
+  "chat":"talk-time","voice":"talk-time",
+  "telegram":"telegram","signal":"telegram",
+  "state":"state-group","county":"state-group","local":"state-group",
+  "show":"watch-live","live":"watch-live","watch":"watch-live","rumble":"watch-live",
+  "coffee":"watch-live","news":"watch-live","time":"schedule","calendar":"schedule","today":"schedule",
+  "replay":"replays","recording":"replays","missed":"replays",
+  "humanitarian":"humanitarian","project":"humanitarian","form":"humanitarian",
+  "room":"find-room","where":"find-room","find":"find-room","group":"find-room",
+  "notification":"notifications","notifications":"notifications","email":"notifications","alert":"notifications",
+  "crash":"app-trouble","app":"app-trouble","broken":"app-trouble","not working":"app-trouble",
+  "loading":"app-trouble","slow":"app-trouble",
+  "login":"locked-out","log in":"locked-out","sign in":"locked-out","password":"locked-out",
+  "locked":"locked-out","access":"locked-out",
+  "small":"text-small","font":"text-small","read":"text-small","print":"text-small","big":"text-small",
+  "new":"start-here","start":"start-here","begin":"start-here",
+  "removed":"guidelines","muted":"guidelines","banned":"guidelines","rules":"guidelines",
+  "disappeared":"disappeared","gone":"disappeared","missing":"disappeared"
+};
+
+function search(qRaw){
+  const q=qRaw.toLowerCase().trim();
+  if(!q) return null;
+  for(const k in A) if(A[k].q.toLowerCase().replace(/&mdash;|&ldquo;|&rdquo;/g,"")===q) return k;
+  let best=null,bestLen=0;
+  for(const term in SYN){ if(q.includes(term) && term.length>bestLen){best=SYN[term];bestLen=term.length;} }
+  if(best) return best;
+  const room = ROOMS.find(r=>q.includes(r.t.toLowerCase()) || (r.a||[]).some(x=>q.includes(x)));
+  if(room) return "find-room";
+  return null;
+}
+
+document.getElementById("askform").addEventListener("submit",e=>{
+  e.preventDefault();
+  const input=document.getElementById("ask"), v=input.value;
+  const hit=search(v);
+  if(hit){ go(hit); }
+  else{
+    const msg=document.createElement("div"); msg.className="msg";
+    msg.innerHTML=BADGE.replace('class="badge"','class="badge" aria-hidden="true"');
+    const card=document.createElement("div"); card.className="card";
+    card.innerHTML=`<h2>I don't have an answer for that yet</h2>
+      <p>This Navigator is new and we're still adding answers to it.</p>
+      <p>Pick a topic on the right, search all the rooms, or post your question in the Members Lobby &mdash; an admin will pick it up.</p>
+      <button class="cta" data-goto="find-room">Search all rooms</button>
+      <p class="source">Your question was noted so we can add it: &ldquo;${esc(v)}&rdquo;</p>`;
+    card.querySelectorAll("[data-goto]").forEach(b=>b.addEventListener("click",()=>go(b.dataset.goto)));
+    msg.appendChild(card); stream.appendChild(msg);
+    msg.scrollIntoView({behavior:"smooth",block:"start"});
+  }
+  input.value="";
+});
+
+/* ---------- text size ---------- */
+let size=18;
+const SZ_MIN=16, SZ_MAX=26;
+function setSize(n,save){
+  size=Math.max(SZ_MIN,Math.min(SZ_MAX,n));
+  document.documentElement.style.setProperty("--base",size+"px");
+  document.getElementById("tminus").disabled=size<=SZ_MIN;
+  document.getElementById("tplus").disabled=size>=SZ_MAX;
+  if(save){ try{ localStorage.setItem("ppn-nav-size",String(size)); }catch(e){} }
+}
+document.getElementById("tplus").addEventListener("click",()=>setSize(size+2,true));
+document.getElementById("tminus").addEventListener("click",()=>setSize(size-2,true));
+try{ const s=parseInt(localStorage.getItem("ppn-nav-size"),10); if(s) setSize(s,false); else setSize(18,false); }
+catch(e){ setSize(18,false); }
+
+/* ---------- opening card ---------- */
+(function(){
+  const msg=document.createElement("div"); msg.className="msg";
+  msg.innerHTML=BADGE.replace('class="badge"','class="badge" aria-hidden="true"');
+  const card=document.createElement("div"); card.className="card";
+  card.innerHTML=`<h2>Hi &mdash; what do you need?</h2>
+    <div class="lead"><p>Pick a topic on the right, or type your question at the bottom. I'll point you to the exact room or page &mdash; and give you the link.</p></div>
+    <ul class="checks">
+      <li><span class="tick">&#10004;</span><span><b>Getting started</b> &mdash; where to begin, how to find your way</span></li>
+      <li><span class="tick">&#10004;</span><span><b>Talk Time &amp; your state</b> &mdash; it's inside the community now</span></li>
+      <li><span class="tick">&#10004;</span><span><b>Live shows &amp; replays</b> &mdash; what's on, when, and where to watch</span></li>
+      <li><span class="tick">&#10004;</span><span><b>Your account</b> &mdash; billing, your card, cancelling</span></li>
+      <li><span class="tick">&#10004;</span><span><b>Find a room</b> &mdash; all ${ROOMS.length} of them, with links</span></li>
+    </ul>
+    <hr class="divider">
+    <p class="label">Most asked</p>
+    <div class="chips">
+      <button class="chip" data-goto="talk-time">Where is Talk Time?</button>
+      <button class="chip" data-goto="watch-live">Where do I watch today's show?</button>
+      <button class="chip" data-goto="find-room">How do I find a room?</button>
+      <button class="chip" data-goto="cancel">How do I cancel my subscription?</button>
+    </div>`;
+  card.querySelectorAll("[data-goto]").forEach(b=>b.addEventListener("click",()=>go(b.dataset.goto)));
+  msg.appendChild(card); stream.appendChild(msg);
+})();
+</script>

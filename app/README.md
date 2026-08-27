@@ -1,0 +1,64 @@
+# PPN Navigator
+
+First build. Embeddable single-page help navigator for the community.
+
+**Live:** https://claude.ai/code/artifact/9895a28a-2cbd-4a82-a22b-3b2211f796d0
+
+| File | Purpose |
+|---|---|
+| `template.html` | The app. Edit answers here. |
+| `build_app.py` | Injects the live room map into the template. |
+| `navigator.html` | Built output — do not edit by hand. |
+| `rooms.json` | Room data snapshot, for reference. |
+
+## Rebuild
+
+```bash
+python3 map/build_map.py    # refresh the room map first
+python3 app/build_app.py    # then rebuild the app
+```
+
+## Design
+
+Palette is the flag weathered rather than a campaign banner: union navy
+`#14284A`, barn red `#A82B33`, faded chambray `#5B7FA6` on a pale chambray
+ground, wheat `#C6912F` on the badge. Zilla Slab for headings (civic print),
+Source Sans 3 for body.
+
+**Base text is 18px, not 16.** The scan's clearest accessibility finding was
+members abandoning setup because *"the print is so small I cannot read it to
+follow"*. There is also a Text +/- control in the masthead that persists per
+viewer.
+
+## Three answer types
+
+The review with Giulia established that not every question wants a canned
+answer:
+
+1. **Static** — a real answer exists. Talk Time, state groups, humanitarian
+   projects, text size.
+2. **Triage** — "it's not working" is a dozen different problems. The app asks
+   back (device, URL, what happens), then writes the member a summary to paste
+   into the Lobby. Used for app trouble, notifications, and lockouts.
+3. **Live data** — replays and the show calendar are actively changing, so
+   these must be pulled from the community rather than stored. Currently
+   hardcoded from verified event data; wire to the MCP server next.
+
+## Room links
+
+87 member-visible rooms, searchable by name, state, collection, or
+member-language alias ("humanitarian room", "talk time"). The 15 destinations
+flagged `safeToLink: false` in the map — empty, stale, duplicated — and the
+39 in members-hidden collections are excluded from the build. Sending a member
+to an empty room is worse than saying "not yet".
+
+## Open items before this is member-ready
+
+- **Support email address** — `still-charged` cannot ship without it.
+- **Community guidelines** — `guidelines` is a placeholder until they exist.
+- **Cancel + change-card screen recordings** — current steps come from the
+  Mighty Networks help centre and are marked "Being updated".
+- **New onboarding** — `start-here` is interim.
+- **Confirm Apple/iOS billing** — if any members are billed through Apple, that
+  explains the "cancelled but still charged" reports.
+- Feedback buttons are UI only; they do not record anywhere yet.
