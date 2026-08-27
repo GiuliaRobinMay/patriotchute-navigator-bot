@@ -1,0 +1,261 @@
+{
+ "missingQuestions": [
+  {
+   "question": "I'm not in the USA \u2014 is there a group for me, since the state groups don't apply?",
+   "category": "State & Local Groups",
+   "why": "The canonical list has 8 State & Local Groups entries and every one assumes a US state. Onboarding's central call-to-action (Welcome course STEP 5 'Join Your States Group') has no international branch, and members read that as being unwanted: 'Thats nice. I'm Canadian and have nothing to join. Makes me wonder why I'm here. No states for me.' This is a churn signal, not a curiosity. The answer already exists and is trivial: the verified network structure has a member-visible '\u27bd OTHER COUNTRIES' collection, and a Canada space (resourceId 12907547) is live \u2014 a member posted 'hey Canada is included thanks I was beginning to feel left out' in Feb 2026. A member also asks about US territories vs states (36980649, 0 replies). Nothing in the FAQ points anyone there.",
+   "evidenceUrls": [
+    "https://www.patriotchute.com/posts/97566630",
+    "https://www.patriotchute.com/posts/97583685",
+    "https://www.patriotchute.com/posts/36980649"
+   ]
+  },
+  {
+   "question": "Why was I charged a different amount than the $8.99 you advertise?",
+   "category": "Billing & Membership",
+   "why": "'what-it-costs' answers the sticker price only. A non-US member posts the actual lived discrepancy: 'It cost You $8.99 to be on PPN and it cost me $12.58. How do you like those apples.' (0 replies). Currency conversion / card FX on a Stripe-USD network is invisible to the member and reads as being overcharged \u2014 the same emotional register that produces 'have my bank block the charges'. A one-line answer ('billing is in USD; your bank converts') defuses it. Note also 95405444 where members are still confirming the price to each other peer-to-peer in Dec 2025, i.e. there is no authoritative published price.",
+   "evidenceUrls": [
+    "https://www.patriotchute.com/posts/103229440",
+    "https://www.patriotchute.com/posts/95405444"
+   ]
+  },
+  {
+   "question": "The print is too small for me to read \u2014 how do I make the text bigger?",
+   "category": "Apps & Devices",
+   "why": "The whole list is silent on accessibility, in a community whose members repeatedly self-identify as elderly. This is not a soft concern: it is the reason existing documentation fails. 'there are step by step directions on here but the print is so small I cannot read it to follow' (0 replies) \u2014 a member who therefore never got onto Talk Time. 'Why is the font so small all of a sudden?? I almost need a magnifying glass' (5 comments, 4 cheers, and she @-mentioned two volunteer moderators to get help). 'Why is the chat so hard to read on a cellphone?' (0 replies). Related: 82632059 '10 pages of instructions really confuse me'. Every other FAQ answer is undeliverable to this cohort until this one is answered.",
+   "evidenceUrls": [
+    "https://www.patriotchute.com/posts/67539112",
+    "https://www.patriotchute.com/posts/81697230",
+    "https://www.patriotchute.com/posts/87318252",
+    "https://www.patriotchute.com/posts/82632059"
+   ]
+  },
+  {
+   "question": "When is my next payment taken, and where do I see what I've been charged?",
+   "category": "Billing & Membership",
+   "why": "The list covers cancel, change card, and cost \u2014 but never 'when does the money leave, and where is the record'. Members are making cancel decisions blind against a deadline: 'should we cancel our subscription before the next due date? My next due date comes out in 48hrs!??' (0 replies). Also 'my old one on file with patriot chute expired' (0 replies), 'I've been having trouble with Auto Renew past months kind of no matter what I change' (0 replies), and 'where to go to make a payment' (0 replies). This is the same settings screen as the cancel path, so it is near-zero marginal build cost, and it removes a category of panic-cancels.",
+   "evidenceUrls": [
+    "https://www.patriotchute.com/posts/52963415",
+    "https://www.patriotchute.com/posts/43803892",
+    "https://www.patriotchute.com/posts/54770364",
+    "https://www.patriotchute.com/posts/56046802"
+   ]
+  },
+  {
+   "question": "If I cancel, do I lose access straight away, do my posts disappear, and can I come back later?",
+   "category": "Billing & Membership",
+   "why": "Ten billing entries and none of them says what cancelling actually does. Members are explicitly asking about the exit and re-entry path: 'How do I unsubscribe to Patriotchute? I hope to rejoin in the spring.' A member who cancelled and rejoined found herself no better off ('I joined once but couldn't figure out how to navigate. I cancelled, then joined again and I still can't figure out where to see videos'). Another cancelled-and-resubscribed because her old membership could not be restored and she had been locked out since January. And 38479124 is a member asking whether cancel-and-rejoin is the recommended fix for a login problem \u2014 i.e. members are using cancellation as a troubleshooting step because nobody has told them what it costs them.",
+   "evidenceUrls": [
+    "https://www.patriotchute.com/posts/45928552",
+    "https://www.patriotchute.com/posts/21088300",
+    "https://www.patriotchute.com/posts/56548728",
+    "https://www.patriotchute.com/posts/38479124"
+   ]
+  },
+  {
+   "question": "My free trial ends today and I never used it \u2014 how do I stop it before I'm charged?",
+   "category": "Billing & Membership",
+   "why": "Distinct from 'cancel-subscription' and 'close-my-account' because it is deadline-bounded and the asker is not yet a paying member, so half the usual advice ('go to Purchases') may not apply. 'Please tell me how to delete my account. Free trial ends today' drew 5 comments and 2 cheers, i.e. others were watching. 31810331 is the mirror case: a member who joined 'under the pretense of the first month being Free to check out Talk Time' and never once connected. The Ambassador Program now issues 30-day free trials at scale (WEGROW10X), so this cohort is about to get larger, not smaller.",
+   "evidenceUrls": [
+    "https://www.patriotchute.com/posts/32121721",
+    "https://www.patriotchute.com/posts/31810331"
+   ]
+  },
+  {
+   "question": "A family member died or can no longer manage their own account \u2014 how do I change the email and phone, or close it, on their behalf?",
+   "category": "Account & Login",
+   "why": "'change-my-account-details' and 'close-my-account' both assume the account holder is present and can log in. The real case in the corpus is the opposite: 'I need help modifying account information for my Mom. My Dad passed last month and I need to update their account information to her for email- phone etc.' The admin position on file is 'We cannot cancel your account. Only you can. We do not have access to your personal/banking information' \u2014 which, applied literally to a bereaved family, is a dead end that ends in a bank block or a chargeback. This needs a stated proxy/verification path, not a self-serve menu path.",
+   "evidenceUrls": [
+    "https://www.patriotchute.com/posts/46032567",
+    "https://www.patriotchute.com/posts/103350708"
+   ]
+  },
+  {
+   "question": "My spouse and I share one login \u2014 does each of us need our own paid membership?",
+   "category": "Billing & Membership",
+   "why": "No entry covers household/shared accounts, yet the question is asked precisely where it costs the community something: a couple wanting the spouse to serve as State Director found 'they are not recognized without a paid log in. Is there a work around or does each person need their own paid subscription?' (1 comment, 2 cheers). Related identity confusion at 41618277 ('I need a moderator to check and see who I am supporting on my membership'). This blocks volunteer recruitment \u2014 which the list does cover, at 'become-a-coordinator' \u2014 so the two interact.",
+   "evidenceUrls": [
+    "https://www.patriotchute.com/posts/38519220",
+    "https://www.patriotchute.com/posts/41618277"
+   ]
+  },
+  {
+   "question": "How do I invite someone to join \u2014 where is my share/invite link, and what is the Ambassador Program and the promo code?",
+   "category": "Getting Started & Help",
+   "why": "There is a complete, live, self-contained Ambassador page (promo code WEGROW10X, invite link, 30-day trial + 10% discount, Bronze/Silver/Gold tiers) and the promo is auto-reposted into the Members Lobby 15+ times between Mar and May 2026 \u2014 yet the canonical list contains zero entry about inviting anyone. Members have asked for the share link independently and got nothing: 'Chas said today that if we went to our profile we could get a link or something so we could share things from this site out for other people to see it. Can someone tell me how to do that plz?' (0 replies). Two compounding facts make this a Navigator job specifically: the Ambassador space (22883801) returns an EMPTY feed, so the promo's own call-to-action lands members on nothing; and the harvest's low question count here reflects members not seeing the promo, not the absence of need.",
+   "evidenceUrls": [
+    "https://www.patriotchute.com/posts/%F0%9F%87%BA%F0%9F%87%B8-patriotchute-ambassador-program",
+    "https://www.patriotchute.com/posts/82289497",
+    "https://www.patriotchute.com/posts/102135102",
+    "https://www.patriotchute.com/posts/41618277"
+   ]
+  },
+  {
+   "question": "What time is the show where I live, and does the time change when the clocks change?",
+   "category": "Live Shows & Replays",
+   "why": "'is-there-a-show-today' and 'where-to-watch-live' both dodge the clock. The community announces the same show as '8pm CST 9pm EST' (39518999), '3pm PST/6pm EST' (21214401), '9am this morning est' (57081394) and '5 EST' (79553464) \u2014 four conventions for three shows. Daylight-saving transitions produce their own posts ('The show time change is actually today', 'BS time again'). Worse, the verified event records themselves are inconsistent: the two shows titled 'CST' are stored with Eastern offsets while Coffee with Chas is stored in Central, so a naive automated answer will be an hour wrong for Central members. Also missing from every entry: the shows are Mon\u2013Fri only, which is the actual answer to a share of 'is there a show today'.",
+   "evidenceUrls": [
+    "https://www.patriotchute.com/posts/24343629",
+    "https://www.patriotchute.com/posts/74501736",
+    "https://www.patriotchute.com/posts/39518999",
+    "https://www.patriotchute.com/posts/21214401"
+   ]
+  },
+  {
+   "question": "How long after the show does the replay go up?",
+   "category": "Live Shows & Replays",
+   "why": "'where-are-replays' and 'replay-wont-play' both assume the replay exists at the moment of asking. A large share of the complaints are timing, not location: the platform still shows the stream as live so the recording is unreachable ('The show still shows as live on all platforms so I can't access the replay'), and 'the noon show says site suspended until it's over, and the replay only appears hours later'. Also 'Where is the replay for the show \u2014 has it been posted yet?' (0 replies) and 'Where is the full recording of the 12-1pm PPN show? Rumble only has 4 minutes' (0 replies). Without a stated lag, members repeatedly conclude the replay is missing or being suppressed and post again.",
+   "evidenceUrls": [
+    "https://www.patriotchute.com/posts/99103929",
+    "https://www.patriotchute.com/posts/83004416",
+    "https://www.patriotchute.com/posts/78770897"
+   ]
+  },
+  {
+   "question": "What is TubePatriot, and what do I do when it won't load or shows nothing new?",
+   "category": "Live Shows & Replays",
+   "why": "The list names Rumble, YouTube and Twitch and never names TubePatriot \u2014 but TubePatriot is where the 2025\u20132026 stream failures actually happen and is by volume the most recent watch-destination problem in the corpus. Six distinct posts, almost all with zero replies: 'Where is the TubePatriot link to watch the shows' (0), 'Why can't I get onto TubePatriot at all' (0), 'Why hasn't TubePatriot shown new shows since 12/26' (0), 'How do I get past the verify you're not a robot loop on tubepatriot.com' (0), 'Everytime I pull up tubepatriot it freezes up' (0), and one showing it failing identically on Firestick, laptop and phone. This is a naming gap that will make the FAQ fail search for the current era's most common word.",
+   "evidenceUrls": [
+    "https://www.patriotchute.com/posts/104212594",
+    "https://www.patriotchute.com/posts/100689968",
+    "https://www.patriotchute.com/posts/95701249",
+    "https://www.patriotchute.com/posts/95578004",
+    "https://www.patriotchute.com/posts/89547739"
+   ]
+  },
+  {
+   "question": "I got a new phone or a new computer \u2014 what do I have to redo to get back in?",
+   "category": "Account & Login",
+   "why": "The harvest's own login-access finding states it flatly: 'Any device change - new phone, new computer, app reinstall - reliably destroys access and drops the member back into the claim/verify loop with no documented recovery path.' The list has 'will-it-work-on-my-device' (capability) and 'app-keeps-crashing' (breakage) but nothing for the migration event itself, which is the single most predictable, schedulable trigger of a support ticket in this community. Direct verbatim: 'I got new phone how do I get back my discord and Patriotchte matching?'. Compounding this, 'Reinstall anxiety is a distinct pattern... several report that reinstalling made things worse (lost Discord/Talk Time access afterwards)' \u2014 so the folk remedy actively harms people.",
+   "evidenceUrls": [
+    "https://www.patriotchute.com/posts/i-got-new-phone-how-do-i-get-back-my-discord-and-patriotchte-matching-something-about-getting-into-my-account-dont-remember-how-to-do-that-documents",
+    "https://www.patriotchute.com/posts/86767646",
+    "https://www.patriotchute.com/posts/39976671"
+   ]
+  },
+  {
+   "question": "How do I delete or undo a comment I posted by mistake?",
+   "category": "Posting & Content",
+   "why": "'edit-or-delete-my-post' covers posts. Comments are a separate and apparently broken control: a member had to publicly ask an admin 'Please delete my response. It was submitted by accident and I can't remove it' (148166348), and another hit delete by accident while trying to reply \u2014 the harvest notes 'The reply and delete controls appear to be adjacent and unlabelled.' Two live 2026 instances. Small answer, and it also prevents the accidental-deletion case that currently converts into a 'my post disappeared / I'm being censored' trust incident.",
+   "evidenceUrls": [
+    "https://www.patriotchute.com/posts/104990583",
+    "https://www.patriotchute.com/posts/how-do-you-feel-about-using-natural-remedies-and-supplements-alongside-prayer-and-scripture-to-support-family-health-and-resilience-101354029"
+   ]
+  },
+  {
+   "question": "How many photos or videos can I put in one post, and how big can they be?",
+   "category": "Posting & Content",
+   "why": "'how-do-i-post' says 'a message, picture or video' but never states the limits, and the limits are what actually break. 'Why can't we post videos and YouTube clips ??? All is allowed is 4 tiny mb' (0 replies). 'How do I upload more than one picture in a single post?' (0 replies). The workarounds are visible community-wide damage: posts whose entire body is 'Pic #2 - See Pic #1 / All one post', and dozens of bare 'LINK IN COMMENTS' / 'PIC IN COMMENTS' stubs from members who believe media cannot go in the body. Two posts in the corpus are nothing but a raw local file path pasted in, from members who did not realise the attach had failed and got no reply.",
+   "evidenceUrls": [
+    "https://www.patriotchute.com/posts/63659881",
+    "https://www.patriotchute.com/posts/81428759",
+    "https://www.patriotchute.com/posts/55558947",
+    "https://www.patriotchute.com/posts/43470284"
+   ]
+  },
+  {
+   "question": "I submitted my humanitarian project \u2014 what information was required, who reads it, and when will someone contact me?",
+   "category": "Humanitarian Projects & Donations",
+   "why": "'submit-my-project' answers where the form is. The harvest identifies three questions in this cluster and the list covers only one. The two uncovered halves are still being asked five years on: 'I need to put a humanitarian project together. What information is needed?' (Aug 2026) and 'How long does it take for someone to reply back giving me the correct format? Will anyone email back at all?'. And the failure case is a trust problem, not a docs problem: 'I put in projects in 2021 and have never been contacted', 'I requested the template and never got an answer' (0 replies), 'I want to submit my humanitarian projects with someone who is going to follow through with it and not loose interest' (0 replies).",
+   "evidenceUrls": [
+    "https://www.patriotchute.com/posts/106339414",
+    "https://www.patriotchute.com/posts/31579968",
+    "https://www.patriotchute.com/posts/34343617",
+    "https://www.patriotchute.com/posts/34203089"
+   ]
+  },
+  {
+   "question": "I asked for help \u2014 where does the answer come back, and how long should I wait before asking again?",
+   "category": "Getting Started & Help",
+   "why": "'where-to-get-help' and 'contact-an-admin' both answer 'where to send it'. Nobody has ever answered 'and then what'. Members ask literally: 'Where do answers to inquiries show up?', 'how long does it take to hear from someone when you text your name... I wanna be able to answer the call?'. The absence of any stated expectation is what produces the corpus's most corrosive pattern \u2014 the re-ask and the escalation: 'I have sent alice and chas a message 3 hrs ago no response', 'I contacted support but still no response', a member asking five times to be added to Wyoming. 35% of harvested operational posts (334 of 961) have zero replies, so managing the expectation is currently more achievable than meeting it.",
+   "evidenceUrls": [
+    "https://www.patriotchute.com/posts/39689414",
+    "https://www.patriotchute.com/posts/84218675",
+    "https://www.patriotchute.com/posts/93655048",
+    "https://www.patriotchute.com/posts/39690005"
+   ]
+  },
+  {
+   "question": "Do I have to be a paying member to get into a state group or a particular room?",
+   "category": "Billing & Membership",
+   "why": "Not covered by 'what-membership-includes' (which the harvest notes has no published benefits page anywhere) and asked plainly, twice, with no durable answer: 'I'm trying to get an answer to my question: in order to join a State group, do I have to be a member?' (2 comments, 2 cheers \u2014 note the phrasing 'trying to get an answer', i.e. a re-ask). The related confusion is that members cannot distinguish 'you lack permission for this room' from 'this room is read-only' from 'your post was removed' \u2014 13664130 'I would have posted to MarkZ's room but I don't have access', 55841401 and 96638504 for Health & Medical. Answering the gating rule once defuses a set of posts currently being read as censorship.",
+   "evidenceUrls": [
+    "https://www.patriotchute.com/posts/38590032",
+    "https://www.patriotchute.com/posts/96638504",
+    "https://www.patriotchute.com/posts/13664130"
+   ]
+  },
+  {
+   "question": "Why does my profile say 'New member' after years here, and what do the rocket, star and streak mean?",
+   "category": "Profile & Messaging",
+   "why": "'what-membership-includes' promises to explain 'badges and levels' but the actual asked questions are about a visible defect and about undefined icons, which is a different answer. The defect recurs across three years and reads as the system not recognising long-standing members: 'Just realized I'm a New member. With alot of posts.', 'I'm a new member with 60 thousand posts'. The icon questions are separate and unanswered-adjacent: 'Could some please inform me on the rocket beside our names. I guess I missed something', 'How do you find and change the heart on page?' (22 comments \u2014 the largest comment count in this area). Streaks too: 'keeps throwing my streaks off... Says I need to log in about streaks. I never log off.' Given gamification_points and gamification_streaks are ENABLED while leaderboards are DISABLED, some of what members see has no explanation available anywhere.",
+   "evidenceUrls": [
+    "https://www.patriotchute.com/posts/97575162",
+    "https://www.patriotchute.com/posts/91194297",
+    "https://www.patriotchute.com/posts/79282377",
+    "https://www.patriotchute.com/posts/34790756",
+    "https://www.patriotchute.com/posts/103903705"
+   ]
+  },
+  {
+   "question": "I've been muted or banned in the live chat on Rumble \u2014 can PPN fix that?",
+   "category": "Moderation, Safety & Scams",
+   "why": "'muted-or-timed-out' and 'blocked-from-posting' both assume PatriotChute moderation. A meaningful share of mute complaints are about a third party PPN does not control: 'why am i still muted on rumbel wtf!!!!!' (0 replies), and the free-speech-framed 'I love being called a troll and kicked from Discord for speaking my mind after the show. I thought this is a free speech platform been a paid member since 2021' (5 comments). This is the same category error the list already handles well for Discord ('discord-suspended-me') \u2014 the Rumble and live-chat equivalent is simply missing, and getting it wrong converts a third-party action into a betrayal narrative aimed at PPN.",
+   "evidenceUrls": [
+    "https://www.patriotchute.com/posts/91585636",
+    "https://www.patriotchute.com/posts/36821419",
+    "https://www.patriotchute.com/posts/54773613"
+   ]
+  },
+  {
+   "question": "A message says I'm permanently banned / that I must re-join \u2014 but my account still works. Is it real?",
+   "category": "Moderation, Safety & Scams",
+   "why": "'is-this-a-scam' covers emails and DMs; this is the in-product variant and it is more alarming because it appears inside the platform. 'Just clicked on Chas's latest post, and a badge popped up saying I was permanently banned for multiple violations. Closed the notification, went to PPN site, and everything is good. Looks like they're jack'n with us!!!!!' Same shape at 26671020: 'Got an email from chas. When I clicked on see message it asked me to join patriot chute. Is that what I'm supposed to see' (0 replies). Both members correctly suspected something was wrong and neither got an authoritative answer; in a community already primed to read glitches as suppression, an unanswered false ban notice is expensive.",
+   "evidenceUrls": [
+    "https://www.patriotchute.com/posts/75931331",
+    "https://www.patriotchute.com/posts/got-an-email-from-chas-when-i-clicked-on-see-message-it-asked-me-to-join-patriot-chute-is-that-what-im-supposed-to-see"
+   ]
+  },
+  {
+   "question": "Which chat platform are we actually on right now \u2014 Discord, Telegram, Signal, Campfire, State Talk or Patriot Drive Time?",
+   "category": "Telegram, Signal & Zoom",
+   "why": "The list has 11 Patriot Talk/Discord entries, 5 Telegram/Signal/Zoom entries, and no entry that answers the prior question every one of them depends on: which of these is current. The corpus names at least seven platforms across five years, and members are still asking in 2026: 'My Campfire login failed. Can an admin help me?', 'I can't find the link to join Rescue Patriot', 'What is Discord and what is it used for here?' (Aug 2026). The harvest's own warning is that 'Any Navigator answer about voice chat must be versioned and dated, or it will become the next stale FAQ' \u2014 and a live admin comment (152064553, Aug 2026) says another consolidation is in flight, which will invalidate these answers again. A dated 'here is the current chat layer, here is what the old names were' entry is the prerequisite for the other 16.",
+   "evidenceUrls": [
+    "https://www.patriotchute.com/posts/95095730",
+    "https://www.patriotchute.com/posts/92855033",
+    "https://www.patriotchute.com/posts/105782680",
+    "https://www.patriotchute.com/posts/105762896"
+   ]
+  }
+ ],
+ "scoringConcerns": [
+  "CORPUS RECENCY BIAS \u2014 the ranking is built on a corpus where 834 of 1,585 items (53%) are from 2023 and only 230 (15%) from 2025-2026. Per-theme recency: login-access is 96% pre-2025 (only 4 items in 2025-26) and profile-members is 100% pre-2025, while app-technical is 35% recent, posting-howto 30%, external-platforms 25%, crawl-newsrooms 46%. The list allocates its largest single block \u2014 11 entries \u2014 to Patriot Talk & Discord, the theme whose demand has most collapsed, and 6 entries to Posting & Content, one of the themes still growing. Any build order taken straight from volume will front-load a 2023 platform.",
+  "SINGLE-INCIDENT INFLATION \u2014 the largest density spike in the whole corpus is a 72-hour window in late July 2023 when a forced sign-out and re-verification of Patriot Talk produced dozens of near-identical 'please verify me' posts. Counting those as independent demand is what produces three separate canonical entries (how-to-get-verified, verification-not-working, please-verify-me) plus lost-access-to-talk-time. That is four build items for one week-long incident on a platform the community has since migrated off and back onto. Deduplicate by incident, not by post.",
+  "ANSWERS EXPIRED IN FEB 2026, QUESTIONS DIDN'T \u2014 the community relaunched in Feb 2026 and the menu paths changed. Most canonical entries whose answer is a recited menu path (find-my-state-group, how-to-log-out, turn-on-notifications, find-a-room, edit-my-profile, cancel-subscription) were harvested against the pre-relaunch UI. The list has no 'is our answer still true?' axis, so it will reproduce exactly the FAQ Zone failure mode: space 7010251 holds 3 posts from Feb 2022 that still tell members to use 'Discovery' and 'the plus sign', giving actively wrong navigation for 4.5 years. Verify-against-live-UI should be a scoring dimension, not a build step.",
+  "CANCEL-SUBSCRIPTION IS RANKED #1 BUT IS THE LEAST BUILDABLE \u2014 the plain cancel path already has three circulating peer answers (Aimee Myers, Peter Ramirez, C Charm) and a clear admin statement. The genuinely unmet half is cancel-but-cant-log-in, which is currently ranked third: 103350708 ('I cannot get in any of my apps would you please cancel'), 105011607, 97164994 ('I cannot sign in to cancel because my email is not recognised, yet I still receive emails and charges'). Admins state 'We cannot cancel your account. Only you can' \u2014 so the community's answer to its loudest question is a self-serve flow a large share of askers physically cannot reach. Ranking by volume hides that the top item is mostly solved and the item below it is a closed loop.",
+  "EMOTIONAL/REVENUE WEIGHT IS NOT VOLUME WEIGHT \u2014 paying-but-no-access, removed-though-i-pay, discord-suspended-me and still-charged-after-cancelling are revenue-loss and chargeback events ('EITHER DO IT OR I WILL HAVE MY ACCOUNT CLOSED AT THE BANK' 48532426; 'The C/C company has been advised twice now to block any charges' 65440072; 'I am elderly and disabled and cannot afford this monthly bill' 41321864). They sit in the same undifferentiated list as how-to-log-out, clear-notifications and share-a-post. If the ranking has one axis, the wrong six items get built first.",
+  "SILENCE IS THE BETTER PRIORITY SIGNAL AND ISN'T VISIBLE IN THE LIST \u2014 334 of 961 unique harvested questions (35%) have zero replies, and the zero-reply set is disproportionately the commercially damaging one: 80260213 'How do I cancel my subscription?' (0), 40304082 (0), 36856330 (0), 52963415 (0), 37306665 'Where do I go for tech support pease?' (0), 99045211 '72 years old... trouble navigating' (0). Volume tells you what gets asked; the zero-reply rate tells you what the community cannot already self-serve. The second is the one a Navigator changes.",
+  "NO FEASIBILITY AXIS \u2014 build cost varies by two orders of magnitude across adjacent entries and the list gives no signal. find-my-state-group needs one paragraph that Alice The Equalizer has already written verbatim dozens of times (87324428, 41852844, 37882010). mic-and-sound-in-talk-time needs Dave Vallese's push-to-talk fix, already written (95360869 and five copies). By contrast is-there-a-show-today ('live or a rerun') requires a live data source the harvest states does not currently exist, and is-talk-time-down requires a status feed nobody operates. Ranking without cost front-loads the unbuildable.",
+  "SEVERAL ENTRIES BUNDLE TWO DIFFERENT ANSWERS AND WILL NOT RANK OR ANSWER CLEANLY \u2014 share-a-show fuses 'what link do I share' with 'are we still on YouTube/Twitch'. something-disappeared fuses a removed post, a vanished room and a departed host, which have three different answers and three different emotional registers. am-i-in-the-right-place fuses room identity with 'what do the coloured bars mean'. join-telegram fuses installing Telegram with installing Signal with finding the official channel. Each will need splitting during build, which means the current count of 92 understates the work and mis-states the ordering.",
+  "BUY-MERCHANDISE RISKS SHIPPING A WRONG ANSWER \u2014 it is phrased as a purchase ('Where do I buy PPN merchandise or a yard sign?') but the harvest records that the yard sign exists as BOTH a paid item and a free download and neither is documented: 36993221 asks 'Where can I find the yard sign download?'. On a low-volume item, a confidently wrong answer costs more trust than no answer.",
+  "AMBASSADOR PROGRAM SCORES ZERO ON MEMBER DEMAND AND HIGH ON BUSINESS PRIORITY \u2014 the harvest found essentially no organic questions about it, so a demand-ranked list drops it entirely. But it is the community's growth mechanism, it is promoted 15+ times per quarter into the Lobby, and its destination space (22883801) returns an empty feed so anyone who does click lands on nothing. A purely reactive ranking will systematically miss every new feature until it has already failed \u2014 the same thing happened with the leaderboard launch, where the only member reply was 'how do we get rid of the notification after we watch this video'.",
+  "COMMENT-INDEX BLIND SPOT SKEWS THE 2021-2024 SHAPE \u2014 every harvest agent independently reported that COMMENT search is keyword-only, not semantic, and appears to cover only ~late-2025 onward. So the pre-2025 record is post-only. Themes where members historically asked in replies rather than as top-level posts (posting-howto, profile-members, notifications) are undercounted relative to themes where people post standalone (billing, state groups). The relative ranking between those two groups is not reliable."
+ ],
+ "structuralFindings": [
+  "The help desk is buried and its front door produces nothing durable. '\u27bd QUESTION & SUPPORT' sits 10th of 11 collections \u2014 a member looking for help scrolls past 50+ state groups to reach it. Its lead space, Questions & Support Chat (7032251), is a chat-type space, so messages are not posts: nothing said there is searchable, linkable or retrievable, and every question asked there must be re-answered from scratch forever. Moving the collection to position 1 and converting that space to a post space would convert the community's support labour from disposable to cumulative \u2014 that is a bigger win than any single FAQ answer.",
+  "The product never confirms state, and that single omission generates at least four canonical questions. There is no 'you are in this group', 'you are verified', or 'your invite was accepted' signal, so members ask the system by posting into it. The proof is that Alice The Equalizer has had to hand-type 'you have already joined your state group. This is your room' as standalone posts dozens of times (84055789, 68724847, 68525956, 68724671), and that verification askers repeatedly ask 'how will I know when I'm verified?'. A membership/verification badge in the room header retires am-i-in-my-state-group, please-verify-me, am-i-in-the-right-place and a large share of find-my-state-group without writing a single answer.",
+  "Space naming does not tell a member which room they are standing in. The cleanest evidence in the corpus: Cynthia Guevara asked 'How do I get to the Humanitarian Project Room?' three times in five days from three different rooms, including from inside the Humanitarian Projects space itself (106308863, 106463358, 106463795), and got 0, 0 and 3 replies. A visible breadcrumb or room header removes the failure rather than documenting it.",
+  "Chat, private chat and polls are DISABLED at the network level, yet the community still routes people to chats and DMs and four canonical entries assume messaging works (send-a-private-message, my-messages-arent-delivering, are-messages-private, contact-an-admin's 'can I just message them'). Some of these questions may be unanswerable as asked. Worse, two March 2024 posts report members seeing other people's private messages appear in their feed (53418136, 14 comments; 53495680) and neither was ever publicly resolved. Removing the dead affordances and publishing one sentence about what messaging does and does not do would delete the questions instead of answering them.",
+  "Support is addressed to people, not to a role, so it fails whenever one person is busy. Every escalation path in the corpus terminates in a named human \u2014 Alice The Equalizer, Liz Olive, Penny Sands, Angela Foudriat, Chas \u2014 and the standard fallback answer is literally 'DM Liz Olive and she can help you'. The predictable outcomes are all present: a prominent contributor publicly announcing 'please stop sending questions to my private message... I'm just blocking you!' (13343593), members reporting 3-hour and multi-week non-responses, and a 35% zero-reply rate on operational posts. A support address with a stated response time removes contact-an-admin, where-to-get-help and the meta-complaint 'nobody answered'.",
+  "Cancellation is a closed loop that manufactures chargebacks. Only the member can cancel; cancelling requires logging in; a large and identifiable share of cancel requests come from people who cannot log in. The system's own output is members instructing their banks instead (48532426, 65440072, 41321864). An identity-verified cancel-by-request path would remove the largest, angriest and most commercially damaging question cluster in the corpus rather than documenting it \u2014 and would also stop the pattern where access failures are filed as churn.",
+  "A large share of cancellation requests are access failures wearing a cancellation costume: 'Cancel my membership please have not been able to get on (talk time) for 2+ months' (43694619), 'Your server is gone on discord I can't get on so I need to cancel' (68239895), 'paying 8.99 for something I cant even use' (38479124), 'Just cancelled my subscription because your site is just too complicated and confusing for me' (41295351). Treating first-line login support as a retention function \u2014 rather than as a separate FAQ category from billing \u2014 is the highest-leverage structural change available, and no reordering of the FAQ list achieves it.",
+  "The Lobby's help-desk function has been destroyed by feed volume, and part of that volume is self-inflicted. Twelve consecutive pages of the Lobby feed (2026-08-18 to 08-27, ~300 events) contained ZERO support questions \u2014 the room where 150+ operational questions were historically asked is now 100% political content plus admin reposts, including the byte-identical Ambassador promo posted 15+ times in ten weeks with 0 comments and 0 cheers on every instance. Rate-limiting admin reposts and giving support questions their own surface raises the answer rate on everything without answering anything.",
+  "The community's own onboarding asset is unreadable by the community. The canonical state-group instruction (38934594) is a Loom video with no accompanying text \u2014 unsearchable by the Navigator, unusable by members who repeatedly say the print is too small and the instructions run to '10 pages'. Meanwhile the 6-step Welcome course DOES have full written transcripts with 'Main Takeaways'. Publishing the existing transcripts as plain, large-type text is a near-zero-cost change that retires the single most repeated navigational question in five years of corpus.",
+  "Anything announced only on air never becomes findable, and this is a recognisable question genre in its own right. Verbatims begin 'Chas said today...', 'they spoke of on their round table', 'shown on the show at noon' and end 'where do I find it?' (82289497, 34689981, 37302840, 25198051). The humanitarian project template \u2014 25+ posts over four years \u2014 is the flagship casualty: members reference a form mentioned on a live show that exists nowhere on the site. A rule that anything announced on air must be posted as a linkable item the same day eliminates a whole genre of question at the source.",
+  "The chat layer has migrated roughly five times (Discord \u2192 Guilded \u2192 Signal \u2192 Telegram \u2192 Campfire \u2192 Discord State Talk \u2192 Patriot Drive Time), and each migration invalidates every prior instruction and regenerates the entire lockout wave at scale. This is the mechanism behind the July 2023 spike, the Sept-Oct 2024 Discord mass-suspension wave, and the 2025-26 State Talk wave. An admin comment from Aug 2026 (152064553) confirms another consolidation is in flight. Until the platform stops moving, every voice-chat answer must carry a visible 'current as of' date or the FAQ becomes the next FAQ Zone. Committing to one platform removes more questions than answering them ever will.",
+  "Onboarding's required step has no branch for members it does not apply to. 'Join your state group' is the central call-to-action, an '\u27bd OTHER COUNTRIES' collection and a live Canada space (12907547) both exist, and yet the flow still dead-ends non-US members into 'Makes me wonder why I'm here'. The fix is a branch in an existing flow, not an FAQ entry \u2014 and the same is true of members who have no smartphone or no cell service, whose questions about desktop-only use go unanswered because the setup instructions assume a phone.",
+  "Two undocumented product facts each cause a whole ticket class and each fits in one sentence: card and billing changes CANNOT be done in the Mighty Networks mobile app, only in a web browser (discovered independently by members and announced once by an admin in 2025, post 88269346, then never attached to any of the recurring card questions); and when the app misbehaves, browsing to patriotchute.com directly resolves it (a member-invented folk remedy repeated in comments, never stated officially). Surfacing each at the point of failure removes update-payment-card and a large share of app-keeps-crashing.",
+  "The event records themselves are wrong in a way that will defeat any automated schedule answer. Two shows titled 'CST' are stored with Eastern offsets while Coffee with Chas is stored in Central; there is no weekend instance in either direction; and a fourth show (Patriot Drive Time, launched Aug 2026) does not appear in the event list at all. Fixing the event data is a prerequisite for is-there-a-show-today, where-to-watch-live and any timezone answer \u2014 otherwise the Navigator will confidently tell Central members the wrong hour.",
+  "Introducing an AI Navigator into this specific community is itself a risk that should shape the rollout, not just the content. A member responded to the Feb 2026 relaunch with 'Powered by AI worst thing ever... I hate AI but love the community of people who are here' (143564156), and an admin had to publicly clarify that there is no AI chat inside PatriotChute (143578131). In a population that reads notification failures and post removals as deliberate suppression, a bot that answers wrongly or appears to replace the named humans people already trust will be read as censorship. Ship it as a searchable index of what Alice, Liz and Dave already wrote \u2014 attributed to them \u2014 rather than as a new voice."
+ ]
+}

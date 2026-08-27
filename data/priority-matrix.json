@@ -2068,5 +2068,320 @@
   "action": "Do not build a standalone card. Answer it in one line inside the submit-my-project flow ('Local or overseas - both are fine, and local is what most members do'), and offer the category list as a tappable expander so someone unsure what counts can see the seventeen accepted categories. Label the answer as community practice rather than official policy, and add it to the admin gap list so leadership can confirm or correct it.",
   "score": 2.33,
   "rank": 90
+ },
+ {
+  "rank": null,
+  "id": "critic-add-01",
+  "q": "I'm not in the USA \u2014 is there a group for me, since the state groups don't apply?",
+  "cat": "State & Local Groups",
+  "n": null,
+  "status": "critic-addition",
+  "why": "The canonical list has 8 State & Local Groups entries and every one assumes a US state. Onboarding's central call-to-action (Welcome course STEP 5 'Join Your States Group') has no international branch, and members read that as being unwanted: 'Thats nice. I'm Canadian and have nothing to join. Makes me wonder why I'm here. No states for me.' This is a churn signal, not a curiosity. The answer already exists and is trivial: the verified network structure has a member-visible '\u27bd OTHER COUNTRIES' collection, and a Canada space (resourceId 12907547) is live \u2014 a member posted 'hey Canada is included thanks I was beginning to feel left out' in Feb 2026. A member also asks about US territories vs states (36980649, 0 replies). Nothing in the FAQ points anyone there.",
+  "evidenceUrls": [
+   "https://www.patriotchute.com/posts/97566630",
+   "https://www.patriotchute.com/posts/97583685",
+   "https://www.patriotchute.com/posts/36980649"
+  ]
+ },
+ {
+  "rank": null,
+  "id": "critic-add-02",
+  "q": "Why was I charged a different amount than the $8.99 you advertise?",
+  "cat": "Billing & Membership",
+  "n": null,
+  "status": "critic-addition",
+  "why": "'what-it-costs' answers the sticker price only. A non-US member posts the actual lived discrepancy: 'It cost You $8.99 to be on PPN and it cost me $12.58. How do you like those apples.' (0 replies). Currency conversion / card FX on a Stripe-USD network is invisible to the member and reads as being overcharged \u2014 the same emotional register that produces 'have my bank block the charges'. A one-line answer ('billing is in USD; your bank converts') defuses it. Note also 95405444 where members are still confirming the price to each other peer-to-peer in Dec 2025, i.e. there is no authoritative published price.",
+  "evidenceUrls": [
+   "https://www.patriotchute.com/posts/103229440",
+   "https://www.patriotchute.com/posts/95405444"
+  ]
+ },
+ {
+  "rank": null,
+  "id": "critic-add-03",
+  "q": "The print is too small for me to read \u2014 how do I make the text bigger?",
+  "cat": "Apps & Devices",
+  "n": null,
+  "status": "critic-addition",
+  "why": "The whole list is silent on accessibility, in a community whose members repeatedly self-identify as elderly. This is not a soft concern: it is the reason existing documentation fails. 'there are step by step directions on here but the print is so small I cannot read it to follow' (0 replies) \u2014 a member who therefore never got onto Talk Time. 'Why is the font so small all of a sudden?? I almost need a magnifying glass' (5 comments, 4 cheers, and she @-mentioned two volunteer moderators to get help). 'Why is the chat so hard to read on a cellphone?' (0 replies). Related: 82632059 '10 pages of instructions really confuse me'. Every other FAQ answer is undeliverable to this cohort until this one is answered.",
+  "evidenceUrls": [
+   "https://www.patriotchute.com/posts/67539112",
+   "https://www.patriotchute.com/posts/81697230",
+   "https://www.patriotchute.com/posts/87318252",
+   "https://www.patriotchute.com/posts/82632059"
+  ]
+ },
+ {
+  "rank": null,
+  "id": "critic-add-04",
+  "q": "When is my next payment taken, and where do I see what I've been charged?",
+  "cat": "Billing & Membership",
+  "n": null,
+  "status": "critic-addition",
+  "why": "The list covers cancel, change card, and cost \u2014 but never 'when does the money leave, and where is the record'. Members are making cancel decisions blind against a deadline: 'should we cancel our subscription before the next due date? My next due date comes out in 48hrs!??' (0 replies). Also 'my old one on file with patriot chute expired' (0 replies), 'I've been having trouble with Auto Renew past months kind of no matter what I change' (0 replies), and 'where to go to make a payment' (0 replies). This is the same settings screen as the cancel path, so it is near-zero marginal build cost, and it removes a category of panic-cancels.",
+  "evidenceUrls": [
+   "https://www.patriotchute.com/posts/52963415",
+   "https://www.patriotchute.com/posts/43803892",
+   "https://www.patriotchute.com/posts/54770364",
+   "https://www.patriotchute.com/posts/56046802"
+  ]
+ },
+ {
+  "rank": null,
+  "id": "critic-add-05",
+  "q": "If I cancel, do I lose access straight away, do my posts disappear, and can I come back later?",
+  "cat": "Billing & Membership",
+  "n": null,
+  "status": "critic-addition",
+  "why": "Ten billing entries and none of them says what cancelling actually does. Members are explicitly asking about the exit and re-entry path: 'How do I unsubscribe to Patriotchute? I hope to rejoin in the spring.' A member who cancelled and rejoined found herself no better off ('I joined once but couldn't figure out how to navigate. I cancelled, then joined again and I still can't figure out where to see videos'). Another cancelled-and-resubscribed because her old membership could not be restored and she had been locked out since January. And 38479124 is a member asking whether cancel-and-rejoin is the recommended fix for a login problem \u2014 i.e. members are using cancellation as a troubleshooting step because nobody has told them what it costs them.",
+  "evidenceUrls": [
+   "https://www.patriotchute.com/posts/45928552",
+   "https://www.patriotchute.com/posts/21088300",
+   "https://www.patriotchute.com/posts/56548728",
+   "https://www.patriotchute.com/posts/38479124"
+  ]
+ },
+ {
+  "rank": null,
+  "id": "critic-add-06",
+  "q": "My free trial ends today and I never used it \u2014 how do I stop it before I'm charged?",
+  "cat": "Billing & Membership",
+  "n": null,
+  "status": "critic-addition",
+  "why": "Distinct from 'cancel-subscription' and 'close-my-account' because it is deadline-bounded and the asker is not yet a paying member, so half the usual advice ('go to Purchases') may not apply. 'Please tell me how to delete my account. Free trial ends today' drew 5 comments and 2 cheers, i.e. others were watching. 31810331 is the mirror case: a member who joined 'under the pretense of the first month being Free to check out Talk Time' and never once connected. The Ambassador Program now issues 30-day free trials at scale (WEGROW10X), so this cohort is about to get larger, not smaller.",
+  "evidenceUrls": [
+   "https://www.patriotchute.com/posts/32121721",
+   "https://www.patriotchute.com/posts/31810331"
+  ]
+ },
+ {
+  "rank": null,
+  "id": "critic-add-07",
+  "q": "A family member died or can no longer manage their own account \u2014 how do I change the email and phone, or close it, on their behalf?",
+  "cat": "Account & Login",
+  "n": null,
+  "status": "critic-addition",
+  "why": "'change-my-account-details' and 'close-my-account' both assume the account holder is present and can log in. The real case in the corpus is the opposite: 'I need help modifying account information for my Mom. My Dad passed last month and I need to update their account information to her for email- phone etc.' The admin position on file is 'We cannot cancel your account. Only you can. We do not have access to your personal/banking information' \u2014 which, applied literally to a bereaved family, is a dead end that ends in a bank block or a chargeback. This needs a stated proxy/verification path, not a self-serve menu path.",
+  "evidenceUrls": [
+   "https://www.patriotchute.com/posts/46032567",
+   "https://www.patriotchute.com/posts/103350708"
+  ]
+ },
+ {
+  "rank": null,
+  "id": "critic-add-08",
+  "q": "My spouse and I share one login \u2014 does each of us need our own paid membership?",
+  "cat": "Billing & Membership",
+  "n": null,
+  "status": "critic-addition",
+  "why": "No entry covers household/shared accounts, yet the question is asked precisely where it costs the community something: a couple wanting the spouse to serve as State Director found 'they are not recognized without a paid log in. Is there a work around or does each person need their own paid subscription?' (1 comment, 2 cheers). Related identity confusion at 41618277 ('I need a moderator to check and see who I am supporting on my membership'). This blocks volunteer recruitment \u2014 which the list does cover, at 'become-a-coordinator' \u2014 so the two interact.",
+  "evidenceUrls": [
+   "https://www.patriotchute.com/posts/38519220",
+   "https://www.patriotchute.com/posts/41618277"
+  ]
+ },
+ {
+  "rank": null,
+  "id": "critic-add-09",
+  "q": "How do I invite someone to join \u2014 where is my share/invite link, and what is the Ambassador Program and the promo code?",
+  "cat": "Getting Started & Help",
+  "n": null,
+  "status": "critic-addition",
+  "why": "There is a complete, live, self-contained Ambassador page (promo code WEGROW10X, invite link, 30-day trial + 10% discount, Bronze/Silver/Gold tiers) and the promo is auto-reposted into the Members Lobby 15+ times between Mar and May 2026 \u2014 yet the canonical list contains zero entry about inviting anyone. Members have asked for the share link independently and got nothing: 'Chas said today that if we went to our profile we could get a link or something so we could share things from this site out for other people to see it. Can someone tell me how to do that plz?' (0 replies). Two compounding facts make this a Navigator job specifically: the Ambassador space (22883801) returns an EMPTY feed, so the promo's own call-to-action lands members on nothing; and the harvest's low question count here reflects members not seeing the promo, not the absence of need.",
+  "evidenceUrls": [
+   "https://www.patriotchute.com/posts/%F0%9F%87%BA%F0%9F%87%B8-patriotchute-ambassador-program",
+   "https://www.patriotchute.com/posts/82289497",
+   "https://www.patriotchute.com/posts/102135102",
+   "https://www.patriotchute.com/posts/41618277"
+  ]
+ },
+ {
+  "rank": null,
+  "id": "critic-add-10",
+  "q": "What time is the show where I live, and does the time change when the clocks change?",
+  "cat": "Live Shows & Replays",
+  "n": null,
+  "status": "critic-addition",
+  "why": "'is-there-a-show-today' and 'where-to-watch-live' both dodge the clock. The community announces the same show as '8pm CST 9pm EST' (39518999), '3pm PST/6pm EST' (21214401), '9am this morning est' (57081394) and '5 EST' (79553464) \u2014 four conventions for three shows. Daylight-saving transitions produce their own posts ('The show time change is actually today', 'BS time again'). Worse, the verified event records themselves are inconsistent: the two shows titled 'CST' are stored with Eastern offsets while Coffee with Chas is stored in Central, so a naive automated answer will be an hour wrong for Central members. Also missing from every entry: the shows are Mon\u2013Fri only, which is the actual answer to a share of 'is there a show today'.",
+  "evidenceUrls": [
+   "https://www.patriotchute.com/posts/24343629",
+   "https://www.patriotchute.com/posts/74501736",
+   "https://www.patriotchute.com/posts/39518999",
+   "https://www.patriotchute.com/posts/21214401"
+  ]
+ },
+ {
+  "rank": null,
+  "id": "critic-add-11",
+  "q": "How long after the show does the replay go up?",
+  "cat": "Live Shows & Replays",
+  "n": null,
+  "status": "critic-addition",
+  "why": "'where-are-replays' and 'replay-wont-play' both assume the replay exists at the moment of asking. A large share of the complaints are timing, not location: the platform still shows the stream as live so the recording is unreachable ('The show still shows as live on all platforms so I can't access the replay'), and 'the noon show says site suspended until it's over, and the replay only appears hours later'. Also 'Where is the replay for the show \u2014 has it been posted yet?' (0 replies) and 'Where is the full recording of the 12-1pm PPN show? Rumble only has 4 minutes' (0 replies). Without a stated lag, members repeatedly conclude the replay is missing or being suppressed and post again.",
+  "evidenceUrls": [
+   "https://www.patriotchute.com/posts/99103929",
+   "https://www.patriotchute.com/posts/83004416",
+   "https://www.patriotchute.com/posts/78770897"
+  ]
+ },
+ {
+  "rank": null,
+  "id": "critic-add-12",
+  "q": "What is TubePatriot, and what do I do when it won't load or shows nothing new?",
+  "cat": "Live Shows & Replays",
+  "n": null,
+  "status": "critic-addition",
+  "why": "The list names Rumble, YouTube and Twitch and never names TubePatriot \u2014 but TubePatriot is where the 2025\u20132026 stream failures actually happen and is by volume the most recent watch-destination problem in the corpus. Six distinct posts, almost all with zero replies: 'Where is the TubePatriot link to watch the shows' (0), 'Why can't I get onto TubePatriot at all' (0), 'Why hasn't TubePatriot shown new shows since 12/26' (0), 'How do I get past the verify you're not a robot loop on tubepatriot.com' (0), 'Everytime I pull up tubepatriot it freezes up' (0), and one showing it failing identically on Firestick, laptop and phone. This is a naming gap that will make the FAQ fail search for the current era's most common word.",
+  "evidenceUrls": [
+   "https://www.patriotchute.com/posts/104212594",
+   "https://www.patriotchute.com/posts/100689968",
+   "https://www.patriotchute.com/posts/95701249",
+   "https://www.patriotchute.com/posts/95578004",
+   "https://www.patriotchute.com/posts/89547739"
+  ]
+ },
+ {
+  "rank": null,
+  "id": "critic-add-13",
+  "q": "I got a new phone or a new computer \u2014 what do I have to redo to get back in?",
+  "cat": "Account & Login",
+  "n": null,
+  "status": "critic-addition",
+  "why": "The harvest's own login-access finding states it flatly: 'Any device change - new phone, new computer, app reinstall - reliably destroys access and drops the member back into the claim/verify loop with no documented recovery path.' The list has 'will-it-work-on-my-device' (capability) and 'app-keeps-crashing' (breakage) but nothing for the migration event itself, which is the single most predictable, schedulable trigger of a support ticket in this community. Direct verbatim: 'I got new phone how do I get back my discord and Patriotchte matching?'. Compounding this, 'Reinstall anxiety is a distinct pattern... several report that reinstalling made things worse (lost Discord/Talk Time access afterwards)' \u2014 so the folk remedy actively harms people.",
+  "evidenceUrls": [
+   "https://www.patriotchute.com/posts/i-got-new-phone-how-do-i-get-back-my-discord-and-patriotchte-matching-something-about-getting-into-my-account-dont-remember-how-to-do-that-documents",
+   "https://www.patriotchute.com/posts/86767646",
+   "https://www.patriotchute.com/posts/39976671"
+  ]
+ },
+ {
+  "rank": null,
+  "id": "critic-add-14",
+  "q": "How do I delete or undo a comment I posted by mistake?",
+  "cat": "Posting & Content",
+  "n": null,
+  "status": "critic-addition",
+  "why": "'edit-or-delete-my-post' covers posts. Comments are a separate and apparently broken control: a member had to publicly ask an admin 'Please delete my response. It was submitted by accident and I can't remove it' (148166348), and another hit delete by accident while trying to reply \u2014 the harvest notes 'The reply and delete controls appear to be adjacent and unlabelled.' Two live 2026 instances. Small answer, and it also prevents the accidental-deletion case that currently converts into a 'my post disappeared / I'm being censored' trust incident.",
+  "evidenceUrls": [
+   "https://www.patriotchute.com/posts/104990583",
+   "https://www.patriotchute.com/posts/how-do-you-feel-about-using-natural-remedies-and-supplements-alongside-prayer-and-scripture-to-support-family-health-and-resilience-101354029"
+  ]
+ },
+ {
+  "rank": null,
+  "id": "critic-add-15",
+  "q": "How many photos or videos can I put in one post, and how big can they be?",
+  "cat": "Posting & Content",
+  "n": null,
+  "status": "critic-addition",
+  "why": "'how-do-i-post' says 'a message, picture or video' but never states the limits, and the limits are what actually break. 'Why can't we post videos and YouTube clips ??? All is allowed is 4 tiny mb' (0 replies). 'How do I upload more than one picture in a single post?' (0 replies). The workarounds are visible community-wide damage: posts whose entire body is 'Pic #2 - See Pic #1 / All one post', and dozens of bare 'LINK IN COMMENTS' / 'PIC IN COMMENTS' stubs from members who believe media cannot go in the body. Two posts in the corpus are nothing but a raw local file path pasted in, from members who did not realise the attach had failed and got no reply.",
+  "evidenceUrls": [
+   "https://www.patriotchute.com/posts/63659881",
+   "https://www.patriotchute.com/posts/81428759",
+   "https://www.patriotchute.com/posts/55558947",
+   "https://www.patriotchute.com/posts/43470284"
+  ]
+ },
+ {
+  "rank": null,
+  "id": "critic-add-16",
+  "q": "I submitted my humanitarian project \u2014 what information was required, who reads it, and when will someone contact me?",
+  "cat": "Humanitarian Projects & Donations",
+  "n": null,
+  "status": "critic-addition",
+  "why": "'submit-my-project' answers where the form is. The harvest identifies three questions in this cluster and the list covers only one. The two uncovered halves are still being asked five years on: 'I need to put a humanitarian project together. What information is needed?' (Aug 2026) and 'How long does it take for someone to reply back giving me the correct format? Will anyone email back at all?'. And the failure case is a trust problem, not a docs problem: 'I put in projects in 2021 and have never been contacted', 'I requested the template and never got an answer' (0 replies), 'I want to submit my humanitarian projects with someone who is going to follow through with it and not loose interest' (0 replies).",
+  "evidenceUrls": [
+   "https://www.patriotchute.com/posts/106339414",
+   "https://www.patriotchute.com/posts/31579968",
+   "https://www.patriotchute.com/posts/34343617",
+   "https://www.patriotchute.com/posts/34203089"
+  ]
+ },
+ {
+  "rank": null,
+  "id": "critic-add-17",
+  "q": "I asked for help \u2014 where does the answer come back, and how long should I wait before asking again?",
+  "cat": "Getting Started & Help",
+  "n": null,
+  "status": "critic-addition",
+  "why": "'where-to-get-help' and 'contact-an-admin' both answer 'where to send it'. Nobody has ever answered 'and then what'. Members ask literally: 'Where do answers to inquiries show up?', 'how long does it take to hear from someone when you text your name... I wanna be able to answer the call?'. The absence of any stated expectation is what produces the corpus's most corrosive pattern \u2014 the re-ask and the escalation: 'I have sent alice and chas a message 3 hrs ago no response', 'I contacted support but still no response', a member asking five times to be added to Wyoming. 35% of harvested operational posts (334 of 961) have zero replies, so managing the expectation is currently more achievable than meeting it.",
+  "evidenceUrls": [
+   "https://www.patriotchute.com/posts/39689414",
+   "https://www.patriotchute.com/posts/84218675",
+   "https://www.patriotchute.com/posts/93655048",
+   "https://www.patriotchute.com/posts/39690005"
+  ]
+ },
+ {
+  "rank": null,
+  "id": "critic-add-18",
+  "q": "Do I have to be a paying member to get into a state group or a particular room?",
+  "cat": "Billing & Membership",
+  "n": null,
+  "status": "critic-addition",
+  "why": "Not covered by 'what-membership-includes' (which the harvest notes has no published benefits page anywhere) and asked plainly, twice, with no durable answer: 'I'm trying to get an answer to my question: in order to join a State group, do I have to be a member?' (2 comments, 2 cheers \u2014 note the phrasing 'trying to get an answer', i.e. a re-ask). The related confusion is that members cannot distinguish 'you lack permission for this room' from 'this room is read-only' from 'your post was removed' \u2014 13664130 'I would have posted to MarkZ's room but I don't have access', 55841401 and 96638504 for Health & Medical. Answering the gating rule once defuses a set of posts currently being read as censorship.",
+  "evidenceUrls": [
+   "https://www.patriotchute.com/posts/38590032",
+   "https://www.patriotchute.com/posts/96638504",
+   "https://www.patriotchute.com/posts/13664130"
+  ]
+ },
+ {
+  "rank": null,
+  "id": "critic-add-19",
+  "q": "Why does my profile say 'New member' after years here, and what do the rocket, star and streak mean?",
+  "cat": "Profile & Messaging",
+  "n": null,
+  "status": "critic-addition",
+  "why": "'what-membership-includes' promises to explain 'badges and levels' but the actual asked questions are about a visible defect and about undefined icons, which is a different answer. The defect recurs across three years and reads as the system not recognising long-standing members: 'Just realized I'm a New member. With alot of posts.', 'I'm a new member with 60 thousand posts'. The icon questions are separate and unanswered-adjacent: 'Could some please inform me on the rocket beside our names. I guess I missed something', 'How do you find and change the heart on page?' (22 comments \u2014 the largest comment count in this area). Streaks too: 'keeps throwing my streaks off... Says I need to log in about streaks. I never log off.' Given gamification_points and gamification_streaks are ENABLED while leaderboards are DISABLED, some of what members see has no explanation available anywhere.",
+  "evidenceUrls": [
+   "https://www.patriotchute.com/posts/97575162",
+   "https://www.patriotchute.com/posts/91194297",
+   "https://www.patriotchute.com/posts/79282377",
+   "https://www.patriotchute.com/posts/34790756",
+   "https://www.patriotchute.com/posts/103903705"
+  ]
+ },
+ {
+  "rank": null,
+  "id": "critic-add-20",
+  "q": "I've been muted or banned in the live chat on Rumble \u2014 can PPN fix that?",
+  "cat": "Moderation, Safety & Scams",
+  "n": null,
+  "status": "critic-addition",
+  "why": "'muted-or-timed-out' and 'blocked-from-posting' both assume PatriotChute moderation. A meaningful share of mute complaints are about a third party PPN does not control: 'why am i still muted on rumbel wtf!!!!!' (0 replies), and the free-speech-framed 'I love being called a troll and kicked from Discord for speaking my mind after the show. I thought this is a free speech platform been a paid member since 2021' (5 comments). This is the same category error the list already handles well for Discord ('discord-suspended-me') \u2014 the Rumble and live-chat equivalent is simply missing, and getting it wrong converts a third-party action into a betrayal narrative aimed at PPN.",
+  "evidenceUrls": [
+   "https://www.patriotchute.com/posts/91585636",
+   "https://www.patriotchute.com/posts/36821419",
+   "https://www.patriotchute.com/posts/54773613"
+  ]
+ },
+ {
+  "rank": null,
+  "id": "critic-add-21",
+  "q": "A message says I'm permanently banned / that I must re-join \u2014 but my account still works. Is it real?",
+  "cat": "Moderation, Safety & Scams",
+  "n": null,
+  "status": "critic-addition",
+  "why": "'is-this-a-scam' covers emails and DMs; this is the in-product variant and it is more alarming because it appears inside the platform. 'Just clicked on Chas's latest post, and a badge popped up saying I was permanently banned for multiple violations. Closed the notification, went to PPN site, and everything is good. Looks like they're jack'n with us!!!!!' Same shape at 26671020: 'Got an email from chas. When I clicked on see message it asked me to join patriot chute. Is that what I'm supposed to see' (0 replies). Both members correctly suspected something was wrong and neither got an authoritative answer; in a community already primed to read glitches as suppression, an unanswered false ban notice is expensive.",
+  "evidenceUrls": [
+   "https://www.patriotchute.com/posts/75931331",
+   "https://www.patriotchute.com/posts/got-an-email-from-chas-when-i-clicked-on-see-message-it-asked-me-to-join-patriot-chute-is-that-what-im-supposed-to-see"
+  ]
+ },
+ {
+  "rank": null,
+  "id": "critic-add-22",
+  "q": "Which chat platform are we actually on right now \u2014 Discord, Telegram, Signal, Campfire, State Talk or Patriot Drive Time?",
+  "cat": "Telegram, Signal & Zoom",
+  "n": null,
+  "status": "critic-addition",
+  "why": "The list has 11 Patriot Talk/Discord entries, 5 Telegram/Signal/Zoom entries, and no entry that answers the prior question every one of them depends on: which of these is current. The corpus names at least seven platforms across five years, and members are still asking in 2026: 'My Campfire login failed. Can an admin help me?', 'I can't find the link to join Rescue Patriot', 'What is Discord and what is it used for here?' (Aug 2026). The harvest's own warning is that 'Any Navigator answer about voice chat must be versioned and dated, or it will become the next stale FAQ' \u2014 and a live admin comment (152064553, Aug 2026) says another consolidation is in flight, which will invalidate these answers again. A dated 'here is the current chat layer, here is what the old names were' entry is the prerequisite for the other 16.",
+  "evidenceUrls": [
+   "https://www.patriotchute.com/posts/95095730",
+   "https://www.patriotchute.com/posts/92855033",
+   "https://www.patriotchute.com/posts/105782680",
+   "https://www.patriotchute.com/posts/105762896"
+  ]
  }
 ]
