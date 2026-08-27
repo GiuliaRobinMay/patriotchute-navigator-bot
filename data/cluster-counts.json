@@ -1,0 +1,1318 @@
+{
+"c1:cancel-subscription-how": {
+"n": 17,
+"unans": 5,
+"early": "2022-04-02",
+"late": "2025-11-29",
+"charge": "frustrated"
+},
+"c1:cancel-request-not-actioned-still-charged": {
+"n": 6,
+"unans": 1,
+"early": "2023-08-26",
+"late": "2024-08-26",
+"charge": "angry-churn-risk"
+},
+"c1:cancel-but-cannot-log-in": {
+"n": 3,
+"unans": 2,
+"early": "2026-01-29",
+"late": "2026-07-24",
+"charge": "angry-churn-risk"
+},
+"c1:cancel-because-i-cannot-use-what-i-pay-for": {
+"n": 11,
+"unans": 2,
+"early": "2023-01-23",
+"late": "2024-09-29",
+"charge": "angry-churn-risk"
+},
+"c1:delete-or-close-account": {
+"n": 3,
+"unans": 1,
+"early": "2023-02-04",
+"late": "2023-05-27",
+"charge": "neutral"
+},
+"c1:update-card-on-file": {
+"n": 12,
+"unans": 6,
+"early": "2023-10-13",
+"late": "2026-08-17",
+"charge": "frustrated"
+},
+"c1:where-do-i-pay": {
+"n": 2,
+"unans": 2,
+"early": "2023-10-20",
+"late": "2024-05-03",
+"charge": "neutral"
+},
+"c1:payment-declined-or-autorenew-failing": {
+"n": 2,
+"unans": 1,
+"early": "2024-04-16",
+"late": "2024-07-14",
+"charge": "frustrated"
+},
+"c1:verify-my-membership-billing-status": {
+"n": 2,
+"unans": 0,
+"early": "2023-09-01",
+"late": "2024-05-10",
+"charge": "frustrated"
+},
+"c1:refund-request": {
+"n": 1,
+"unans": 0,
+"early": "2023-07-22",
+"late": "2023-07-22",
+"charge": "angry-churn-risk"
+},
+"c1:price-and-free-option": {
+"n": 2,
+"unans": 0,
+"early": "2025-07-23",
+"late": "2025-12-22",
+"charge": "neutral"
+},
+"c1:upgrade-free-to-paid": {
+"n": 1,
+"unans": 1,
+"early": "2022-10-29",
+"late": "2022-10-29",
+"charge": "neutral"
+},
+"c1:cannot-complete-signup": {
+"n": 1,
+"unans": 1,
+"early": "2023-02-23",
+"late": "2023-02-23",
+"charge": "neutral"
+},
+"c1:claim-account-email-already-registered": {
+"n": 8,
+"unans": 2,
+"early": "2023-06-22",
+"late": "2024-01-31",
+"charge": "angry-churn-risk"
+},
+"c1:forgot-password": {
+"n": 5,
+"unans": 0,
+"early": "2023-02-02",
+"late": "2023-12-19",
+"charge": "frustrated"
+},
+"c1:platform-emails-never-arrive": {
+"n": 3,
+"unans": 0,
+"early": "2022-08-30",
+"late": "2024-03-01",
+"charge": "frustrated"
+},
+"c1:cannot-sign-in-general": {
+"n": 5,
+"unans": 3,
+"early": "2023-07-25",
+"late": "2025-12-16",
+"charge": "frustrated"
+},
+"c1:session-keeps-expiring": {
+"n": 1,
+"unans": 1,
+"early": "2026-06-29",
+"late": "2026-06-29",
+"charge": "frustrated"
+},
+"c1:how-to-log-out": {
+"n": 1,
+"unans": 1,
+"early": "2023-07-25",
+"late": "2023-07-25",
+"charge": "neutral"
+},
+"c1:discord-name-must-match-patriotchute": {
+"n": 7,
+"unans": 3,
+"early": "2023-07-25",
+"late": "2023-07-26",
+"charge": "frustrated"
+},
+"c1:change-my-username": {
+"n": 1,
+"unans": 0,
+"early": "2022-03-22",
+"late": "2022-03-22",
+"charge": "neutral"
+},
+"c1:please-verify-me-for-patriot-talk": {
+"n": 9,
+"unans": 3,
+"early": "2023-07-25",
+"late": "2023-11-26",
+"charge": "frustrated"
+},
+"c1:how-do-i-know-im-verified": {
+"n": 4,
+"unans": 1,
+"early": "2023-07-25",
+"late": "2023-08-03",
+"charge": "neutral"
+},
+"c1:verification-errors-and-lost-verification": {
+"n": 3,
+"unans": 1,
+"early": "2023-07-25",
+"late": "2023-11-26",
+"charge": "frustrated"
+},
+"c1:invite-link-invalid-or-needed": {
+"n": 15,
+"unans": 4,
+"early": "2023-03-20",
+"late": "2024-12-31",
+"charge": "frustrated"
+},
+"c1:new-device-needs-relink": {
+"n": 2,
+"unans": 1,
+"early": "2022-12-01",
+"late": "2023-11-06",
+"charge": "neutral"
+},
+"c1:discord-account-suspended": {
+"n": 9,
+"unans": 1,
+"early": "2022-12-21",
+"late": "2024-10-02",
+"charge": "frustrated"
+},
+"c1:lost-access-to-discord-server": {
+"n": 4,
+"unans": 0,
+"early": "2022-07-05",
+"late": "2024-09-27",
+"charge": "frustrated"
+},
+"c1:cannot-access-patriot-talk": {
+"n": 17,
+"unans": 7,
+"early": "2022-12-21",
+"late": "2025-12-16",
+"charge": "frustrated"
+},
+"c1:in-server-but-stuck-on-rules-or-no-channels": {
+"n": 6,
+"unans": 0,
+"early": "2023-03-29",
+"late": "2023-07-27",
+"charge": "frustrated"
+},
+"c1:how-do-i-get-to-talk-time": {
+"n": 18,
+"unans": 1,
+"early": "2022-09-07",
+"late": "2025-08-25",
+"charge": "neutral"
+},
+"c1:talk-time-no-audio": {
+"n": 2,
+"unans": 0,
+"early": "2023-03-23",
+"late": "2023-08-04",
+"charge": "frustrated"
+},
+"c1:where-is-the-chat-room": {
+"n": 6,
+"unans": 3,
+"early": "2023-02-13",
+"late": "2025-02-18",
+"charge": "neutral"
+},
+"c1:chat-rooms-not-working": {
+"n": 4,
+"unans": 2,
+"early": "2022-01-11",
+"late": "2026-01-17",
+"charge": "frustrated"
+},
+"c1:removed-from-state-signal-group": {
+"n": 4,
+"unans": 2,
+"early": "2023-07-08",
+"late": "2024-05-13",
+"charge": "frustrated"
+},
+"c1:24-hour-timeout": {
+"n": 2,
+"unans": 0,
+"early": "2023-05-19",
+"late": "2024-01-26",
+"charge": "frustrated"
+},
+"c1:stop-admin-ads": {
+"n": 1,
+"unans": 1,
+"early": "2025-06-21",
+"late": "2025-06-21",
+"charge": "angry-churn-risk"
+},
+"c1:update-account-contact-details": {
+"n": 1,
+"unans": 0,
+"early": "2023-11-26",
+"late": "2023-11-26",
+"charge": "neutral"
+},
+"c1:app-crashes-or-wont-load": {
+"n": 8,
+"unans": 0,
+"early": "2023-02-13",
+"late": "2025-06-27",
+"charge": "frustrated"
+},
+"c1:where-to-watch-live-shows": {
+"n": 7,
+"unans": 1,
+"early": "2021-04-05",
+"late": "2025-03-20",
+"charge": "neutral"
+},
+"c1:link-for-todays-show": {
+"n": 6,
+"unans": 2,
+"early": "2023-03-25",
+"late": "2024-05-31",
+"charge": "neutral"
+},
+"c1:where-are-the-replays": {
+"n": 12,
+"unans": 2,
+"early": "2021-04-07",
+"late": "2024-08-16",
+"charge": "neutral"
+},
+"c1:replay-broken-or-wont-play": {
+"n": 5,
+"unans": 4,
+"early": "2022-08-23",
+"late": "2026-03-23",
+"charge": "frustrated"
+},
+"c1:is-there-a-show-today": {
+"n": 20,
+"unans": 7,
+"early": "2023-01-27",
+"late": "2025-08-23",
+"charge": "frustrated"
+},
+"c1:live-stream-down": {
+"n": 5,
+"unans": 1,
+"early": "2021-04-12",
+"late": "2024-10-22",
+"charge": "frustrated"
+},
+"c1:no-sound-on-stream": {
+"n": 5,
+"unans": 2,
+"early": "2023-02-10",
+"late": "2024-12-10",
+"charge": "neutral"
+},
+"c1:stream-buffering-and-freezing": {
+"n": 8,
+"unans": 3,
+"early": "2021-04-22",
+"late": "2025-02-05",
+"charge": "frustrated"
+},
+"c1:watching-on-tv-or-tablet": {
+"n": 3,
+"unans": 0,
+"early": "2023-02-03",
+"late": "2023-09-09",
+"charge": "frustrated"
+},
+"c1:third-party-streaming-service-billing": {
+"n": 1,
+"unans": 1,
+"early": "2023-12-19",
+"late": "2023-12-19",
+"charge": "frustrated"
+},
+"c1:zoom-schedule-and-link": {
+"n": 6,
+"unans": 5,
+"early": "2022-06-09",
+"late": "2025-12-09",
+"charge": "neutral"
+},
+"c1:cannot-connect-to-zoom-or-meeting-link": {
+"n": 5,
+"unans": 4,
+"early": "2021-04-03",
+"late": "2025-10-27",
+"charge": "frustrated"
+},
+"c1:zoom-first-time-setup": {
+"n": 2,
+"unans": 1,
+"early": "2022-06-09",
+"late": "2025-10-25",
+"charge": "neutral"
+},
+"c1:show-notifications-missing": {
+"n": 3,
+"unans": 1,
+"early": "2022-08-15",
+"late": "2026-06-08",
+"charge": "frustrated"
+},
+"c1:new-member-overwhelmed": {
+"n": 8,
+"unans": 4,
+"early": "2022-07-13",
+"late": "2026-03-10",
+"charge": "frustrated"
+},
+"c1:moving-between-spaces": {
+"n": 3,
+"unans": 0,
+"early": "2023-05-24",
+"late": "2023-09-12",
+"charge": "neutral"
+},
+"c1:where-to-get-help": {
+"n": 2,
+"unans": 0,
+"early": "2022-06-11",
+"late": "2023-09-23",
+"charge": "neutral"
+},
+"c2:find-state-county-group": {
+"n": 27,
+"unans": 11,
+"early": "2022-07-16",
+"late": "2024-03-25",
+"charge": "frustrated"
+},
+"c2:find-patriot-talk": {
+"n": 14,
+"unans": 2,
+"early": "2023-07-21",
+"late": "2024-11-27",
+"charge": "frustrated"
+},
+"c2:patriot-talk-setup-instructions-too-hard": {
+"n": 5,
+"unans": 3,
+"early": "2023-03-22",
+"late": "2025-07-01",
+"charge": "frustrated"
+},
+"c2:verification-loop": {
+"n": 7,
+"unans": 1,
+"early": "2023-07-25",
+"late": "2024-09-27",
+"charge": "frustrated"
+},
+"c2:menu-items-disappeared": {
+"n": 7,
+"unans": 4,
+"early": "2023-07-25",
+"late": "2026-06-06",
+"charge": "frustrated"
+},
+"c2:find-a-room": {
+"n": 6,
+"unans": 4,
+"early": "2022-08-15",
+"late": "2026-08-25",
+"charge": "neutral"
+},
+"c2:am-i-in-the-right-place": {
+"n": 9,
+"unans": 2,
+"early": "2022-05-24",
+"late": "2023-06-09",
+"charge": "neutral"
+},
+"c2:redirected-to-wrong-page": {
+"n": 6,
+"unans": 4,
+"early": "2023-02-20",
+"late": "2025-11-22",
+"charge": "frustrated"
+},
+"c2:how-to-reach-the-site": {
+"n": 5,
+"unans": 3,
+"early": "2023-07-29",
+"late": "2025-01-23",
+"charge": "frustrated"
+},
+"c2:where-to-watch-shows-and-replays": {
+"n": 7,
+"unans": 2,
+"early": "2022-02-10",
+"late": "2026-07-06",
+"charge": "neutral"
+},
+"c2:find-project-forms-template": {
+"n": 7,
+"unans": 2,
+"early": "2021-08-19",
+"late": "2023-12-18",
+"charge": "frustrated"
+},
+"c2:submit-upload-project": {
+"n": 12,
+"unans": 4,
+"early": "2022-07-24",
+"late": "2023-11-26",
+"charge": "neutral"
+},
+"c2:find-my-own-posts": {
+"n": 4,
+"unans": 1,
+"early": "2022-10-26",
+"late": "2024-08-13",
+"charge": "angry-churn-risk"
+},
+"c2:feed-not-showing-posts": {
+"n": 3,
+"unans": 1,
+"early": "2022-05-09",
+"late": "2025-08-10",
+"charge": "neutral"
+},
+"c2:site-search-not-working": {
+"n": 1,
+"unans": 0,
+"early": "2023-06-29",
+"late": "2023-06-29",
+"charge": "angry-churn-risk"
+},
+"c2:how-to-sign-out": {
+"n": 1,
+"unans": 1,
+"early": "2025-01-14",
+"late": "2025-01-14",
+"charge": "neutral"
+},
+"c2:notifications-how-to-turn-on": {
+"n": 10,
+"unans": 1,
+"early": "2022-08-14",
+"late": "2024-12-23",
+"charge": "neutral"
+},
+"c2:notifications-not-arriving": {
+"n": 22,
+"unans": 11,
+"early": "2022-08-14",
+"late": "2026-08-17",
+"charge": "frustrated"
+},
+"c2:notification-emails-not-arriving": {
+"n": 6,
+"unans": 3,
+"early": "2022-08-14",
+"late": "2026-01-28",
+"charge": "frustrated"
+},
+"c2:notifications-too-many-emails": {
+"n": 5,
+"unans": 2,
+"early": "2022-07-28",
+"late": "2023-09-23",
+"charge": "frustrated"
+},
+"c2:chat-popups-and-chat-notifications": {
+"n": 3,
+"unans": 0,
+"early": "2023-07-25",
+"late": "2024-04-01",
+"charge": "frustrated"
+},
+"c2:notification-settings-not-saving": {
+"n": 3,
+"unans": 0,
+"early": "2022-08-23",
+"late": "2022-10-13",
+"charge": "frustrated"
+},
+"c2:notifications-stopped-working": {
+"n": 3,
+"unans": 0,
+"early": "2023-04-12",
+"late": "2025-03-06",
+"charge": "neutral"
+},
+"c2:notifications-where-do-they-arrive": {
+"n": 4,
+"unans": 1,
+"early": "2022-08-14",
+"late": "2022-09-13",
+"charge": "neutral"
+},
+"c2:email-notifications-setup": {
+"n": 4,
+"unans": 2,
+"early": "2022-08-14",
+"late": "2023-10-24",
+"charge": "neutral"
+},
+"c2:what-notifications-am-i-waiting-for": {
+"n": 4,
+"unans": 0,
+"early": "2022-08-15",
+"late": "2022-09-05",
+"charge": "neutral"
+},
+"c2:notification-bell-and-page-broken": {
+"n": 6,
+"unans": 3,
+"early": "2024-02-29",
+"late": "2026-02-14",
+"charge": "frustrated"
+},
+"c2:notifications-cannot-clear": {
+"n": 2,
+"unans": 2,
+"early": "2024-04-01",
+"late": "2025-12-31",
+"charge": "frustrated"
+},
+"c2:app-download-and-name": {
+"n": 5,
+"unans": 2,
+"early": "2023-02-13",
+"late": "2026-02-08",
+"charge": "neutral"
+},
+"c2:app-vs-browser": {
+"n": 2,
+"unans": 1,
+"early": "2023-07-15",
+"late": "2026-02-18",
+"charge": "neutral"
+},
+"c2:mighty-app-not-working": {
+"n": 9,
+"unans": 0,
+"early": "2021-08-07",
+"late": "2026-05-02",
+"charge": "frustrated"
+},
+"c2:livestream-playback-broken": {
+"n": 5,
+"unans": 1,
+"early": "2023-10-04",
+"late": "2026-03-16",
+"charge": "frustrated"
+},
+"c2:tubepatriot-not-working": {
+"n": 6,
+"unans": 3,
+"early": "2024-01-02",
+"late": "2026-04-15",
+"charge": "frustrated"
+},
+"c2:rumble-not-working": {
+"n": 4,
+"unans": 1,
+"early": "2023-10-20",
+"late": "2023-12-20",
+"charge": "neutral"
+},
+"c2:site-errors-and-pages-not-loading": {
+"n": 4,
+"unans": 2,
+"early": "2023-02-14",
+"late": "2026-06-29",
+"charge": "frustrated"
+},
+"c2:device-compatibility": {
+"n": 4,
+"unans": 3,
+"early": "2023-06-13",
+"late": "2023-09-23",
+"charge": "neutral"
+},
+"c2:mobile-usability": {
+"n": 2,
+"unans": 2,
+"early": "2023-05-13",
+"late": "2025-07-09",
+"charge": "neutral"
+},
+"c2:discord-app-problems": {
+"n": 2,
+"unans": 1,
+"early": "2023-12-04",
+"late": "2024-01-15",
+"charge": "frustrated"
+},
+"c2:telegram-and-signal-setup": {
+"n": 4,
+"unans": 2,
+"early": "2023-03-10",
+"late": "2024-09-30",
+"charge": "frustrated"
+},
+"c2:how-to-post-photos-videos": {
+"n": 8,
+"unans": 5,
+"early": "2022-01-11",
+"late": "2025-03-15",
+"charge": "neutral"
+},
+"c2:posting-broken": {
+"n": 5,
+"unans": 1,
+"early": "2025-11-07",
+"late": "2026-07-30",
+"charge": "frustrated"
+},
+"c2:where-am-i-allowed-to-post": {
+"n": 2,
+"unans": 1,
+"early": "2021-04-23",
+"late": "2024-05-01",
+"charge": "neutral"
+},
+"c2:cross-post-and-share-link": {
+"n": 3,
+"unans": 2,
+"early": "2022-09-16",
+"late": "2025-04-01",
+"charge": "neutral"
+},
+"c2:my-posts-disappeared": {
+"n": 4,
+"unans": 2,
+"early": "2024-04-04",
+"late": "2026-08-20",
+"charge": "angry-churn-risk"
+},
+"c2:post-removed-or-muted-by-moderators": {
+"n": 4,
+"unans": 1,
+"early": "2021-07-08",
+"late": "2026-05-18",
+"charge": "angry-churn-risk"
+},
+"c2:delete-or-edit-my-own-content": {
+"n": 3,
+"unans": 3,
+"early": "2026-02-11",
+"late": "2026-07-25",
+"charge": "neutral"
+},
+"c2:comment-button-not-working": {
+"n": 2,
+"unans": 1,
+"early": "2023-07-24",
+"late": "2026-03-18",
+"charge": "neutral"
+},
+"c2:how-hashtags-work": {
+"n": 2,
+"unans": 0,
+"early": "2023-06-01",
+"late": "2024-02-20",
+"charge": "neutral"
+},
+"c2:posting-basics": {
+"n": 2,
+"unans": 2,
+"early": "2022-09-09",
+"late": "2023-05-01",
+"charge": "neutral"
+},
+"c2:profile-photo-and-settings": {
+"n": 4,
+"unans": 0,
+"early": "2022-05-03",
+"late": "2023-07-27",
+"charge": "neutral"
+},
+"c2:close-account": {
+"n": 1,
+"unans": 0,
+"early": "2023-07-02",
+"late": "2023-07-02",
+"charge": "neutral"
+},
+"c2:are-direct-messages-private": {
+"n": 3,
+"unans": 1,
+"early": "2023-08-01",
+"late": "2024-03-26",
+"charge": "angry-churn-risk"
+},
+"c2:how-to-direct-message": {
+"n": 4,
+"unans": 2,
+"early": "2022-10-31",
+"late": "2024-09-25",
+"charge": "neutral"
+},
+"c2:suspicious-dm": {
+"n": 1,
+"unans": 0,
+"early": "2023-07-22",
+"late": "2023-07-22",
+"charge": "neutral"
+},
+"c2:impersonation-in-chat": {
+"n": 1,
+"unans": 0,
+"early": "2023-06-14",
+"late": "2023-06-14",
+"charge": "angry-churn-risk"
+},
+"c2:find-members-near-me": {
+"n": 6,
+"unans": 0,
+"early": "2022-07-27",
+"late": "2024-09-13",
+"charge": "neutral"
+},
+"c2:who-is-in-this-group": {
+"n": 3,
+"unans": 2,
+"early": "2023-06-16",
+"late": "2024-08-27",
+"charge": "neutral"
+},
+"c2:blocked-or-banned": {
+"n": 1,
+"unans": 0,
+"early": "2023-07-21",
+"late": "2023-07-21",
+"charge": "neutral"
+},
+"c2:contact-tech-support": {
+"n": 4,
+"unans": 3,
+"early": "2023-05-31",
+"late": "2025-12-31",
+"charge": "frustrated"
+},
+"c2:contact-admin-or-host": {
+"n": 8,
+"unans": 5,
+"early": "2022-06-11",
+"late": "2024-08-18",
+"charge": "angry-churn-risk"
+},
+"c2:general-tech-overwhelm": {
+"n": 1,
+"unans": 0,
+"early": "2023-11-27",
+"late": "2023-11-27",
+"charge": "angry-churn-risk"
+},
+"c3:join-state-group": {
+"n": 9,
+"unans": 7,
+"early": "2023-06-19",
+"late": "2025-08-31",
+"charge": "neutral"
+},
+"c3:find-my-state-room": {
+"n": 3,
+"unans": 2,
+"early": "2023-06-20",
+"late": "2023-08-04",
+"charge": "neutral"
+},
+"c3:state-group-invite-never-arrived": {
+"n": 4,
+"unans": 3,
+"early": "2023-08-10",
+"late": "2025-11-14",
+"charge": "angry-churn-risk"
+},
+"c3:did-my-join-work": {
+"n": 6,
+"unans": 3,
+"early": "2023-06-08",
+"late": "2023-07-24",
+"charge": "neutral"
+},
+"c3:am-i-in-the-right-place": {
+"n": 5,
+"unans": 2,
+"early": "2021-04-07",
+"late": "2023-07-15",
+"charge": "neutral"
+},
+"c3:am-i-still-in-my-group": {
+"n": 4,
+"unans": 3,
+"early": "2023-06-13",
+"late": "2025-12-14",
+"charge": "neutral"
+},
+"c3:county-subgroups": {
+"n": 5,
+"unans": 1,
+"early": "2023-07-05",
+"late": "2023-07-27",
+"charge": "neutral"
+},
+"c3:who-is-my-state-director": {
+"n": 14,
+"unans": 5,
+"early": "2023-06-16",
+"late": "2026-02-25",
+"charge": "neutral"
+},
+"c3:become-coordinator": {
+"n": 6,
+"unans": 2,
+"early": "2023-06-16",
+"late": "2025-07-30",
+"charge": "frustrated"
+},
+"c3:state-group-inactive": {
+"n": 5,
+"unans": 2,
+"early": "2023-07-27",
+"late": "2024-08-07",
+"charge": "frustrated"
+},
+"c3:local-meetups": {
+"n": 10,
+"unans": 4,
+"early": "2023-07-05",
+"late": "2024-08-24",
+"charge": "neutral"
+},
+"c3:find-members-near-me": {
+"n": 4,
+"unans": 3,
+"early": "2022-04-09",
+"late": "2023-10-06",
+"charge": "neutral"
+},
+"c3:international-members": {
+"n": 1,
+"unans": 0,
+"early": "2026-02-05",
+"late": "2026-02-05",
+"charge": "frustrated"
+},
+"c3:state-talk-signup": {
+"n": 1,
+"unans": 1,
+"early": "2026-01-17",
+"late": "2026-01-17",
+"charge": "frustrated"
+},
+"c3:signal-group-rejoin": {
+"n": 4,
+"unans": 0,
+"early": "2023-06-28",
+"late": "2024-03-26",
+"charge": "frustrated"
+},
+"c3:discord-invite-link": {
+"n": 5,
+"unans": 4,
+"early": "2023-01-25",
+"late": "2025-11-26",
+"charge": "neutral"
+},
+"c3:discord-invite-invalid": {
+"n": 2,
+"unans": 0,
+"early": "2023-01-28",
+"late": "2024-02-19",
+"charge": "angry-churn-risk"
+},
+"c3:talktime-how-to-join": {
+"n": 7,
+"unans": 2,
+"early": "2023-03-11",
+"late": "2025-01-11",
+"charge": "frustrated"
+},
+"c3:discord-verification": {
+"n": 8,
+"unans": 3,
+"early": "2023-07-25",
+"late": "2026-02-01",
+"charge": "frustrated"
+},
+"c3:talktime-mic-pushtotalk": {
+"n": 3,
+"unans": 0,
+"early": "2022-02-22",
+"late": "2023-07-23",
+"charge": "neutral"
+},
+"c3:discord-login-problems": {
+"n": 5,
+"unans": 3,
+"early": "2022-05-02",
+"late": "2024-09-26",
+"charge": "frustrated"
+},
+"c3:discord-outage": {
+"n": 5,
+"unans": 1,
+"early": "2023-09-16",
+"late": "2024-09-26",
+"charge": "neutral"
+},
+"c3:discord-banned-by-discord": {
+"n": 12,
+"unans": 0,
+"early": "2022-07-05",
+"late": "2024-10-03",
+"charge": "angry-churn-risk"
+},
+"c3:talktime-missing": {
+"n": 4,
+"unans": 1,
+"early": "2023-07-21",
+"late": "2024-11-19",
+"charge": "frustrated"
+},
+"c3:why-discord-complaint": {
+"n": 2,
+"unans": 1,
+"early": "2023-07-09",
+"late": "2024-01-19",
+"charge": "frustrated"
+},
+"c3:what-is-discord": {
+"n": 1,
+"unans": 1,
+"early": "2026-08-10",
+"late": "2026-08-10",
+"charge": "neutral"
+},
+"c3:telegram-join": {
+"n": 4,
+"unans": 3,
+"early": "2023-06-29",
+"late": "2026-08-24",
+"charge": "frustrated"
+},
+"c3:telegram-required-or-alternative": {
+"n": 3,
+"unans": 2,
+"early": "2024-10-01",
+"late": "2026-05-12",
+"charge": "angry-churn-risk"
+},
+"c3:telegram-links-not-opening": {
+"n": 4,
+"unans": 3,
+"early": "2022-05-15",
+"late": "2026-06-29",
+"charge": "frustrated"
+},
+"c3:telegram-cant-post": {
+"n": 1,
+"unans": 1,
+"early": "2024-01-20",
+"late": "2024-01-20",
+"charge": "frustrated"
+},
+"c3:where-to-watch-live-show": {
+"n": 9,
+"unans": 4,
+"early": "2023-02-23",
+"late": "2026-05-15",
+"charge": "neutral"
+},
+"c3:stream-down-or-missing": {
+"n": 9,
+"unans": 3,
+"early": "2023-02-15",
+"late": "2026-08-04",
+"charge": "frustrated"
+},
+"c3:video-playback-problems": {
+"n": 5,
+"unans": 1,
+"early": "2023-03-06",
+"late": "2026-04-17",
+"charge": "frustrated"
+},
+"c3:where-are-replays": {
+"n": 7,
+"unans": 5,
+"early": "2023-07-22",
+"late": "2026-07-16",
+"charge": "frustrated"
+},
+"c3:live-or-rerun": {
+"n": 2,
+"unans": 0,
+"early": "2023-11-24",
+"late": "2026-03-26",
+"charge": "frustrated"
+},
+"c3:other-streaming-platforms": {
+"n": 2,
+"unans": 1,
+"early": "2023-12-13",
+"late": "2025-01-23",
+"charge": "neutral"
+},
+"c3:sharing-show-links": {
+"n": 2,
+"unans": 0,
+"early": "2024-10-17",
+"late": "2024-10-17",
+"charge": "frustrated"
+},
+"c3:how-to-donate": {
+"n": 7,
+"unans": 3,
+"early": "2022-08-15",
+"late": "2026-01-11",
+"charge": "neutral"
+},
+"c3:humanitarian-project-submit": {
+"n": 24,
+"unans": 3,
+"early": "2022-10-06",
+"late": "2026-08-22",
+"charge": "neutral"
+},
+"c3:humanitarian-project-eligibility": {
+"n": 1,
+"unans": 0,
+"early": "2022-08-21",
+"late": "2022-08-21",
+"charge": "neutral"
+},
+"c3:humanitarian-project-get-involved": {
+"n": 2,
+"unans": 0,
+"early": "2022-08-31",
+"late": "2024-02-13",
+"charge": "neutral"
+},
+"c3:humanitarian-project-find-mine": {
+"n": 1,
+"unans": 1,
+"early": "2022-08-13",
+"late": "2022-08-13",
+"charge": "neutral"
+},
+"c3:membership-cost": {
+"n": 2,
+"unans": 2,
+"early": "2026-04-03",
+"late": "2026-06-13",
+"charge": "neutral"
+},
+"c3:what-membership-includes": {
+"n": 2,
+"unans": 0,
+"early": "2023-07-01",
+"late": "2023-08-20",
+"charge": "frustrated"
+},
+"c3:membership-approval-wait": {
+"n": 1,
+"unans": 1,
+"early": "2023-01-27",
+"late": "2023-01-27",
+"charge": "frustrated"
+},
+"c3:free-companion-site": {
+"n": 1,
+"unans": 1,
+"early": "2025-07-23",
+"late": "2025-07-23",
+"charge": "neutral"
+},
+"c3:ppn-store-merchandise": {
+"n": 5,
+"unans": 2,
+"early": "2023-05-27",
+"late": "2025-08-07",
+"charge": "neutral"
+},
+"c3:member-levels-and-badges": {
+"n": 4,
+"unans": 1,
+"early": "2023-11-27",
+"late": "2026-02-05",
+"charge": "neutral"
+},
+"c3:notifications-not-received": {
+"n": 2,
+"unans": 1,
+"early": "2022-08-16",
+"late": "2026-06-08",
+"charge": "frustrated"
+},
+"c3:clear-or-dismiss-notifications": {
+"n": 2,
+"unans": 1,
+"early": "2025-07-09",
+"late": "2026-02-20",
+"charge": "neutral"
+},
+"c3:cant-create-posts": {
+"n": 2,
+"unans": 1,
+"early": "2023-10-16",
+"late": "2026-05-02",
+"charge": "frustrated"
+},
+"c3:content-or-room-disappeared": {
+"n": 6,
+"unans": 1,
+"early": "2023-03-27",
+"late": "2025-12-09",
+"charge": "frustrated"
+},
+"c3:creator-removed-from-platform": {
+"n": 2,
+"unans": 0,
+"early": "2023-07-21",
+"late": "2024-01-01",
+"charge": "frustrated"
+},
+"c3:muted-or-blocked-in-chat": {
+"n": 6,
+"unans": 2,
+"early": "2023-05-05",
+"late": "2025-10-01",
+"charge": "angry-churn-risk"
+},
+"c3:banned-as-paying-member": {
+"n": 3,
+"unans": 0,
+"early": "2023-05-24",
+"late": "2025-08-08",
+"charge": "angry-churn-risk"
+},
+"c3:dms-not-delivering": {
+"n": 1,
+"unans": 0,
+"early": "2023-07-27",
+"late": "2023-07-27",
+"charge": "angry-churn-risk"
+},
+"c3:is-this-a-scam": {
+"n": 12,
+"unans": 0,
+"early": "2023-02-21",
+"late": "2025-06-25",
+"charge": "neutral"
+},
+"c3:report-trolls-and-spam": {
+"n": 2,
+"unans": 1,
+"early": "2023-07-11",
+"late": "2024-02-13",
+"charge": "frustrated"
+},
+"c3:dm-etiquette-with-leaders": {
+"n": 1,
+"unans": 0,
+"early": "2021-04-11",
+"late": "2021-04-11",
+"charge": "neutral"
+},
+"c3:posting-rules-and-where-to-post": {
+"n": 3,
+"unans": 1,
+"early": "2022-02-22",
+"late": "2022-02-23",
+"charge": "neutral"
+},
+"c3:where-do-i-start": {
+"n": 12,
+"unans": 5,
+"early": "2023-01-08",
+"late": "2024-08-07",
+"charge": "frustrated"
+},
+"c3:where-is-the-chat-and-rooms": {
+"n": 3,
+"unans": 1,
+"early": "2022-05-28",
+"late": "2023-03-11",
+"charge": "neutral"
+},
+"c3:training-room-access": {
+"n": 2,
+"unans": 0,
+"early": "2025-05-07",
+"late": "2025-05-22",
+"charge": "neutral"
+},
+"c3:missing-menu-sections": {
+"n": 2,
+"unans": 1,
+"early": "2022-03-17",
+"late": "2022-08-13",
+"charge": "frustrated"
+},
+"c3:mobile-app": {
+"n": 4,
+"unans": 2,
+"early": "2022-06-10",
+"late": "2026-02-08",
+"charge": "neutral"
+},
+"c3:ui-colored-bars": {
+"n": 1,
+"unans": 1,
+"early": "2022-03-29",
+"late": "2022-03-29",
+"charge": "neutral"
+},
+"c3:find-documents-and-explainers": {
+"n": 4,
+"unans": 0,
+"early": "2021-04-08",
+"late": "2022-05-04",
+"charge": "neutral"
+},
+"c3:who-is-who": {
+"n": 1,
+"unans": 0,
+"early": "2022-03-20",
+"late": "2022-03-20",
+"charge": "neutral"
+},
+"c3:zoom-meeting-access": {
+"n": 2,
+"unans": 1,
+"early": "2023-06-15",
+"late": "2025-08-11",
+"charge": "neutral"
+},
+"c3:contact-support-no-response": {
+"n": 3,
+"unans": 0,
+"early": "2023-05-26",
+"late": "2024-03-17",
+"charge": "angry-churn-risk"
+},
+"c3:platform-migration": {
+"n": 1,
+"unans": 1,
+"early": "2024-03-26",
+"late": "2024-03-26",
+"charge": "neutral"
+}
+}

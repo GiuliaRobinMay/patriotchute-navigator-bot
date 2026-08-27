@@ -1,0 +1,1130 @@
+[
+{
+"k": "c1:cancel-subscription-how",
+"q": "How do I cancel my subscription or membership?",
+"cat": "Billing & Subscription",
+"n": 17
+},
+{
+"k": "c1:cancel-request-not-actioned-still-charged",
+"q": "I already cancelled (or asked to cancel) and I am still being charged \u2014 how do I stop it?",
+"cat": "Billing & Subscription",
+"n": 6
+},
+{
+"k": "c1:cancel-but-cannot-log-in",
+"q": "I cannot log in at all, so I cannot reach the cancel screen \u2014 can someone cancel for me?",
+"cat": "Billing & Subscription",
+"n": 3
+},
+{
+"k": "c1:cancel-because-i-cannot-use-what-i-pay-for",
+"q": "I'm paying but cannot get into Patriot Talk / the shows \u2014 should I just cancel?",
+"cat": "Billing & Subscription",
+"n": 11
+},
+{
+"k": "c1:delete-or-close-account",
+"q": "How do I delete or close my account (including before a free trial converts)?",
+"cat": "Billing & Subscription",
+"n": 3
+},
+{
+"k": "c1:update-card-on-file",
+"q": "Where do I update the credit or debit card on my account?",
+"cat": "Billing & Subscription",
+"n": 12
+},
+{
+"k": "c1:where-do-i-pay",
+"q": "Where do I go to make a payment or pay my bill?",
+"cat": "Billing & Subscription",
+"n": 2
+},
+{
+"k": "c1:payment-declined-or-autorenew-failing",
+"q": "My card is declined or auto-renew keeps failing \u2014 who do I contact?",
+"cat": "Billing & Subscription",
+"n": 2
+},
+{
+"k": "c1:verify-my-membership-billing-status",
+"q": "Can an admin check my membership record \u2014 what I'm paying for, or whether I'm paying twice?",
+"cat": "Billing & Subscription",
+"n": 2
+},
+{
+"k": "c1:refund-request",
+"q": "I want a refund \u2014 how do I get my money back?",
+"cat": "Billing & Subscription",
+"n": 1
+},
+{
+"k": "c1:price-and-free-option",
+"q": "What does membership cost, and is there a free way to join?",
+"cat": "Billing & Subscription",
+"n": 2
+},
+{
+"k": "c1:upgrade-free-to-paid",
+"q": "How do I upgrade from a free account to a paid subscription \u2014 do I have to cancel and rejoin?",
+"cat": "Billing & Subscription",
+"n": 1
+},
+{
+"k": "c1:cannot-complete-signup",
+"q": "I'm having trouble signing up / subscribing \u2014 how do I complete it?",
+"cat": "Billing & Subscription",
+"n": 1
+},
+{
+"k": "c1:claim-account-email-already-registered",
+"q": "When I try to claim/verify my account it says my email is already registered \u2014 how do I get in?",
+"cat": "Account Access & Login",
+"n": 8
+},
+{
+"k": "c1:forgot-password",
+"q": "I forgot my password \u2014 how do I reset or set a new one?",
+"cat": "Account Access & Login",
+"n": 5
+},
+{
+"k": "c1:platform-emails-never-arrive",
+"q": "I never receive password-reset or verification emails from the platform \u2014 how do I fix email delivery?",
+"cat": "Notifications & Email",
+"n": 3
+},
+{
+"k": "c1:cannot-sign-in-general",
+"q": "I can't sign in to the site at all \u2014 what do I do?",
+"cat": "Account Access & Login",
+"n": 5
+},
+{
+"k": "c1:session-keeps-expiring",
+"q": "The site keeps asking me to log in again (and resets my streak) even though I never log out \u2014 why?",
+"cat": "Account Access & Login",
+"n": 1
+},
+{
+"k": "c1:how-to-log-out",
+"q": "How do I log out of patriotchute.com?",
+"cat": "Account Access & Login",
+"n": 1
+},
+{
+"k": "c1:discord-name-must-match-patriotchute",
+"q": "How do I make my Discord/Patriot Talk display name match my PatriotChute name so I can be verified?",
+"cat": "Verification & Discord Identity",
+"n": 7
+},
+{
+"k": "c1:change-my-username",
+"q": "How do I change my username / display name on PatriotChute?",
+"cat": "Account Access & Login",
+"n": 1
+},
+{
+"k": "c1:please-verify-me-for-patriot-talk",
+"q": "I've done the steps \u2014 can someone verify me for Patriot Talk?",
+"cat": "Verification & Discord Identity",
+"n": 9
+},
+{
+"k": "c1:how-do-i-know-im-verified",
+"q": "How do I know when my verification has gone through?",
+"cat": "Verification & Discord Identity",
+"n": 4
+},
+{
+"k": "c1:verification-errors-and-lost-verification",
+"q": "The verify step errors out, or my verification disappears after I restart/log out \u2014 how do I fix it?",
+"cat": "Verification & Discord Identity",
+"n": 3
+},
+{
+"k": "c1:invite-link-invalid-or-needed",
+"q": "My invite link is invalid or expired \u2014 where do I get a working invite to Patriot Talk?",
+"cat": "Patriot Talk & Chat Access",
+"n": 15
+},
+{
+"k": "c1:new-device-needs-relink",
+"q": "I got a new phone/computer \u2014 how do I get back into Patriot Talk and re-link my accounts?",
+"cat": "Account Access & Login",
+"n": 2
+},
+{
+"k": "c1:discord-account-suspended",
+"q": "Discord says my account is suspended or limited because of the Patriot Talk server \u2014 what can I do?",
+"cat": "Moderation & Suspensions",
+"n": 9
+},
+{
+"k": "c1:lost-access-to-discord-server",
+"q": "I've lost access to the Discord chat rooms (only a friends list / no server) \u2014 how do I get back in?",
+"cat": "Patriot Talk & Chat Access",
+"n": 4
+},
+{
+"k": "c1:cannot-access-patriot-talk",
+"q": "I can't get into Patriot Talk / Talk Time anymore \u2014 how do I restore access?",
+"cat": "Patriot Talk & Chat Access",
+"n": 17
+},
+{
+"k": "c1:in-server-but-stuck-on-rules-or-no-channels",
+"q": "I'm in Patriot Talk but only see Rules/Verify or #announcements and no channels \u2014 what's missing?",
+"cat": "Patriot Talk & Chat Access",
+"n": 6
+},
+{
+"k": "c1:how-do-i-get-to-talk-time",
+"q": "Where is Talk Time / Patriot Talk and how do I get to it?",
+"cat": "Patriot Talk & Chat Access",
+"n": 18
+},
+{
+"k": "c1:talk-time-no-audio",
+"q": "I'm in Talk Time but can't hear anything \u2014 how do I get audio working?",
+"cat": "Patriot Talk & Chat Access",
+"n": 2
+},
+{
+"k": "c1:where-is-the-chat-room",
+"q": "Where is the chat room and how do I get to it?",
+"cat": "Patriot Talk & Chat Access",
+"n": 6
+},
+{
+"k": "c1:chat-rooms-not-working",
+"q": "The chat (PPN/Telegram/Discord) won't open or load \u2014 is it down?",
+"cat": "Patriot Talk & Chat Access",
+"n": 4
+},
+{
+"k": "c1:removed-from-state-signal-group",
+"q": "Why was I removed from my state Signal/chat group and how do I get back in?",
+"cat": "Moderation & Suspensions",
+"n": 4
+},
+{
+"k": "c1:24-hour-timeout",
+"q": "Why am I on a time out and can it be lifted?",
+"cat": "Moderation & Suspensions",
+"n": 2
+},
+{
+"k": "c1:stop-admin-ads",
+"q": "How do I stop or block the promotional posts/ads from admins?",
+"cat": "Moderation & Suspensions",
+"n": 1
+},
+{
+"k": "c1:update-account-contact-details",
+"q": "How do I change the email/phone on an existing account (e.g. after the account holder has died)?",
+"cat": "Account Access & Login",
+"n": 1
+},
+{
+"k": "c1:app-crashes-or-wont-load",
+"q": "The Mighty Networks / Discord app crashes or won't let me in \u2014 how do I fix it?",
+"cat": "Apps & Devices",
+"n": 8
+},
+{
+"k": "c1:where-to-watch-live-shows",
+"q": "Where and how do I watch the live show (and join its chat)?",
+"cat": "Live Shows & Replays",
+"n": 7
+},
+{
+"k": "c1:link-for-todays-show",
+"q": "Can someone post the link to today's/tonight's show?",
+"cat": "Live Shows & Replays",
+"n": 6
+},
+{
+"k": "c1:where-are-the-replays",
+"q": "Where do I find replays of shows I missed?",
+"cat": "Live Shows & Replays",
+"n": 12
+},
+{
+"k": "c1:replay-broken-or-wont-play",
+"q": "The replay won't play (dark screen, error, still marked live) \u2014 how do I watch it?",
+"cat": "Live Shows & Replays",
+"n": 5
+},
+{
+"k": "c1:is-there-a-show-today",
+"q": "Is there a show today, and what is the schedule?",
+"cat": "Live Shows & Replays",
+"n": 20
+},
+{
+"k": "c1:live-stream-down",
+"q": "The live stream isn't working / went down \u2014 where else can I watch?",
+"cat": "Live Shows & Replays",
+"n": 5
+},
+{
+"k": "c1:no-sound-on-stream",
+"q": "There's no sound on the stream or video \u2014 how do I fix it?",
+"cat": "Live Shows & Replays",
+"n": 5
+},
+{
+"k": "c1:stream-buffering-and-freezing",
+"q": "The stream keeps buffering, freezing or lagging \u2014 what can I do?",
+"cat": "Live Shows & Replays",
+"n": 8
+},
+{
+"k": "c1:watching-on-tv-or-tablet",
+"q": "How do I watch on Roku/TV or a tablet, and which streaming app is recommended?",
+"cat": "Apps & Devices",
+"n": 3
+},
+{
+"k": "c1:third-party-streaming-service-billing",
+"q": "The third-party streaming service (Cue Streaming) took payment but isn't working and support is unreachable \u2014 what now?",
+"cat": "Apps & Devices",
+"n": 1
+},
+{
+"k": "c1:zoom-schedule-and-link",
+"q": "When is the (state) Zoom call and where is the link?",
+"cat": "Zoom & State Meetings",
+"n": 6
+},
+{
+"k": "c1:cannot-connect-to-zoom-or-meeting-link",
+"q": "I can't connect to the Zoom/meeting link \u2014 how do I join (and will a recording be posted)?",
+"cat": "Zoom & State Meetings",
+"n": 5
+},
+{
+"k": "c1:zoom-first-time-setup",
+"q": "I've never used Zoom \u2014 do I need to install it and how do I join on my phone?",
+"cat": "Zoom & State Meetings",
+"n": 2
+},
+{
+"k": "c1:show-notifications-missing",
+"q": "Why don't I get notifications for shows, and what are the room notifications for?",
+"cat": "Notifications & Email",
+"n": 3
+},
+{
+"k": "c1:new-member-overwhelmed",
+"q": "I'm new (or not tech savvy) and can't work out how to use the site \u2014 where do I start?",
+"cat": "Site Navigation & Getting Started",
+"n": 8
+},
+{
+"k": "c1:moving-between-spaces",
+"q": "How do I move between spaces \u2014 get back to the Members Lobby or find my state room?",
+"cat": "Site Navigation & Getting Started",
+"n": 3
+},
+{
+"k": "c1:where-to-get-help",
+"q": "Where do I go for help, and who will respond to me?",
+"cat": "Site Navigation & Getting Started",
+"n": 2
+},
+{
+"k": "c2:find-state-county-group",
+"q": "Where do I find and join my state (and county) group?",
+"cat": "Navigation & Finding Things",
+"n": 27
+},
+{
+"k": "c2:find-patriot-talk",
+"q": "Where is Patriot Talk / Talk Time and how do I get into it?",
+"cat": "Navigation & Finding Things",
+"n": 14
+},
+{
+"k": "c2:patriot-talk-setup-instructions-too-hard",
+"q": "Can someone walk me through setting up Patriot Talk? The written instructions are too long/complicated.",
+"cat": "Navigation & Finding Things",
+"n": 5
+},
+{
+"k": "c2:verification-loop",
+"q": "I keep getting sent back to the Verify page / can't complete verification \u2014 how do I get verified?",
+"cat": "Navigation & Finding Things",
+"n": 7
+},
+{
+"k": "c2:menu-items-disappeared",
+"q": "The menu / a menu item I used to use has disappeared \u2014 where did the navigation go?",
+"cat": "Navigation & Finding Things",
+"n": 7
+},
+{
+"k": "c2:find-a-room",
+"q": "Where is [the QFS / Humanitarian Projects / Rescue Patriot] room and how do I get into it?",
+"cat": "Navigation & Finding Things",
+"n": 6
+},
+{
+"k": "c2:am-i-in-the-right-place",
+"q": "Is this the right room/page? (What is the difference between a group, a page and a room?)",
+"cat": "Navigation & Finding Things",
+"n": 9
+},
+{
+"k": "c2:redirected-to-wrong-page",
+"q": "Why does the site send me somewhere other than where I clicked (back to the Lobby, to Sign In, to the top of the feed)?",
+"cat": "Navigation & Finding Things",
+"n": 6
+},
+{
+"k": "c2:how-to-reach-the-site",
+"q": "How do I get back to PatriotChute \u2014 there's no icon, my bookmark/link is dead, or my browser blocks it?",
+"cat": "Navigation & Finding Things",
+"n": 5
+},
+{
+"k": "c2:where-to-watch-shows-and-replays",
+"q": "Where do I watch the live show, and where do I find the replay if I missed it?",
+"cat": "Navigation & Finding Things",
+"n": 7
+},
+{
+"k": "c2:find-project-forms-template",
+"q": "Where do I find the humanitarian project form / template / checklist?",
+"cat": "Navigation & Finding Things",
+"n": 7
+},
+{
+"k": "c2:submit-upload-project",
+"q": "How and where do I submit/upload my humanitarian project?",
+"cat": "Posting & Content",
+"n": 12
+},
+{
+"k": "c2:find-my-own-posts",
+"q": "How do I find my own posts/projects again \u2014 searching my name returns nothing?",
+"cat": "Navigation & Finding Things",
+"n": 4
+},
+{
+"k": "c2:feed-not-showing-posts",
+"q": "Why can't I see posts in the feed (nothing new, or nothing older than an hour)?",
+"cat": "Navigation & Finding Things",
+"n": 3
+},
+{
+"k": "c2:site-search-not-working",
+"q": "How do I search the site \u2014 search doesn't find what I'm looking for?",
+"cat": "Navigation & Finding Things",
+"n": 1
+},
+{
+"k": "c2:how-to-sign-out",
+"q": "How do I sign out?",
+"cat": "Navigation & Finding Things",
+"n": 1
+},
+{
+"k": "c2:notifications-how-to-turn-on",
+"q": "How do I turn on notifications (for the site and for a specific room)?",
+"cat": "Notifications & Email",
+"n": 10
+},
+{
+"k": "c2:notifications-not-arriving",
+"q": "My notifications are turned on but I'm not receiving any \u2014 why?",
+"cat": "Notifications & Email",
+"n": 22
+},
+{
+"k": "c2:notification-emails-not-arriving",
+"q": "I see notifications in the app but the emails never arrive \u2014 how do I fix email delivery?",
+"cat": "Notifications & Email",
+"n": 6
+},
+{
+"k": "c2:notifications-too-many-emails",
+"q": "How do I cut down the volume of notifications \u2014 my phone and inbox are flooded?",
+"cat": "Notifications & Email",
+"n": 5
+},
+{
+"k": "c2:chat-popups-and-chat-notifications",
+"q": "How do I stop the chat pop-ups and chat notifications?",
+"cat": "Notifications & Email",
+"n": 3
+},
+{
+"k": "c2:notification-settings-not-saving",
+"q": "Why do my notification settings keep switching themselves back off?",
+"cat": "Notifications & Email",
+"n": 3
+},
+{
+"k": "c2:notifications-stopped-working",
+"q": "My notifications used to work and suddenly stopped \u2014 what changed?",
+"cat": "Notifications & Email",
+"n": 3
+},
+{
+"k": "c2:notifications-where-do-they-arrive",
+"q": "Where do notifications arrive \u2014 email, push, or only inside the room \u2014 and do I need the app or a phone?",
+"cat": "Notifications & Email",
+"n": 4
+},
+{
+"k": "c2:email-notifications-setup",
+"q": "How do I set up email notifications for a specific announcement or event?",
+"cat": "Notifications & Email",
+"n": 4
+},
+{
+"k": "c2:what-notifications-am-i-waiting-for",
+"q": "What notifications am I supposed to be watching for, and do I need to do anything to qualify?",
+"cat": "Notifications & Email",
+"n": 4
+},
+{
+"k": "c2:notification-bell-and-page-broken",
+"q": "The notification bell/page doesn't work \u2014 it won't load, won't open the post, or the alert is empty.",
+"cat": "Notifications & Email",
+"n": 6
+},
+{
+"k": "c2:notifications-cannot-clear",
+"q": "How do I clear or delete a huge backlog of notifications?",
+"cat": "Notifications & Email",
+"n": 2
+},
+{
+"k": "c2:app-download-and-name",
+"q": "Do I need an app, what is it called, and where do I download it?",
+"cat": "App & Device Technical",
+"n": 5
+},
+{
+"k": "c2:app-vs-browser",
+"q": "Should I use the Mighty Networks app or the patriotchute.com website (or Telegram)?",
+"cat": "App & Device Technical",
+"n": 2
+},
+{
+"k": "c2:mighty-app-not-working",
+"q": "The Mighty Networks app isn't working \u2014 I can't see posts, can't post, it crashes, or it keeps asking me to sign in.",
+"cat": "App & Device Technical",
+"n": 9
+},
+{
+"k": "c2:livestream-playback-broken",
+"q": "The livestream won't play properly \u2014 blank screen, kicked out, no sound, or an old show showing.",
+"cat": "App & Device Technical",
+"n": 5
+},
+{
+"k": "c2:tubepatriot-not-working",
+"q": "TubePatriot / the video site won't load, won't play, or hasn't updated with new shows.",
+"cat": "App & Device Technical",
+"n": 6
+},
+{
+"k": "c2:rumble-not-working",
+"q": "Is Rumble down \u2014 it won't load or keeps crashing?",
+"cat": "App & Device Technical",
+"n": 4
+},
+{
+"k": "c2:site-errors-and-pages-not-loading",
+"q": "What do I do about site errors \u2014 \"Something failed to load\", 502 Bad Gateway, links that won't open?",
+"cat": "App & Device Technical",
+"n": 4
+},
+{
+"k": "c2:device-compatibility",
+"q": "Does this work on my device (Mac, desktop PC, no cell phone), and how do I set up on a new computer?",
+"cat": "App & Device Technical",
+"n": 4
+},
+{
+"k": "c2:mobile-usability",
+"q": "Why is content hard to use on my phone \u2014 files won't open and chat is hard to read?",
+"cat": "App & Device Technical",
+"n": 2
+},
+{
+"k": "c2:discord-app-problems",
+"q": "Discord isn't working for Patriot Talk \u2014 it crashes or is too difficult.",
+"cat": "App & Device Technical",
+"n": 2
+},
+{
+"k": "c2:telegram-and-signal-setup",
+"q": "How do I install and use the companion apps (Telegram, Signal) with PPN?",
+"cat": "App & Device Technical",
+"n": 4
+},
+{
+"k": "c2:how-to-post-photos-videos",
+"q": "How do I post a picture or video (and what are the size limits)?",
+"cat": "Posting & Content",
+"n": 8
+},
+{
+"k": "c2:posting-broken",
+"q": "Why can't I post right now \u2014 uploads fail or the site throws me back to the front page?",
+"cat": "Posting & Content",
+"n": 5
+},
+{
+"k": "c2:where-am-i-allowed-to-post",
+"q": "Which room am I allowed to post this in, and why don't I have access to some rooms?",
+"cat": "Posting & Content",
+"n": 2
+},
+{
+"k": "c2:cross-post-and-share-link",
+"q": "How do I share a post to another room or get a link to share it outside the community?",
+"cat": "Posting & Content",
+"n": 3
+},
+{
+"k": "c2:my-posts-disappeared",
+"q": "My post or comment disappeared shortly after I published it \u2014 why?",
+"cat": "Posting & Content",
+"n": 4
+},
+{
+"k": "c2:post-removed-or-muted-by-moderators",
+"q": "My post was removed or I was muted by a moderator \u2014 what rule did I break and how do I get reinstated?",
+"cat": "Posting & Content",
+"n": 4
+},
+{
+"k": "c2:delete-or-edit-my-own-content",
+"q": "How do I delete or edit my own post/comment after publishing it?",
+"cat": "Posting & Content",
+"n": 3
+},
+{
+"k": "c2:comment-button-not-working",
+"q": "The comment/reply button isn't working \u2014 I can't respond to posts or messages.",
+"cat": "Posting & Content",
+"n": 2
+},
+{
+"k": "c2:how-hashtags-work",
+"q": "How do hashtags work \u2014 do they route my post to a county or state feed?",
+"cat": "Posting & Content",
+"n": 2
+},
+{
+"k": "c2:posting-basics",
+"q": "How does posting work here \u2014 is posting the only way to communicate?",
+"cat": "Posting & Content",
+"n": 2
+},
+{
+"k": "c2:profile-photo-and-settings",
+"q": "How do I edit my profile \u2014 photo, badge, and the room/topic\u9009\u62e9 in settings?",
+"cat": "Profile, Membership & Messaging",
+"n": 4
+},
+{
+"k": "c2:close-account",
+"q": "How do I close my account?",
+"cat": "Profile, Membership & Messaging",
+"n": 1
+},
+{
+"k": "c2:are-direct-messages-private",
+"q": "Are direct messages actually private \u2014 why am I seeing other people's messages?",
+"cat": "Profile, Membership & Messaging",
+"n": 3
+},
+{
+"k": "c2:how-to-direct-message",
+"q": "How do I privately message another member (and can I send them a file)?",
+"cat": "Profile, Membership & Messaging",
+"n": 4
+},
+{
+"k": "c2:suspicious-dm",
+"q": "I received a suspicious/scam direct message \u2014 is it legitimate and who do I report it to?",
+"cat": "Profile, Membership & Messaging",
+"n": 1
+},
+{
+"k": "c2:impersonation-in-chat",
+"q": "Someone is using my username in chat \u2014 what do I do?",
+"cat": "Profile, Membership & Messaging",
+"n": 1
+},
+{
+"k": "c2:find-members-near-me",
+"q": "How do I find and connect with other members in my state or county?",
+"cat": "Profile, Membership & Messaging",
+"n": 6
+},
+{
+"k": "c2:who-is-in-this-group",
+"q": "How do I see who else is in (and active in) this group?",
+"cat": "Profile, Membership & Messaging",
+"n": 3
+},
+{
+"k": "c2:blocked-or-banned",
+"q": "I'm blocked on one of my devices \u2014 can someone unblock me?",
+"cat": "Profile, Membership & Messaging",
+"n": 1
+},
+{
+"k": "c2:contact-tech-support",
+"q": "Where do I go for tech support when something is broken?",
+"cat": "Support & Contact",
+"n": 4
+},
+{
+"k": "c2:contact-admin-or-host",
+"q": "How do I get in touch with an admin, a host, or my state group's organizer?",
+"cat": "Support & Contact",
+"n": 8
+},
+{
+"k": "c2:general-tech-overwhelm",
+"q": "I'm not technical and nothing works \u2014 where do I start?",
+"cat": "Support & Contact",
+"n": 1
+},
+{
+"k": "c3:join-state-group",
+"q": "How do I join my state's group?",
+"cat": "State & Local Groups",
+"n": 9
+},
+{
+"k": "c3:find-my-state-room",
+"q": "Where do I find my state's room on the site?",
+"cat": "State & Local Groups",
+"n": 3
+},
+{
+"k": "c3:state-group-invite-never-arrived",
+"q": "I asked to be added to my state group but the invite never came \u2014 what now?",
+"cat": "State & Local Groups",
+"n": 4
+},
+{
+"k": "c3:did-my-join-work",
+"q": "I used my invite \u2014 am I in the group now, or is there another step?",
+"cat": "Getting Started & Navigation",
+"n": 6
+},
+{
+"k": "c3:am-i-in-the-right-place",
+"q": "Is this the right room/page for what I'm looking for?",
+"cat": "Getting Started & Navigation",
+"n": 5
+},
+{
+"k": "c3:am-i-still-in-my-group",
+"q": "How can I check whether I'm still in my state group (here or on Signal)?",
+"cat": "State & Local Groups",
+"n": 4
+},
+{
+"k": "c3:county-subgroups",
+"q": "Are state groups split into county groups, and how do I find mine?",
+"cat": "State & Local Groups",
+"n": 5
+},
+{
+"k": "c3:who-is-my-state-director",
+"q": "Who is my state's director or coordinator?",
+"cat": "State & Local Groups",
+"n": 14
+},
+{
+"k": "c3:become-coordinator",
+"q": "How do I become a state or county coordinator, and what does the role involve?",
+"cat": "State & Local Groups",
+"n": 6
+},
+{
+"k": "c3:state-group-inactive",
+"q": "My state group looks dead \u2014 is anything actually happening in it?",
+"cat": "State & Local Groups",
+"n": 5
+},
+{
+"k": "c3:local-meetups",
+"q": "Are there any meetups or events near me, and where are they listed?",
+"cat": "State & Local Groups",
+"n": 10
+},
+{
+"k": "c3:find-members-near-me",
+"q": "How do I connect with other members in my area?",
+"cat": "State & Local Groups",
+"n": 4
+},
+{
+"k": "c3:international-members",
+"q": "I'm not in the USA \u2014 is there a group for me?",
+"cat": "State & Local Groups",
+"n": 1
+},
+{
+"k": "c3:state-talk-signup",
+"q": "How do I sign up for State Talk?",
+"cat": "State & Local Groups",
+"n": 1
+},
+{
+"k": "c3:signal-group-rejoin",
+"q": "I was dropped from my state's Signal group \u2014 how do I get back in?",
+"cat": "Telegram & Other Platforms",
+"n": 4
+},
+{
+"k": "c3:discord-invite-link",
+"q": "Where do I get the invite link for the PPN Discord server?",
+"cat": "Talk Time & Discord",
+"n": 5
+},
+{
+"k": "c3:discord-invite-invalid",
+"q": "The Discord invite says it's invalid \u2014 how do I get a working link?",
+"cat": "Talk Time & Discord",
+"n": 2
+},
+{
+"k": "c3:talktime-how-to-join",
+"q": "I have Discord installed \u2014 how do I actually get into Talk Time?",
+"cat": "Talk Time & Discord",
+"n": 7
+},
+{
+"k": "c3:discord-verification",
+"q": "How do I get verified on Discord so I can get past the rules screen?",
+"cat": "Talk Time & Discord",
+"n": 8
+},
+{
+"k": "c3:talktime-mic-pushtotalk",
+"q": "How do I set up my microphone and push-to-talk for Talk Time?",
+"cat": "Talk Time & Discord",
+"n": 3
+},
+{
+"k": "c3:discord-login-problems",
+"q": "I can't log in to Discord / Patriot Talk \u2014 what do I do?",
+"cat": "Account Access & Support",
+"n": 5
+},
+{
+"k": "c3:discord-outage",
+"q": "Is the Discord server down, or what happened to it?",
+"cat": "Talk Time & Discord",
+"n": 5
+},
+{
+"k": "c3:discord-banned-by-discord",
+"q": "Discord suspended or removed me over the PPN server \u2014 what does that mean and can I get back in?",
+"cat": "Moderation, Bans & Safety",
+"n": 12
+},
+{
+"k": "c3:talktime-missing",
+"q": "Talk Time / the chat has disappeared from my menu \u2014 where did it go?",
+"cat": "Talk Time & Discord",
+"n": 4
+},
+{
+"k": "c3:why-discord-complaint",
+"q": "Why is Talk Time on Discord, and can it move somewhere easier to use?",
+"cat": "Talk Time & Discord",
+"n": 2
+},
+{
+"k": "c3:what-is-discord",
+"q": "What is Discord and what is it used for here?",
+"cat": "Talk Time & Discord",
+"n": 1
+},
+{
+"k": "c3:telegram-join",
+"q": "How do I join the official PPN Telegram channel?",
+"cat": "Telegram & Other Platforms",
+"n": 4
+},
+{
+"k": "c3:telegram-required-or-alternative",
+"q": "Do I have to use Telegram, and where else can I get content that's only posted there?",
+"cat": "Telegram & Other Platforms",
+"n": 3
+},
+{
+"k": "c3:telegram-links-not-opening",
+"q": "Telegram links posted here won't open for me \u2014 how do I fix it?",
+"cat": "Telegram & Other Platforms",
+"n": 4
+},
+{
+"k": "c3:telegram-cant-post",
+"q": "Why can't members post or chat on the PPN Telegram page?",
+"cat": "Telegram & Other Platforms",
+"n": 1
+},
+{
+"k": "c3:where-to-watch-live-show",
+"q": "Where is the link to watch today's live show?",
+"cat": "Shows, Streams & Replays",
+"n": 9
+},
+{
+"k": "c3:stream-down-or-missing",
+"q": "The show isn't on Rumble / Rumble is down \u2014 where do I watch instead?",
+"cat": "Shows, Streams & Replays",
+"n": 9
+},
+{
+"k": "c3:video-playback-problems",
+"q": "The video won't play properly (stalling, restarting, no sound) \u2014 how do I fix it?",
+"cat": "Shows, Streams & Replays",
+"n": 5
+},
+{
+"k": "c3:where-are-replays",
+"q": "Where do I find the replay of a show I missed?",
+"cat": "Shows, Streams & Replays",
+"n": 7
+},
+{
+"k": "c3:live-or-rerun",
+"q": "How do I know in advance whether a scheduled show is live or a rerun?",
+"cat": "Shows, Streams & Replays",
+"n": 2
+},
+{
+"k": "c3:other-streaming-platforms",
+"q": "Is PPN still on Twitch / YouTube?",
+"cat": "Shows, Streams & Replays",
+"n": 2
+},
+{
+"k": "c3:sharing-show-links",
+"q": "What link should I use to share the show with people outside the community?",
+"cat": "Shows, Streams & Replays",
+"n": 2
+},
+{
+"k": "c3:how-to-donate",
+"q": "How do I donate to PPN, the server fund, or a project featured on the show?",
+"cat": "Humanitarian Projects & Donations",
+"n": 7
+},
+{
+"k": "c3:humanitarian-project-submit",
+"q": "How do I submit a humanitarian project, and where is the form?",
+"cat": "Humanitarian Projects & Donations",
+"n": 24
+},
+{
+"k": "c3:humanitarian-project-eligibility",
+"q": "Does a humanitarian project have to be overseas, or can it be in the USA?",
+"cat": "Humanitarian Projects & Donations",
+"n": 1
+},
+{
+"k": "c3:humanitarian-project-get-involved",
+"q": "How do I get involved in or volunteer for a humanitarian project?",
+"cat": "Humanitarian Projects & Donations",
+"n": 2
+},
+{
+"k": "c3:humanitarian-project-find-mine",
+"q": "How do I find a humanitarian project I submitted months ago?",
+"cat": "Humanitarian Projects & Donations",
+"n": 1
+},
+{
+"k": "c3:membership-cost",
+"q": "How much does membership cost?",
+"cat": "Membership, Billing & Perks",
+"n": 2
+},
+{
+"k": "c3:what-membership-includes",
+"q": "What does my paid membership include, and what do I lose if I stop paying?",
+"cat": "Membership, Billing & Perks",
+"n": 2
+},
+{
+"k": "c3:membership-approval-wait",
+"q": "How long does member approval take?",
+"cat": "Membership, Billing & Perks",
+"n": 1
+},
+{
+"k": "c3:free-companion-site",
+"q": "What is the free companion site and where is the link?",
+"cat": "Membership, Billing & Perks",
+"n": 1
+},
+{
+"k": "c3:ppn-store-merchandise",
+"q": "Where do I buy PPN merchandise or get a yard sign?",
+"cat": "Membership, Billing & Perks",
+"n": 5
+},
+{
+"k": "c3:member-levels-and-badges",
+"q": "What do member levels and the icons next to member names mean?",
+"cat": "Membership, Billing & Perks",
+"n": 4
+},
+{
+"k": "c3:notifications-not-received",
+"q": "Why am I not getting notifications or emails about live shows?",
+"cat": "Account Access & Support",
+"n": 2
+},
+{
+"k": "c3:clear-or-dismiss-notifications",
+"q": "How do I clear or dismiss notifications?",
+"cat": "Getting Started & Navigation",
+"n": 2
+},
+{
+"k": "c3:cant-create-posts",
+"q": "Why am I blocked from creating posts, and how do I get posting restored?",
+"cat": "Moderation, Bans & Safety",
+"n": 2
+},
+{
+"k": "c3:content-or-room-disappeared",
+"q": "A post or an entire room has disappeared \u2014 what happened to it?",
+"cat": "Moderation, Bans & Safety",
+"n": 6
+},
+{
+"k": "c3:creator-removed-from-platform",
+"q": "Why was a host or creator removed from the platform?",
+"cat": "Moderation, Bans & Safety",
+"n": 2
+},
+{
+"k": "c3:muted-or-blocked-in-chat",
+"q": "Why was I muted or blocked in chat, and how do I get it lifted?",
+"cat": "Moderation, Bans & Safety",
+"n": 6
+},
+{
+"k": "c3:banned-as-paying-member",
+"q": "I'm a paying member and I was removed from Patriot Talk \u2014 why, and what happens to my subscription?",
+"cat": "Moderation, Bans & Safety",
+"n": 3
+},
+{
+"k": "c3:dms-not-delivering",
+"q": "Why aren't my direct messages to other members going through?",
+"cat": "Account Access & Support",
+"n": 1
+},
+{
+"k": "c3:is-this-a-scam",
+"q": "Is this message, email, or account really from PPN, or is it a scam?",
+"cat": "Moderation, Bans & Safety",
+"n": 12
+},
+{
+"k": "c3:report-trolls-and-spam",
+"q": "How do I report trolls or spammers, and what is being done about them?",
+"cat": "Moderation, Bans & Safety",
+"n": 2
+},
+{
+"k": "c3:dm-etiquette-with-leaders",
+"q": "Is it OK to send my questions to leaders by private message?",
+"cat": "Getting Started & Navigation",
+"n": 1
+},
+{
+"k": "c3:posting-rules-and-where-to-post",
+"q": "What are the posting rules \u2014 what am I allowed to post, and where?",
+"cat": "Getting Started & Navigation",
+"n": 3
+},
+{
+"k": "c3:where-do-i-start",
+"q": "I'm new (or still lost) \u2014 where do I start and how does this platform work?",
+"cat": "Getting Started & Navigation",
+"n": 12
+},
+{
+"k": "c3:where-is-the-chat-and-rooms",
+"q": "Where is the chat everyone mentions, and how do I find rooms or message another member?",
+"cat": "Getting Started & Navigation",
+"n": 3
+},
+{
+"k": "c3:training-room-access",
+"q": "How do I get into the Training Room / join the training?",
+"cat": "Getting Started & Navigation",
+"n": 2
+},
+{
+"k": "c3:missing-menu-sections",
+"q": "Discovery and other sections are missing from my home page \u2014 where are they?",
+"cat": "Getting Started & Navigation",
+"n": 2
+},
+{
+"k": "c3:mobile-app",
+"q": "How do I install and use the mobile app?",
+"cat": "Getting Started & Navigation",
+"n": 4
+},
+{
+"k": "c3:ui-colored-bars",
+"q": "What do the different coloured bars on the Groups page mean?",
+"cat": "Getting Started & Navigation",
+"n": 1
+},
+{
+"k": "c3:find-documents-and-explainers",
+"q": "Where do I find the documents, past posts and explainers people reference on the shows?",
+"cat": "Getting Started & Navigation",
+"n": 4
+},
+{
+"k": "c3:who-is-who",
+"q": "Who are the hosts and people everyone keeps referring to?",
+"cat": "Getting Started & Navigation",
+"n": 1
+},
+{
+"k": "c3:zoom-meeting-access",
+"q": "How do I get into the state Zoom meeting \u2014 where are the link and password?",
+"cat": "State & Local Groups",
+"n": 2
+},
+{
+"k": "c3:contact-support-no-response",
+"q": "Where do I go for help? I've asked and nobody answers.",
+"cat": "Account Access & Support",
+"n": 3
+},
+{
+"k": "c3:platform-migration",
+"q": "Is this platform replacing Signal (or the old platform) for the state groups?",
+"cat": "State & Local Groups",
+"n": 1
+}
+]

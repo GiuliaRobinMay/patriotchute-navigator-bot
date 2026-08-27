@@ -1,0 +1,914 @@
+[
+ {
+  "theme": "billing-cancel",
+  "o": "Cancellation is overwhelmingly the single largest billing complaint: 30+ distinct 'how do I cancel' posts spanning 2022-04 through 2026-06, with near-identical wording. The volume is steady across four years, which indicates the answer was never surfaced anywhere members can find it \u2014 every cohort rediscovers the problem from scratch."
+ },
+ {
+  "theme": "billing-cancel",
+  "o": "There is a documented official answer that works, but it only ever appears buried in comment replies, never as a pinned or searchable resource. Three separate variants circulate: 'profile picture > Purchases > PPN- The Patriot Party News > Cancel Subscription' (Aimee Myers), 'ACCOUNT / Personal Settings >>> Your Plans and Purchases >>> Upcoming Charges OR Active Subscriptions >>> Cancel Subscription' (Peter Ramirez), and 'Personal Settings > Account > Billing' (Nico Prainito-Di Battista). The inconsistency itself is a signal the path has changed over time and no canonical version exists."
+ },
+ {
+  "theme": "billing-cancel",
+  "o": "The critical undocumented gotcha: card/billing changes CANNOT be done in the mobile app \u2014 only in a web browser. Two members independently discovered this the hard way (Becki Dunaway: 'I found that I could not do it from the mighty network app on my phone'), and admin Alice posted it as an all-caps announcement in 2025 (post 88269346), but it is not attached to any of the recurring card-change questions. This one fact would resolve a large share of the payment-method tickets."
+ },
+ {
+  "theme": "billing-cancel",
+  "o": "Self-service cancellation is the ONLY route \u2014 admins repeatedly state they cannot do it for members ('We cannot cancel your account. Only you can. We do not have access to your personal/banking information.' and 'We are unable to unsubscribe, you will have to do that.'). This collides badly with the population: many requesters explicitly cannot log in at all, so they are told to use a self-service flow they physically cannot reach."
+ },
+ {
+  "theme": "billing-cancel",
+  "o": "A vicious circle appears repeatedly and is the most damaging pattern found: members who are locked out post asking to cancel BECAUSE they are locked out, and the only available answer requires logging in. Examples: 'I cannot get in any of my apps would you please cancel my subscription', 'carn't even get on to cancel anything', and Jeff Lundy's 'when I try to sign into my account to cancel my subscription you claim my email can't be found but you send me emails'. These members have no path at all."
+ },
+ {
+  "theme": "billing-cancel",
+  "o": "Multiple members report cancellation that did not take effect \u2014 'I've tried 3 times to do it. It still comes up on my bank statement', 'this past May I cancelled patroitchute, I keep getting charged for it regardless', and 'I requested to have it canceled but no action has been taken'. Whether a UI bug or a mis-signalled confirmation, members are not getting confirmation that cancellation succeeded."
+ },
+ {
+  "theme": "billing-cancel",
+  "o": "A large share of cancellation requests are not really billing complaints \u2014 they are access failures escalating to churn. At least 8 items follow the pattern 'I cannot get into Talk Time / Discord / the live stream, so cancel me' ('paying 8.99 for something I cant even use', 'I cant pay for something I cant use'). Fixing Discord/Talk Time onboarding would prevent these cancellations upstream; treating them as billing tickets misses the cause."
+ },
+ {
+  "theme": "billing-cancel",
+  "o": "Financial distress and age are recurring, explicit context: 'I am elderly and disabled and cannot afford this monthly bill', 'I've fallen on hard times and need every dime to pay utilities', 'not real savy trying to figure it out'. Several members threaten to close their bank account or block the card at the card issuer as their only remaining lever \u2014 a chargeback risk driven purely by navigation failure, not by intent to defraud."
+ },
+ {
+  "theme": "billing-cancel",
+  "o": "Members frequently post billing pleas as comments on completely unrelated political posts (verified: two cancellation comments landed in 'Underground Patriot Newsroom' on posts about a Fox News test pattern and a Facebook reel). They cannot find a support channel, so they reply wherever an admin last spoke. Any FAQ/navigator needs a findable, obvious entry point or these will keep scattering."
+ },
+ {
+  "theme": "billing-cancel",
+  "o": "There is no visible support address or ticket route \u2014 members resort to naming individual admins ('how I can contact Alice', 'Hi Mandy', 'message Liz Olive', 'I need a moderator to check') or posting their personal email address in public ('Could someone please email me at sheila.johnson7654@gmail.com'), which is a privacy exposure caused by the missing support channel."
+ },
+ {
+  "theme": "billing-cancel",
+  "o": "Confirmed pricing data point for the FAQ: membership is $8.99/month, corroborated independently across 2023, 2025 and 2026 ('paying 8.99', 'renew my subscription for our platform for 8.99', 'my monthly $8.99 subscribtion to PPN'). Notably, almost nobody asks what the price is \u2014 the price is not a source of confusion; the mechanics are."
+ },
+ {
+  "theme": "billing-cancel",
+  "o": "A 2021 platform/payment migration produced a distinct confusion class the owner had to correct publicly (post 13632222): PayPal sent 'subscription cancelled' notices that did NOT mean membership was cancelled. Members read cancellation notices as account closure and vice versa. Worth noting as precedent that billing-notification wording has misled this audience before."
+ },
+ {
+  "theme": "billing-cancel",
+  "o": "Renewal-timing questions are almost entirely absent as standalone asks but appear embedded under pressure ('should we cancel our subscription before the next due date? My next due date comes out in 48hrs!??'). Members do not know their renewal date until they are trying to beat it, which converts a calm question into an urgent cancellation."
+ },
+ {
+  "theme": "billing-cancel",
+  "o": "Search-method note for future harvests: COMMENT search is keyword-only and is dominated by political usage of the same words \u2014 'cancel' returns mostly 'cancel the elections', 'charged' returns 'charged with treason'. The productive route for comment-level findings was fetching comment threads on known high-comment billing posts, not keyword search. Semantic POST search on 'refund', 'cost per month' and 'fixed income' also drifted almost entirely into political/economic content, indicating genuine refund and pricing demand is low relative to cancel/payment-method demand."
+ },
+ {
+  "theme": "login-access",
+  "o": "One root cause dominates this theme: the 'claim your account / this email is already registered' loop that appears when a member tries to link or re-link their PatriotChute identity to the external chat platform (Discord/Patriot Talk). At least a dozen separate members hit the identical dead end, and no self-service escape route is ever posted."
+ },
+ {
+  "theme": "login-access",
+  "o": "A single event around 23-29 July 2023 (a forced sign-out and re-verification of Patriot Talk) produced a massive burst of near-identical distress posts. Dozens of members posted 'waiting to be verified', 'please verify me', 'I can't get past the rules page' within 72 hours. This is the highest-density support spike in the whole corpus."
+ },
+ {
+  "theme": "login-access",
+  "o": "The verification design requires the member's Discord display name AND avatar to exactly match their PatriotChute profile. Members repeatedly report that Discord silently altered their username (lowercased it, appended a period or digits) after the forced re-login, breaking the match through no action of their own. Several older members explicitly gave up."
+ },
+ {
+  "theme": "login-access",
+  "o": "Password reset is effectively broken or undiscoverable. Multiple members report requesting a reset repeatedly and never receiving the email, while still receiving other PatriotChute mail. One member was advised to cancel and re-subscribe as the workaround for a forgotten password."
+ },
+ {
+  "theme": "login-access",
+  "o": "Access is not durable. Members report getting in one day and being locked out the next, being verified and then thrown back to the rules/verify screen after a phone restart, and having Talk Time silently vanish from their left-hand menu."
+ },
+ {
+  "theme": "login-access",
+  "o": "Any device change - new phone, new computer, app reinstall - reliably destroys access and drops the member back into the claim/verify loop with no documented recovery path."
+ },
+ {
+  "theme": "login-access",
+  "o": "Lockout converts directly into churn. A recurring sentence pattern is 'I can't get in, so cancel my membership' / 'I'm paying 8.99 for something I can't even use'. Billing cancellation and login failure are the same conversation for a meaningful share of members."
+ },
+ {
+  "theme": "login-access",
+  "o": "A high proportion of the most acute posts have zero comments - nobody answered. Several members explicitly note they DM'd Alice or Chas hours or weeks earlier with no reply, or that they 'contacted support but still no response'."
+ },
+ {
+  "theme": "login-access",
+  "o": "There is no visible support desk or help space. Members post login problems into HOME | Members Lobby, Patriot News Drops, the Meme Room, the Quantum Financial Room, and random state groups (Alabama, Tennessee, Missouri, Oklahoma, Colorado, North Carolina). The same question is being asked and re-asked in a dozen unconnected places."
+ },
+ {
+  "theme": "login-access",
+  "o": "Members self-identify as elderly and non-technical ('I am 75 and not good on these phones', 'you are making it too hard for old ladies like me', 'I am not computer savvy'). Instructions that assume familiarity with app settings, display names and invite links are failing this audience."
+ },
+ {
+  "theme": "login-access",
+  "o": "Platform migrations reset the whole problem. The corpus shows the same lockout wave repeating across Discord, then Guilded, then Campfire - each move regenerates 'I need a new invite' and 'I can't get logged in' at scale."
+ },
+ {
+  "theme": "login-access",
+  "o": "September-October 2024 shows a distinct external shock: Discord mass-suspended members for belonging to the Patriot Talk server ('violent extremism' / community guidelines). Members had no idea why they were banned and no guidance was posted on what to do next."
+ },
+ {
+  "theme": "login-access",
+  "o": "A separate, quieter cluster is state-level chat removal on Signal ('why was I removed from the Arizona chat?'). These posts almost never get an answer and read as unexplained moderation."
+ },
+ {
+  "theme": "login-access",
+  "o": "Account lifecycle questions are unserved at both ends: 'how do I close my account', 'how do I delete my account, free trial ends today', and 'I need to change the email and phone on my late father's account for my mother' all appear with little or no resolution."
+ },
+ {
+  "theme": "login-access",
+  "o": "Members cannot tell whether verification succeeded. Repeated questions of the form 'how will I know when I'm verified?' and 'can you check if I'm verified?' show there is no status indicator, so people re-post rather than wait."
+ },
+ {
+  "theme": "livestream-zoom",
+  "o": "Talk Time / Patriot Talk access is by far the single largest support cluster in this theme. I found 25+ distinct posts spanning 2022-2025 all asking essentially the same thing ('how do I get to Talk Time', 'where is Talk Time', 'cannot get on talk time'). The room has migrated platforms at least three times (Discord -> Guilded -> in-platform), and each migration produced a fresh wave of 'invalid invite link' / 'invalid code' / 'I was kicked out' posts. Nothing in the community appears to serve as a canonical, findable how-to."
+ },
+ {
+  "theme": "livestream-zoom",
+  "o": "Members repeatedly cannot find where a live show is playing, and the same person often asks month after month. Laura Petersen alone accounts for at least 8 separate 'any link to today's show' / 'where is the replay' posts between 2022 and 2024 - a strong signal that no durable answer was ever surfaced to her."
+ },
+ {
+  "theme": "livestream-zoom",
+  "o": "The single most actionable complaint in the whole theme is post 34689981: a paying member asking that live shows be listed on the Events calendar with watch links, saying 'I'm so tired of this 10 min search for shows everyday... I PAY AND I MISS THE FIRST START OF THE SHOW EVERY DAY'. It drew 7 comments. The community does have Event entries (PPN News Live 8 PM CST, 12 PM CST, 9AM Coffee with Chas) that list every watch platform - so the answer exists but is not discoverable from where members are looking."
+ },
+ {
+  "theme": "livestream-zoom",
+  "o": "Stream fragmentation is the root cause of most link questions. Content is spread across at least nine destinations: patriotchute.com in-platform, thepatriotpartynews.com, Rumble, Twitch (channel banned once and replaced), YouTube, BoxCast on Roku/AppleTV, TubePatriot, Cue Streaming, and Telegram. Members do not know which one is authoritative on any given day, and posts show them cycling through all of them before giving up."
+ },
+ {
+  "theme": "livestream-zoom",
+  "o": "A large share of 'where is the replay' posts are actually timing complaints rather than location complaints - the recording exists but is posted hours after the live show, or the platform still shows the stream as 'live' so the replay is unreachable (145137751, 145692163). The gap between broadcast and replay availability is generating avoidable support load."
+ },
+ {
+  "theme": "livestream-zoom",
+  "o": "Audio-only failures are a distinct and recurring sub-cluster: members can see video or text but hear nothing, in both Talk Time and the main stream (34124381, 40228465, 32580404, 34392773, 47139516, 74373721). This reads as a mic/speaker permission issue that non-technical members cannot self-diagnose - a two-line troubleshooting answer would close most of these."
+ },
+ {
+  "theme": "livestream-zoom",
+  "o": "Zoom is a separate track from the main broadcast and has its own confusion. State-group Zoom calls are announced by cross-posting an identical link into all 50 state spaces, which means members often cannot tell whether a call is for their state, whether it is weekly, or whether it was cancelled. Several members have never used Zoom at all and ask for step-by-step phone instructions (138948999, 24161448)."
+ },
+ {
+  "theme": "livestream-zoom",
+  "o": "There is evidence of at least two genuine self-help efforts by members that never became permanent references: a 'How to join a Zoom Call' walkthrough with screenshots (41189062), and a dedicated Tuesday Zoom session run specifically to teach people how to join Talk Time (76641674). Both are buried in the feed. Promoting these into a pinned Navigator entry would be low-effort and high-yield."
+ },
+ {
+  "theme": "livestream-zoom",
+  "o": "Frustration is escalating into churn risk in at least one case: post 31632193 reads 'can't get into talk time again, thinking about cancelling my membership'. Access friction on live features is being weighed against the value of the paid subscription."
+ },
+ {
+  "theme": "livestream-zoom",
+  "o": "Notification failures compound the discovery problem - members who rely on push alerts to know a show started report getting nothing (76697077, 149080569, 26083035, 26084835), then arrive to find only a recording. Fixing notifications would reduce the 'was there a show today' cluster directly."
+ },
+ {
+  "theme": "livestream-zoom",
+  "o": "COMMENT search proved a weak channel for this theme. Comments are not semantically indexed, and short keyword queries ('zoom', 'replay', 'talk time', 'what time') returned overwhelmingly political chatter. The genuine support questions in comments were few but high-quality - they tend to be follow-ups where a member reports that the posted answer did not work for them."
+ },
+ {
+  "theme": "livestream-zoom",
+  "o": "The community is heavily weighted toward older, less technically confident members. Question phrasing ('please walk me through the steps', 'I have never done one', 'I am signed. How do I fix this?') indicates that any Navigator answer needs to be literal and step-by-step with screenshots, not a link to a settings page."
+ },
+ {
+  "theme": "navigation-findthings",
+  "o": "Dominant pattern: 'I am already a member of X but I cannot get back to X.' Members repeatedly report being told they have joined a state group, yet having no idea how to return to it. Admin 'Alice The Equalizer' has posted the same canned answer ('go to the menu and scroll down to your state') at least a dozen separate times across Florida, Georgia, Oregon, Missouri, Michigan, South Carolina, Oklahoma, Kansas, West Virginia and Ohio rooms between 2024-2025 - a manual, one-at-a-time workaround for what is clearly a systemic wayfinding failure."
+ },
+ {
+  "theme": "navigation-findthings",
+  "o": "The single largest question cluster in this theme is 'where are the state groups / how do I join mine' - roughly 20 distinct posts spanning 2022-2026, still recurring three years after the feature launched. An official Loom walkthrough exists ('Instructions: How To Find And Join Your Own State Group', space 'JOIN YOUR STATE GROUP') but members clearly are not finding it before they post."
+ },
+ {
+  "theme": "navigation-findthings",
+  "o": "Second largest cluster is 'where is Patriot Talk' - about 20 distinct posts. The July 2023 rename from 'Talk Time' to 'Patriot Talk' produced an acute spike (roughly 15 posts in a single week, 21-31 July 2023) and the question never fully stopped, recurring again in Nov 2024. Renaming a destination without a redirect or a persistent menu entry generated sustained help-desk load."
+ },
+ {
+  "theme": "navigation-findthings",
+  "o": "Navigation failure is a direct, stated cause of churn. Two members explicitly tie cancellation to wayfinding: 'Can anyone tell me how to cancel my subscription to patriotchute? To me it's too difficult to navigate' (31810737) and 'Just cancelled my subscription because your site is just too complicated and confusing for me' (41295351). This is revenue impact, not just annoyance."
+ },
+ {
+  "theme": "navigation-findthings",
+  "o": "Many of these posts have zero comments - nobody answered them. 40216066, 40217654, 40217690 (all posted within an hour of each other on 2023-08-03), 46891018, 38479355, 45278931, 39336985, 40677883, 37302840, 46230700, 88341981, 53408710, 39922848, 51038928, 39629658, 50597756, 44979084, 79485370 and others all sit at commentCount 0. The member's own words in 38506059: 'have asked questions with no replys'."
+ },
+ {
+  "theme": "navigation-findthings",
+  "o": "Members self-identify as non-technical and apologize for it, which suggests they under-report problems. Recurring self-descriptions: 'techno tortoise', 'not computor geek', '72 years old not tech savy', 'I am tech challenged, but WOW!', 'You are making it too hard for old ladies like me', 'Apparently I'm very technologically ignorant', 'I have a dumb question'."
+ },
+ {
+  "theme": "navigation-findthings",
+  "o": "UI elements disappearing without notice generates a distinct question type. Members reference navigation affordances that used to exist and vanished: the TV icon in the top-left for live shows (50597756), Patriot Talk at the bottom of the left-hand list (51260294), the star over the notification bell (42743779), and 'Miss the various topic page' (102962642). Changes ship without changelog or in-product signposting."
+ },
+ {
+  "theme": "navigation-findthings",
+  "o": "A structural confusion runs underneath many questions: members do not know whether 'room', 'group', 'page' and 'space' mean the same thing. See 25147255 ('Is this group page the same as room?'), 23690398 ('Does every group have a voice room?'), and the frequent 'Am I in the right place?' / 'Is this the page that Chas told us to come to?' posts. The vocabulary itself is a navigation barrier."
+ },
+ {
+  "theme": "navigation-findthings",
+  "o": "Cross-referencing from the live shows is a major entry point for confusion - members hear a destination named on-air and cannot map it to the site. Explicit in 37302840 ('Nothing looks like the screen that Chas has shown on the shows'), 25198051 ('I heard that discussed in Talk time'), 26074118, and 25145023."
+ },
+ {
+  "theme": "navigation-findthings",
+  "o": "Deep-linking is broken in ways that compound the wayfinding problem: clicking a shared link dumps members at the top of the feed (52931979), email notification links fail to open posts (48031684), clicking one room opens another (94036864), and rooms bounce members back to the Members Lobby (56072278) or to Sign In (83881860)."
+ },
+ {
+  "theme": "navigation-findthings",
+  "o": "The Humanitarian Projects room shows the same question recurring from one member three times in five days in Aug 2026 (106308863, 106463358, 106463795) - posted from three different rooms, including from inside the Humanitarian Projects room itself. Members cannot tell which room they are currently in."
+ },
+ {
+  "theme": "navigation-findthings",
+  "o": "There is no discoverable help destination. 42743529 asks the question outright as a poll: 'Where do you go to get help on here?' A FAQ Zone space exists (post 21088300 tells members to 'READ THE POSTS IN DISCOVERY TO LEARN HOW TO NAVIGATE THE PLATFORM') but members are not routed to it. Several members instead resort to Google to reach the site at all (45571633)."
+ },
+ {
+  "theme": "navigation-findthings",
+  "o": "Members lose their own content and cannot search for it: 28335734 ('I want to find my project I cannot locate it over 6,000 on here'), 28374095 ('When I search my name, none of them come up'), 64393897 ('where's all of the post that I have done?'). In-site search is either absent, unfindable, or not trusted."
+ },
+ {
+  "theme": "navigation-findthings",
+  "o": "The COMMENT index is not semantically searchable and returned almost no operational-support signal for navigation keywords - 'navigate', 'menu', 'confusing' and 'where is' surfaced overwhelmingly political/news chatter. Navigation demand in this community lives in top-level posts, not in comment threads, which matters for where any future help surface should be placed."
+ },
+ {
+  "theme": "notifications-email",
+  "o": "Overwhelming asymmetry: complaints about NOT receiving notifications outnumber complaints about too many by roughly 5:1. The dominant pain is 'my notifications are on but nothing arrives' - this is the single largest support cluster in the theme."
+ },
+ {
+  "theme": "notifications-email",
+  "o": "A single admin post (resourceId 26058158, 'TESTING NOTIFICATIONS!!!' Aug 2022, 3002 comments, Quantum Financial Room) generated a massive support wave: dozens of standalone 'I didn't get it' posts plus a self-inflicted secondary problem - members then received 100+ emails from everyone else's 'got it' replies. One 74-year-old member explicitly asked how to stop the flood. Mass 'reply to confirm' posts are an anti-pattern that creates its own ticket volume."
+ },
+ {
+  "theme": "notifications-email",
+  "o": "Settings do not appear to persist. Multiple independent members (26293398, 27919156, 26502905) report notification toggles reverting to off after they enable them, across both web and mobile. This is a probable product bug, not a user-education gap, and it is never visibly resolved in-thread."
+ },
+ {
+  "theme": "notifications-email",
+  "o": "Channel confusion is chronic: members do not understand the difference between the in-app bell, push notifications, and email. Several ask outright 'are we supposed to get these through email or this room?' (26937324, 26457394, 26076074). Nobody has explained the three-channel model in plain language."
+ },
+ {
+  "theme": "notifications-email",
+  "o": "Email deliverability is a real and distinct problem from settings. Members report getting billing emails but not notification emails (26666391), Gmail non-delivery (26231365), and one member contacted support and got no reply at all (26508299). At least one member's stated route into the site is via emailed links - when those stop, she loses access entirely (comment 143177784)."
+ },
+ {
+  "theme": "notifications-email",
+  "o": "Notification backlogs cannot be cleared. Members report 600 and 6000+ undismissable notifications (141765767, 104676530). No 'mark all read' path is known to them, so the bell becomes useless as a signal."
+ },
+ {
+  "theme": "notifications-email",
+  "o": "Chat pop-ups were a severe 2023 irritant treated as a notification problem by members. Three separate threads (53861689, 39695614, 39741312) describe pop-up chat boxes obscuring the screen. The only workaround offered came from another member, not staff: open each chat room, tap the three lines top-right, choose 'mute'."
+ },
+ {
+  "theme": "notifications-email",
+  "o": "Recent-era (2025-2026) reports shift from 'how do I set this up' to 'it used to work and broke': livestream notifications stopping (80961259), a 24-hour outage (53357075), the notifications page failing to load after a platform update (143990502, 138207545), and the badge colour change reducing visibility (142648720)."
+ },
+ {
+  "theme": "notifications-email",
+  "o": "Self-described low tech confidence is stated explicitly and repeatedly - 'Non-techy here', 'Can someone explain very simply', 'I am going to be 75 this November and I am not as technically savvy as some are'. Any fix must be a screenshot-led, plain-language walkthrough, not a settings-path description."
+ },
+ {
+  "theme": "notifications-email",
+  "o": "There is exactly one piece of official self-serve content surfaced in the whole harvest: an admin comment (144267309, Feb 2026) linking to 'New Member Launchpad Step 2 - Download the App & Adjust Your Notifications'. It exists but is clearly not discoverable - members kept asking the same questions before and after it."
+ },
+ {
+  "theme": "notifications-email",
+  "o": "Most 'I didn't get it' posts have 0-3 comments and no visible staff answer. The community self-serves poorly on this theme; peer answers are sparse and inconsistent."
+ },
+ {
+  "theme": "notifications-email",
+  "o": "Cross-theme leakage: notification/email complaints frequently arrive attached to cancellation intent ('unsubscribe', 'Cancel subscription' appearing in the same result sets). Members who cannot control email volume appear to reach for cancellation as the only lever they know."
+ },
+ {
+  "theme": "app-technical",
+  "o": "Two apps are constantly confused: the Mighty Networks app (the community itself) and Discord (Talk Time / Patriot Talk). Members repeatedly ask 'which app do I download' and 'what is the ppn phone app called' \u2014 there is no single, findable answer post naming the app and store links."
+ },
+ {
+  "theme": "app-technical",
+  "o": "The single most-repeated technical complaint is the Mighty Networks mobile app silently degrading: feed won't load, can't post, acts like you're not a member, or closes when you tap chat \u2014 while email/push notifications still arrive. The community's own folk-remedy, repeated by members in comments, is 'go to patriotchute.com in your browser instead of the app'. That workaround is never stated officially anywhere I found."
+ },
+ {
+  "theme": "app-technical",
+  "o": "Admins have posted at least two 'if you're having Mighty app issues follow these steps' notices (posts 93820610 and 78977014) but they are pictures/ALL-CAPS announcements buried in the Lobby feed, not a persistent troubleshooting page, so the same questions recur months later."
+ },
+ {
+  "theme": "app-technical",
+  "o": "Reinstall anxiety is a distinct pattern: multiple members ask whether to delete and re-download the app, and several report that reinstalling made things worse (lost Discord/Talk Time access afterwards). A clear 'do NOT delete the app, do this instead' answer would prevent a chain of follow-on lockouts."
+ },
+ {
+  "theme": "app-technical",
+  "o": "Login-loop symptoms cluster tightly: bounced back to Sign In, bounced back to the Members Lobby from other rooms, stuck on the Discord Verify page, and 'verify you're not a robot' loops on tubepatriot.com. Members read these as being blocked or censored rather than as a session/cookie problem."
+ },
+ {
+  "theme": "app-technical",
+  "o": "Browser-specific breakage is reported and never resolved in-thread: Brave blocks PatriotChute links while Chrome works; Safari won't open Talk Time. No browser-compatibility guidance exists."
+ },
+ {
+  "theme": "app-technical",
+  "o": "Video/livestream failures are a very high-volume, low-answer category \u2014 no sound, buffering, blank screen on Join, 'network is not working or wrong format', TubePatriot frozen or not updated for days. Most of these posts have zero or one reply."
+ },
+ {
+  "theme": "app-technical",
+  "o": "The 2026 platform redesign generated its own wave: 'PAGE ISN'T LOADING' on notifications, the bell not opening posts, rooms disappearing, and inability to post \u2014 members explicitly tie the breakage to 'ever since they loaded that new crap on here'."
+ },
+ {
+  "theme": "app-technical",
+  "o": "Instruction accessibility is itself a technical barrier: members report the Talk Time directions are in print too small to read and run to '10 pages', and several say they gave up entirely. Two of these (Texas Rose, posts 82632059 and 86941155) are the same member asking three months apart and never getting set up."
+ },
+ {
+  "theme": "app-technical",
+  "o": "Many members explicitly self-identify as non-technical ('I'm a dinosaur', 'tech challenged', 'not computor geek') and ask for a human to walk them through it. Several ask simply 'where do I go for tech support?' \u2014 there is no visible support channel, so tech requests land as ordinary feed posts and get lost."
+ },
+ {
+  "theme": "app-technical",
+  "o": "A meaningful minority have no smartphone or no cell service and ask whether they can use a desktop/laptop only. Device assumptions in the setup instructions exclude them, and their questions go unanswered."
+ },
+ {
+  "theme": "app-technical",
+  "o": "Comment-level evidence is much sparser than post-level because the comment index appears to only cover roughly late-2025 onward; the deep historical record of this theme lives almost entirely in posts."
+ },
+ {
+  "theme": "posting-howto",
+  "o": "The official how-to-post documentation is three posts in the FAQ Zone (space 7010251), all written by Nuggett Lee (PPN Owner) on 22-23 Feb 2022, and the space has had zero new posts since. get_space_feed returned only rids 21069833 ('You use the plus sign to make a post in a group...'), 21088300 ('PLEASE READ THE POSTS IN DISCOVERY TO LEARN HOW TO NAVIGATE THE PLATFORM') and 21069782 (the text-chat icon). The instructions describe a plus-sign UI and a 'box at the top' that predate the current Mighty Networks interface, and they point members to a 'Discovery' area that no longer appears in search results. This is the single biggest gap: four years of posting questions against four-year-old, stale answers."
+ },
+ {
+  "theme": "posting-howto",
+  "o": "Upload/submit questions are overwhelmingly concentrated in two spaces - Humanitarian Projects and Quantum Financial Room - and they are the same question asked over and over across 2022-2023 (rids 25405282, 26175807, 28445693, 31503273, 32624651, 34343617, 39565309, 39683394, 39683621, 39683924, 40108911, 46034669, 28916558). At least 13 near-identical 'where/how do I upload my project' posts. Several carry zero replies. A single pinned answer in those two rooms would retire the largest cluster in this theme."
+ },
+ {
+  "theme": "posting-howto",
+  "o": "Duplicate posts appear seconds apart from different members asking the same thing (rids 39683394 at 19:04:41 and 39683924 at 19:22:09 on the same day, both 'Where do I upload my project?'), which suggests people cannot see that the question has already been asked - a search/discoverability failure on top of the documentation failure."
+ },
+ {
+  "theme": "posting-howto",
+  "o": "Failed uploads leave visible wreckage in the feed: rid 52050365 and rid 68694191 are both posts whose entire body is a raw local file path ('file:///var/mobile/Library/SMS/Attachments/.../FILE_9238.docx' and '.../IMG_1639.MOV'). Members are pasting a file path instead of attaching a file and do not realize it failed. Nobody replied to either."
+ },
+ {
+  "theme": "posting-howto",
+  "o": "Members have invented workarounds because the composer only accepts one image: rid 43470284 is a post whose entire body is 'Pic #2 - See Pic #1 / All one post', and rid 81428759 says 'not sure how to post multiple pics at once'. A very common pattern in Patriot News Drops is posting a bare 'LINK IN COMMENTS' / 'PIC IN COMMENTS' / 'VIDEO IN COMMENTS' stub (rids 55155969, 59276979, 61927147, 65072791 and dozens more from one member) - strong evidence that people believe links and media cannot go in the post body itself."
+ },
+ {
+  "theme": "posting-howto",
+  "o": "There is no visible way to delete or edit your own comment. Rid 148166348 is a member publicly asking an admin 'Please delete my response. It was submitted by accident and I can't remove it,' and rid 151014106 is a member who hit delete by accident while trying to reply. The reply and delete controls appear to be adjacent and unlabelled."
+ },
+ {
+  "theme": "posting-howto",
+  "o": "Post-disappearance is the emotionally hottest cluster and it is being read as political censorship rather than as a product question. Rids 64393897, 57051630, 102135036, 91531208, 15417183, 96638504 all frame a missing post as someone silencing them ('this is a censor free zone. So somebody needs to speak up', 'Did I piss someone off??'). Rid 64473676 is the same member thanking whoever 'put my post back'. Because no one explains the moderation rules or where removed posts go, every routine removal becomes a trust incident."
+ },
+ {
+  "theme": "posting-howto",
+  "o": "Recurring intermittent platform failures generate their own support load: rid 105303076 ('Is anyone having trouble posting anything today'), rid 93371278 ('Has anyone else had trouble posting in the last hour'), rid 93661909 (posting throws the member back to the front page), rid 32482861 ('Something failed to load...but comments are there'), rid 99497569 ('comment button not functioning'), rid 23273818, rid 44574233. These span 2022 to 2026, so they are not a one-off outage. There is no status page or 'known issues' channel, so members poll each other in the feed."
+ },
+ {
+  "theme": "posting-howto",
+  "o": "Several 'how do I post' questions received zero replies at all (rids 46034669, 34343617, 39565309, 40108911, 32158969, 34820690, 55558947, 63659881, 81428759, 56072278, 32482861, 88941429, 26811370, 39683621). The unanswered rate on practical posting questions is roughly one in three - people ask into the void and give up."
+ },
+ {
+  "theme": "posting-howto",
+  "o": "Hashtags carry real routing behaviour that is undocumented for members. Rid 38033143 tells members 'Must use hashtag and no spaces. That'll do it!' to get into a county group, and rid 51050600 is a member literally running an experiment ('This is a test to see if this hash tag stays on Florida feed and goes to Bay County'). Rid 37187877 asks for 'Help understanding Hashtags'. The only real explainer, rid 37564590 'How to use the Highlighted Hashtags', sits in 'State Directors only' where ordinary members cannot read it."
+ },
+ {
+  "theme": "posting-howto",
+  "o": "Sharing outward is not understood: rid 82289497 ('Chas said today that if we went to our profile we could get a link or something so we could share things from this site out for other people to see it. Can someone tell me how to do that plz?') got zero replies, even though the Ambassador Program (rid 98259101) depends entirely on members successfully sharing invite links."
+ },
+ {
+  "theme": "posting-howto",
+  "o": "Cross-posting to more than one room appears to be either impossible or undiscoverable - rid 27038689 asks to 'streamline my posts in various groups to this group' and rid 35404668 begs people to duplicate Talk Time media into the feed manually. Both got no useful answer."
+ },
+ {
+  "theme": "posting-howto",
+  "o": "The COMMENT index appears to only cover roughly late-2025 onward - every comment hit returned had a createdAt in 2025-2026, while post hits go back to 2021. Comment-level support questions from the 2021-2024 era are therefore almost certainly undercounted in this harvest, and the true volume of 'how do I post' asked in replies is higher than what is recorded here."
+ },
+ {
+  "theme": "posting-howto",
+  "o": "Members frequently self-identify as non-technical and ask for help in plain terms rather than using product vocabulary: 'This is not a user friendly site! Help' (rid 39929326), 'this sight does not work for me at all' (rid 25102604), 'Don't know how this works' (rid 26811370), 'Where do you go to get help on here?' (rid 42743529). Any Navigator answer needs to be written at that reading level and be reachable without knowing the right word to search for."
+ },
+ {
+  "theme": "posting-howto",
+  "o": "Access and permissions are conflated with posting ability in members' minds - rid 13664130 ('I would have posted to MarkZ's room but I don't have access'), rid 55841401 and rid 96638504 (can't post in Health & Medical). Members cannot tell the difference between 'you lack permission for this room', 'this room is read-only', and 'your post was removed', and the UI apparently gives them no distinguishing signal."
+ },
+ {
+  "theme": "profile-members",
+  "o": "Identity/name-matching is by far the largest cluster in this theme. A 2023 rule (post 39761305, Chas Carter, 49 comments, 38 cheers) required members' chat username AND avatar to exactly match their PatriotChute profile in order to be verified. This generated a dense burst of profile-editing help requests in late July 2023 (39692299, 39692734, 39727902, 39739667, 39756854, 39814478, 39693985, 39694579, 39826108). Several members said the platform silently altered their username (lowercasing, appending a dot or number), leaving them unable to satisfy the rule."
+ },
+ {
+  "theme": "profile-members",
+  "o": "Members repeatedly say the profile edit screen simply will not let them change their display name \u2014 'The edit settings will not even let me change my patriot talk name', 'it will not let me edit the display name'. This reads as a real UI/permissions gap, not just user error."
+ },
+ {
+  "theme": "profile-members",
+  "o": "There is no visible member-directory affordance. The same question \u2014 'how do I find people near me / in my county / in my state' \u2014 recurs across at least eight different state spaces over four years (25498031, 37001255, 37563063, 37920415, 37947510, 38934100, 39574948, 66888387). The only documented answer lives in scattered host posts pointing at a 'members tab' or 'Highlighted Hashtags' (38461882, 34055687, 37564590), never in a findable help page."
+ },
+ {
+  "theme": "profile-members",
+  "o": "Private messaging is not understood and at one point appears to have actually leaked. In March 2024 two posts by the same member (53418136 with 14 comments, 53495680) report seeing OTHER members' personal messages appearing in her chat feed, and ask the moderators to confirm whether DMs are private at all. Neither post shows a public resolution in the search results."
+ },
+ {
+  "theme": "profile-members",
+  "o": "Members do not know how to start a DM at all. Several work around it by posting phone numbers and email addresses publicly (40999585, 64806752, 39608021, 54935306), which is both a support gap and a member-safety exposure."
+ },
+ {
+  "theme": "profile-members",
+  "o": "The DM channel is simultaneously the de-facto help desk and is overloaded. A prominent contributor posted 'Everyone, please stop sending questions to my private message, I get way too many messages each day and I'm not answering any more questions. I'm just blocking you!' (13343593, 2021). Admin Alice separately asks members not to message her on Facebook/Instagram/X and to use the platform instead (53424810), while the Florida state lead asks everyone to route messages through the platform (67139233). The routing rules are announced in feed posts that scroll away, never in a persistent place."
+ },
+ {
+  "theme": "profile-members",
+  "o": "'Who do I actually contact?' has no canonical answer. Members ask 'Where do you go to get help on here?' (42743529), 'Who would reach.out to me if I need help???' (24196390), 'I would like to get in touch with an administrative member' (35483047), 'Do we have an administrator yet?' (41100560). Answers appear ad hoc: sometimes an @mention of Alice or Chas, sometimes an email address (info@undergroundpatriot.us, posted as ~15 near-identical one-line posts across state rooms in Feb 2025), sometimes a phone number."
+ },
+ {
+  "theme": "profile-members",
+  "o": "Unanswered-support is its own recurring complaint, distinct from the original problem: 'I have sent alice and chas a message 3 hrs ago no response' (39690005), 'I contacted support but still no response' (26508299), 'I requested the template and never got an answer' (34343617), 'I put in projects in 2021 and have never been contacted' (37561691). Response-time expectations are never stated anywhere."
+ },
+ {
+  "theme": "profile-members",
+  "o": "Blocking/being blocked is asked about only in confused terms. Nobody asks how to block another member; instead members ask why THEY are blocked (38911296, 39568316) or how to block admin broadcast posts (86450823 \u2014 that member explicitly threatens to cancel over it). There is no member-facing mute/block explanation."
+ },
+ {
+  "theme": "profile-members",
+  "o": "Impersonation is a live concern with no reporting path. A member reports someone posting under her exact username in the live chat (37812639, 15 comments); others report imposter accounts of the hosts on outside platforms (35873826, 33314722, 34070359). No post shows an official 'here is how to report an impersonator' answer."
+ },
+ {
+  "theme": "profile-members",
+  "o": "Profile photos are a friction point in both directions: members can't get a picture uploaded ('Can't get my picture on, sorry' \u2014 23110818; 'could someone tell me how to post a picture on here' \u2014 38891436), while a state lead has to publicly ask members to replace gifs with real photos so she can recognise them (37915220)."
+ },
+ {
+  "theme": "profile-members",
+  "o": "A recurring meta-signal: members self-describe as non-technical and at the point of quitting. 'You are making it too hard for old ladies like me' (39692734), 'I am to the point of cancelling my membership and deleting all of this mess off my phone' (39976671), 'This is not a user friendly site! Help' (39929326), 'LOST IN THE APPLE SAUCE' (38298079). Profile/navigation friction is a churn driver, not just an annoyance."
+ },
+ {
+  "theme": "profile-members",
+  "o": "The community's own answer to 'where is X' is almost always a menu-path recited in a comment ('go to your personal settings', 'go to the menu tab and scroll down', 'The Root link is in the menu under Groups section'). These answers are correct but ephemeral \u2014 the same question is re-asked months later. A persistent, searchable navigator would absorb most of this theme's volume."
+ },
+ {
+  "theme": "profile-members",
+  "o": "COMMENT search is effectively recency-limited on this network \u2014 keyword queries for profile / message / DM / inbox / admin returned only 2025-2026 comments and almost no operational content, so this theme's evidence is overwhelmingly POST- and QUESTION-derived. Comment-level support demand is likely undercounted here."
+ },
+ {
+  "theme": "state-groups",
+  "o": "Single biggest cluster by far is pure navigation: 'where are the state groups / how do I get back to my state room'. The answer is always the same ('go to the Menu and scroll down to your state'), and moderator Alice has had to hand-type that reply hundreds of times across individual state rooms (e.g. posts 84055789, 87334908, 88402891, 88634036, 90121781, 90174341, 91633232, 93488664, 93555743, 94762535, 95071881). This is the clearest candidate for a self-serve navigator answer."
+ },
+ {
+  "theme": "state-groups",
+  "o": "A large sub-pattern: members who ARE already in their state group do not realize it. They post 'how do I join my state group' from inside their own state room. The moderator reply is literally 'you have already joined your state group. This is your room.' The UI gives no signal of membership, so the join question and the navigate question are the same question."
+ },
+ {
+  "theme": "state-groups",
+  "o": "The join flow has changed at least three times over the harvest window and members are following stale instructions: (a) 'Resources > Get Invited To Join Your State' (2023, post 37948443), (b) 'Menu > \u2b50\ufe0fSTATE GROUP INVITE\u2b50\ufe0f' (2025, post 87324428), (c) State Talk on Discord (2025-2026, space 22095618). Any FAQ must state which one is current or it will add to the confusion."
+ },
+ {
+  "theme": "state-groups",
+  "o": "Invite-acceptance is a distinct failure point. Admins repeatedly post 'look in your NOTIFICATIONS \ud83d\udd14 for your invite' (posts 37882010, 37984253, 41852844, 77566914, 90887872). Members do not find the notification bell, so they re-request repeatedly - one member reports asking five times for Wyoming with no result (comment 139889123)."
+ },
+ {
+  "theme": "state-groups",
+  "o": "'Who is my state director?' is a recurring, largely unanswered question - many of these posts and polls have zero comments (56115253, 64385418, 39163840, 40204848, 98485014). There is no published roster of state directors and county leaders anywhere members can look it up. Several of these questions span 2023 through Feb 2026, so it never got resolved."
+ },
+ {
+  "theme": "state-groups",
+  "o": "Recruiting demand runs both ways and is unserved in both directions: leadership repeatedly begs for volunteers (posts 37493601, 37543038, 37719125, 69834613) while members repeatedly ask 'what does the role involve / how do I apply' and get no reply (comment 134791440: 'have asked before, but never got answer or response'). An application form exists (jotform link in post 70582062) but is buried in a low-traffic space."
+ },
+ {
+  "theme": "state-groups",
+  "o": "Role naming is inconsistent across the community - 'state director', 'state coordinator', 'county director', 'county coordinator', 'county leader' are used interchangeably by both members and staff. Members ask about all five terms. A glossary entry would help search and reduce duplicate questions."
+ },
+ {
+  "theme": "state-groups",
+  "o": "Members expect county-level sub-groups that do not exist. The actual mechanism is a county 'Highlighted Hashtags' tab inside each state room (referenced in posts 90616032, 90616565), which almost no member appears to know about. Several ask directly whether state groups are divided by county (38941980, 38942285)."
+ },
+ {
+  "theme": "state-groups",
+  "o": "A persistent complaint cluster is dead/empty state rooms - Arkansas, South Dakota, Alaska, New Hampshire, North Carolina, Minnesota. Members interpret emptiness as being in the wrong place, which regenerates 'am I actually in my state group?' support load. This is a staffing problem surfacing as a support problem."
+ },
+ {
+  "theme": "state-groups",
+  "o": "Discord verification for State Talk is a hard technical wall for this demographic. The required steps (stay in the verify room with the app open, exact name match between Discord and PatriotChute, avatar match) are non-obvious and members explicitly flag age and low tech confidence ('I am 75', 'I am not an avid computer savvy person', 'not good at this stuff'). One member is blocked entirely because Discord signup demands a new email address."
+ },
+ {
+  "theme": "state-groups",
+  "o": "Members are being told to keep their profile town/state and county hashtag updated so directors can find them (posts 90616032, 90617091), but this ask lives inside one-off welcome posts per state rather than anywhere discoverable, so compliance is likely very low."
+ },
+ {
+  "theme": "state-groups",
+  "o": "Question volume on this theme is heavily concentrated in 2023 (the state-group launch) with a second wave in mid-2025 through early 2026 (the State Talk/Discord launch). Both waves correspond to a structural change shipped without a durable, findable how-to - the pattern is likely to repeat with the new consolidated app referenced in comment 152064553."
+ },
+ {
+  "theme": "external-platforms",
+  "o": "Discord is by far the largest external-platform support burden. Three distinct failure clusters recur: (1) obtaining a working invite link, (2) completing the name/avatar-matching verification ritual, and (3) surviving Discord's own moderation actions against the PPN/Patriot Talk servers. Members frequently have no idea which of the three is blocking them."
+ },
+ {
+  "theme": "external-platforms",
+  "o": "The Discord verification flow is the single most-repeated operational pain point. It requires members to (a) make their Discord display name and avatar match their PatriotChute profile, (b) enter a #verify room, and (c) LEAVE THE APP OPEN while a small number of human moderators approve them. Older members repeatedly close the app, lose their place, and restart the queue. Admin posts (39729857, 39756952, 39811687, 39803283) had to be broadcast repeatedly and one drew 49 comments \u2014 a strong signal that the instructions never landed."
+ },
+ {
+  "theme": "external-platforms",
+  "o": "Discord's Trust & Safety has repeatedly acted against the community's servers (2022 misinformation notice, 2024 'violent extremism' notice), producing waves of members who are limited, suspended, or permanently banned through no action of their own. At least one member (68239895) moved directly from 'the Discord server is gone' to 'I need to cancel my subscription' \u2014 external-platform breakage converts into churn."
+ },
+ {
+  "theme": "external-platforms",
+  "o": "A large share of members experience Talk Time as inseparable from Discord and cannot tell where PatriotChute ends and Discord begins. Several paid specifically for Talk Time and never once connected (31810331). 'Can't Chas get an easier server than discord' (38917870) captures a persistent minority view."
+ },
+ {
+  "theme": "external-platforms",
+  "o": "Invite-link expiry is a structural problem: Discord invites posted in feed comments expire or scroll away, so members ask individually for fresh ones instead of finding a stable, always-current link ('Sorry it went away before I could click it', 'I need a new invite please')."
+ },
+ {
+  "theme": "external-platforms",
+  "o": "The chat platform has migrated repeatedly \u2014 Discord to Telegram (2024) and back to Discord State Talk (2025-2026) \u2014 and each migration generated its own confusion wave. Members ask 'when will the PPN channel be up in telegram', then later 'Need to no what this Discord is all about'. There is no single canonical 'where do I chat' answer members can rely on across time."
+ },
+ {
+  "theme": "external-platforms",
+  "o": "Telegram provokes outright refusal from a meaningful segment, not just confusion. Multiple members say they will not install it (privacy/device concerns, 68708489, 68361545) and then ask why they still pay for a platform whose features they can't reach. Others cannot open the Telegram links posted in the feed at all (88749484, 149939953) \u2014 the drops are effectively invisible to them."
+ },
+ {
+  "theme": "external-platforms",
+  "o": "Telegram content is quoted and screenshotted heavily in the feed but the actual channel names are rarely given. Two 2026 comments (152088227, 152226507) ask for the channel name and one explicitly notes 'No one answered'. This is an unanswered-question pattern, not a one-off."
+ },
+ {
+  "theme": "external-platforms",
+  "o": "Rumble questions are overwhelmingly about the live show: is it down, is it live, where is the link, and where do replays live. Rumble outages during high-traffic moments (debates, noon show) send members scrambling with no documented fallback order of streams."
+ },
+ {
+  "theme": "external-platforms",
+  "o": "There is no single published 'where to watch' list that members can find. Old admin posts (14781516, 21751423) enumerate YouTube/Twitch/site links, and a 2026 comment (152005014) lists X, Rumble and Twitch \u2014 but these are buried in the feed rather than in a stable page, so the same question recurs for years."
+ },
+ {
+  "theme": "external-platforms",
+  "o": "YouTube has been struck and channels rotated repeatedly (13400374, 26629937, multiple numbered 'PPN 3/4/7' channels). Members asking 'what is the YouTube channel' are asking about a moving target, and the community itself now treats YouTube as notification-only rather than a viewing destination."
+ },
+ {
+  "theme": "external-platforms",
+  "o": "Twitch has an under-documented gate: 'you must be a follower to watch on Twitch'. Members who can't connect (14901204) or can't find the channel (46970558) may simply be hitting this requirement without knowing it exists."
+ },
+ {
+  "theme": "external-platforms",
+  "o": "Sharing content outward is its own unmet need: members want a link for the show they can send to friends on X or Facebook Messenger and report the links break or are suppressed (69829595, 69824394, 82289497). They were told a share link exists on their profile but could not find it."
+ },
+ {
+  "theme": "external-platforms",
+  "o": "State Groups sit at the intersection of on-site navigation and Discord. Members join a state group on PatriotChute and then cannot find the menu, the room, or the Discord invite for it (40568947, 88341981, 138997827) \u2014 the on-site space and the Discord voice channel are two different things with the same name."
+ },
+ {
+  "theme": "external-platforms",
+  "o": "Signal appears as a fourth platform in the mix (39334506, Oklahoma), suggesting state-level organizers have spun up chat groups on platforms outside the official set, further fragmenting where a member is supposed to go."
+ },
+ {
+  "theme": "external-platforms",
+  "o": "Mic/audio setup is a hidden blocker for Talk Time specifically: Discord refuses entry until a microphone is configured, and members who only want to listen are locked out entirely and bounced to Discord's own help pages (39608740)."
+ },
+ {
+  "theme": "external-platforms",
+  "o": "Third-party Discord invites circulated by other personalities inside the feed have caused genuine safety anxiety after Discord's enforcement wave (67967247) \u2014 members cannot distinguish the official Patriot Talk server from links a fellow member pasted."
+ },
+ {
+  "theme": "external-platforms",
+  "o": "The admin team is aware of the fragmentation and has been piloting a consolidation ('it is to simplify what we have... it will group all our state groups, chats and Discord all in one', comment 152064553, Aug 2026), which suggests these findings align with a live internal initiative rather than a historical-only problem."
+ },
+ {
+  "theme": "perks-programs",
+  "o": "The single largest perks/programs demand cluster is HUMANITARIAN PROJECT SUBMISSION - 25+ near-identical posts spanning 2022-07 through 2026-08 all asking the same three things: where is the form/template, who do I send it to, and what info is required. Members repeatedly reference a form Chas mentioned on a live show that they then cannot locate anywhere on site. This has gone unresolved for four straight years."
+ },
+ {
+  "theme": "perks-programs",
+  "o": "The Ambassador Program (launched Feb/Mar 2026, resourceId 98259101 and 98815541) generated essentially ZERO member questions - the launch article has one comment and it is off-topic (a livestream access complaint). The 'Become a Patriotchute Ambassador' promo post is auto-reposted to the Members Lobby dozens of times (weekly, Mar-May 2026) with 0 comments on every single instance. Either members are not seeing it or not engaging; there is no evidence of anyone asking how to join, how to redeem WEGROW10X, or how to check their referral count."
+ },
+ {
+  "theme": "perks-programs",
+  "o": "Same pattern for the Leaderboard/points launch (98262007, Feb 2026): 250 points to give, five recognition types, weekly Monday posting - and the only member reply was 'how do we get rid of the notification after we watch this video'. Members did not ask how points work; they asked how to make the announcement banner go away. The follow-up 'Patriot Appreciation' prompts get one-word name-drops, not engagement with the mechanic."
+ },
+ {
+  "theme": "perks-programs",
+  "o": "Donations are a live, unanswered demand. Members want to give and cannot find where: the PayPal server-fund link is auto-posted daily to the Underground Patriot Newsroom (a room many members apparently do not read), while the people asking 'where do I donate' are posting in the Members Lobby. One member explicitly said she does not know how PayPal works and needs a postal address; that post got 0 replies."
+ },
+ {
+  "theme": "perks-programs",
+  "o": "There is a persistent gap between what is announced on the live show and what exists on the site. Multiple verbatims start with 'Chas said today...' / 'they spoke of on their round table' / 'shown on the show at noon' followed by 'where do I find it?'. Announcements are made verbally on air and never landed as a findable page."
+ },
+ {
+  "theme": "perks-programs",
+  "o": "Merchandise/store is a recurring small-but-steady ask (theppnstore.com, yard signs, shirts, ball caps) spanning 2023-2025. The store link is posted constantly by two members as bare link-drops with no context, yet people still post 'how do I get to ppn store?'. The yard sign in particular is confusing: some members treat it as a purchase, others as a free download - both exist and neither is documented."
+ },
+ {
+  "theme": "perks-programs",
+  "o": "'What do I actually get for my money' is asked rarely but painfully - e.g. the member listing 'Mighty Network feed? PPN shows? Signal?' before a payment lapse, and the year-long paying member who lost access to the 1pm/9pm shows and threatened to cancel. There is no published benefits/tier page anywhere in the results."
+ },
+ {
+  "theme": "perks-programs",
+  "o": "Verification (the blue check / 'Verify Room' for Patriot Talk) produced a tight cluster of 6+ posts in a single week in July 2023 - members hit the thumbs-up, then had no idea whether it worked, how long it takes, or how they would be told. Nobody was ever told; several posts have 0 replies."
+ },
+ {
+  "theme": "perks-programs",
+  "o": "Referral mechanics predate the Ambassador Program and were already confused: 'who am I supporting on my membership' (2023), 'Chas said we could get a link from our profile - how?' (2025), 'I need a new invite please' (2024). The profile share-link is apparently real but undocumented."
+ },
+ {
+  "theme": "perks-programs",
+  "o": "Response quality is inconsistent and person-dependent. The best answers come from a handful of long-tenured members (Alice The Equalizer, No F's To Give, Liz Olive) rather than staff, and the standard fallback is 'DM Liz Olive and she can help you' - a single-point-of-failure support model. Many operational posts have commentCount 0 and were simply never answered."
+ },
+ {
+  "theme": "perks-programs",
+  "o": "COMMENT search is keyword-only and returned almost nothing usable for this theme - 'ambassador', 'donate', 'points', 'perks', 'promo code' overwhelmingly surface political discussion, not support requests. Perks/programs questions live in POSTS, not comments, in this community."
+ },
+ {
+  "theme": "perks-programs",
+  "o": "The Members Lobby is the de-facto help desk. Members post cancel/payment/store/verification requests there regardless of the topic-specific room that exists, which suggests the room structure is not discoverable enough for people to route their own questions."
+ },
+ {
+  "theme": "rules-moderation",
+  "o": "The single largest cluster by far is NOT PatriotChute's own moderation - it is members being kicked, suspended or permanently banned from the linked Discord server ('Patriot Talk' / 'PPN Talk'). At least 18 distinct posts. A cluster of ~14 of them lands in a 48-hour window (25 Sep - 3 Oct 2024) when Discord mass-actioned accounts for 'violent extremism' / 'community guidelines'; an earlier cluster sits in Dec 2022 and Jul 2022. Members overwhelmingly assume PPN banned them, not Discord, and have no idea the two are different systems."
+ },
+ {
+  "theme": "rules-moderation",
+  "o": "The recurring emotional signature is 'I did nothing and nobody told me why': 'I don't even post only what videos', 'I do not post. ???? Help', 'All I do is read the stuff', 'I didn't do ANYTHING to get suspended', 'don't know the Why - was not given one'. There is no visible appeal path, so members post the appeal publicly into whatever room they happen to be in."
+ },
+ {
+  "theme": "rules-moderation",
+  "o": "There is no discoverable code of conduct. The only rules artifact surfaced anywhere is a 2022 pinned post in the FAQ Zone (resourceId 21088300, #GuidelinesForPPN) which is really a navigation note - 'LINKS, INFORMATION AND INTEL SHOULD NOT GO IN THE CHATS. THEY SHOULD GO IN THE GROUPS' - and its own comment thread is full of unrelated navigation questions plus 'So many different rules.' Zero COMMENT hits for the phrase 'code of conduct' anywhere in the network."
+ },
+ {
+  "theme": "rules-moderation",
+  "o": "Second cluster: removed/vanished posts. Members repeatedly find their own posts gone with no notice ('where's all of the post that I have done? They aren't here anymore and I never delete them'), or find a link that says 'this post has been removed'. Several of these are almost certainly space topic-rules enforcement (health/medical room) rather than punishment, but nobody explains that - see 'Can't post stuff like this in the health,medical room so I guess anywhere?' and 'Can't post cures on health medical page.'"
+ },
+ {
+  "theme": "rules-moderation",
+  "o": "Any moderation action is read through a free-speech/betrayal frame, because the site's own promise is 'censor free zone'. Recurring phrasing: 'This is supposed to be a frree speech platform', 'this is a censor free zone. So somebody needs to speak up', 'I thought this is a free speech platform been a paid member since 2021', and one member threatening 'i am going to sue chas for taking me off of patriot talk, i paid'. Moderation questions therefore convert directly into churn/cancellation risk."
+ },
+ {
+  "theme": "rules-moderation",
+  "o": "Third cluster: state-level Signal groups. Members are silently dropped from their state chat and have no self-serve way back in - Arizona, Missouri, Indiana, Washington, Oklahoma, Pennsylvania all produced near-identical 'why was I removed / how do I get added back' posts. One member reports asking to be reinstated five times with no reply. This is worsened by periodic admin 'clean-outs' of state rooms that members only hear about second-hand."
+ },
+ {
+  "theme": "rules-moderation",
+  "o": "There is no reporting mechanism visible to members. Nobody asks 'how do I report X' in those words - instead they post the evidence publicly and hope an admin sees it. Impersonation and scam DMs are the dominant abuse type (imposters posing as Chas and as Charlie Ward, 'Rod Steel' QFS-ledger solicitations, T3/Admirals currency-group pitches, Q phone and crypto pitches over Signal), and the community's only known escalation route is 'IF YOU SEE SOMEONE POSTING, PLEASE REPORT IT!' in an admin post (resourceId 87778407, Jul 2025) that never says where or how to report."
+ },
+ {
+  "theme": "rules-moderation",
+  "o": "Members conflate moderation with technical failure and vice versa. 'Why am I blocked', 'why was I knocked down', 'Nothing is showing on this feed; Is everything erased?' and the Patriot Talk verify/rules gate ('all I see is verify and rules') are all logged as bans by the member but are plausibly onboarding gates, cache issues or space permissions. A navigator would need to triage these before answering."
+ },
+ {
+  "theme": "rules-moderation",
+  "o": "Contacting a human is itself an unsolved problem inside this theme: 'I would like to get in touch with an administrative member if possible', 'Where do you go to get help on here?', 'could a Mod help me with that please', 'I have sent alice and chas a message 3 hrs ago no response'. Moderation appeals are routed through named individuals (Chas, Alice, Bill, Nuggett) rather than a role or queue, so when that person does not answer the thread dies unresolved."
+ },
+ {
+  "theme": "rules-moderation",
+  "o": "COMMENT search is close to useless for this theme - the comment index is not semantic and returns almost entirely political content for 'rules', 'banned', 'removed', 'report' and 'scam'; 'code of conduct' returns zero and 'moderator' returns exactly one hit. Essentially all operational moderation demand in this community surfaces as top-level posts, usually in HOME | Members Lobby or Patriot News Drops rather than the FAQ Zone."
+ },
+ {
+  "theme": "onboarding-newmember",
+  "o": "The three designated START HERE spaces - 22517246 Welcome & New Member Guide, 22517254 New Member Launchpad, 11436100 JOIN YOUR STATE GROUP - all returned COMPLETELY EMPTY feeds via get_space_feed, as did 7032251 Questions & Support Chat. The spaces exist (they resolve in SPACE search with valid URLs) but contain no retrievable posts. This is the single biggest finding: the official onboarding destinations that new members are presumably pointed to appear to have no content in them, which explains the volume of 'where do I start' posts landing in random rooms instead."
+ },
+ {
+  "theme": "onboarding-newmember",
+  "o": "The de-facto onboarding surface is the FAQ Zone (space 7010251), which contains only THREE posts, all authored by Nuggett Lee (PPN Owner) in Feb 2022 and never updated. Those three posts have accumulated 32 comments between them - overwhelmingly unanswered member questions. The FAQ Zone is functioning as an unmanaged help desk queue."
+ },
+ {
+  "theme": "onboarding-newmember",
+  "o": "The single loudest cluster by far is 'where is my state group / how do I get back to it' - at least 10 distinct posts (37769663, 37457076, 38079568, 39336985, 39952360, 46891018, 38479355, 38298079, 90026786, 45506697). Notably a host (Alice The Equalizer) posts the SAME manual answer over and over across state rooms ('go to the menu and scroll down to your state') - posts 88402891, 88634036, 91633232, 93488664, 94258248, 88781864, 94762535, 72571880, 65623048 spanning 2024-2025. This is a self-service gap being absorbed by one volunteer repeating herself dozens of times."
+ },
+ {
+  "theme": "onboarding-newmember",
+  "o": "Second loudest cluster is Talk Time / Patriot Talk / Discord access - members can find the name but not the door (26867365, 33954434, 34392512, 82632059, 39870311, 38522171, 39606082, 77129246, plus FAQ Zone comments 71957032, 60674405, 56098968, 56099919). One 2025 member explicitly complains that the fix is '10 pages of instructions' that 'really confuse me'. The Discord/Talk Time handoff is the steepest cliff in the whole onboarding path."
+ },
+ {
+  "theme": "onboarding-newmember",
+  "o": "A distinct and very common micro-question is 'am I actually joined yet?' - members click an invite and have no confirmation state (37822464, 39632985, 38301313, 37556505, 38128719, 69476636, 28204067, 37565042, 28204038, 25145023, 37920274). The product gives no 'you're in' signal, so people post a question into the room to check whether posting in the room worked."
+ },
+ {
+  "theme": "onboarding-newmember",
+  "o": "Members repeatedly self-identify as older and non-technical and apologise for it - 'I admit I am tech challenged, but WOW!' (82632059, 2025), '72 years old not tech savy' (99045211, 2026), 'This will reveal my ignorance' (38891436). The tone is apologetic rather than angry, which means these users are likely to churn silently rather than escalate."
+ },
+ {
+  "theme": "onboarding-newmember",
+  "o": "Onboarding questions are almost never asked in an onboarding space. They land in HOME | Members Lobby (space 4755493) and in the Quantum Financial Room (4757474), which is a topic room, not a support room. Any FAQ/Navigator fix needs to intercept at the Lobby, not at a Help space nobody reaches."
+ },
+ {
+  "theme": "onboarding-newmember",
+  "o": "Many onboarding questions get ZERO replies - 40216066 ('I'm new don't know how to navagate anything Can you help', 0 comments), 39336985, 39952360, 46891018, 38479355, 34782710, 38522171, 99045211, 90026786 all have 0 comments. Roughly a third of the new-member help requests harvested were never answered by anyone."
+ },
+ {
+  "theme": "onboarding-newmember",
+  "o": "There is a recurring, unresolved bug-shaped complaint about member level: long-standing high-volume members being displayed as 'New member' (97575162 in 2026, 91194297 in 2025, 46042516 in 2023). It undercuts the points/level system and is confusing enough that people post about it repeatedly across three years."
+ },
+ {
+  "theme": "onboarding-newmember",
+  "o": "Onboarding pain is not historical - it spans the full corpus from 2021 (13242996, 13286838) through 2026 (99045211, 97575162). The 2023 spike correlates with the state-group rollout, and the 2025-2026 items show the same core questions are still live, so this is a persistent structural gap rather than a one-off migration issue."
+ },
+ {
+  "theme": "onboarding-newmember",
+  "o": "COMMENT-type search is effectively unusable for this theme: it is not semantically indexed and short keywords like 'confused' and 'new here' return almost entirely political/news chatter. The productive route to member comments was fetching comment threads on the known official onboarding posts directly."
+ },
+ {
+  "theme": "onboarding-newmember",
+  "o": "Members are confused about which platform is canonical - 'is this replacing signal for the state groups?' (53495878), the Discord/Talk Time split, and a Community Admin reply (comment 143578131) having to clarify that there is no AI chat inside PatriotChute and pointing at the Mighty Networks Support button. The multi-platform stack (PatriotChute + Discord + Talk Time + Signal + Telegram) is itself a major source of new-member disorientation."
+ },
+ {
+  "theme": "crawl-lobby",
+  "o": "CRITICAL FINDING FOR THE CRAWL BRIEF: 12 consecutive pages of the HOME | Members Lobby live activity feed (2026-08-18 through 2026-08-27, ~300 activity events) contained ZERO practical/support/navigation questions. The current Lobby feed is 100% political/news/prayer content, dominated by a handful of high-volume posters (Jennifer Carter, Bill Coons, Chris Atkins, Bev nurse2recover, Ella Breslove, Shea Far, John Bies). The Lobby's help-desk function is entirely HISTORICAL \u2014 every support question in this harvest was surfaced via semantic search, not by chronological crawling."
+ },
+ {
+  "theme": "crawl-lobby",
+  "o": "The Lobby IS still the de-facto help desk by volume \u2014 150+ distinct operational questions were posted there \u2014 but they are buried in a feed that now moves too fast with political content for anyone to find or answer them. This is the single strongest argument for a standalone FAQ/Navigator app."
+ },
+ {
+  "theme": "crawl-lobby",
+  "o": "Unanswered rate is alarmingly high. ~40 of the harvested Lobby posts have commentCount 0 \u2014 including the most commercially damaging ones: 'How do I cancel my subscription?' (80260213, 0 comments), 'How do I cancel' (40304082, 0), 'I want to cancel my subscription!!! I do not want to have to get a new card to end the drafting!' (36856330, 0), and 'If we haven't been reinstated into our state group should we cancel our subscription before the next due date? My next due date comes out in 48hrs!??' (52963415, 0)."
+ },
+ {
+  "theme": "crawl-lobby",
+  "o": "Cancellation is a self-service dead end. Members repeatedly post 'cancel my subscription' AS A POST because they cannot find a cancel control. Several escalate to threats: 'EITHER DO IT OR I WILL HAVE MY ACCOUNT CLOSED AT THE BANK' (48532426), 'The C/C company has been advised twice now to block any charges' (65440072), 'I have written 3x requesting t be removed and not charged' (41321864). This is a chargeback/complaint risk, not just a UX gap."
+ },
+ {
+  "theme": "crawl-lobby",
+  "o": "The dominant single root cause across years is the Talk Time / Patriot Talk / Discord account-linking flow. The exact same error string recurs from 2023 to 2025: members click 'claim account', are told to verify, then get 'this email is already registered' and are stuck. See 42639328, 40170133, 39610994, 39929699, 42899673, 38146933, 38479124, 46094659. This one flow generates login tickets, refund demands, and churn simultaneously."
+ },
+ {
+  "theme": "crawl-lobby",
+  "o": "Cancellation and access failure are causally linked, not separate categories. A large share of cancel requests explicitly state the reason is inability to access what they pay for: 'Cancel my membership please have not been able to get on (talk time) for 2 + months' (43694619), 'paying 8.99 for something I cant even use' (38479124), 'I cant pay for something I cant use!!!' (46039486), 'Just cancelled my subscription because your site is just too complicated and confusing for me' (41295351). Fixing access would reduce churn directly."
+ },
+ {
+  "theme": "crawl-lobby",
+  "o": "Platform churn is a recurring shock. Members are repeatedly displaced by migrations (PayPal\u2192in-platform billing 2021; Talk Time\u2192Patriot Talk 2023; Discord mass-bans Sept/Oct 2024; TubePatriot/thepatriotpartynews.com changes 2024-2026). Each migration produces a burst of identical 'where did X go / how do I get back in' posts. A Navigator app needs a 'what changed recently' surface."
+ },
+ {
+  "theme": "crawl-lobby",
+  "o": "Sept 25 - Oct 3 2024 shows a mass Discord suspension event \u2014 at least 9 separate Lobby posts in nine days from members permanently suspended or banned by Discord itself (67961864 with 21 comments, 68530877, 68539138, 68364493, 68363318, 68359348, 68359419, 68361960, 67962280). Members had no idea whether it was PPN or Discord, and no official explanation surfaced in the Lobby."
+ },
+ {
+  "theme": "crawl-lobby",
+  "o": "Self-identified low tech-confidence is explicit and frequent, and members apologise for it: '72 years old not tech savy' (99045211), 'I am going to be 75 this November and I am not as technically savvy as some are' (42742983), 'this techno tortoise' (75531967), 'I am not tech/streaming savvy... the print is so small I cannot read it' (81697230), 'I admit I am tech challenged, but WOW!' (82632059). Any FAQ must be large-type, plain-language, and step-numbered."
+ },
+ {
+  "theme": "crawl-lobby",
+  "o": "Existing documentation is actively counterproductive. 82632059: '10 pages of instructions really confuse me'. 81697230: 'there are step by step directions on here but the print is so small I cannot read it to follow.' The problem is not absence of docs \u2014 it is that the docs are unusable for this audience."
+ },
+ {
+  "theme": "crawl-lobby",
+  "o": "Notification settings are a top unresolved complaint with an unusual twist: members cannot find the setting AND the chat pop-up behaviour is experienced as an assault \u2014 'This is blowing up my phone and my email!!!!' (39277586), 'PLEASE MAKE IT STOP!!!' (39695614), 'it's very frustrating....' (39741312, 8 comments). 53861689 drew 11 comments, meaning peers, not staff, are fielding it."
+ },
+ {
+  "theme": "crawl-lobby",
+  "o": "A privacy scare went unresolved in the Lobby: two posts in March 2024 (53418136, 14 comments; 53495680, 4 comments) report members seeing other people's private messages appear as posts. Whether real or a UI misunderstanding, it was never publicly clarified \u2014 a trust liability worth an explicit FAQ entry."
+ },
+ {
+  "theme": "crawl-lobby",
+  "o": "Members do not know where support lives. Direct evidence: 'Where do I go for tech support pease?' (37306665, 0 comments), 'Where do you go to get help on here?' (42743529), 'I would like to get in touch with an administrative member if possible' (35483047). A FAQ Zone space (id 7010251) exists but almost nobody in the Lobby references it."
+ },
+ {
+  "theme": "crawl-lobby",
+  "o": "Peer support is the actual support system and it is thin and slow. 39690005: 'I have sent alice and chas a message 3 hrs ago no response'. 36975849: 'no matter what room I'm in, I can't get any responses at all'. Two named volunteers (Alice The Equalizer, Liz Olive) are @-mentioned as the de-facto helpdesk across years \u2014 a clear single-point-of-failure."
+ },
+ {
+  "theme": "crawl-lobby",
+  "o": "'Where is the link for tonight's show' is the highest-frequency recurring question and it is fundamentally a scheduling/discovery problem, not a support problem. One member (Laura Petersen) alone posted it at least 7 times across 2021-2024, several with 0 replies. A persistent, always-current 'watch now / watch the replay' surface would eliminate an entire question class."
+ },
+ {
+  "theme": "crawl-lobby",
+  "o": "Recency check: support questions still appear in the Lobby in 2026, they are simply drowned out \u2014 'Is the telegram chat room off line' (96616370, Jan 2026, 0 comments), 'Where is the link for Tubepatriot.com to watch the shows' (104212594, Jul 2026, 0 comments), 'Is anyone having trouble posting anything today' (105303076, Jul 2026), 'would you please cancel my subscription' (103350708, Jun 2026), '72 years old... trouble navigating patriotchute' (99045211, Mar 2026, 0 comments). Demand is live and still unmet."
+ },
+ {
+  "theme": "crawl-lobby",
+  "o": "Billing self-service beyond cancellation is also missing: 'can anyone help me find the screen to change credit card for monthly fee? This is impossible!!!' (56047404) and 'Need to change billing???' (54193274). Card-update failure silently becomes involuntary churn."
+ },
+ {
+  "theme": "crawl-lobby",
+  "o": "Scope note: the Lobby feed crawl and searches also surfaced heavy operational traffic in adjacent spaces (Quantum Financial Room, Patriot News Drops, and the state groups \u2014 Missouri, Arizona, Arkansas, Florida, Georgia, New York). Those were excluded from this record set per the crawl-lobby assignment, but the same question clusters recur there, so the FAQ app should be network-wide, not Lobby-scoped."
+ },
+ {
+  "theme": "crawl-support-spaces",
+  "o": "CRITICAL \u2014 FAQ Zone (7010251) is effectively abandoned. It contains exactly 3 posts, all authored by Nuggett Lee (PPN Owner) on 22\u201323 Feb 2022, and hasNextPage was false. Nothing has been added in 4.5 years. All three describe a UI that no longer exists after the 2026 relaunch (Discovery, Specialities, the 'text chat icon', 'the plus sign to make a post in a group'), so the community's only self-serve FAQ actively gives wrong navigation instructions."
+ },
+ {
+  "theme": "crawl-support-spaces",
+  "o": "CRITICAL \u2014 Questions & Support Chat (7032251) returns a completely EMPTY feed. list_spaces confirms it is real, sits in the '\u27bd QUESTION & SUPPORT' collection at position 10 (ahead of FAQ Zone at 13), and is a chat-type space. Chat messages are not posts, so nothing said there is retrievable, searchable, or linkable. The community's front-door support channel produces zero durable answers \u2014 every question asked there has to be re-answered from scratch forever."
+ },
+ {
+  "theme": "crawl-support-spaces",
+  "o": "CRITICAL \u2014 Training Room (19581420) and New Training Room (22842991) both return completely empty feeds, and no content from either surfaced in any of nine network searches. They appear to be dead shells. Meanwhile a member is publicly asking 'How do you get in training room?' (post 84150474, HOME | Members Lobby, May 2025) and another 'I just don't know how to join in on the training' (84927047)."
+ },
+ {
+  "theme": "crawl-support-spaces",
+  "o": "IMPORTANT NUANCE \u2014 three 'empty' spaces are not actually empty; get_space_feed returns nothing because their content is coursework or space_page, not feed posts. Any Navigator crawler that relies on get_space_feed alone will wrongly conclude the onboarding material does not exist. Confirmed via search_network with types COURSEWORK/POST."
+ },
+ {
+  "theme": "crawl-support-spaces",
+  "o": "OFFICIAL CONTENT THAT ALREADY EXISTS \u2014 REUSE, DON'T REBUILD (1): Welcome & New Member Guide (22517246) is a full 6-step course by Giulia May, each step a Loom video PLUS a complete written transcript with 'Main Takeaways'. Confirmed steps: '\u27bd START HERE TO GET YOU ALL SET UP' (96437817); STEP 1 Take the Community Tour (96437895) \u2014 maps every zone: profile/notifications top-right, chats, invites/streaks/search, What's New Today, calendar of live streams, members, onboarding + Discord/Telegram links, replays, forums, state groups; STEP 2 Download the App & Adjust Your Notifications (96437896) \u2014 per-type and per-space notification control, QR code to App Store/Google Play, same email+password login; STEP 3 Complete Your Profile (96437898); STEP 5 Join Your States Group, the Discord and Telegram Groups (97522282); STEP 6 Get Your First Badge & Explore What's Next (97522659). STEP 4 did not surface in searches \u2014 verify whether it exists or is a gap."
+ },
+ {
+  "theme": "crawl-support-spaces",
+  "o": "OFFICIAL CONTENT (2): New Member Launchpad (22517254) is a course reachable at /spaces/22517254/content, promoted in Community News post 97566630 as a sub-30-minute relaunch tour that awards the PPN PATRIOT BADGE. Its feed is empty but its content is course items \u2014 crawl it as coursework, not feed."
+ },
+ {
+  "theme": "crawl-support-spaces",
+  "o": "OFFICIAL CONTENT (3): JOIN YOUR STATE GROUP (11436100) contains a space_page 'Instructions : How To Find And Join Your Own State Group' (resourceId 38934594) \u2014 a Loom video by Chas Carter with no accompanying text. Video-only means it is unsearchable and unusable by members who can't or won't watch video, which is likely why the state-group question is still the single most repeated navigational question in the community."
+ },
+ {
+  "theme": "crawl-support-spaces",
+  "o": "OFFICIAL CONTENT (4) \u2014 the canonical state-group answer already exists, written repeatedly by volunteer moderator Alice The Equalizer, and should be lifted verbatim into the Navigator: go to MENU \u2192 '\u2b50\ufe0fSTATE GROUP INVITE\u2b50\ufe0f' and name your state \u2192 your invite arrives in NOTIFICATIONS (the \ud83d\udd14 bell, top-right on web / bottom-right in app) \u2192 ACCEPT the invite \u2192 then find your state permanently under MENU by scrolling to it. Also 'you are only allowed to be in one state.' Source posts: 87324428, 41852844, 37882010, 38336096, 77566914, 90887872, 37948443."
+ },
+ {
+  "theme": "crawl-support-spaces",
+  "o": "OFFICIAL CONTENT (5) \u2014 a complete Discord push-to-talk fix exists, written by member Dave Vallese in Dec 2025 and manually duplicated into at least six state rooms (95360869, 95360880, 95360884, 95360886, 95360890, 95360897): user settings gear \u2192 Voice and Video \u2192 Input Mode \u2192 enable Push To Talk \u2192 Edit Keybind \u2192 press your chosen key. The fact a member had to copy-paste this into six rooms is direct evidence there is no central place to put an answer."
+ },
+ {
+  "theme": "crawl-support-spaces",
+  "o": "OFFICIAL CONTENT (6) \u2014 the definitive billing answer is buried in a comment, not in any support space. Admin Angela Foudriat, 16 Jun 2026 (comment 149425299 on post 103350708): 'We cannot cancel your account. Only you can. We do not have access to your personal/banking information.' This single sentence answers the loudest, angriest question in the whole community and is invisible to anyone who doesn't happen to open that one post. Also relevant: the 2021 PayPal explainer (13632222) clarifying that a PayPal cancellation notice does NOT mean membership cancellation."
+ },
+ {
+  "theme": "crawl-support-spaces",
+  "o": "OFFICIAL CONTENT (7) \u2014 Ambassador Program space_page 98259101 (in Ambassador Program space 22883801) is complete and self-contained: promo code WEGROW10X, invite link, 30-day free trial + 10% discount, Bronze 2 members / Silver 10 / Gold 25 with named perks. Leaderboard explainer in Community News post 98262007: everyone starts with 250 points to give, five recognition types, recognitions published each Monday. Community News 'START HERE' post 97153158 defines what that space is for."
+ },
+ {
+  "theme": "crawl-support-spaces",
+  "o": "BEHAVIOURAL FINDING \u2014 members do not ask for help in the help spaces. The overwhelming venue for support questions is HOME | Members Lobby (4755493), followed by state rooms and, for notification issues, the Quantum Financial Room (4757474). A Navigator that only monitors the QUESTION & SUPPORT collection will see almost no real demand. It must watch the Lobby."
+ },
+ {
+  "theme": "crawl-support-spaces",
+  "o": "BEHAVIOURAL FINDING \u2014 the 3 stale FAQ Zone posts function as an accidental help desk and the questions in them go unanswered. Post 21088300 has 16 comments spanning Feb 2022 to Jul 2025; Carol Ellis' July 2025 question about clearing 857 notifications has 0 replies and was posted onto a 3-year-old thread. Members are appending new questions to obsolete posts because there is nowhere else that looks official."
+ },
+ {
+  "theme": "crawl-support-spaces",
+  "o": "LARGEST CLUSTER \u2014 cancellation and billing. It is also the highest-emotion cluster and has zero self-serve answer anywhere in the designated support spaces. Members escalate to their banks: 'EITHER DO IT OR I WILL HAVE MY ACCOUNT CLOSED AT THE BANK' (48532426), 'The C/C company has been advised twice now to block any charges' (65440072), 'I have written 3x requesting t be removed... I am elderly and disabled and cannot afford this monthly bill' (41321864)."
+ },
+ {
+  "theme": "crawl-support-spaces",
+  "o": "HIGH-VALUE INSIGHT \u2014 a large share of cancellation requests are access failures in disguise, not genuine churn intent: 'Cancel my membership please have not been able to get on (talk time) for 2 + months' (43694619); 'Your server is gone on discord I can't get on so I need to cancel' (68239895); 'I cannot get in any of my apps would you please cancel' (103350708); 'Please remove payment as unable to get on with my phone as not real savy' (34392740); 'should i just cancel my membership and start all over this is crazy paying 8.99 for something I cant even use' (38479124). Fixing first-line login support would directly prevent revenue loss."
+ },
+ {
+  "theme": "crawl-support-spaces",
+  "o": "LARGEST TECHNICAL CLUSTER \u2014 the third-party voice platform verification loop, running 2022\u20132024 across Talk Time / Patriot Talk / Discord. Near-identical failure every time: user is prompted to 'claim your account' \u2192 enters email \u2192 told 'this email is already registered' \u2192 locked out with no recovery path. At least eight separate posts (39690005, 42639328, 40170133, 38146933, 46094659, 42899673, 38479124, 39872318). No fix was ever published to the FAQ Zone."
+ },
+ {
+  "theme": "crawl-support-spaces",
+  "o": "STRUCTURAL CAUSE \u2014 the community has migrated its voice/chat layer repeatedly (Discord \u2192 Signal \u2192 Telegram \u2192 Patriot Talk \u2192 back to Discord for 'Patriot Drive Time', announced Aug 2026 in Community News post 105762896). Every migration invalidates the previous instructions and generates a fresh wave of 'where did X go' posts (51057301, 50930565, 50834356, 55566431, 80066555). Any Navigator answer about voice chat must be versioned and dated, or it will become the next stale FAQ."
+ },
+ {
+  "theme": "crawl-support-spaces",
+  "o": "ANSWER-RATE FINDING \u2014 a large number of plainly operational posts have commentCount 0, i.e. were never answered by anyone: 80260213 (how do I cancel), 39336985 and 40677883 and 39338609 and 46891018 and 39952360 and 37714591 (state groups), 44979084 and 67518980 and 83004416 (replays), 24208487 and 42899673 and 41748199 (login), 32158969 (video upload), 55566431 and 80066555 (missing rooms). Silence, not wrong answers, is the dominant failure mode."
+ },
+ {
+  "theme": "crawl-support-spaces",
+  "o": "STAFFING FINDING \u2014 peer members carry the support load, not staff. Alice The Equalizer, Liz Olive, Dave Vallese, Joan Scott and Linda Starke answer more operational questions than any admin account. Their answers are correct and reusable but scattered across dozens of rooms with no index."
+ },
+ {
+  "theme": "crawl-support-spaces",
+  "o": "EXCLUSION FINDING \u2014 non-US members are structurally unserved. 'Thats nice. I'm Canadian and have nothing to join. Makes me wonder why I'm here. No states for me.' (comment 143568036 on the Feb 2026 relaunch post). The onboarding flow assumes a US state group as a required step."
+ },
+ {
+  "theme": "crawl-support-spaces",
+  "o": "NEW-FEATURE DEBT \u2014 the 2026 relaunch features are already generating their own support demand before the old backlog was cleared: 'So how do we get rid of the notification after we watch this video the blue notification that pops up on the screen' (144274921), 'I've got Mighty and I don't see anything different' (143702088), 'am I suppose to download and app from the App Store?' (143699228). One member also objects on principle: 'Powered by AI worst thing ever... I hate AI but love the community of people who are here' (143564156) \u2014 worth noting for how a Navigator bot is introduced."
+ },
+ {
+  "theme": "crawl-support-spaces",
+  "o": "FEED-HYGIENE FINDING \u2014 the Ambassador promo post is auto-reposted with byte-identical text into HOME | Members Lobby at least 15 times between Mar and May 2026 (99338337, 99377915, 99446422, 99935127, 100225279, 100394325, 100428326, 100688403, 100801397, 101007142, 101294979, 101355460, 101603685, 101676360, 102025732, 102135102, 102265711), every one with 0 comments and 0 cheers. This repetition pushes genuine unanswered support questions down the only feed where members actually ask for help."
+ },
+ {
+  "theme": "crawl-support-spaces",
+  "o": "NAVIGATOR DESIGN IMPLICATION \u2014 the raw material for a good help system already exists (6-step course transcripts, Alice's state-group script, the push-to-talk fix, the admin billing statement, the Ambassador page). What is missing is not content but a single searchable, text-based, current index. Priority order by observed demand: (1) cancel/billing self-serve, (2) login & verification recovery, (3) where to find my state group, (4) where to watch live and find replays, (5) notification settings, (6) app download and identity ('it's the Mighty Networks app'), (7) how to post/upload, (8) where a room went after a menu change."
+ },
+ {
+  "theme": "crawl-newsrooms",
+  "o": "LIVE SHOW SCHEDULE (authoritative, from list_events UPCOMING + PAST). Three recurring shows, Monday-Friday only - no weekend instances appear in either direction. (1) '9AM Coffee with Chas: Start Your Day in the Know' - 09:00-09:30 America/Chicago (Central), i.e. 14:00-14:30 UTC / 10:00 ET. Space 18992734 '9 am - Coffee With Chas'. Event post 105725919, url https://www.patriotchute.com/posts/am-coffee-with-chas-start-your-day-in-the-know-%F0%9F%87%BA%F0%9F%87%B8-%E2%98%95%EF%B8%8F. ~12 RSVP yes. (2) 'PPN News Live - The 12 PM CST News' - 13:00-14:00 America/New_York (= 12:00 Central), i.e. 17:00-18:00 UTC. Space 24417514 '12 pm - PPN News'. Event post 34704863, url https://www.patriotchute.com/posts/ppn-news-live-the-12-pm-cst-news. ~50 RSVP yes. (3) 'PPN News Live - The 8 PM CST News' - 21:00-22:00 America/New_York (= 20:00 Central), i.e. 01:00-02:00 UTC next day. Space 4759408 '8 pm - PPN News'. Event post 34703875, url https://www.patriotchute.com/posts/ppn-news-live-the-8-pm-cst-news. ~46 RSVP yes. The Navigator should answer 'what time is the live?' in the member's own timezone and always state the day-of-week restriction (Mon-Fri)."
+ },
+ {
+  "theme": "crawl-newsrooms",
+  "o": "SCHEDULE TRAP FOR THE NAVIGATOR: the two PPN News events are titled 'CST' but are stored with Eastern offsets (-04:00), while Coffee with Chas is stored in Central (-05:00). They do resolve to 12:00 and 20:00 Central respectively, but any naive reading of the raw startsAt string will be an hour off for Central members. Also note Coffee with Chas is only a 30-minute slot while both PPN News shows are 60 minutes."
+ },
+ {
+  "theme": "crawl-newsrooms",
+  "o": "A FOURTH SHOW EXISTS BUT IS NOT IN THE EVENT LIST: 'Patriot Drive Time with Chas on Discord' was launched 3 PM CST on 2026-08-10 (announced in Community News, post 105762896, event instance 20260810T200000Z). It does not appear in UPCOMING or PAST recurring instances now, so it is either discontinued or ad-hoc. The Navigator must not promise it, and should treat Discord-hosted shows as a separate access path from the on-site live rooms."
+ },
+ {
+  "theme": "crawl-newsrooms",
+  "o": "THREE OF MY ELEVEN ASSIGNED SPACES ARE EFFECTIVELY DEAD ENDS. 'PPN Veterans Zone' (18424321) and 'Ambassador Program' (22883801) both return a completely EMPTY activity feed. 'Donate Here' (19433867) contains exactly one post (102732575, 2026-06-01, empty body, 0 comments). Yet the Ambassador Program space is actively linked as the destination from the Community News launch article and from a recurring 'Become a Patriotchute Ambassador' promo posted ~20 times into the Members Lobby. Members clicking through land on nothing. This is a high-priority Navigator answer: it must explain the ambassador tiers and the promo code inline rather than deep-linking to an empty space."
+ },
+ {
+  "theme": "crawl-newsrooms",
+  "o": "THE SAME MEMBER ASKED THE SAME NAVIGATION QUESTION THREE TIMES IN FOUR DAYS ACROSS THREE DIFFERENT SPACES AND MOSTLY GOT NO ANSWER. Cynthia Guevara asked 'How do I get to the Humanitarian Project Room?' in Quantum Financial Room (106308863, 0 comments), 'Where is the Humanitarian Room?' inside the Humanitarian Projects space itself (106463358, 0 comments), and 'Where is the Humanitarian Project Room?' as a question post in the Alabama space (106463795, 3 comments). She was standing inside the room she was looking for and did not recognise it. This is the single cleanest proof that space naming and the menu structure are the core navigation failure."
+ },
+ {
+  "theme": "crawl-newsrooms",
+  "o": "REPLAY DISCOVERY IS THE #1 RECURRING SUPPORT DEMAND IN THE NEWS/LIVE ROOMS, AND IT HAS BEEN UNRESOLVED FOR FIVE YEARS. I found ~20 distinct 'where is the replay' posts spanning 2021-04 through 2026-07. The failure mode is consistent: the member checks Rumble, finds nothing / a black screen / only 4-5 minutes of the show / a video that loops back to the start halfway, and then has no idea that a recording is posted on-site as a '(Recording)' article in the show's own space. A large share of these posts have 0 or 1 comments, i.e. nobody answered."
+ },
+ {
+  "theme": "crawl-newsrooms",
+  "o": "RERUN AMBIGUITY IS A SEPARATE, EQUALLY PERSISTENT COMPLAINT. Members repeatedly tune in live and cannot tell whether they are watching a rerun ('Was today's noon show a rerun of yesterday?', 'Why the rerun today!', 'Please inform us if tonight's show is rerun!!!!'). It runs from 2023-11 to 2026-03 (post 99867537), so three-plus years without a fix. The Navigator needs a 'is today's show live or a rerun?' answer, which likely requires a data source that does not currently exist."
+ },
+ {
+  "theme": "crawl-newsrooms",
+  "o": "LIVE-SHOW NOTIFICATIONS ARE DEMONSTRABLY BROKEN AND MEMBERS BLAME THEMSELVES OR SUSPECT CENSORSHIP. Multiple independent reports: Jet Ogle and Pat Logan both missed the 2026-06-08 Coffee With Chas because no notification fired; Digger reported the same on 2026-08-17 with notifications explicitly turned on. Separately Carol Ellis has ~600 undeletable notifications, Kathryn Higgins gets 'PAGE ISN'T LOADING' on the notifications page since the site update, and Charles Buck logged out, logged back in, updated the app and updated his phone before concluding 'as if I am being blocked'. Note the emotional cost: notification failure gets read as suppression in this community."
+ },
+ {
+  "theme": "crawl-newsrooms",
+  "o": "THE FEB 2026 RELAUNCH / LAUNCHPAD GENERATED A DISTINCT WAVE OF ONBOARDING CONFUSION that is still the most recent concentrated support burst in Community News. On the relaunch post (97566630) members asked whether they must download an app from the App Store, and reported having the Mighty app but seeing 'nothing different' and 'that same old message'. The admin answer exists (a Launchpad Step 2 video) but is buried in a comment reply, not surfaced anywhere a confused member would look."
+ },
+ {
+  "theme": "crawl-newsrooms",
+  "o": "NON-US MEMBERS ARE STRUCTURALLY UNSERVED BY THE STATE-GROUP MODEL. 'I'm Canadian and have nothing to join. Makes me wonder why I'm here. No states for me.' (comment 143568036, Community News). The same Canadian member also flagged paying $12.58 vs the advertised $8.99. The onboarding flow's central call-to-action ('join your state group') has no branch for international members."
+ },
+ {
+  "theme": "crawl-newsrooms",
+  "o": "THE HIGH-TRAFFIC NEWS FEEDS ARE STRUCTURALLY HOSTILE TO SUPPORT QUESTIONS. Patriot News Drops (4758431) and Quantum Financial Room (4757474) are dominated by one or two members (Lee Tuttle, John Bies) posting high-volume, bodiless image/link drops - dozens per day. A genuine question like 'How do I get to the Humanitarian Project Room?' is posted into that stream and is buried within minutes, which is exactly why it got 0 replies. The Navigator's value here is highest precisely because peer answering fails in these rooms."
+ },
+ {
+  "theme": "crawl-newsrooms",
+  "o": "COMMENT SEARCH IS NOT SEMANTICALLY INDEXED AND IS LOW-YIELD FOR THIS KIND OF HARVEST. Short keyword queries ('replay', 'sound', 'notification', 'link not working') returned a handful of genuine support comments each, but generic phrases ('how do I', \"can't find\") returned almost entirely political chatter. Worse, COMMENT results do not carry the parent space title, so several real support comments cannot be attributed to a space without a follow-up get_post lookup - I have flagged those items with an explicit 'Unknown (comment search result)' spaceTitle rather than guessing."
+ },
+ {
+  "theme": "crawl-newsrooms",
+  "o": "PAGINATION IN search_network IS UNRELIABLE FOR THIS DATASET: pageInfo.endCursor returned the literal value 'Mg' (page 2) on the first page of nearly every query regardless of depth, and passing after:'Mg' returned a page whose own endCursor was 'Mw'. Deep paging works but the cursor cannot be trusted as a position indicator, so breadth is better achieved by running many distinct semantic queries than by paging one query deep."
+ },
+ {
+  "theme": "crawl-newsrooms",
+  "o": "PLAYBACK QUALITY (buffering, freezing, no audio, wrong-format errors) IS A SUSTAINED SECOND-TIER ISSUE spanning ppn.com, Rumble and TubePatriot across desktop, Firestick and phone, 2021-2025. One member-supplied fix is worth capturing as a canned answer: 'Click the volume icon on the bottom right corner on video screen. Its small... but you need to unmute it to get the sound.' (comment 151603248). Another member-discovered workaround worth capturing: browsing to patriotchute.com directly rather than through the Mighty Networks app resolves several loading problems (comment 144182391)."
+ },
+ {
+  "theme": "crawl-newsrooms",
+  "o": "AN OFFICIAL 'FAQ Zone' SPACE ALREADY EXISTS (resourceId 7010251) and contains navigation guidance from the PPN owner (post 21088300, 16 comments, 34 cheers) instructing members to read Discovery posts and to put links in Groups not Chats. It surfaced only incidentally via semantic search, never via any of the news-room feeds. Whatever the Navigator ships should either replace this or route to it, because members clearly are not finding it."
+ }
+]
