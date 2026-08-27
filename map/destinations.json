@@ -1,0 +1,1701 @@
+{
+ "4755493": {
+  "spaceId": "4755493",
+  "title": "HOME | Members Lobby",
+  "url": "https://www.patriotchute.com/spaces/4755493",
+  "collection": "PATRIOT FORUMS",
+  "memberVisible": true,
+  "status": "very-active",
+  "safeToLink": true,
+  "note": "De-facto help desk. Most support questions land here.",
+  "aliases": [
+   "lobby",
+   "members lobby",
+   "home",
+   "main feed"
+  ]
+ },
+ "6094172": {
+  "spaceId": "6094172",
+  "title": "Underground Patriot Newsroom",
+  "url": "https://www.patriotchute.com/spaces/6094172",
+  "collection": "PATRIOT NEWS ROOMS",
+  "memberVisible": true,
+  "status": "very-active",
+  "safeToLink": true,
+  "note": "",
+  "aliases": []
+ },
+ "11436100": {
+  "spaceId": "11436100",
+  "title": "JOIN YOUR STATE GROUP",
+  "url": "https://www.patriotchute.com/spaces/11436100",
+  "collection": "START HERE",
+  "memberVisible": true,
+  "status": "video-only",
+  "safeToLink": false,
+  "note": "Contains space_page 38934594: Loom video by Chas Carter, NO text. Unsearchable.",
+  "aliases": [
+   "join my state group",
+   "state group invite",
+   "how do i join my state"
+  ]
+ },
+ "19581420": {
+  "spaceId": "19581420",
+  "title": "Training Room",
+  "url": "https://www.patriotchute.com/spaces/19581420",
+  "collection": null,
+  "memberVisible": null,
+  "status": "EMPTY",
+  "safeToLink": false,
+  "note": "Feed empty. Members ask 'how do you get in training room?' (post 84150474).",
+  "aliases": [
+   "training",
+   "training room"
+  ]
+ },
+ "4758431": {
+  "spaceId": "4758431",
+  "title": "Patriot News Drops",
+  "url": "https://www.patriotchute.com/spaces/4758431",
+  "collection": "PATRIOT NEWS ROOMS",
+  "memberVisible": true,
+  "status": "very-active",
+  "safeToLink": true,
+  "note": "Dominated by high-volume link drops; questions get buried in minutes.",
+  "aliases": []
+ },
+ "7032251": {
+  "spaceId": "7032251",
+  "title": "Questions & Support Chat",
+  "url": "https://www.patriotchute.com/spaces/7032251",
+  "collection": "QUESTION & SUPPORT",
+  "memberVisible": true,
+  "status": "EMPTY-CHAT",
+  "safeToLink": false,
+  "note": "Chat-type space. Network 'chat' toggle is DISABLED. Nothing said here is retrievable, searchable or linkable.",
+  "aliases": [
+   "support",
+   "questions and support",
+   "support chat",
+   "help desk"
+  ]
+ },
+ "22399429": {
+  "spaceId": "22399429",
+  "title": "Community News",
+  "url": "https://www.patriotchute.com/spaces/22399429",
+  "collection": "PATRIOT NEWS ROOMS",
+  "memberVisible": true,
+  "status": "active",
+  "safeToLink": true,
+  "note": "",
+  "aliases": [
+   "community news",
+   "announcements",
+   "what's new"
+  ]
+ },
+ "5450744": {
+  "spaceId": "5450744",
+  "title": "Midterms Election 2026",
+  "url": "https://www.patriotchute.com/spaces/5450744",
+  "collection": "PATRIOT NEWS ROOMS",
+  "memberVisible": true,
+  "status": "active",
+  "safeToLink": true,
+  "note": "",
+  "aliases": []
+ },
+ "7010251": {
+  "spaceId": "7010251",
+  "title": "FAQ Zone",
+  "url": "https://www.patriotchute.com/spaces/7010251",
+  "collection": "QUESTION & SUPPORT",
+  "memberVisible": true,
+  "status": "STALE",
+  "safeToLink": false,
+  "note": "Exactly 3 posts, all Feb 2022 by Nuggett Lee. Describes a UI that no longer exists. Actively gives wrong navigation instructions.",
+  "aliases": [
+   "faq",
+   "faq zone",
+   "help",
+   "frequently asked questions"
+  ]
+ },
+ "13489977": {
+  "spaceId": "13489977",
+  "title": "Prayer Request Chat",
+  "url": "https://www.patriotchute.com/spaces/13489977",
+  "collection": "PATRIOT CHATS",
+  "memberVisible": true,
+  "status": "active",
+  "safeToLink": true,
+  "note": "",
+  "aliases": []
+ },
+ "4787490": {
+  "spaceId": "4787490",
+  "title": "Meme Room",
+  "url": "https://www.patriotchute.com/spaces/4787490",
+  "collection": "PATRIOT CHATS",
+  "memberVisible": true,
+  "status": "active",
+  "safeToLink": true,
+  "note": "",
+  "aliases": []
+ },
+ "17522915": {
+  "spaceId": "17522915",
+  "title": "State Directors only",
+  "url": "https://www.patriotchute.com/spaces/17522915",
+  "collection": "ADMIN ZONE",
+  "memberVisible": false,
+  "status": "admin",
+  "safeToLink": true,
+  "note": "",
+  "aliases": []
+ },
+ "4759370": {
+  "spaceId": "4759370",
+  "title": "Food & Dining Room",
+  "url": "https://www.patriotchute.com/spaces/4759370",
+  "collection": "PATRIOT CHATS",
+  "memberVisible": true,
+  "status": "active",
+  "safeToLink": true,
+  "note": "",
+  "aliases": []
+ },
+ "18992734": {
+  "spaceId": "18992734",
+  "title": "9 am - Coffee With Chas",
+  "url": "https://www.patriotchute.com/spaces/18992734",
+  "collection": "LIVE STREAMS | CST TIME",
+  "memberVisible": true,
+  "status": "active",
+  "safeToLink": true,
+  "note": "Show: 09:00-09:30 America/Chicago, Mon-Fri. Event post 105725919.",
+  "aliases": [
+   "coffee with chas",
+   "9am show",
+   "morning show"
+  ]
+ },
+ "24417514": {
+  "spaceId": "24417514",
+  "title": "12 pm - PPN News",
+  "url": "https://www.patriotchute.com/spaces/24417514",
+  "collection": "LIVE STREAMS | CST TIME",
+  "memberVisible": true,
+  "status": "active",
+  "safeToLink": true,
+  "note": "Show: 12:00-13:00 Central, Mon-Fri. Event post 34704863.",
+  "aliases": [
+   "noon show",
+   "12pm news",
+   "lunchtime news"
+  ]
+ },
+ "4759408": {
+  "spaceId": "4759408",
+  "title": "8 pm - PPN News",
+  "url": "https://www.patriotchute.com/spaces/4759408",
+  "collection": "LIVE STREAMS | CST TIME",
+  "memberVisible": true,
+  "status": "active",
+  "safeToLink": true,
+  "note": "Show: 20:00-21:00 Central, Mon-Fri. Event post 34703875.",
+  "aliases": [
+   "8pm news",
+   "evening news",
+   "night show"
+  ]
+ },
+ "4767149": {
+  "spaceId": "4767149",
+  "title": "PPN Live Show Admin Chat",
+  "url": "https://www.patriotchute.com/spaces/4767149",
+  "collection": "ADMIN ZONE",
+  "memberVisible": false,
+  "status": "admin",
+  "safeToLink": true,
+  "note": "",
+  "aliases": []
+ },
+ "11155097": {
+  "spaceId": "11155097",
+  "title": "Music Room",
+  "url": "https://www.patriotchute.com/spaces/11155097",
+  "collection": "PATRIOT CHATS",
+  "memberVisible": true,
+  "status": "active",
+  "safeToLink": true,
+  "note": "",
+  "aliases": []
+ },
+ "24638548": {
+  "spaceId": "24638548",
+  "title": "Talk Time 2.0",
+  "url": "https://www.patriotchute.com/spaces/24638548",
+  "collection": "ADMIN ZONE",
+  "memberVisible": false,
+  "status": "admin",
+  "safeToLink": true,
+  "note": "",
+  "aliases": []
+ },
+ "11173003": {
+  "spaceId": "11173003",
+  "title": "Patriot Pics Album",
+  "url": "https://www.patriotchute.com/spaces/11173003",
+  "collection": "PATRIOT CHATS",
+  "memberVisible": true,
+  "status": "active",
+  "safeToLink": true,
+  "note": "",
+  "aliases": []
+ },
+ "11183698": {
+  "spaceId": "11183698",
+  "title": "Share Your Event Pics",
+  "url": "https://www.patriotchute.com/spaces/11183698",
+  "collection": "PATRIOT CHATS",
+  "memberVisible": true,
+  "status": "active",
+  "safeToLink": true,
+  "note": "",
+  "aliases": []
+ },
+ "7352838": {
+  "spaceId": "7352838",
+  "title": "New U Life",
+  "url": "https://www.patriotchute.com/spaces/7352838",
+  "collection": "HOST HUB",
+  "memberVisible": false,
+  "status": "host-hub",
+  "safeToLink": true,
+  "note": "",
+  "aliases": []
+ },
+ "18424321": {
+  "spaceId": "18424321",
+  "title": "PPN Veterans Zone",
+  "url": "https://www.patriotchute.com/spaces/18424321",
+  "collection": "PATRIOT CHATS",
+  "memberVisible": true,
+  "status": "EMPTY",
+  "safeToLink": false,
+  "note": "",
+  "aliases": []
+ },
+ "11419298": {
+  "spaceId": "11419298",
+  "title": "Yard Sign #HANDCUFFSANDPERPWALKS",
+  "url": "https://www.patriotchute.com/spaces/11419298",
+  "collection": "HOST HUB",
+  "memberVisible": false,
+  "status": "host-hub",
+  "safeToLink": true,
+  "note": "",
+  "aliases": []
+ },
+ "19075784": {
+  "spaceId": "19075784",
+  "title": "In Memory",
+  "url": "https://www.patriotchute.com/spaces/19075784",
+  "collection": "PATRIOT CHATS",
+  "memberVisible": true,
+  "status": "active",
+  "safeToLink": true,
+  "note": "",
+  "aliases": []
+ },
+ "4758510": {
+  "spaceId": "4758510",
+  "title": "Patriot Families Hub",
+  "url": "https://www.patriotchute.com/spaces/4758510",
+  "collection": "PATRIOT CHATS",
+  "memberVisible": true,
+  "status": "active",
+  "safeToLink": true,
+  "note": "",
+  "aliases": []
+ },
+ "4765930": {
+  "spaceId": "4765930",
+  "title": "Charlie Ward's ROOM",
+  "url": "https://www.patriotchute.com/spaces/4765930",
+  "collection": "HOST HUB",
+  "memberVisible": false,
+  "status": "host-hub",
+  "safeToLink": true,
+  "note": "",
+  "aliases": []
+ },
+ "11098478": {
+  "spaceId": "11098478",
+  "title": "LT360 Holistic Health",
+  "url": "https://www.patriotchute.com/spaces/11098478",
+  "collection": "HOST HUB",
+  "memberVisible": false,
+  "status": "host-hub",
+  "safeToLink": true,
+  "note": "",
+  "aliases": []
+ },
+ "4758464": {
+  "spaceId": "4758464",
+  "title": "PPN SWITCH",
+  "url": "https://www.patriotchute.com/spaces/4758464",
+  "collection": "HOST HUB",
+  "memberVisible": false,
+  "status": "host-hub",
+  "safeToLink": true,
+  "note": "",
+  "aliases": []
+ },
+ "4765673": {
+  "spaceId": "4765673",
+  "title": "Constitution",
+  "url": "https://www.patriotchute.com/spaces/4765673",
+  "collection": null,
+  "memberVisible": null,
+  "status": "orphan",
+  "safeToLink": false,
+  "note": "No collection assigned - unreachable via sidebar browsing.",
+  "aliases": []
+ },
+ "11705939": {
+  "spaceId": "11705939",
+  "title": "Cue Broadcast",
+  "url": "https://www.patriotchute.com/spaces/11705939",
+  "collection": "HOST HUB",
+  "memberVisible": false,
+  "status": "host-hub",
+  "safeToLink": true,
+  "note": "",
+  "aliases": []
+ },
+ "11699525": {
+  "spaceId": "11699525",
+  "title": "THE ROOT BRANDS",
+  "url": "https://www.patriotchute.com/spaces/11699525",
+  "collection": "HOST HUB",
+  "memberVisible": false,
+  "status": "host-hub",
+  "safeToLink": true,
+  "note": "",
+  "aliases": []
+ },
+ "4759360": {
+  "spaceId": "4759360",
+  "title": "VARIOUS TOPICS ROOM",
+  "url": "https://www.patriotchute.com/spaces/4759360",
+  "collection": "HOST HUB",
+  "memberVisible": false,
+  "status": "host-hub",
+  "safeToLink": true,
+  "note": "Member complaint: 'Miss the various topic page' (102962642) - it is in a members-hidden collection.",
+  "aliases": []
+ },
+ "11424146": {
+  "spaceId": "11424146",
+  "title": "*State Director/County Coord Interest",
+  "url": "https://www.patriotchute.com/spaces/11424146",
+  "collection": "PPN USA STATE GROUPS",
+  "memberVisible": true,
+  "status": "active",
+  "safeToLink": true,
+  "note": "",
+  "aliases": [
+   "state director",
+   "county coordinator",
+   "become a director"
+  ]
+ },
+ "11452291": {
+  "spaceId": "11452291",
+  "title": "CODE OF CONDUCT",
+  "url": "https://www.patriotchute.com/spaces/11452291",
+  "collection": "HOST HUB",
+  "memberVisible": false,
+  "status": "HIDDEN",
+  "safeToLink": false,
+  "note": "CRITICAL: the code of conduct sits in HOST HUB, which is NOT visible to members.",
+  "aliases": [
+   "code of conduct",
+   "rules",
+   "guidelines"
+  ]
+ },
+ "4758499": {
+  "spaceId": "4758499",
+  "title": "CHRISTIANITY PERSPECTIVES GROUP",
+  "url": "https://www.patriotchute.com/spaces/4758499",
+  "collection": "HOST HUB",
+  "memberVisible": false,
+  "status": "host-hub",
+  "safeToLink": true,
+  "note": "",
+  "aliases": []
+ },
+ "13509285": {
+  "spaceId": "13509285",
+  "title": "PPN Newsletter",
+  "url": "https://www.patriotchute.com/spaces/13509285",
+  "collection": "HOST HUB",
+  "memberVisible": false,
+  "status": "host-hub",
+  "safeToLink": true,
+  "note": "",
+  "aliases": []
+ },
+ "11424173": {
+  "spaceId": "11424173",
+  "title": "Texas",
+  "url": "https://www.patriotchute.com/spaces/11424173",
+  "collection": "HOST HUB",
+  "memberVisible": false,
+  "status": "DUPLICATE",
+  "safeToLink": false,
+  "note": "Duplicate of state group Texas 17400769. In hidden HOST HUB. Navigator must not link here.",
+  "aliases": []
+ },
+ "12907539": {
+  "spaceId": "12907539",
+  "title": "United Kingdom",
+  "url": "https://www.patriotchute.com/spaces/12907539",
+  "collection": "OTHER COUNTRIES",
+  "memberVisible": true,
+  "status": "active",
+  "safeToLink": true,
+  "note": "",
+  "aliases": []
+ },
+ "22284716": {
+  "spaceId": "22284716",
+  "title": "State Group Project Connection",
+  "url": "https://www.patriotchute.com/spaces/22284716",
+  "collection": "HOST HUB",
+  "memberVisible": false,
+  "status": "host-hub",
+  "safeToLink": true,
+  "note": "",
+  "aliases": []
+ },
+ "4758531": {
+  "spaceId": "4758531",
+  "title": "Signal State Room invite",
+  "url": "https://www.patriotchute.com/spaces/4758531",
+  "collection": "HOST HUB",
+  "memberVisible": false,
+  "status": "host-hub",
+  "safeToLink": true,
+  "note": "",
+  "aliases": []
+ },
+ "11503345": {
+  "spaceId": "11503345",
+  "title": "State Directors Only",
+  "url": "https://www.patriotchute.com/spaces/11503345",
+  "collection": "HOST HUB",
+  "memberVisible": false,
+  "status": "DUPLICATE",
+  "safeToLink": false,
+  "note": "Duplicate of 17522915 'State Directors only' in ADMIN ZONE.",
+  "aliases": []
+ },
+ "12907547": {
+  "spaceId": "12907547",
+  "title": "Canada",
+  "url": "https://www.patriotchute.com/spaces/12907547",
+  "collection": "OTHER COUNTRIES",
+  "memberVisible": true,
+  "status": "active",
+  "safeToLink": true,
+  "note": "Non-US members report having nothing to join (comment 143568036).",
+  "aliases": []
+ },
+ "22682759": {
+  "spaceId": "22682759",
+  "title": "[Copy] Wyoming",
+  "url": "https://www.patriotchute.com/spaces/22682759",
+  "collection": "HOST HUB",
+  "memberVisible": false,
+  "status": "ARTIFACT",
+  "safeToLink": false,
+  "note": "Leftover copy. Should be deleted.",
+  "aliases": []
+ },
+ "5226004": {
+  "spaceId": "5226004",
+  "title": "Vaccines",
+  "url": "https://www.patriotchute.com/spaces/5226004",
+  "collection": "HOST HUB",
+  "memberVisible": false,
+  "status": "host-hub",
+  "safeToLink": true,
+  "note": "",
+  "aliases": []
+ },
+ "10601661": {
+  "spaceId": "10601661",
+  "title": "WOW | Women Of Worth",
+  "url": "https://www.patriotchute.com/spaces/10601661",
+  "collection": "PATRIOT FORUMS",
+  "memberVisible": true,
+  "status": "active",
+  "safeToLink": true,
+  "note": "",
+  "aliases": []
+ },
+ "4757474": {
+  "spaceId": "4757474",
+  "title": "Quantum Financial Room",
+  "url": "https://www.patriotchute.com/spaces/4757474",
+  "collection": "PATRIOT FORUMS",
+  "memberVisible": true,
+  "status": "very-active",
+  "safeToLink": true,
+  "note": "Second-biggest de-facto help desk, especially for notification issues.",
+  "aliases": []
+ },
+ "5146121": {
+  "spaceId": "5146121",
+  "title": "Trump",
+  "url": "https://www.patriotchute.com/spaces/5146121",
+  "collection": "HOST HUB",
+  "memberVisible": false,
+  "status": "host-hub",
+  "safeToLink": true,
+  "note": "",
+  "aliases": []
+ },
+ "4758505": {
+  "spaceId": "4758505",
+  "title": "Health & Medical Room",
+  "url": "https://www.patriotchute.com/spaces/4758505",
+  "collection": "PATRIOT FORUMS",
+  "memberVisible": true,
+  "status": "active",
+  "safeToLink": true,
+  "note": "Topic rules cause post removals members read as censorship.",
+  "aliases": [
+   "health",
+   "medical",
+   "health room"
+  ]
+ },
+ "7178536": {
+  "spaceId": "7178536",
+  "title": "Truth Social",
+  "url": "https://www.patriotchute.com/spaces/7178536",
+  "collection": "HOST HUB",
+  "memberVisible": false,
+  "status": "host-hub",
+  "safeToLink": true,
+  "note": "",
+  "aliases": []
+ },
+ "4759334": {
+  "spaceId": "4759334",
+  "title": "RV | Currency Chat",
+  "url": "https://www.patriotchute.com/spaces/4759334",
+  "collection": "PATRIOT FORUMS",
+  "memberVisible": true,
+  "status": "active",
+  "safeToLink": true,
+  "note": "",
+  "aliases": []
+ },
+ "6911678": {
+  "spaceId": "6911678",
+  "title": "Truckers",
+  "url": "https://www.patriotchute.com/spaces/6911678",
+  "collection": "HOST HUB",
+  "memberVisible": false,
+  "status": "host-hub",
+  "safeToLink": true,
+  "note": "",
+  "aliases": []
+ },
+ "4758493": {
+  "spaceId": "4758493",
+  "title": "Humanitarian Projects",
+  "url": "https://www.patriotchute.com/spaces/4758493",
+  "collection": "PATRIOT FORUMS",
+  "memberVisible": true,
+  "status": "active",
+  "safeToLink": true,
+  "note": "TOP QUESTION TARGET. 43 asks about submitting a project. The ROOM is findable; the SUBMISSION FORM/TEMPLATE is what members cannot find - unresolved since 2022.",
+  "aliases": [
+   "humanitarian project",
+   "humanitarian projects",
+   "humanitarian room",
+   "my project",
+   "submit a project",
+   "project room"
+  ]
+ },
+ "4765583": {
+  "spaceId": "4765583",
+  "title": "QFSDoc",
+  "url": "https://www.patriotchute.com/spaces/4765583",
+  "collection": "HOST HUB",
+  "memberVisible": false,
+  "status": "host-hub",
+  "safeToLink": true,
+  "note": "",
+  "aliases": []
+ },
+ "4759280": {
+  "spaceId": "4759280",
+  "title": "Patriot Companies & Job Board Room",
+  "url": "https://www.patriotchute.com/spaces/4759280",
+  "collection": "PATRIOT FORUMS",
+  "memberVisible": true,
+  "status": "active",
+  "safeToLink": true,
+  "note": "",
+  "aliases": []
+ },
+ "4800930": {
+  "spaceId": "4800930",
+  "title": "Documents",
+  "url": "https://www.patriotchute.com/spaces/4800930",
+  "collection": "HOST HUB",
+  "memberVisible": false,
+  "status": "host-hub",
+  "safeToLink": true,
+  "note": "",
+  "aliases": []
+ },
+ "5146142": {
+  "spaceId": "5146142",
+  "title": "Conservative Governments",
+  "url": "https://www.patriotchute.com/spaces/5146142",
+  "collection": "HOST HUB",
+  "memberVisible": false,
+  "status": "host-hub",
+  "safeToLink": true,
+  "note": "",
+  "aliases": []
+ },
+ "4758532": {
+  "spaceId": "4758532",
+  "title": "Cabal Room",
+  "url": "https://www.patriotchute.com/spaces/4758532",
+  "collection": "PATRIOT FORUMS",
+  "memberVisible": true,
+  "status": "active",
+  "safeToLink": true,
+  "note": "",
+  "aliases": []
+ },
+ "7011209": {
+  "spaceId": "7011209",
+  "title": "JOIN TELEGRAM | PPN Talk Time",
+  "url": "https://www.patriotchute.com/spaces/7011209",
+  "collection": "HOST HUB",
+  "memberVisible": false,
+  "status": "HIDDEN",
+  "safeToLink": false,
+  "note": "Telegram join instructions sit in members-hidden HOST HUB.",
+  "aliases": [
+   "telegram",
+   "join telegram",
+   "ppn talk time telegram"
+  ]
+ },
+ "22095618": {
+  "spaceId": "22095618",
+  "title": "JOIN DISCORD | State Talk",
+  "url": "https://www.patriotchute.com/spaces/22095618",
+  "collection": "HOST HUB",
+  "memberVisible": false,
+  "status": "HIDDEN",
+  "safeToLink": false,
+  "note": "CRITICAL: Discord/State Talk join instructions are in members-hidden HOST HUB, yet this is the #1 support cluster (192 questions).",
+  "aliases": [
+   "state talk",
+   "discord",
+   "join discord",
+   "patriot talk discord"
+  ]
+ },
+ "24164034": {
+  "spaceId": "24164034",
+  "title": "3 pm - Patriot Drive Time",
+  "url": "https://www.patriotchute.com/spaces/24164034",
+  "collection": "HOST HUB",
+  "memberVisible": false,
+  "status": "host-hub",
+  "safeToLink": true,
+  "note": "Launched Aug 2026 on Discord. Not in the events list - do not promise it.",
+  "aliases": []
+ },
+ "4758469": {
+  "spaceId": "4758469",
+  "title": "Warren's Intel Room",
+  "url": "https://www.patriotchute.com/spaces/4758469",
+  "collection": "HOST HUB",
+  "memberVisible": false,
+  "status": "host-hub",
+  "safeToLink": true,
+  "note": "",
+  "aliases": []
+ },
+ "22842991": {
+  "spaceId": "22842991",
+  "title": "New Training Room",
+  "url": "https://www.patriotchute.com/spaces/22842991",
+  "collection": "HOST HUB",
+  "memberVisible": false,
+  "status": "EMPTY",
+  "safeToLink": false,
+  "note": "",
+  "aliases": []
+ },
+ "4758457": {
+  "spaceId": "4758457",
+  "title": "Q-17 Room",
+  "url": "https://www.patriotchute.com/spaces/4758457",
+  "collection": "PATRIOT FORUMS",
+  "memberVisible": true,
+  "status": "active",
+  "safeToLink": true,
+  "note": "",
+  "aliases": []
+ },
+ "18595148": {
+  "spaceId": "18595148",
+  "title": "The Epstein Files",
+  "url": "https://www.patriotchute.com/spaces/18595148",
+  "collection": "PATRIOT FORUMS",
+  "memberVisible": true,
+  "status": "active",
+  "safeToLink": true,
+  "note": "",
+  "aliases": []
+ },
+ "4765561": {
+  "spaceId": "4765561",
+  "title": "Assassinations/Executions/Resignations",
+  "url": "https://www.patriotchute.com/spaces/4765561",
+  "collection": "PATRIOT FORUMS",
+  "memberVisible": true,
+  "status": "active",
+  "safeToLink": true,
+  "note": "",
+  "aliases": []
+ },
+ "22517246": {
+  "spaceId": "22517246",
+  "title": "Welcome & New Member Guide",
+  "url": "https://www.patriotchute.com/spaces/22517246",
+  "collection": "START HERE",
+  "memberVisible": true,
+  "status": "COURSE",
+  "safeToLink": true,
+  "note": "NEW MEMBER LANDING SPACE. Feed is empty but content is a 6-step course by Giulia May with Loom videos AND full written transcripts. Use /content URL. Steps: 96437817 start, 96437895 tour, 96437896 app+notifications, 96437898 profile, 97522282 state/Discord/Telegram, 97522659 badge. STEP 4 not found - verify.",
+  "aliases": [
+   "welcome",
+   "new member guide",
+   "start here",
+   "getting started",
+   "tour"
+  ],
+  "contentUrl": "https://www.patriotchute.com/spaces/22517246/content"
+ },
+ "22517254": {
+  "spaceId": "22517254",
+  "title": "New Member Launchpad",
+  "url": "https://www.patriotchute.com/spaces/22517254",
+  "collection": "START HERE",
+  "memberVisible": true,
+  "status": "COURSE",
+  "safeToLink": true,
+  "note": "Course reachable at /spaces/22517254/content. Awards PPN PATRIOT BADGE. Promoted in Community News 97566630.",
+  "aliases": [
+   "launchpad",
+   "new member launchpad",
+   "onboarding",
+   "badge"
+  ],
+  "contentUrl": "https://www.patriotchute.com/spaces/22517254/content"
+ },
+ "22883801": {
+  "spaceId": "22883801",
+  "title": "Ambassador Program",
+  "url": "https://www.patriotchute.com/spaces/22883801",
+  "collection": "HELP US GROW PPN",
+  "memberVisible": true,
+  "status": "EMPTY-FEED",
+  "safeToLink": false,
+  "note": "Feed empty, but space_page 98259101 has the full program: code WEGROW10X, 30-day trial + 10% off, Bronze 2 / Silver 10 / Gold 25. Promo reposted ~20x into the Lobby, every one with 0 comments.",
+  "aliases": [
+   "ambassador",
+   "ambassador program",
+   "referral",
+   "wegrow10x"
+  ]
+ },
+ "19433867": {
+  "spaceId": "19433867",
+  "title": "Donate Here",
+  "url": "https://www.patriotchute.com/spaces/19433867",
+  "collection": "HELP US GROW PPN",
+  "memberVisible": true,
+  "status": "NEARLY-EMPTY",
+  "safeToLink": false,
+  "note": "Exactly one post (102732575, empty body). Members ask where to donate and land on nothing.",
+  "aliases": [
+   "donate",
+   "donation",
+   "give",
+   "support ppn"
+  ]
+ },
+ "11400677": {
+  "spaceId": "11400677",
+  "title": "Alabama",
+  "url": "https://www.patriotchute.com/spaces/11400677",
+  "collection": "PPN USA STATE GROUPS",
+  "memberVisible": true,
+  "status": "state-group",
+  "safeToLink": true,
+  "note": "Members may join only ONE state.",
+  "aliases": [
+   "alabama",
+   "alabama group",
+   "alabama state group"
+  ]
+ },
+ "11400690": {
+  "spaceId": "11400690",
+  "title": "Alaska",
+  "url": "https://www.patriotchute.com/spaces/11400690",
+  "collection": "PPN USA STATE GROUPS",
+  "memberVisible": true,
+  "status": "state-group",
+  "safeToLink": true,
+  "note": "Members may join only ONE state. Reported empty/low-activity.",
+  "aliases": [
+   "alaska",
+   "alaska group",
+   "alaska state group"
+  ]
+ },
+ "11400947": {
+  "spaceId": "11400947",
+  "title": "Arizona",
+  "url": "https://www.patriotchute.com/spaces/11400947",
+  "collection": "PPN USA STATE GROUPS",
+  "memberVisible": true,
+  "status": "state-group",
+  "safeToLink": true,
+  "note": "Members may join only ONE state.",
+  "aliases": [
+   "arizona",
+   "arizona group",
+   "arizona state group"
+  ]
+ },
+ "11400963": {
+  "spaceId": "11400963",
+  "title": "Arkansas",
+  "url": "https://www.patriotchute.com/spaces/11400963",
+  "collection": "PPN USA STATE GROUPS",
+  "memberVisible": true,
+  "status": "state-group",
+  "safeToLink": true,
+  "note": "Members may join only ONE state. Reported empty/low-activity.",
+  "aliases": [
+   "arkansas",
+   "arkansas group",
+   "arkansas state group"
+  ]
+ },
+ "11400970": {
+  "spaceId": "11400970",
+  "title": "California",
+  "url": "https://www.patriotchute.com/spaces/11400970",
+  "collection": "PPN USA STATE GROUPS",
+  "memberVisible": true,
+  "status": "state-group",
+  "safeToLink": true,
+  "note": "Members may join only ONE state.",
+  "aliases": [
+   "california",
+   "california group",
+   "california state group"
+  ]
+ },
+ "11400980": {
+  "spaceId": "11400980",
+  "title": "Colorado",
+  "url": "https://www.patriotchute.com/spaces/11400980",
+  "collection": "PPN USA STATE GROUPS",
+  "memberVisible": true,
+  "status": "state-group",
+  "safeToLink": true,
+  "note": "Members may join only ONE state.",
+  "aliases": [
+   "colorado",
+   "colorado group",
+   "colorado state group"
+  ]
+ },
+ "11400984": {
+  "spaceId": "11400984",
+  "title": "Connecticut",
+  "url": "https://www.patriotchute.com/spaces/11400984",
+  "collection": "PPN USA STATE GROUPS",
+  "memberVisible": true,
+  "status": "state-group",
+  "safeToLink": true,
+  "note": "Members may join only ONE state.",
+  "aliases": [
+   "connecticut",
+   "connecticut group",
+   "connecticut state group"
+  ]
+ },
+ "11400994": {
+  "spaceId": "11400994",
+  "title": "Delaware",
+  "url": "https://www.patriotchute.com/spaces/11400994",
+  "collection": "PPN USA STATE GROUPS",
+  "memberVisible": true,
+  "status": "state-group",
+  "safeToLink": true,
+  "note": "Members may join only ONE state.",
+  "aliases": [
+   "delaware",
+   "delaware group",
+   "delaware state group"
+  ]
+ },
+ "11400997": {
+  "spaceId": "11400997",
+  "title": "Florida",
+  "url": "https://www.patriotchute.com/spaces/11400997",
+  "collection": "PPN USA STATE GROUPS",
+  "memberVisible": true,
+  "status": "state-group",
+  "safeToLink": true,
+  "note": "Members may join only ONE state.",
+  "aliases": [
+   "florida",
+   "florida group",
+   "florida state group"
+  ]
+ },
+ "11443357": {
+  "spaceId": "11443357",
+  "title": "Georgia",
+  "url": "https://www.patriotchute.com/spaces/11443357",
+  "collection": "PPN USA STATE GROUPS",
+  "memberVisible": true,
+  "status": "state-group",
+  "safeToLink": true,
+  "note": "Members may join only ONE state.",
+  "aliases": [
+   "georgia",
+   "georgia group",
+   "georgia state group"
+  ]
+ },
+ "11401016": {
+  "spaceId": "11401016",
+  "title": "Hawaii",
+  "url": "https://www.patriotchute.com/spaces/11401016",
+  "collection": "PPN USA STATE GROUPS",
+  "memberVisible": true,
+  "status": "state-group",
+  "safeToLink": true,
+  "note": "Members may join only ONE state.",
+  "aliases": [
+   "hawaii",
+   "hawaii group",
+   "hawaii state group"
+  ]
+ },
+ "11401026": {
+  "spaceId": "11401026",
+  "title": "Idaho",
+  "url": "https://www.patriotchute.com/spaces/11401026",
+  "collection": "PPN USA STATE GROUPS",
+  "memberVisible": true,
+  "status": "state-group",
+  "safeToLink": true,
+  "note": "Members may join only ONE state.",
+  "aliases": [
+   "idaho",
+   "idaho group",
+   "idaho state group"
+  ]
+ },
+ "11462416": {
+  "spaceId": "11462416",
+  "title": "Illinois",
+  "url": "https://www.patriotchute.com/spaces/11462416",
+  "collection": "PPN USA STATE GROUPS",
+  "memberVisible": true,
+  "status": "state-group",
+  "safeToLink": true,
+  "note": "Members may join only ONE state.",
+  "aliases": [
+   "illinois",
+   "illinois group",
+   "illinois state group"
+  ]
+ },
+ "11401046": {
+  "spaceId": "11401046",
+  "title": "Indiana",
+  "url": "https://www.patriotchute.com/spaces/11401046",
+  "collection": "PPN USA STATE GROUPS",
+  "memberVisible": true,
+  "status": "state-group",
+  "safeToLink": true,
+  "note": "Members may join only ONE state.",
+  "aliases": [
+   "indiana",
+   "indiana group",
+   "indiana state group"
+  ]
+ },
+ "11401056": {
+  "spaceId": "11401056",
+  "title": "Iowa",
+  "url": "https://www.patriotchute.com/spaces/11401056",
+  "collection": "PPN USA STATE GROUPS",
+  "memberVisible": true,
+  "status": "state-group",
+  "safeToLink": true,
+  "note": "Members may join only ONE state.",
+  "aliases": [
+   "iowa",
+   "iowa group",
+   "iowa state group"
+  ]
+ },
+ "11466607": {
+  "spaceId": "11466607",
+  "title": "Kansas",
+  "url": "https://www.patriotchute.com/spaces/11466607",
+  "collection": "PPN USA STATE GROUPS",
+  "memberVisible": true,
+  "status": "state-group",
+  "safeToLink": true,
+  "note": "Members may join only ONE state.",
+  "aliases": [
+   "kansas",
+   "kansas group",
+   "kansas state group"
+  ]
+ },
+ "11469533": {
+  "spaceId": "11469533",
+  "title": "Kentucky",
+  "url": "https://www.patriotchute.com/spaces/11469533",
+  "collection": "PPN USA STATE GROUPS",
+  "memberVisible": true,
+  "status": "state-group",
+  "safeToLink": true,
+  "note": "Members may join only ONE state.",
+  "aliases": [
+   "kentucky",
+   "kentucky group",
+   "kentucky state group"
+  ]
+ },
+ "11401083": {
+  "spaceId": "11401083",
+  "title": "Louisiana",
+  "url": "https://www.patriotchute.com/spaces/11401083",
+  "collection": "PPN USA STATE GROUPS",
+  "memberVisible": true,
+  "status": "state-group",
+  "safeToLink": true,
+  "note": "Members may join only ONE state.",
+  "aliases": [
+   "louisiana",
+   "louisiana group",
+   "louisiana state group"
+  ]
+ },
+ "11401093": {
+  "spaceId": "11401093",
+  "title": "Maine",
+  "url": "https://www.patriotchute.com/spaces/11401093",
+  "collection": "PPN USA STATE GROUPS",
+  "memberVisible": true,
+  "status": "state-group",
+  "safeToLink": true,
+  "note": "Members may join only ONE state.",
+  "aliases": [
+   "maine",
+   "maine group",
+   "maine state group"
+  ]
+ },
+ "11401103": {
+  "spaceId": "11401103",
+  "title": "Maryland",
+  "url": "https://www.patriotchute.com/spaces/11401103",
+  "collection": "PPN USA STATE GROUPS",
+  "memberVisible": true,
+  "status": "state-group",
+  "safeToLink": true,
+  "note": "Members may join only ONE state.",
+  "aliases": [
+   "maryland",
+   "maryland group",
+   "maryland state group"
+  ]
+ },
+ "11401286": {
+  "spaceId": "11401286",
+  "title": "Massachusetts",
+  "url": "https://www.patriotchute.com/spaces/11401286",
+  "collection": "PPN USA STATE GROUPS",
+  "memberVisible": true,
+  "status": "state-group",
+  "safeToLink": true,
+  "note": "Members may join only ONE state.",
+  "aliases": [
+   "massachusetts",
+   "massachusetts group",
+   "massachusetts state group"
+  ]
+ },
+ "11401298": {
+  "spaceId": "11401298",
+  "title": "Michigan",
+  "url": "https://www.patriotchute.com/spaces/11401298",
+  "collection": "PPN USA STATE GROUPS",
+  "memberVisible": true,
+  "status": "state-group",
+  "safeToLink": true,
+  "note": "Members may join only ONE state.",
+  "aliases": [
+   "michigan",
+   "michigan group",
+   "michigan state group"
+  ]
+ },
+ "11401308": {
+  "spaceId": "11401308",
+  "title": "Minnesota",
+  "url": "https://www.patriotchute.com/spaces/11401308",
+  "collection": "PPN USA STATE GROUPS",
+  "memberVisible": true,
+  "status": "state-group",
+  "safeToLink": true,
+  "note": "Members may join only ONE state. Reported empty/low-activity.",
+  "aliases": [
+   "minnesota",
+   "minnesota group",
+   "minnesota state group"
+  ]
+ },
+ "11401321": {
+  "spaceId": "11401321",
+  "title": "Mississippi",
+  "url": "https://www.patriotchute.com/spaces/11401321",
+  "collection": "PPN USA STATE GROUPS",
+  "memberVisible": true,
+  "status": "state-group",
+  "safeToLink": true,
+  "note": "Members may join only ONE state.",
+  "aliases": [
+   "mississippi",
+   "mississippi group",
+   "mississippi state group"
+  ]
+ },
+ "11470928": {
+  "spaceId": "11470928",
+  "title": "Missouri",
+  "url": "https://www.patriotchute.com/spaces/11470928",
+  "collection": "PPN USA STATE GROUPS",
+  "memberVisible": true,
+  "status": "state-group",
+  "safeToLink": true,
+  "note": "Members may join only ONE state.",
+  "aliases": [
+   "missouri",
+   "missouri group",
+   "missouri state group"
+  ]
+ },
+ "11401354": {
+  "spaceId": "11401354",
+  "title": "Montana",
+  "url": "https://www.patriotchute.com/spaces/11401354",
+  "collection": "PPN USA STATE GROUPS",
+  "memberVisible": true,
+  "status": "state-group",
+  "safeToLink": true,
+  "note": "Members may join only ONE state.",
+  "aliases": [
+   "montana",
+   "montana group",
+   "montana state group"
+  ]
+ },
+ "11401373": {
+  "spaceId": "11401373",
+  "title": "Nebraska",
+  "url": "https://www.patriotchute.com/spaces/11401373",
+  "collection": "PPN USA STATE GROUPS",
+  "memberVisible": true,
+  "status": "state-group",
+  "safeToLink": true,
+  "note": "Members may join only ONE state.",
+  "aliases": [
+   "nebraska",
+   "nebraska group",
+   "nebraska state group"
+  ]
+ },
+ "11401380": {
+  "spaceId": "11401380",
+  "title": "Nevada",
+  "url": "https://www.patriotchute.com/spaces/11401380",
+  "collection": "PPN USA STATE GROUPS",
+  "memberVisible": true,
+  "status": "state-group",
+  "safeToLink": true,
+  "note": "Members may join only ONE state.",
+  "aliases": [
+   "nevada",
+   "nevada group",
+   "nevada state group"
+  ]
+ },
+ "11401387": {
+  "spaceId": "11401387",
+  "title": "New Hampshire",
+  "url": "https://www.patriotchute.com/spaces/11401387",
+  "collection": "PPN USA STATE GROUPS",
+  "memberVisible": true,
+  "status": "state-group",
+  "safeToLink": true,
+  "note": "Members may join only ONE state. Reported empty/low-activity.",
+  "aliases": [
+   "new hampshire",
+   "new hampshire group",
+   "new hampshire state group"
+  ]
+ },
+ "11401401": {
+  "spaceId": "11401401",
+  "title": "New Jersey",
+  "url": "https://www.patriotchute.com/spaces/11401401",
+  "collection": "PPN USA STATE GROUPS",
+  "memberVisible": true,
+  "status": "state-group",
+  "safeToLink": true,
+  "note": "Members may join only ONE state.",
+  "aliases": [
+   "new jersey",
+   "new jersey group",
+   "new jersey state group"
+  ]
+ },
+ "11401434": {
+  "spaceId": "11401434",
+  "title": "New Mexico",
+  "url": "https://www.patriotchute.com/spaces/11401434",
+  "collection": "PPN USA STATE GROUPS",
+  "memberVisible": true,
+  "status": "state-group",
+  "safeToLink": true,
+  "note": "Members may join only ONE state.",
+  "aliases": [
+   "new mexico",
+   "new mexico group",
+   "new mexico state group"
+  ]
+ },
+ "11401439": {
+  "spaceId": "11401439",
+  "title": "New York",
+  "url": "https://www.patriotchute.com/spaces/11401439",
+  "collection": "PPN USA STATE GROUPS",
+  "memberVisible": true,
+  "status": "state-group",
+  "safeToLink": true,
+  "note": "Members may join only ONE state.",
+  "aliases": [
+   "new york",
+   "new york group",
+   "new york state group"
+  ]
+ },
+ "11401463": {
+  "spaceId": "11401463",
+  "title": "North Carolina",
+  "url": "https://www.patriotchute.com/spaces/11401463",
+  "collection": "PPN USA STATE GROUPS",
+  "memberVisible": true,
+  "status": "state-group",
+  "safeToLink": true,
+  "note": "Members may join only ONE state. Reported empty/low-activity.",
+  "aliases": [
+   "north carolina",
+   "north carolina group",
+   "north carolina state group"
+  ]
+ },
+ "11401471": {
+  "spaceId": "11401471",
+  "title": "North Dakota",
+  "url": "https://www.patriotchute.com/spaces/11401471",
+  "collection": "PPN USA STATE GROUPS",
+  "memberVisible": true,
+  "status": "state-group",
+  "safeToLink": true,
+  "note": "Members may join only ONE state.",
+  "aliases": [
+   "north dakota",
+   "north dakota group",
+   "north dakota state group"
+  ]
+ },
+ "11401502": {
+  "spaceId": "11401502",
+  "title": "Ohio",
+  "url": "https://www.patriotchute.com/spaces/11401502",
+  "collection": "PPN USA STATE GROUPS",
+  "memberVisible": true,
+  "status": "state-group",
+  "safeToLink": true,
+  "note": "Members may join only ONE state.",
+  "aliases": [
+   "ohio",
+   "ohio group",
+   "ohio state group"
+  ]
+ },
+ "11401506": {
+  "spaceId": "11401506",
+  "title": "Oklahoma",
+  "url": "https://www.patriotchute.com/spaces/11401506",
+  "collection": "PPN USA STATE GROUPS",
+  "memberVisible": true,
+  "status": "state-group",
+  "safeToLink": true,
+  "note": "Members may join only ONE state.",
+  "aliases": [
+   "oklahoma",
+   "oklahoma group",
+   "oklahoma state group"
+  ]
+ },
+ "11401511": {
+  "spaceId": "11401511",
+  "title": "Oregon",
+  "url": "https://www.patriotchute.com/spaces/11401511",
+  "collection": "PPN USA STATE GROUPS",
+  "memberVisible": true,
+  "status": "state-group",
+  "safeToLink": true,
+  "note": "Members may join only ONE state.",
+  "aliases": [
+   "oregon",
+   "oregon group",
+   "oregon state group"
+  ]
+ },
+ "11401637": {
+  "spaceId": "11401637",
+  "title": "Pennsylvania",
+  "url": "https://www.patriotchute.com/spaces/11401637",
+  "collection": "PPN USA STATE GROUPS",
+  "memberVisible": true,
+  "status": "state-group",
+  "safeToLink": true,
+  "note": "Members may join only ONE state.",
+  "aliases": [
+   "pennsylvania",
+   "pennsylvania group",
+   "pennsylvania state group"
+  ]
+ },
+ "11401642": {
+  "spaceId": "11401642",
+  "title": "Rhode Island",
+  "url": "https://www.patriotchute.com/spaces/11401642",
+  "collection": "PPN USA STATE GROUPS",
+  "memberVisible": true,
+  "status": "state-group",
+  "safeToLink": true,
+  "note": "Members may join only ONE state.",
+  "aliases": [
+   "rhode island",
+   "rhode island group",
+   "rhode island state group"
+  ]
+ },
+ "11401652": {
+  "spaceId": "11401652",
+  "title": "South Carolina",
+  "url": "https://www.patriotchute.com/spaces/11401652",
+  "collection": "PPN USA STATE GROUPS",
+  "memberVisible": true,
+  "status": "state-group",
+  "safeToLink": true,
+  "note": "Members may join only ONE state.",
+  "aliases": [
+   "south carolina",
+   "south carolina group",
+   "south carolina state group"
+  ]
+ },
+ "11401665": {
+  "spaceId": "11401665",
+  "title": "South Dakota",
+  "url": "https://www.patriotchute.com/spaces/11401665",
+  "collection": "PPN USA STATE GROUPS",
+  "memberVisible": true,
+  "status": "state-group",
+  "safeToLink": true,
+  "note": "Members may join only ONE state. Reported empty/low-activity.",
+  "aliases": [
+   "south dakota",
+   "south dakota group",
+   "south dakota state group"
+  ]
+ },
+ "11401677": {
+  "spaceId": "11401677",
+  "title": "Tennessee",
+  "url": "https://www.patriotchute.com/spaces/11401677",
+  "collection": "PPN USA STATE GROUPS",
+  "memberVisible": true,
+  "status": "state-group",
+  "safeToLink": true,
+  "note": "Members may join only ONE state.",
+  "aliases": [
+   "tennessee",
+   "tennessee group",
+   "tennessee state group"
+  ]
+ },
+ "17400769": {
+  "spaceId": "17400769",
+  "title": "Texas",
+  "url": "https://www.patriotchute.com/spaces/17400769",
+  "collection": "PPN USA STATE GROUPS",
+  "memberVisible": true,
+  "status": "state-group",
+  "safeToLink": true,
+  "note": "Members may join only ONE state.",
+  "aliases": [
+   "texas",
+   "texas group",
+   "texas state group"
+  ]
+ },
+ "11401706": {
+  "spaceId": "11401706",
+  "title": "Utah",
+  "url": "https://www.patriotchute.com/spaces/11401706",
+  "collection": "PPN USA STATE GROUPS",
+  "memberVisible": true,
+  "status": "state-group",
+  "safeToLink": true,
+  "note": "Members may join only ONE state.",
+  "aliases": [
+   "utah",
+   "utah group",
+   "utah state group"
+  ]
+ },
+ "11401719": {
+  "spaceId": "11401719",
+  "title": "Vermont",
+  "url": "https://www.patriotchute.com/spaces/11401719",
+  "collection": "PPN USA STATE GROUPS",
+  "memberVisible": true,
+  "status": "state-group",
+  "safeToLink": true,
+  "note": "Members may join only ONE state.",
+  "aliases": [
+   "vermont",
+   "vermont group",
+   "vermont state group"
+  ]
+ },
+ "11401732": {
+  "spaceId": "11401732",
+  "title": "Virginia",
+  "url": "https://www.patriotchute.com/spaces/11401732",
+  "collection": "PPN USA STATE GROUPS",
+  "memberVisible": true,
+  "status": "state-group",
+  "safeToLink": true,
+  "note": "Members may join only ONE state.",
+  "aliases": [
+   "virginia",
+   "virginia group",
+   "virginia state group"
+  ]
+ },
+ "11401741": {
+  "spaceId": "11401741",
+  "title": "Washington",
+  "url": "https://www.patriotchute.com/spaces/11401741",
+  "collection": "PPN USA STATE GROUPS",
+  "memberVisible": true,
+  "status": "state-group",
+  "safeToLink": true,
+  "note": "Members may join only ONE state.",
+  "aliases": [
+   "washington",
+   "washington group",
+   "washington state group"
+  ]
+ },
+ "11401745": {
+  "spaceId": "11401745",
+  "title": "West Virginia",
+  "url": "https://www.patriotchute.com/spaces/11401745",
+  "collection": "PPN USA STATE GROUPS",
+  "memberVisible": true,
+  "status": "state-group",
+  "safeToLink": true,
+  "note": "Members may join only ONE state.",
+  "aliases": [
+   "west virginia",
+   "west virginia group",
+   "west virginia state group"
+  ]
+ },
+ "11401750": {
+  "spaceId": "11401750",
+  "title": "Wisconsin",
+  "url": "https://www.patriotchute.com/spaces/11401750",
+  "collection": "PPN USA STATE GROUPS",
+  "memberVisible": true,
+  "status": "state-group",
+  "safeToLink": true,
+  "note": "Members may join only ONE state.",
+  "aliases": [
+   "wisconsin",
+   "wisconsin group",
+   "wisconsin state group"
+  ]
+ },
+ "11401757": {
+  "spaceId": "11401757",
+  "title": "Wyoming",
+  "url": "https://www.patriotchute.com/spaces/11401757",
+  "collection": "PPN USA STATE GROUPS",
+  "memberVisible": true,
+  "status": "state-group",
+  "safeToLink": true,
+  "note": "Members may join only ONE state.",
+  "aliases": [
+   "wyoming",
+   "wyoming group",
+   "wyoming state group"
+  ]
+ },
+ "11401772": {
+  "spaceId": "11401772",
+  "title": "District of Columbia (DC)",
+  "url": "https://www.patriotchute.com/spaces/11401772",
+  "collection": "PPN USA STATE GROUPS",
+  "memberVisible": true,
+  "status": "state-group",
+  "safeToLink": true,
+  "note": "Members may join only ONE state.",
+  "aliases": [
+   "district of columbia (dc)",
+   "district of columbia (dc) group",
+   "district of columbia (dc) state group"
+  ]
+ },
+ "11401791": {
+  "spaceId": "11401791",
+  "title": "American Samoa",
+  "url": "https://www.patriotchute.com/spaces/11401791",
+  "collection": "PPN USA STATE GROUPS",
+  "memberVisible": true,
+  "status": "state-group",
+  "safeToLink": true,
+  "note": "Members may join only ONE state.",
+  "aliases": [
+   "american samoa",
+   "american samoa group",
+   "american samoa state group"
+  ]
+ },
+ "11401805": {
+  "spaceId": "11401805",
+  "title": "Guam",
+  "url": "https://www.patriotchute.com/spaces/11401805",
+  "collection": "PPN USA STATE GROUPS",
+  "memberVisible": true,
+  "status": "state-group",
+  "safeToLink": true,
+  "note": "Members may join only ONE state.",
+  "aliases": [
+   "guam",
+   "guam group",
+   "guam state group"
+  ]
+ },
+ "11401810": {
+  "spaceId": "11401810",
+  "title": "Northern Mariana Islands",
+  "url": "https://www.patriotchute.com/spaces/11401810",
+  "collection": "PPN USA STATE GROUPS",
+  "memberVisible": true,
+  "status": "state-group",
+  "safeToLink": true,
+  "note": "Members may join only ONE state.",
+  "aliases": [
+   "northern mariana islands",
+   "northern mariana islands group",
+   "northern mariana islands state group"
+  ]
+ },
+ "11401823": {
+  "spaceId": "11401823",
+  "title": "Puerto Rico",
+  "url": "https://www.patriotchute.com/spaces/11401823",
+  "collection": "PPN USA STATE GROUPS",
+  "memberVisible": true,
+  "status": "state-group",
+  "safeToLink": true,
+  "note": "Members may join only ONE state.",
+  "aliases": [
+   "puerto rico",
+   "puerto rico group",
+   "puerto rico state group"
+  ]
+ },
+ "11401829": {
+  "spaceId": "11401829",
+  "title": "U.S. Virgin Islands",
+  "url": "https://www.patriotchute.com/spaces/11401829",
+  "collection": "PPN USA STATE GROUPS",
+  "memberVisible": true,
+  "status": "state-group",
+  "safeToLink": true,
+  "note": "Members may join only ONE state.",
+  "aliases": [
+   "u.s. virgin islands",
+   "u.s. virgin islands group",
+   "u.s. virgin islands state group"
+  ]
+ }
+}
