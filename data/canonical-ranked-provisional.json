@@ -1,0 +1,902 @@
+[
+ {
+  "id": "submit-my-project",
+  "q": "How do I submit my humanitarian project, and where is the form?",
+  "cat": "Humanitarian Projects & Donations",
+  "n": 43,
+  "unans": 9,
+  "early": "2021-08-19",
+  "late": "2026-08-22",
+  "ch": 1
+ },
+ {
+  "id": "where-is-talk-time",
+  "q": "Where is Patriot Talk (Talk Time) and how do I get to it?",
+  "cat": "Patriot Talk & Discord",
+  "n": 41,
+  "unans": 7,
+  "early": "2022-05-28",
+  "late": "2025-08-25",
+  "ch": 1
+ },
+ {
+  "id": "find-my-state-group",
+  "q": "How do I find and join my state's group?",
+  "cat": "State & Local Groups",
+  "n": 41,
+  "unans": 21,
+  "early": "2022-07-16",
+  "late": "2026-02-05",
+  "ch": 1
+ },
+ {
+  "id": "not-getting-notifications",
+  "q": "My notifications are turned on but I'm not getting any - why?",
+  "cat": "Notifications & Emails",
+  "n": 33,
+  "unans": 13,
+  "early": "2022-08-14",
+  "late": "2026-08-17",
+  "ch": 1
+ },
+ {
+  "id": "lost-access-to-talk-time",
+  "q": "I've lost access to Patriot Talk - how do I get back in?",
+  "cat": "Patriot Talk & Discord",
+  "n": 32,
+  "unans": 12,
+  "early": "2022-05-02",
+  "late": "2025-12-16",
+  "ch": 1
+ },
+ {
+  "id": "where-to-watch-live",
+  "q": "Where do I watch today's live show?",
+  "cat": "Live Shows & Replays",
+  "n": 29,
+  "unans": 9,
+  "early": "2021-04-05",
+  "late": "2026-07-06",
+  "ch": 0
+ },
+ {
+  "id": "video-freezes-or-no-sound",
+  "q": "The video keeps freezing, buffering, or has no sound - how do I fix it?",
+  "cat": "Live Shows & Replays",
+  "n": 23,
+  "unans": 7,
+  "early": "2021-04-22",
+  "late": "2026-04-17",
+  "ch": 1
+ },
+ {
+  "id": "invite-link",
+  "q": "Where do I get a working invite link for Patriot Talk?",
+  "cat": "Patriot Talk & Discord",
+  "n": 22,
+  "unans": 8,
+  "early": "2023-01-25",
+  "late": "2025-11-26",
+  "ch": 2
+ },
+ {
+  "id": "turn-on-notifications",
+  "q": "How do I turn notifications on, and where do they show up?",
+  "cat": "Notifications & Emails",
+  "n": 22,
+  "unans": 4,
+  "early": "2022-08-14",
+  "late": "2024-12-23",
+  "ch": 0
+ },
+ {
+  "id": "is-there-a-show-today",
+  "q": "Is there a show today, and how do I know if it's live or a rerun?",
+  "cat": "Live Shows & Replays",
+  "n": 22,
+  "unans": 7,
+  "early": "2023-01-27",
+  "late": "2026-03-26",
+  "ch": 1
+ },
+ {
+  "id": "how-to-get-verified",
+  "q": "How do I get verified so I can get past the rules screen and see the rooms?",
+  "cat": "Patriot Talk & Discord",
+  "n": 21,
+  "unans": 6,
+  "early": "2023-03-29",
+  "late": "2026-02-01",
+  "ch": 1
+ },
+ {
+  "id": "discord-suspended-me",
+  "q": "Discord itself suspended or removed my account - can I get it back?",
+  "cat": "Patriot Talk & Discord",
+  "n": 21,
+  "unans": 1,
+  "early": "2022-07-05",
+  "late": "2024-10-03",
+  "ch": 2
+ },
+ {
+  "id": "where-do-i-start",
+  "q": "I'm new and not very technical - where do I start?",
+  "cat": "Getting Started & Help",
+  "n": 21,
+  "unans": 9,
+  "early": "2022-07-13",
+  "late": "2026-03-10",
+  "ch": 2
+ },
+ {
+  "id": "where-are-replays",
+  "q": "Where do I find the replay of a show I missed?",
+  "cat": "Live Shows & Replays",
+  "n": 19,
+  "unans": 7,
+  "early": "2021-04-07",
+  "late": "2026-07-16",
+  "ch": 1
+ },
+ {
+  "id": "app-keeps-crashing",
+  "q": "The app keeps crashing or won't let me in - how do I fix it?",
+  "cat": "Apps & Devices",
+  "n": 19,
+  "unans": 1,
+  "early": "2021-08-07",
+  "late": "2026-05-02",
+  "ch": 1
+ },
+ {
+  "id": "am-i-in-the-right-place",
+  "q": "Is this the right room or page, and what do the groups and coloured bars mean?",
+  "cat": "Finding Your Way Around",
+  "n": 18,
+  "unans": 5,
+  "early": "2021-04-07",
+  "late": "2023-09-12",
+  "ch": 0
+ },
+ {
+  "id": "stream-is-down",
+  "q": "The stream is down or Rumble isn't working - where else can I watch?",
+  "cat": "Live Shows & Replays",
+  "n": 18,
+  "unans": 5,
+  "early": "2021-04-12",
+  "late": "2026-08-04",
+  "ch": 1
+ },
+ {
+  "id": "cancel-subscription",
+  "q": "How do I cancel my subscription?",
+  "cat": "Billing & Membership",
+  "n": 17,
+  "unans": 5,
+  "early": "2022-04-02",
+  "late": "2025-11-29",
+  "ch": 1
+ },
+ {
+  "id": "update-payment-card",
+  "q": "How do I change the card I pay with, or make a payment?",
+  "cat": "Billing & Membership",
+  "n": 16,
+  "unans": 9,
+  "early": "2023-10-13",
+  "late": "2026-08-17",
+  "ch": 1
+ },
+ {
+  "id": "talk-time-walkthrough",
+  "q": "What is Discord, and can someone walk me through setting up Patriot Talk?",
+  "cat": "Patriot Talk & Discord",
+  "n": 15,
+  "unans": 7,
+  "early": "2023-03-11",
+  "late": "2026-08-10",
+  "ch": 1
+ },
+ {
+  "id": "am-i-in-my-state-group",
+  "q": "I asked to join my state group - am I in, and what if no invite came?",
+  "cat": "State & Local Groups",
+  "n": 14,
+  "unans": 9,
+  "early": "2023-06-08",
+  "late": "2025-12-14",
+  "ch": 2
+ },
+ {
+  "id": "who-is-my-state-director",
+  "q": "Who is my state's director or coordinator?",
+  "cat": "State & Local Groups",
+  "n": 14,
+  "unans": 5,
+  "early": "2023-06-16",
+  "late": "2026-02-25",
+  "ch": 0
+ },
+ {
+  "id": "please-verify-me",
+  "q": "I've done the steps - can someone verify me, and how will I know it worked?",
+  "cat": "Patriot Talk & Discord",
+  "n": 13,
+  "unans": 4,
+  "early": "2023-07-25",
+  "late": "2023-11-26",
+  "ch": 1
+ },
+ {
+  "id": "members-near-me",
+  "q": "How do I find other members near me and see who is in my group?",
+  "cat": "State & Local Groups",
+  "n": 13,
+  "unans": 5,
+  "early": "2022-04-09",
+  "late": "2024-09-13",
+  "ch": 0
+ },
+ {
+  "id": "is-this-a-scam",
+  "q": "Is this message, email or account really from PPN, or is it a scam?",
+  "cat": "Moderation, Safety & Scams",
+  "n": 13,
+  "unans": 0,
+  "early": "2023-02-21",
+  "late": "2025-06-25",
+  "ch": 0
+ },
+ {
+  "id": "something-disappeared",
+  "q": "My post, a whole room, or a host has disappeared - what happened?",
+  "cat": "Posting & Content",
+  "n": 12,
+  "unans": 3,
+  "early": "2023-03-27",
+  "late": "2026-08-20",
+  "ch": 2
+ },
+ {
+  "id": "muted-or-timed-out",
+  "q": "My post was removed or I was muted - why, and how do I get it lifted?",
+  "cat": "Moderation, Safety & Scams",
+  "n": 12,
+  "unans": 3,
+  "early": "2021-07-08",
+  "late": "2026-05-18",
+  "ch": 2
+ },
+ {
+  "id": "paying-but-no-access",
+  "q": "I'm paying but I can't get into what I pay for - what should I do?",
+  "cat": "Billing & Membership",
+  "n": 11,
+  "unans": 2,
+  "early": "2023-01-23",
+  "late": "2024-09-29",
+  "ch": 2
+ },
+ {
+  "id": "replay-wont-play",
+  "q": "The replay won't play - how do I watch it?",
+  "cat": "Live Shows & Replays",
+  "n": 11,
+  "unans": 7,
+  "early": "2022-08-23",
+  "late": "2026-04-15",
+  "ch": 1
+ },
+ {
+  "id": "get-the-app",
+  "q": "Do I need an app, what is it called, and should I use it or the website?",
+  "cat": "Apps & Devices",
+  "n": 11,
+  "unans": 5,
+  "early": "2022-06-10",
+  "late": "2026-02-18",
+  "ch": 0
+ },
+ {
+  "id": "verification-not-working",
+  "q": "Verification keeps failing or sending me back to the start - how do I fix it?",
+  "cat": "Patriot Talk & Discord",
+  "n": 10,
+  "unans": 2,
+  "early": "2023-07-25",
+  "late": "2024-09-27",
+  "ch": 1
+ },
+ {
+  "id": "meetups-near-me",
+  "q": "Are there meetups or events near me, and where are they listed?",
+  "cat": "State & Local Groups",
+  "n": 10,
+  "unans": 4,
+  "early": "2023-07-05",
+  "late": "2024-08-24",
+  "ch": 0
+ },
+ {
+  "id": "find-posts-and-documents",
+  "q": "How do I find a post, a document, or something I posted myself?",
+  "cat": "Finding Your Way Around",
+  "n": 10,
+  "unans": 2,
+  "early": "2021-04-08",
+  "late": "2024-08-13",
+  "ch": 2
+ },
+ {
+  "id": "how-do-i-post",
+  "q": "How do I post a message, picture or video?",
+  "cat": "Posting & Content",
+  "n": 10,
+  "unans": 7,
+  "early": "2022-01-11",
+  "late": "2025-03-15",
+  "ch": 0
+ },
+ {
+  "id": "still-charged-after-cancelling",
+  "q": "I cancelled but I'm still being charged - how do I stop it and get my money back?",
+  "cat": "Billing & Membership",
+  "n": 9,
+  "unans": 1,
+  "early": "2023-07-22",
+  "late": "2024-08-26",
+  "ch": 2
+ },
+ {
+  "id": "is-talk-time-down",
+  "q": "Is Patriot Talk (or the chat) down, or is it just me?",
+  "cat": "Patriot Talk & Discord",
+  "n": 9,
+  "unans": 3,
+  "early": "2022-01-11",
+  "late": "2026-01-17",
+  "ch": 1
+ },
+ {
+  "id": "menu-item-disappeared",
+  "q": "A menu item I used to use has disappeared - where did it go?",
+  "cat": "Finding Your Way Around",
+  "n": 9,
+  "unans": 5,
+  "early": "2022-03-17",
+  "late": "2026-06-06",
+  "ch": 1
+ },
+ {
+  "id": "where-to-get-help",
+  "q": "Where do I go for help when something is broken and nobody answers?",
+  "cat": "Getting Started & Help",
+  "n": 9,
+  "unans": 3,
+  "early": "2022-06-11",
+  "late": "2025-12-31",
+  "ch": 2
+ },
+ {
+  "id": "contact-an-admin",
+  "q": "How do I get in touch with an admin or host - can I just message them?",
+  "cat": "Getting Started & Help",
+  "n": 9,
+  "unans": 5,
+  "early": "2021-04-11",
+  "late": "2024-08-18",
+  "ch": 2
+ },
+ {
+  "id": "email-already-registered",
+  "q": "It says my email is already registered - how do I get into my account?",
+  "cat": "Account & Login",
+  "n": 8,
+  "unans": 2,
+  "early": "2023-06-22",
+  "late": "2024-01-31",
+  "ch": 2
+ },
+ {
+  "id": "dropped-from-signal-group",
+  "q": "I was dropped from my state's Signal group - how do I get back in?",
+  "cat": "State & Local Groups",
+  "n": 8,
+  "unans": 2,
+  "early": "2023-06-28",
+  "late": "2024-05-13",
+  "ch": 1
+ },
+ {
+  "id": "find-a-room",
+  "q": "How do I find and get into a room like Training or Humanitarian Projects?",
+  "cat": "Finding Your Way Around",
+  "n": 8,
+  "unans": 4,
+  "early": "2022-08-15",
+  "late": "2026-08-25",
+  "ch": 0
+ },
+ {
+  "id": "too-many-notifications",
+  "q": "How do I cut down the emails, alerts and chat pop-ups?",
+  "cat": "Notifications & Emails",
+  "n": 8,
+  "unans": 2,
+  "early": "2022-07-28",
+  "late": "2024-04-01",
+  "ch": 1
+ },
+ {
+  "id": "join-telegram",
+  "q": "How do I install Telegram or Signal and join the official PPN channel?",
+  "cat": "Telegram, Signal & Zoom",
+  "n": 8,
+  "unans": 5,
+  "early": "2023-03-10",
+  "late": "2026-08-24",
+  "ch": 1
+ },
+ {
+  "id": "zoom-when-and-where",
+  "q": "When is the Zoom call, and where are the link and password?",
+  "cat": "Telegram, Signal & Zoom",
+  "n": 8,
+  "unans": 6,
+  "early": "2022-06-09",
+  "late": "2025-12-09",
+  "ch": 0
+ },
+ {
+  "id": "cant-post-right-now",
+  "q": "Why won't the site let me post or comment right now?",
+  "cat": "Posting & Content",
+  "n": 7,
+  "unans": 2,
+  "early": "2023-07-24",
+  "late": "2026-07-30",
+  "ch": 1
+ },
+ {
+  "id": "where-am-i-allowed-to-post",
+  "q": "Which room am I allowed to post this in, and do hashtags matter?",
+  "cat": "Posting & Content",
+  "n": 7,
+  "unans": 2,
+  "early": "2021-04-23",
+  "late": "2024-05-01",
+  "ch": 0
+ },
+ {
+  "id": "how-to-join-zoom",
+  "q": "I've never used Zoom - how do I install it and join the meeting?",
+  "cat": "Telegram, Signal & Zoom",
+  "n": 7,
+  "unans": 5,
+  "early": "2021-04-03",
+  "late": "2025-10-27",
+  "ch": 1
+ },
+ {
+  "id": "how-to-donate",
+  "q": "How do I donate to PPN or to a project featured on the show?",
+  "cat": "Humanitarian Projects & Donations",
+  "n": 7,
+  "unans": 3,
+  "early": "2022-08-15",
+  "late": "2026-01-11",
+  "ch": 0
+ },
+ {
+  "id": "what-membership-includes",
+  "q": "What does my membership include, and what do the badges and levels mean?",
+  "cat": "Billing & Membership",
+  "n": 6,
+  "unans": 1,
+  "early": "2023-07-01",
+  "late": "2026-02-05",
+  "ch": 1
+ },
+ {
+  "id": "become-a-coordinator",
+  "q": "How do I become a state or county coordinator?",
+  "cat": "State & Local Groups",
+  "n": 6,
+  "unans": 2,
+  "early": "2023-06-16",
+  "late": "2025-07-30",
+  "ch": 1
+ },
+ {
+  "id": "my-group-is-quiet",
+  "q": "My state group looks dead - is anything actually happening in it?",
+  "cat": "State & Local Groups",
+  "n": 6,
+  "unans": 3,
+  "early": "2023-07-27",
+  "late": "2024-08-07",
+  "ch": 1
+ },
+ {
+  "id": "sent-to-the-wrong-page",
+  "q": "Why does the site take me somewhere other than where I clicked?",
+  "cat": "Finding Your Way Around",
+  "n": 6,
+  "unans": 4,
+  "early": "2023-02-20",
+  "late": "2025-11-22",
+  "ch": 1
+ },
+ {
+  "id": "notification-emails-missing",
+  "q": "I see alerts in the app but the emails never arrive - how do I fix that?",
+  "cat": "Notifications & Emails",
+  "n": 6,
+  "unans": 3,
+  "early": "2022-08-14",
+  "late": "2026-01-28",
+  "ch": 1
+ },
+ {
+  "id": "notification-bell-broken",
+  "q": "Why won't the notification bell open my alerts?",
+  "cat": "Notifications & Emails",
+  "n": 6,
+  "unans": 3,
+  "early": "2024-02-29",
+  "late": "2026-02-14",
+  "ch": 1
+ },
+ {
+  "id": "will-it-work-on-my-device",
+  "q": "Will this work on my computer, tablet or phone?",
+  "cat": "Apps & Devices",
+  "n": 6,
+  "unans": 5,
+  "early": "2023-05-13",
+  "late": "2025-07-09",
+  "ch": 0
+ },
+ {
+  "id": "what-it-costs",
+  "q": "What does membership cost, and is there a free way to join?",
+  "cat": "Billing & Membership",
+  "n": 5,
+  "unans": 3,
+  "early": "2025-07-23",
+  "late": "2026-06-13",
+  "ch": 0
+ },
+ {
+  "id": "buy-merchandise",
+  "q": "Where do I buy PPN merchandise or a yard sign?",
+  "cat": "Billing & Membership",
+  "n": 5,
+  "unans": 2,
+  "early": "2023-05-27",
+  "late": "2025-08-07",
+  "ch": 0
+ },
+ {
+  "id": "cant-sign-in",
+  "q": "I can't sign in to the website - what do I do?",
+  "cat": "Account & Login",
+  "n": 5,
+  "unans": 3,
+  "early": "2023-07-25",
+  "late": "2025-12-16",
+  "ch": 1
+ },
+ {
+  "id": "forgot-password",
+  "q": "I forgot my password - how do I reset it?",
+  "cat": "Account & Login",
+  "n": 5,
+  "unans": 0,
+  "early": "2023-02-02",
+  "late": "2023-12-19",
+  "ch": 1
+ },
+ {
+  "id": "mic-and-sound-in-talk-time",
+  "q": "How do I set up my microphone and hear people in Talk Time?",
+  "cat": "Patriot Talk & Discord",
+  "n": 5,
+  "unans": 0,
+  "early": "2022-02-22",
+  "late": "2023-08-04",
+  "ch": 1
+ },
+ {
+  "id": "county-groups",
+  "q": "Is there a group for my county, and how do I find it?",
+  "cat": "State & Local Groups",
+  "n": 5,
+  "unans": 1,
+  "early": "2023-07-05",
+  "late": "2023-07-27",
+  "ch": 0
+ },
+ {
+  "id": "get-back-to-the-site",
+  "q": "How do I get back to PatriotChute when my link or bookmark doesn't work?",
+  "cat": "Finding Your Way Around",
+  "n": 5,
+  "unans": 3,
+  "early": "2023-07-29",
+  "late": "2025-01-23",
+  "ch": 1
+ },
+ {
+  "id": "close-my-account",
+  "q": "How do I close or delete my account?",
+  "cat": "Billing & Membership",
+  "n": 4,
+  "unans": 1,
+  "early": "2023-02-04",
+  "late": "2023-07-02",
+  "ch": 0
+ },
+ {
+  "id": "clear-notifications",
+  "q": "How do I clear or delete all my old notifications?",
+  "cat": "Notifications & Emails",
+  "n": 4,
+  "unans": 3,
+  "early": "2024-04-01",
+  "late": "2026-02-20",
+  "ch": 1
+ },
+ {
+  "id": "watch-on-tv",
+  "q": "How do I watch on my TV, Roku or tablet?",
+  "cat": "Live Shows & Replays",
+  "n": 4,
+  "unans": 1,
+  "early": "2023-02-03",
+  "late": "2023-12-19",
+  "ch": 1
+ },
+ {
+  "id": "share-a-show",
+  "q": "What link do I use to share a show, and is PPN still on YouTube or Twitch?",
+  "cat": "Live Shows & Replays",
+  "n": 4,
+  "unans": 1,
+  "early": "2023-12-13",
+  "late": "2025-01-23",
+  "ch": 1
+ },
+ {
+  "id": "edit-my-profile",
+  "q": "How do I change my profile photo and settings?",
+  "cat": "Profile & Messaging",
+  "n": 4,
+  "unans": 0,
+  "early": "2022-05-03",
+  "late": "2023-07-27",
+  "ch": 0
+ },
+ {
+  "id": "send-a-private-message",
+  "q": "How do I send a private message to another member?",
+  "cat": "Profile & Messaging",
+  "n": 4,
+  "unans": 2,
+  "early": "2022-10-31",
+  "late": "2024-09-25",
+  "ch": 0
+ },
+ {
+  "id": "site-errors",
+  "q": "What do I do about error messages and pages that won't load?",
+  "cat": "Apps & Devices",
+  "n": 4,
+  "unans": 2,
+  "early": "2023-02-14",
+  "late": "2026-06-29",
+  "ch": 1
+ },
+ {
+  "id": "do-i-need-telegram",
+  "q": "Do I have to use Telegram, and why can't I post there?",
+  "cat": "Telegram, Signal & Zoom",
+  "n": 4,
+  "unans": 3,
+  "early": "2024-01-20",
+  "late": "2026-05-12",
+  "ch": 2
+ },
+ {
+  "id": "telegram-links-wont-open",
+  "q": "Why won't the Telegram links posted here open for me?",
+  "cat": "Telegram, Signal & Zoom",
+  "n": 4,
+  "unans": 3,
+  "early": "2022-05-15",
+  "late": "2026-06-29",
+  "ch": 1
+ },
+ {
+  "id": "cancel-but-cant-log-in",
+  "q": "I can't log in, so I can't reach the cancel button - can someone cancel for me?",
+  "cat": "Billing & Membership",
+  "n": 3,
+  "unans": 2,
+  "early": "2026-01-29",
+  "late": "2026-07-24",
+  "ch": 2
+ },
+ {
+  "id": "finish-signing-up",
+  "q": "How do I finish signing up, or move up to a paid membership?",
+  "cat": "Billing & Membership",
+  "n": 3,
+  "unans": 3,
+  "early": "2022-10-29",
+  "late": "2023-02-23",
+  "ch": 1
+ },
+ {
+  "id": "no-emails-from-site",
+  "q": "I never get the password reset or verification email - how do I fix that?",
+  "cat": "Account & Login",
+  "n": 3,
+  "unans": 0,
+  "early": "2022-08-30",
+  "late": "2024-03-01",
+  "ch": 1
+ },
+ {
+  "id": "removed-though-i-pay",
+  "q": "I'm a paying member but I was removed from Patriot Talk - why?",
+  "cat": "Patriot Talk & Discord",
+  "n": 3,
+  "unans": 0,
+  "early": "2023-05-24",
+  "late": "2025-08-08",
+  "ch": 2
+ },
+ {
+  "id": "feed-looks-empty",
+  "q": "Why don't I see any posts in the feed?",
+  "cat": "Finding Your Way Around",
+  "n": 3,
+  "unans": 1,
+  "early": "2022-05-09",
+  "late": "2025-08-10",
+  "ch": 0
+ },
+ {
+  "id": "share-a-post",
+  "q": "How do I share a post to another room or send someone the link?",
+  "cat": "Posting & Content",
+  "n": 3,
+  "unans": 2,
+  "early": "2022-09-16",
+  "late": "2025-04-01",
+  "ch": 0
+ },
+ {
+  "id": "edit-or-delete-my-post",
+  "q": "How do I edit or delete something I posted?",
+  "cat": "Posting & Content",
+  "n": 3,
+  "unans": 3,
+  "early": "2026-02-11",
+  "late": "2026-07-25",
+  "ch": 0
+ },
+ {
+  "id": "are-messages-private",
+  "q": "Are private messages really private - why can I see other people's messages?",
+  "cat": "Profile & Messaging",
+  "n": 3,
+  "unans": 1,
+  "early": "2023-08-01",
+  "late": "2024-03-26",
+  "ch": 2
+ },
+ {
+  "id": "report-spam-and-trolls",
+  "q": "How do I report trolls or spam, and how do I stop promotional posts?",
+  "cat": "Moderation, Safety & Scams",
+  "n": 3,
+  "unans": 2,
+  "early": "2023-07-11",
+  "late": "2025-06-21",
+  "ch": 2
+ },
+ {
+  "id": "blocked-from-posting",
+  "q": "Why am I blocked from posting, and how do I get unblocked?",
+  "cat": "Moderation, Safety & Scams",
+  "n": 3,
+  "unans": 1,
+  "early": "2023-07-21",
+  "late": "2026-05-02",
+  "ch": 1
+ },
+ {
+  "id": "how-to-log-out",
+  "q": "How do I log out?",
+  "cat": "Account & Login",
+  "n": 2,
+  "unans": 2,
+  "early": "2023-07-25",
+  "late": "2025-01-14",
+  "ch": 0
+ },
+ {
+  "id": "change-my-account-details",
+  "q": "How do I change my name, email or phone number on my account?",
+  "cat": "Account & Login",
+  "n": 2,
+  "unans": 0,
+  "early": "2022-03-22",
+  "late": "2023-11-26",
+  "ch": 0
+ },
+ {
+  "id": "volunteer-on-a-project",
+  "q": "How do I get involved in or volunteer for a humanitarian project?",
+  "cat": "Humanitarian Projects & Donations",
+  "n": 2,
+  "unans": 0,
+  "early": "2022-08-31",
+  "late": "2024-02-13",
+  "ch": 0
+ },
+ {
+  "id": "keeps-logging-me-out",
+  "q": "Why does the site keep logging me out and asking me to sign in again?",
+  "cat": "Account & Login",
+  "n": 1,
+  "unans": 1,
+  "early": "2026-06-29",
+  "late": "2026-06-29",
+  "ch": 1
+ },
+ {
+  "id": "who-is-who",
+  "q": "Who are the hosts and people everyone keeps talking about?",
+  "cat": "Getting Started & Help",
+  "n": 1,
+  "unans": 0,
+  "early": "2022-03-20",
+  "late": "2022-03-20",
+  "ch": 0
+ },
+ {
+  "id": "my-messages-arent-delivering",
+  "q": "Why aren't my private messages reaching the other person?",
+  "cat": "Profile & Messaging",
+  "n": 1,
+  "unans": 0,
+  "early": "2023-07-27",
+  "late": "2023-07-27",
+  "ch": 2
+ },
+ {
+  "id": "someone-is-using-my-name",
+  "q": "Someone is using my name in chat - what do I do?",
+  "cat": "Moderation, Safety & Scams",
+  "n": 1,
+  "unans": 0,
+  "early": "2023-06-14",
+  "late": "2023-06-14",
+  "ch": 2
+ },
+ {
+  "id": "project-eligibility",
+  "q": "Does my project have to be overseas, or can it be here in the USA?",
+  "cat": "Humanitarian Projects & Donations",
+  "n": 1,
+  "unans": 0,
+  "early": "2022-08-21",
+  "late": "2022-08-21",
+  "ch": 0
+ }
+]
