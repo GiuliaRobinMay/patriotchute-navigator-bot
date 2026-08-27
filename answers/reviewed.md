@@ -138,3 +138,95 @@ ACTION: Giulia to confirm whether Apple/iOS billing is in play.
 
 **TO RECORD (Giulia):** screen video of the current cancel path AND the current
 change-card path, post-Feb-2026 relaunch.
+
+---
+
+## 10. My post was removed or I was muted — why, and how do I get it lifted?
+**Status:** `pending-user` — blocked on guidelines that do not yet exist.
+
+> "There are no guidelines at this moment. Let's create some according to the
+> rules of guidelines and then add that as a standard answer and point out what
+> it probably is." — Giulia
+
+TO DO: draft community guidelines, then write the standard answer referring to
+them and naming the likely cause.
+
+Context: the CODE OF CONDUCT space (11452291) exists but sits in HOST HUB,
+hidden from members. Members currently read every removal as censorship
+because nothing explains the rules.
+
+---
+
+## 11. Where do I watch today's live show?
+**Status:** `confirmed`
+
+| Show | Where to watch |
+|---|---|
+| 9am Coffee with Chas | **Inside the community only** |
+| PPN News | Inside the community, on Rumble, or on the website |
+| Talk Time | Inside the community, on Rumble, or on the website |
+
+Schedule (verified via MCP, Mon-Fri only):
+- 9:00-9:30 Central — Coffee with Chas — space 18992734
+- 12:00-13:00 Central — PPN News — space 24417514
+- 20:00-21:00 Central — PPN News — space 4759408
+
+---
+
+## 12. I cancelled but I'm still being charged
+**Status:** `confirmed` — pending support email address.
+
+Answer: ask the member to email **[SUPPORT EMAIL - NEEDED FROM GIULIA]** with:
+- the email address on their account
+- their name
+- the amount charged
+
+Then the team looks into it.
+
+**BLOCKER:** no support email address on file. The scan found members posting
+their own email addresses publicly because no support address exists. Cannot
+ship this answer without it.
+
+---
+
+## 13. My notifications are on but I'm not getting any
+**Status:** `triage` — same shape as Q6.
+
+Too many possible causes for one answer. Ask back: what device, what browser,
+laptop or phone, etc.
+
+> "Note down that we need to create for these types of questions a structured
+> answer. Maybe we can post a little form, like what you would do with a real
+> bot, and then structure it. We will not be able to have it fully done yet."
+> — Giulia
+
+TO DO: design a reusable structured intake form for triage questions. Ship v1
+imperfect and improve over time.
+
+---
+
+## 14. I can't log in, so I can't reach the cancel button
+**Status:** `confirmed` — premise corrected by Giulia.
+
+> "If they are asking this question in the community, they are logged in. There
+> is no way that you can write a message saying you are logged out if you are
+> logged out. So you need to ask WHERE are you logged out." — Giulia
+
+This is a triage question, not a policy question. The member is logged into the
+community; something else is refusing them — most likely Talk Time 2.0, the
+mobile app, or the billing screen.
+
+Ask: **where** are you seeing the problem? Then route accordingly.
+
+Note: this supersedes the scan's reading of this as a structural dead end.
+
+---
+
+# Cross-cutting decisions
+
+1. **Triage questions are a distinct answer type.** Q6, Q13 and Q14 are all
+   "ask back, don't answer". Needs a reusable structured intake form.
+2. **Ship imperfect.** Build v1 of the app now, embed it in the community,
+   improve answers over time.
+3. **Open blockers:** support email address; community guidelines; Giulia's
+   screen recordings for the cancel and change-card paths.
