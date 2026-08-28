@@ -22,6 +22,9 @@
   --shadow:0 1px 2px rgba(20,40,74,.06),0 8px 24px rgba(20,40,74,.07);
   --radius:10px;
   --base:16px;
+  --cardpad:clamp(.9rem,2.4vw,1.3rem);
+  --cream:#F3EDE0; --cream-rule:#E3D9C6;
+  --sky:#E6EEF8; --sky-rule:#CBDCEF;
   --t-navy:#1E3A66; --ti-navy:#1E3A66;
   --t-red:#A82B33;  --ti-red:#8E2129;
   --t-denim:#5B7FA6;--ti-denim:#3D6288;
@@ -44,6 +47,8 @@
     --t-wheat:#DFB25C;--ti-wheat:#EAC782;
     --t-olive:#9BAE7C;--ti-olive:#B4C49A;
     --t-slate:#8B9AB0;--ti-slate:#A6B3C5;
+    --cream:#221E17; --cream-rule:#332C21;
+    --sky:#101C2E; --sky-rule:#1E2F49;
   }
 }
 :root[data-theme="dark"]{
@@ -60,6 +65,8 @@
   --t-wheat:#DFB25C;--ti-wheat:#EAC782;
   --t-olive:#9BAE7C;--ti-olive:#B4C49A;
   --t-slate:#8B9AB0;--ti-slate:#A6B3C5;
+  --cream:#221E17; --cream-rule:#332C21;
+  --sky:#101C2E; --sky-rule:#1E2F49;
 }
 
 *{box-sizing:border-box}
@@ -81,7 +88,7 @@ a{color:var(--red)}
 }
 .badge{width:38px;height:38px;flex:none;border-radius:50%;display:block;position:relative;overflow:hidden;background:#000}
 .badge svg,.badge img{position:absolute;inset:0;width:100%;height:100%;display:block}
-.badge img{object-fit:cover;z-index:1}
+.badge img{object-fit:contain;inset:10%;width:80%;height:80%;z-index:1}
 .mast-text{flex:1;min-width:0}
 .eyebrow{
   font-size:.66rem; letter-spacing:.16em; text-transform:uppercase;
@@ -109,7 +116,7 @@ a{color:var(--red)}
 /* ---- cards ---- */
 .card{
   background:var(--surface); border:1px solid var(--rule); border-radius:var(--radius);
-  box-shadow:var(--shadow); padding:clamp(.9rem,2.4vw,1.3rem);
+  box-shadow:var(--shadow); padding:var(--cardpad);
 }
 .stream{display:flex;flex-direction:column;gap:.8rem}
 .msg{display:flex;gap:.6rem;align-items:flex-start}
@@ -197,9 +204,28 @@ td.when{color:var(--red);font-weight:700;white-space:nowrap;font-variant-numeric
 .fb{background:var(--surface-2);border:1px solid var(--rule);border-radius:999px;padding:.35rem .85rem;font:inherit;font-size:.92rem;cursor:pointer;color:var(--ink)}
 .fb:hover{border-color:var(--denim)}
 .fb[aria-pressed="true"]{background:var(--olive);border-color:var(--olive);color:#fff}
+/* footer bands, full-bleed to the card edges */
+.band{margin:0 calc(-1 * var(--cardpad));padding:.85rem var(--cardpad)}
+.band-related{
+  background:var(--cream); border-top:1px solid var(--cream-rule);
+  border-bottom:1px solid var(--cream-rule);
+}
+.band-feedback{
+  background:var(--sky); border-top:1px solid var(--sky-rule);
+  margin-bottom:calc(-1 * var(--cardpad));
+  border-radius:0 0 calc(var(--radius) - 1px) calc(var(--radius) - 1px);
+}
+.band-related .chip{background:rgba(255,255,255,.55);border-color:var(--cream-rule)}
+:root[data-theme="dark"] .band-related .chip{background:rgba(255,255,255,.06)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]) .band-related .chip{background:rgba(255,255,255,.06)}}
+.band-feedback .feedback{margin-top:0}
+.band-feedback .fb{background:rgba(255,255,255,.6);border-color:var(--sky-rule)}
+:root[data-theme="dark"] .band-feedback .fb{background:rgba(255,255,255,.06)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]) .band-feedback .fb{background:rgba(255,255,255,.06)}}
+
 .askchat{
-  display:block; margin:.9rem 0 0; text-align:center; text-decoration:none;
-  background:var(--surface-2); border:1px solid var(--denim); color:var(--ti-denim);
+  display:block; margin:.75rem 0 0; text-align:center; text-decoration:none;
+  background:var(--surface); border:1px solid var(--denim); color:var(--ti-denim);
   border-radius:8px; padding:.6rem .9rem; font-weight:700; font-size:.93rem;
 }
 .askchat:hover{background:var(--denim);color:#fff;border-color:var(--denim)}
@@ -789,15 +815,16 @@ function renderAnswer(key){
   if(a.source) h += `<p class="source">${a.source}</p>`;
 
   const rel = (a.related||[]).filter(k=>A[k]);
-  h += `<hr class="divider">`;
   if(rel.length){
-    h += `<p class="label">Related</p><div class="chips">`
-      + rel.map(k=>`<button class="chip" data-goto="${k}">${A[k].q}</button>`).join("") + `</div>`;
+    h += `<div class="band band-related"><p class="label">Related</p><div class="chips">`
+      + rel.map(k=>`<button class="chip" data-goto="${k}">${A[k].q}</button>`).join("") + `</div></div>`;
   }
-  h += `<div class="feedback"><span>Did this help?</span>
+  h += `<div class="band band-feedback">
+        <div class="feedback"><span>Did this help?</span>
         <button class="fb" data-fb="y">&#128077; Yes</button>
-        <button class="fb" data-fb="n">&#128078; No</button></div>`;
-  h += `<a class="askchat" href="${ASK_CHAT}" target="_blank" rel="noopener">Didn't find your answer? Ask a question in the chat</a>`;
+        <button class="fb" data-fb="n">&#128078; No</button></div>
+        <a class="askchat" href="${ASK_CHAT}" target="_blank" rel="noopener">Didn't find your answer? Ask a question in the chat</a>
+        </div>`;
 
   card.innerHTML = h;
   msg.appendChild(card);
@@ -903,46 +930,127 @@ CATS.forEach((c,i)=>{
 });
 
 /* ---------- search ---------- */
-const SYN = {
-  "cancel":"cancel","unsubscribe":"cancel","stop paying":"cancel","refund":"still-charged",
-  "charged":"still-charged","charge":"still-charged","billing":"change-card","card":"change-card",
-  "payment":"change-card","pay":"change-card",
-  "talk time":"talk-time","talktime":"talk-time","patriot talk":"talk-time","discord":"talk-time",
-  "chat":"talk-time","voice":"talk-time",
-  "telegram":"telegram","signal":"telegram",
-  "state":"state-group","county":"state-group","local":"state-group",
-  "show":"watch-live","live":"watch-live","watch":"watch-live","rumble":"watch-live",
-  "coffee":"watch-live","news":"watch-live","time":"schedule","calendar":"schedule","today":"schedule",
-  "replay":"replays","recording":"replays","missed":"replays",
-  "humanitarian":"humanitarian","project":"humanitarian","form":"humanitarian",
-  "room":"find-room","where":"find-room","find":"find-room","group":"find-room",
-  "notification":"notifications","notifications":"notifications","email":"notifications","alert":"notifications",
-  "crash":"app-trouble","app":"app-trouble","broken":"app-trouble","not working":"app-trouble",
-  "loading":"app-trouble","slow":"app-trouble",
-  "login":"locked-out","log in":"locked-out","sign in":"locked-out","password":"locked-out",
-  "locked":"locked-out","access":"locked-out",
-  "small":"text-small","font":"text-small","read":"text-small","print":"text-small","big":"text-small",
-  "new":"start-here","start":"start-here","begin":"start-here",
-  "removed":"guidelines","muted":"guidelines","banned":"guidelines","rules":"guidelines",
-  "profile":"edit-profile","picture":"edit-profile","photo":"edit-profile","avatar":"edit-profile",
-  "my name":"edit-profile","change my email":"change-email","email address":"change-email",
-  "reset":"reset-password","forgot":"reset-password","new password":"reset-password",
-  "turn off":"notif-settings","too many emails":"notif-settings","settings":"notif-settings",
-  "how do i post":"how-to-post","comment":"how-to-post","upload":"how-to-post","picture in a post":"how-to-post",
-  "feed":"how-feed-works","hashtag":"hashtags","#":"hashtags",
-  "which app":"which-app","download":"which-app","store":"which-app","computer":"which-app",
-  "privacy":"privacy-data","private":"privacy-data","my data":"privacy-data","sell":"privacy-data",
-  "disappeared":"disappeared","gone":"disappeared","missing":"disappeared"
+/* Keywords per answer. The matcher scores a member's wording against these plus
+   the question text itself, so "can I make a post?" finds the posting answer
+   even though it shares no exact phrase with it. */
+const KW = {
+  "talk-time":["talk time","talktime","patriot talk","discord","voice","chat room","voice chat","join the chat","talk","chat","the chat","get into the chat","join chat","where do i chat"],
+  "lost-access":["lost access","kicked out","cant get in","locked out of talk time","back in","invite","invalid invite","verify","verification","suspended","banned from discord","removed","cant get into","cant get in","get back in","shut out","no longer works"],
+  "state-group":["state","state group","my state","county","local","local group","nearby","near me"],
+  "telegram":["telegram","signal","messenger","install telegram"],
+  "watch-live":["watch","where to watch","where do i watch","watch tonight","watch today","live","stream","rumble","tubepatriot","show","broadcast","tune in","coffee with chas","ppn news"],
+  "schedule":["is there a show","show today","any show today","what time","when is","schedule","calendar","today","tonight","show today","times","rerun"],
+  "replays":["replay","recording","missed","catch up","watch later","past show","archive"],
+  "humanitarian":["humanitarian","humanitarian room","humanitarian project","project","projects","submit","form","template","proposal","apply"],
+  "cancel":["cancel","unsubscribe","stop paying","end membership","quit","leave","opt out","stop my subscription","close membership"],
+  "change-card":["card","credit card","debit","bank","payment method","billing","update payment","new card","expired"],
+  "still-charged":["still charged","charged again","double charged","refund","money back","keeps charging","bank statement","overcharged","charged","twice","billed twice","charged me","taken money","came out again"],
+  "find-room":["room","rooms","find","where is","group","space","which room","navigate","lost","cant find"],
+  "disappeared":["disappeared","gone","missing","vanished","removed","deleted","where did it go","used to be"],
+  "text-small":["small","tiny","font","text size","bigger","larger","cant read","hard to read","magnify","zoom in"],
+  "start-here":["new","just joined","start","begin","getting started","first","beginner","newbie","where do i start"],
+  "guidelines":["removed","muted","banned","blocked","rules","guidelines","censored","silenced","suspended","warning","why cant i post","deleted","why was my post","took my post down","taken down","post gone"],
+  "app-trouble":["crash","crashing","not working","broken","wont load","loading","frozen","freeze","slow","error","glitch","bug","stuck","nothing loads","wont load","doesnt load","nothing happens","blank screen","keeps closing"],
+  "notifications":["not getting notifications","no notifications","missing notifications","nothing comes through","not notified","alerts not working","not getting","getting nothing","no alerts","nothing comes","never get notified","notifications"],
+  "locked-out":["log in","login","sign in","signin","locked out","cant get in","password","access denied","wont let me in"],
+  "edit-profile":["profile","picture","photo","avatar","my name","display name","bio","about me","change my picture","set up my profile"],
+  "change-email":["email address","change my email","new email","update email","wrong email"],
+  "reset-password":["password","forgot","reset","new password","change password","cant remember"],
+  "notif-settings":["notification settings","turn off","turn on","too many emails","stop emails","email settings","alerts","push","mute"],
+  "how-to-post":["post","posting","make a post","picture","photo","image","put a picture","write","publish","share something","comment","reply","upload","add a photo","add a picture","add a video","attach"],
+  "how-feed-works":["feed","timeline","home page","what i see","why do i see","main page","stream of posts"],
+  "hashtags":["hashtag","hashtags","tag","tagging","#"],
+  "which-app":["app","download","install","play store","app store","phone","tablet","ipad","iphone","android","computer","laptop","browser","which app"],
+  "privacy-data":["privacy","private","my data","sell my data","personal information","who can see","secure","safe","sell my information","information","personal details","data"]
 };
 
+const STOP = new Set(["i","a","an","the","my","me","do","does","did","how","can","could","would","what",
+  "where","when","why","is","are","am","was","it","to","in","on","for","of","and","or","you","we","this",
+  "that","be","get","got","have","has","there","here","please","help","need","want","with","from","at",
+  "if","so","but","just","some","any","not","dont","cant","wont","im","ive","us","our","your","yours"]);
+
+function norm(t){ return t.toLowerCase().replace(/[^a-z0-9#\s]/g," ").replace(/\s+/g," ").trim(); }
+function toks(t){ return norm(t).split(" ").filter(w=>w && !STOP.has(w) && w.length>1); }
+
+/* How many answers use each word. A word only one answer uses ("humanitarian")
+   identifies that answer far more strongly than one a dozen use ("room"). */
+const DF = {};
+for(const key in A){
+  const seen = new Set(toks(A[key].q));
+  (KW[key]||[]).forEach(k=>toks(k).forEach(w=>seen.add(w)));
+  seen.forEach(w=>{ DF[w] = (DF[w]||0) + 1; });
+}
+
+/* Whole-word phrase matching, so "information" no longer matches "form". */
+function hasPhrase(q, phrase){
+  const pn = norm(phrase);
+  if(!pn) return false;
+  const esc = pn.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+  return new RegExp("(^|\\s)" + esc + "($|\\s)").test(q);
+}
+
+/* Members misspell a lot ("pikture", "cancle", "subscribtion"), so an unmatched
+   word of 5+ letters is compared against the known vocabulary and allowed one or
+   two typos before we give up on it. */
+const VOCAB = Object.keys(DF).filter(w=>w.length>=5);
+function editWithin(a,b,max){
+  if(Math.abs(a.length-b.length)>max) return false;
+  const n=a.length, m=b.length;
+  let prev2=null, prev=[...Array(m+1).keys()];
+  for(let i=1;i<=n;i++){
+    const cur=[i]; let best=i;
+    for(let j=1;j<=m;j++){
+      let v=Math.min(prev[j]+1, cur[j-1]+1, prev[j-1]+(a[i-1]===b[j-1]?0:1));
+      // swapped letters ("chnage" for "change") count as one typo, not two
+      if(i>1 && j>1 && a[i-1]===b[j-2] && a[i-2]===b[j-1]) v=Math.min(v, prev2[j-2]+1);
+      cur.push(v); if(v<best) best=v;
+    }
+    if(best>max) return false;
+    prev2=prev; prev=cur;
+  }
+  return prev[m]<=max;
+}
+function correct(w){
+  if(DF[w] || w.length<5) return null;
+  const max = w.length>=8 ? 2 : 1;
+  for(const v of VOCAB) if(editWithin(w,v,max)) return v;
+  return null;
+}
+
+/* Returns [{key, score}] best first. */
+function rank(qRaw){
+  const q = norm(qRaw);
+  if(!q) return [];
+  const qt = toks(qRaw).map(w=>correct(w) || w);
+  // the same query with misspellings repaired, so phrases match too
+  const qc = norm(qRaw).split(" ").map(w=>correct(w) || w).join(" ");
+  const out = [];
+  for(const key in A){
+    let sc = 0;
+    const qText = norm(A[key].q.replace(/&mdash;/g," ").replace(/&[a-z]+;/g," "));
+    if(qText === q) sc += 100;
+    (KW[key]||[]).forEach(k=>{
+      if(hasPhrase(q,k) || (qc !== q && hasPhrase(qc,k))) sc += 6 + norm(k).split(" ").length * 3;
+    });
+    const qtSet = new Set(toks(A[key].q));
+    (KW[key]||[]).forEach(k=>toks(k).forEach(w=>qtSet.add(w)));
+    qt.forEach(w=>{
+      if(!qtSet.has(w)) return;
+      sc += 2;
+      if(DF[w] === 1 && w.length >= 6) sc += 10;
+      else if(DF[w] === 1) sc += 4;
+    });
+    if(sc>0) out.push({key, score:sc});
+  }
+  out.sort((x,y)=>y.score-x.score);
+  return out;
+}
+
 function search(qRaw){
-  const q=qRaw.toLowerCase().trim();
-  if(!q) return null;
-  for(const k in A) if(A[k].q.toLowerCase().replace(/&mdash;|&ldquo;|&rdquo;/g,"")===q) return k;
-  let best=null,bestLen=0;
-  for(const term in SYN){ if(q.includes(term) && term.length>bestLen){best=SYN[term];bestLen=term.length;} }
-  if(best) return best;
-  const room = ROOMS.find(r=>q.includes(r.t.toLowerCase()) || (r.a||[]).some(x=>q.includes(x)));
+  const r = rank(qRaw);
+  if(r.length && r[0].score >= 5) return r[0].key;
+  const q = norm(qRaw);
+  const room = ROOMS.find(x=>q.includes(norm(x.t)) || (x.a||[]).some(al=>q.includes(norm(al))));
   if(room) return "find-room";
   return null;
 }
@@ -952,6 +1060,7 @@ document.getElementById("askform").addEventListener("submit",e=>{
   const input=document.getElementById("ask"), v=input.value;
   const hit=search(v);
   if(hit){ go(hit); return; }
+  const near = rank(v).slice(0,3).map(r=>r.key);
   think(()=>{
     const msg=document.createElement("div"); msg.className="msg";
     msg.innerHTML=BADGE;
@@ -963,6 +1072,8 @@ document.getElementById("askform").addEventListener("submit",e=>{
       <p>This Navigator is new and we're still adding answers to it.</p>
       <p>Pick a topic on the right, search all the rooms, or ask a real person in the chat.</p>
       <button class="cta" data-goto="find-room">Search all rooms</button>
+      ${near.length ? `<hr class="divider"><p class="label">Did you mean one of these?</p><div class="chips">`
+        + near.map(k=>`<button class="chip" data-goto="${k}">${A[k].q}</button>`).join("") + `</div>` : ""}
       <a class="askchat" href="${ASK_CHAT}" target="_blank" rel="noopener">Ask your question in the chat</a>
       <p class="source">You asked: &ldquo;${esc(v)}&rdquo;</p>`;
     card.querySelectorAll("[data-goto]").forEach(b=>b.addEventListener("click",()=>go(b.dataset.goto)));

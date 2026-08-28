@@ -48,6 +48,27 @@ deliberate: an answer that appears instantly reads as a canned page, not as
 something responding to you. Guarded against re-entry so rapid clicks cannot
 stack indicators.
 
+## How questions are matched
+
+Member wording is scored against each answer, not looked up. Four things drive
+the score:
+
+1. **Keyword phrases** per answer, matched on whole words. (An early version
+   used substring matching, so "in**form**ation" matched the humanitarian
+   project *form* — hence the word boundaries.)
+2. **Word rarity.** A word only one answer uses ("humanitarian") identifies it
+   far more strongly than one a dozen use ("room").
+3. **Spelling correction** — Damerau edit distance against the known
+   vocabulary, so "pikture", "cancle", "chnage" and "notifcations" all land.
+   Transposition-aware, because swapped letters are the commonest typo.
+4. **Token overlap** with the question text.
+
+Below the score threshold the member gets a "Did you mean one of these?" list
+of the three closest answers rather than a dead end.
+
+`node app/test/matcher.test.js` runs 42 real-wording cases against the built
+file. Keep it at 42/42.
+
 ## Three answer types
 
 The review with Giulia established that not every question wants a canned
