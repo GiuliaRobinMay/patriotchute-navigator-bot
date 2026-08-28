@@ -13,7 +13,7 @@
   --focus:#A82B33;
   --shadow:0 1px 2px rgba(20,40,74,.06),0 8px 24px rgba(20,40,74,.07);
   --radius:10px;
-  --base:18px;
+  --base:16px;
 }
 @media (prefers-color-scheme:dark){
   :root:not([data-theme="light"]){
@@ -49,31 +49,31 @@ a{color:var(--red)}
 
 /* ---- masthead ---- */
 .masthead{
-  background:var(--navy); color:#fff; padding:.85rem clamp(.9rem,3vw,1.6rem);
+  background:var(--navy); color:#fff; padding:.6rem clamp(.8rem,3vw,1.3rem);
   display:flex; align-items:center; gap:.9rem; position:sticky; top:0; z-index:30;
   border-bottom:3px solid var(--red);
 }
-.badge{width:46px;height:46px;flex:none;border-radius:50%;display:block}
+.badge{width:38px;height:38px;flex:none;border-radius:50%;display:block}
 .mast-text{flex:1;min-width:0}
 .eyebrow{
   font-size:.66rem; letter-spacing:.16em; text-transform:uppercase;
   color:#9DBBD8; font-weight:700; display:block; line-height:1.3;
 }
-.mast-text strong{font-family:"Zilla Slab",Georgia,serif;font-size:1.42rem;font-weight:700;display:block;line-height:1.15}
+.mast-text strong{font-family:"Zilla Slab",Georgia,serif;font-size:1.18rem;font-weight:700;display:block;line-height:1.15}
 .textsize{display:flex;align-items:center;gap:.4rem;flex:none}
 .textsize span{font-size:.72rem;letter-spacing:.1em;text-transform:uppercase;color:#9DBBD8;font-weight:700}
 .tbtn{
   background:rgba(255,255,255,.1); color:#fff; border:1px solid rgba(255,255,255,.28);
   border-radius:6px; cursor:pointer; font-family:inherit; font-weight:700;
-  width:34px; height:34px; line-height:1; font-size:1rem;
+  width:30px; height:30px; line-height:1; font-size:.95rem;
 }
 .tbtn:hover{background:rgba(255,255,255,.2)}
 .tbtn[aria-pressed="true"]{background:var(--red);border-color:var(--red)}
 
 /* ---- shell ---- */
 .shell{
-  max-width:1240px; margin:0 auto; padding:clamp(.9rem,2.5vw,1.5rem);
-  display:grid; grid-template-columns:minmax(0,1fr) 340px; gap:clamp(.9rem,2vw,1.4rem);
+  max-width:1240px; margin:0 auto; padding:clamp(.7rem,2vw,1.1rem);
+  display:grid; grid-template-columns:minmax(0,1fr) 288px; gap:clamp(.7rem,1.6vw,1.1rem);
   align-items:start;
 }
 @media (max-width:900px){ .shell{grid-template-columns:minmax(0,1fr)} .browser{order:-1} }
@@ -81,21 +81,25 @@ a{color:var(--red)}
 /* ---- cards ---- */
 .card{
   background:var(--surface); border:1px solid var(--rule); border-radius:var(--radius);
-  box-shadow:var(--shadow); padding:clamp(1.1rem,3vw,1.7rem);
+  box-shadow:var(--shadow); padding:clamp(.9rem,2.4vw,1.3rem);
 }
-.stream{display:flex;flex-direction:column;gap:1rem}
-.msg{display:flex;gap:.75rem;align-items:flex-start}
-.msg .badge{width:38px;height:38px;margin-top:.3rem}
+.stream{display:flex;flex-direction:column;gap:.8rem}
+.msg{display:flex;gap:.6rem;align-items:flex-start}
+.msg .badge{width:32px;height:32px;margin-top:.25rem}
 .msg .card{flex:1;min-width:0}
-.card h2{font-size:1.45rem;color:var(--navy-2);margin-bottom:.5rem;line-height:1.2}
+.card h2{font-size:1.22rem;color:var(--navy-2);margin-bottom:.5rem;line-height:1.2}
 :root[data-theme="dark"] .card h2{color:var(--denim)}
 @media (prefers-color-scheme:dark){:root:not([data-theme="light"]) .card h2{color:var(--denim)}}
 .card p{margin:0 0 .85rem}
 .card p:last-child{margin-bottom:0}
 .lead{max-width:64ch}
+.intro h2{font-size:1.32rem}
+.intro .lead{font-size:.95rem}
+.intro .checks{font-size:.95rem;gap:.4rem}
+.intro .divider{margin:.9rem 0 .7rem}
 
 /* ---- checklist ---- */
-.checks{list-style:none;padding:0;margin:0 0 .4rem;display:flex;flex-direction:column;gap:.55rem}
+.checks{list-style:none;padding:0;margin:0 0 .3rem;display:flex;flex-direction:column;gap:.45rem}
 .checks li{display:flex;gap:.6rem;align-items:baseline}
 .checks .tick{color:var(--olive);font-weight:700;flex:none}
 .checks b{color:var(--navy-2);font-weight:700}
@@ -129,7 +133,7 @@ td.when{color:var(--red);font-weight:700;white-space:nowrap;font-variant-numeric
 /* ---- cta ---- */
 .cta{
   display:inline-block; background:var(--red); color:#fff; text-decoration:none;
-  font-weight:700; padding:.72rem 1.15rem; border-radius:7px; font-size:1.02rem;
+  font-weight:700; padding:.6rem 1.05rem; border-radius:7px; font-size:.98rem;
   border:0; cursor:pointer; font-family:inherit;
 }
 .cta:hover{background:var(--red-2)}
@@ -141,7 +145,7 @@ td.when{color:var(--red);font-weight:700;white-space:nowrap;font-variant-numeric
 .chips{display:flex;flex-wrap:wrap;gap:.5rem}
 .chip{
   background:var(--surface-2); border:1px solid var(--rule); color:var(--ink);
-  border-radius:999px; padding:.45rem .9rem; font:inherit; font-size:.94rem;
+  border-radius:999px; padding:.35rem .8rem; font:inherit; font-size:.88rem;
   cursor:pointer;
 }
 .chip:hover{border-color:var(--denim);background:var(--surface)}
@@ -153,42 +157,42 @@ td.when{color:var(--red);font-weight:700;white-space:nowrap;font-variant-numeric
 /* ---- browser ---- */
 .browser{
   background:var(--surface); border:1px solid var(--rule); border-top:4px solid var(--wheat);
-  border-radius:var(--radius); box-shadow:var(--shadow); padding:1.2rem; position:sticky; top:5.4rem;
+  border-radius:var(--radius); box-shadow:var(--shadow); padding:.95rem; position:sticky; top:4.6rem;
 }
 @media (max-width:900px){.browser{position:static}}
-.browser h2{font-size:1.28rem;color:var(--navy-2);margin-bottom:.35rem;line-height:1.2}
+.browser h2{font-size:1.06rem;color:var(--navy-2);margin-bottom:.35rem;line-height:1.2}
 :root[data-theme="dark"] .browser h2{color:var(--denim)}
 @media (prefers-color-scheme:dark){:root:not([data-theme="light"]) .browser h2{color:var(--denim)}}
-.browser>p{color:var(--ink-2);font-size:.95rem;margin:0 0 1rem}
-.cats{display:flex;flex-direction:column;gap:.5rem}
+.browser>p{color:var(--ink-2);font-size:.86rem;margin:0 0 .8rem;line-height:1.45}
+.cats{display:flex;flex-direction:column;gap:.4rem}
 .cat{border:1px solid var(--rule);border-radius:8px;overflow:hidden;background:var(--surface)}
 .cat.open{border-color:var(--navy-2)}
 .cat>button{
-  width:100%; display:flex; align-items:center; gap:.6rem; padding:.75rem .9rem;
+  width:100%; display:flex; align-items:center; gap:.5rem; padding:.55rem .7rem; font-size:.93rem;
   background:none; border:0; cursor:pointer; font:inherit; font-weight:700;
   color:var(--ink); text-align:left;
 }
 .cat>button:hover{background:var(--surface-2)}
-.dot{width:11px;height:11px;border-radius:50%;flex:none}
+.dot{width:9px;height:9px;border-radius:50%;flex:none}
 .cat>button .arrow{margin-left:auto;color:var(--ink-3);font-size:.75rem;transition:transform .15s}
 .cat.open>button .arrow{transform:rotate(90deg)}
 .catlist{list-style:none;margin:0;padding:0 0 .5rem;display:none;flex-direction:column}
 .cat.open .catlist{display:flex}
 .catlist button{
   width:100%; text-align:left; background:none; border:0; cursor:pointer; font:inherit;
-  color:var(--ink-2); padding:.45rem .9rem .45rem 2.15rem; line-height:1.4;
+  color:var(--ink-2); padding:.34rem .7rem .34rem 1.75rem; line-height:1.35; font-size:.88rem;
 }
 .catlist button:hover{color:var(--red);background:var(--surface-2)}
-.browser .foot{font-size:.9rem;color:var(--ink-3);margin:1rem 0 0;padding-top:.9rem;border-top:1px solid var(--rule-2)}
+.browser .foot{font-size:.82rem;color:var(--ink-3);margin:.8rem 0 0;padding-top:.7rem;border-top:1px solid var(--rule-2)}
 
 /* ---- ask bar ---- */
 .askbar{
   position:sticky; bottom:0; z-index:20; background:var(--ground);
-  border-top:1px solid var(--rule); padding:.8rem clamp(.9rem,3vw,1.6rem);
+  border-top:1px solid var(--rule); padding:.6rem clamp(.8rem,3vw,1.3rem);
 }
 .askinner{max-width:1240px;margin:0 auto;display:flex;gap:.7rem}
 .askinner input{
-  flex:1; min-width:0; padding:.85rem 1rem; font:inherit; font-size:1.02rem;
+  flex:1; min-width:0; padding:.65rem .85rem; font:inherit; font-size:.98rem;
   border:2px solid var(--rule); border-radius:8px; background:var(--surface); color:var(--ink);
 }
 .askinner input:focus{border-color:var(--denim);outline:none}
@@ -731,8 +735,8 @@ document.getElementById("askform").addEventListener("submit",e=>{
 });
 
 /* ---------- text size ---------- */
-let size=18;
-const SZ_MIN=16, SZ_MAX=26;
+let size=16;
+const SZ_MIN=14, SZ_MAX=26;
 function setSize(n,save){
   size=Math.max(SZ_MIN,Math.min(SZ_MAX,n));
   document.documentElement.style.setProperty("--base",size+"px");
@@ -742,14 +746,14 @@ function setSize(n,save){
 }
 document.getElementById("tplus").addEventListener("click",()=>setSize(size+2,true));
 document.getElementById("tminus").addEventListener("click",()=>setSize(size-2,true));
-try{ const s=parseInt(localStorage.getItem("ppn-nav-size"),10); if(s) setSize(s,false); else setSize(18,false); }
-catch(e){ setSize(18,false); }
+try{ const s=parseInt(localStorage.getItem("ppn-nav-size"),10); if(s) setSize(s,false); else setSize(16,false); }
+catch(e){ setSize(16,false); }
 
 /* ---------- opening card ---------- */
 (function(){
   const msg=document.createElement("div"); msg.className="msg";
   msg.innerHTML=BADGE.replace('class="badge"','class="badge" aria-hidden="true"');
-  const card=document.createElement("div"); card.className="card";
+  const card=document.createElement("div"); card.className="card intro";
   card.innerHTML=`<h2>Hi &mdash; what do you need?</h2>
     <div class="lead"><p>Pick a topic on the right, or type your question at the bottom. I'll point you to the exact room or page &mdash; and give you the link.</p></div>
     <ul class="checks">

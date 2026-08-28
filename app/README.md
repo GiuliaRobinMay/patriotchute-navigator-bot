@@ -25,10 +25,12 @@ Palette is the flag weathered rather than a campaign banner: union navy
 ground, wheat `#C6912F` on the badge. Zilla Slab for headings (civic print),
 Source Sans 3 for body.
 
-**Base text is 18px, not 16.** The scan's clearest accessibility finding was
-members abandoning setup because *"the print is so small I cannot read it to
-follow"*. There is also a Text +/- control in the masthead that persists per
-viewer.
+**Base text is 16px**, with a Text +/- control (14-26px) in the masthead that
+persists per viewer. It started at 18px because the scan's clearest
+accessibility finding was members abandoning setup over *"the print is so small
+I cannot read it to follow"* — but at 18px the app was too heavy inside the
+community embed, so the default came down and the control carries the
+accessibility case instead.
 
 ## Three answer types
 
