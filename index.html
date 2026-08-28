@@ -317,7 +317,7 @@ td.when{color:var(--red);font-weight:700;white-space:nowrap;font-variant-numeric
   <aside class="browser">
     <p class="label">Find your way around</p>
     <div class="cats" id="cats"></div>
-    <p class="foot">Can't find it? Post in <strong>HOME | Members Lobby</strong> and an admin will pick it up.</p>
+    <p class="foot">Can't find it? <a href="https://www.patriotchute.com/spaces/24817899/chat" target="_blank" rel="noopener">Ask a question in the chat</a> and we'll help you.</p>
   </aside>
 </div>
 
@@ -518,7 +518,7 @@ A["disappeared"] = {
   body:`<p>The community is being reorganised, so rooms genuinely get renamed or moved. Most of the time nothing has been deleted and nobody has been removed &mdash; it has just changed place.</p>`,
   steps:["Search for it in the room finder below &mdash; try the old name <i>and</i> a word from it.",
          "Check <b>Community News</b> for anything announced recently.",
-         "Still gone? Post in <b>HOME | Members Lobby</b> with the name of what you're looking for."],
+         "Still gone? Ask in the chat with the name of what you're looking for."],
   cta:{label:"Search all rooms", action:"find-room"},
   related:["find-room"]
 };
@@ -556,7 +556,7 @@ A["guidelines"] = {
   h:"Community guidelines are being written",
   pending:true,
   body:`<p>We're putting proper community guidelines in writing so that everyone knows where they stand. Until they're published, we don't want to guess at a rule that isn't written down yet.</p>
-        <p>If something of yours was removed, post in <b>HOME | Members Lobby</b> and an admin will explain what happened.</p>`,
+        <p>If something of yours was removed, ask in the chat and we'll explain what happened.</p>`,
   related:["disappeared"]
 };
 
@@ -739,9 +739,9 @@ function wireTriage(card,t){
     });
     if(!parts.length){ out.innerHTML=`<p class="source">Fill in at least one answer above first.</p>`; return; }
     const text = parts.join("\n") + "\n\n(Please add a screenshot if you can.)";
-    out.innerHTML = `<hr class="divider"><p class="label">Copy this into a post in the Members Lobby</p>
+    out.innerHTML = `<hr class="divider"><p class="label">Copy this, then paste it into the chat</p>
       <div class="out">${esc(text)}</div>
-      <a class="cta" href="https://www.patriotchute.com/spaces/4755493" target="_blank" rel="noopener">Open Members Lobby</a>`;
+      <a class="cta" href="${ASK_CHAT}" target="_blank" rel="noopener">Ask a question in the chat</a>`;
   });
 }
 
