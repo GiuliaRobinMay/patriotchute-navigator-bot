@@ -168,10 +168,6 @@ td.when{color:var(--red);font-weight:700;white-space:nowrap;font-variant-numeric
   border-radius:var(--radius); box-shadow:var(--shadow); padding:.95rem; position:sticky; top:4.6rem;
 }
 @media (max-width:900px){.browser{position:static}}
-.browser h2{font-size:1.06rem;color:var(--navy-2);margin-bottom:.35rem;line-height:1.2}
-:root[data-theme="dark"] .browser h2{color:var(--denim)}
-@media (prefers-color-scheme:dark){:root:not([data-theme="light"]) .browser h2{color:var(--denim)}}
-.browser>p{color:var(--ink-2);font-size:.86rem;margin:0 0 .8rem;line-height:1.45}
 .cats{display:flex;flex-direction:column;gap:.4rem}
 .cat{border:1px solid var(--rule);border-radius:8px;overflow:hidden;background:var(--surface)}
 .cat.open{border-color:var(--navy-2)}
@@ -191,6 +187,7 @@ td.when{color:var(--red);font-weight:700;white-space:nowrap;font-variant-numeric
   color:var(--ink-2); padding:.34rem .7rem .34rem 1.75rem; line-height:1.35; font-size:.88rem;
 }
 .catlist button:hover{color:var(--red);background:var(--surface-2)}
+.browser .label{margin:0 0 .7rem}
 .browser .foot{font-size:.82rem;color:var(--ink-3);margin:.8rem 0 0;padding-top:.7rem;border-top:1px solid var(--rule-2)}
 
 /* ---- ask bar ---- */
@@ -274,8 +271,6 @@ td.when{color:var(--red);font-weight:700;white-space:nowrap;font-variant-numeric
 
   <aside class="browser">
     <p class="label">Find your way around</p>
-    <h2>What are you looking for?</h2>
-    <p>Pick a topic, or type your question at the bottom. I'll point you to the exact room &mdash; and give you the link.</p>
     <div class="cats" id="cats"></div>
     <p class="foot">Can't find it? Post in <strong>HOME | Members Lobby</strong> and an admin will pick it up.</p>
   </aside>
