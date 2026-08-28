@@ -78,9 +78,9 @@ a{color:var(--red)}
   display:flex; align-items:center; gap:.9rem; position:sticky; top:0; z-index:30;
   border-bottom:3px solid var(--red);
 }
-.badge{width:38px;height:38px;flex:none;border-radius:50%;display:block;position:relative;overflow:hidden;background:#000}
+.badge{width:38px;height:38px;flex:none;border-radius:9px;display:block;position:relative;overflow:hidden;background:#000}
 .badge svg,.badge img{position:absolute;inset:0;width:100%;height:100%;display:block}
-.badge img{object-fit:contain;inset:10%;width:80%;height:80%;z-index:1}
+.badge img{object-fit:cover;inset:0;width:100%;height:100%;z-index:1}
 .mast-text{flex:1;min-width:0}
 .eyebrow{
   font-size:.66rem; letter-spacing:.16em; text-transform:uppercase;
@@ -112,7 +112,7 @@ a{color:var(--red)}
 }
 .stream{display:flex;flex-direction:column;gap:.8rem}
 .msg{display:flex;gap:.6rem;align-items:flex-start}
-.msg .badge{width:32px;height:32px;margin-top:.25rem}
+.msg .badge{width:32px;height:32px;border-radius:8px;margin-top:.25rem}
 .msg .card{flex:1;min-width:0}
 .card h2{font-size:1.22rem;color:var(--navy-2);margin-bottom:.5rem;line-height:1.2}
 :root[data-theme="dark"] .card h2{color:var(--denim)}
@@ -304,9 +304,9 @@ td.when{color:var(--red);font-weight:700;white-space:nowrap;font-variant-numeric
 <header class="masthead">
   <span class="badge" role="img" aria-label="Patriot Party News">
     <svg viewBox="0 0 64 64" aria-hidden="true">
-    <circle cx="32" cy="32" r="31" fill="#FCFBF8" stroke="#A82B33" stroke-width="2"/>
-    <path d="M32 9 L47 15 V32 C47 42 40 49 32 53 C24 49 17 42 17 32 V15 Z" fill="#14284A"/>
-    <path d="M32 13 L43 17.5 V27 H32 Z" fill="#14284A"/>
+    <rect x="0" y="0" width="64" height="64" rx="9" fill="#000"/>
+    <path d="M32 9 L47 15 V32 C47 42 40 49 32 53 C24 49 17 42 17 32 V15 Z" fill="#2C4C7E"/>
+    <path d="M32 13 L43 17.5 V27 H32 Z" fill="#2C4C7E"/>
     <path d="M32 27 H43 V32 C43 34 42.8 35.8 42.4 37.5 H32 Z" fill="#A82B33"/>
     <path d="M32 37.5 H42.4 C41.4 41.6 38.2 46 32 49.5 Z" fill="#FCFBF8"/>
     <path d="M32 27 H21 V32 C21 34 21.2 35.8 21.6 37.5 H32 Z" fill="#FCFBF8"/>
