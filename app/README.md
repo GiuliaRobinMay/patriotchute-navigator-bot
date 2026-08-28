@@ -32,6 +32,22 @@ I cannot read it to follow"* — but at 18px the app was too heavy inside the
 community embed, so the default came down and the control carries the
 accessibility case instead.
 
+## Topic colours
+
+Every answer carries a topic colour, matching the category dots in the right
+rail, shown as a stripe along the top of the card and a small eyebrow naming the
+topic. It encodes which kind of thing the member is looking at, so a billing
+answer and a Talk Time answer are distinguishable at a glance rather than by
+reading. Tokens are `--t-*` (stripe) and `--ti-*` (text); the text variants are
+darkened in light mode so small uppercase type still meets contrast.
+
+## Typing indicator
+
+Answers appear after a 1000ms pause showing three dots (`THINK_MS`). It is
+deliberate: an answer that appears instantly reads as a canned page, not as
+something responding to you. Guarded against re-entry so rapid clicks cannot
+stack indicators.
+
 ## Three answer types
 
 The review with Giulia established that not every question wants a canned
@@ -64,3 +80,8 @@ to an empty room is worse than saying "not yet".
 - **Confirm Apple/iOS billing** — if any members are billed through Apple, that
   explains the "cancelled but still charged" reports.
 - Feedback buttons are UI only; they do not record anywhere yet.
+- The masthead/answer avatar loads the community's own branding image from
+  Mighty Networks, with the shield SVG behind it as a fallback. Artifact
+  previews block external images and will show the shield; the Vercel embed
+  shows the real logo. To make it work everywhere, inline the logo as a data
+  URI (the fetch is blocked from this environment).
