@@ -358,7 +358,16 @@ const TONE = {
   "app-trouble":  ["slate","Something's not working"],
   "notifications":["slate","Something's not working"],
   "locked-out":   ["slate","Something's not working"],
-  "text-small":   ["slate","Something's not working"]
+  "text-small":   ["slate","Something's not working"],
+  "edit-profile": ["wheat","Your account & billing"],
+  "change-email": ["wheat","Your account & billing"],
+  "reset-password":["wheat","Your account & billing"],
+  "notif-settings":["slate","Something's not working"],
+  "how-to-post":  ["olive","Using the community"],
+  "how-feed-works":["olive","Using the community"],
+  "hashtags":     ["olive","Using the community"],
+  "which-app":    ["slate","Something's not working"],
+  "privacy-data": ["navy","Getting started"]
 };
 
 A["talk-time"] = {
@@ -459,7 +468,7 @@ A["cancel"] = {
          "Go to <b>Plans and Access</b>.",
          "Find your active subscription.",
          "Click <b>Cancel Subscription</b>."],
-  callout:`You keep access until the end of the billing period you have already paid for.`,
+  callout:`You keep access until the end of the billing period you have already paid for. After that your membership simply stops &mdash; <b>your posts and comments stay in the community</b>, and you can rejoin later with the same email.`,
   callout2:{warn:true, html:`<b>If you signed up through the iPhone or iPad app</b>, you must cancel through Apple instead: <b>Settings &rarr; your name &rarr; Media &amp; Purchases &rarr; Subscriptions</b>. Cancelling inside PPN will not stop an Apple charge.`},
   source:"A step-by-step video is being recorded and will replace these steps.",
   related:["change-card","still-charged"]
@@ -469,8 +478,8 @@ A["change-card"] = {
   q:"How do I change the card I pay with?",
   h:"Update your card in your billing settings",
   pending:true,
-  body:`<p>This is handled in your Mighty Networks account settings.</p>`,
-  steps:["Click your <b>profile picture</b>.",
+  body:`<p>Your card is stored in your account settings, and only you can change it &mdash; nobody at PPN can see or edit your card details.</p>`,
+  steps:["Click your <b>profile picture</b> in the top right corner.",
          "Go to <b>Personal Settings</b>.",
          "Open <b>Account</b>, then <b>Billing</b>.",
          "Update your card there."],
@@ -607,14 +616,124 @@ A["locked-out"] = {
   related:["talk-time","cancel"]
 };
 
+
+/* ---------- account & profile ---------- */
+A["edit-profile"] = {
+  q:"How do I set up my profile or change my picture?",
+  h:"Your profile is in Personal Settings",
+  body:`<p>Everything about you &mdash; your name, your photo, what people see when they click on you &mdash; is in one place.</p>`,
+  steps:["Click your <b>profile picture</b> in the top right corner.",
+         "Choose <b>Personal Settings</b>.",
+         "Choose <b>Edit Profile</b>.",
+         "Change what you like, then save."],
+  callout:`Your photo needs to be at least <b>500 x 500 pixels</b>, and it gets cropped into a circle. A normal photo from your phone is plenty big enough.`,
+  related:["change-email","reset-password","notif-settings"]
+};
+
+A["change-email"] = {
+  q:"How do I change the email address on my account?",
+  h:"Change your email in your account settings",
+  body:`<p>This is the address we send everything to, so it is worth keeping right.</p>`,
+  steps:["Click your <b>profile picture</b> in the top right corner.",
+         "Choose <b>Personal Settings</b>.",
+         "Open <b>Account</b>.",
+         "Update your email address there. You may be asked to verify the new one &mdash; check your inbox."],
+  callout:`Changing your email here changes where your notifications go. It does not change anything about your payment.`,
+  related:["reset-password","edit-profile","change-card"]
+};
+
+A["reset-password"] = {
+  q:"I forgot my password &mdash; how do I reset it?",
+  h:"Resetting your password",
+  body:`<p>If you can still get in, change it from your account settings: <b>profile picture &rarr; Personal Settings &rarr; Account</b>.</p>
+        <p>If you are locked out, use <b>Forgot password</b> on the sign-in screen and we will email you a link.</p>`,
+  callout:`<b>If the email never arrives:</b> check your junk or spam folder first, and make sure you are using the same email address you joined with. If it still does not come, ask in the chat and we will help.`,
+  callout2:{warn:true, html:`Some members sign in with <b>Google</b> instead of a password. If you joined that way, there is no password to reset &mdash; just use the Google button.`},
+  related:["change-email","locked-out"]
+};
+
+A["notif-settings"] = {
+  q:"How do I turn notifications on or off?",
+  h:"You control what you get, and how",
+  body:`<p>Notifications reach you in more than one way, and each is switched separately. That is usually why people get too many, or none at all.</p>`,
+  steps:["Click your <b>profile picture</b> in the top right corner.",
+         "Choose <b>Personal Settings</b>.",
+         "Choose <b>Notifications</b>.",
+         "Turn on what you want, turn off what you don't."],
+  table:{head:["Way you get them","What it is"],
+    rows:[
+      ["In the community","The bell icon at the top. On by default."],
+      ["Email","Sent to the address on your account. On by default, as a once-a-day summary."],
+      ["On your phone","Alerts on your phone screen. <b>Off by default</b> &mdash; you have to turn these on."],
+      ["On your computer","Pop-ups from your browser."]
+    ]},
+  callout:`<b>Getting too much email?</b> Turn Email Updates down or off. <b>Getting nothing on your phone?</b> Phone alerts are off until you switch them on, in Notifications.`,
+  related:["notifications","edit-profile"]
+};
+
+/* ---------- using the community ---------- */
+A["how-to-post"] = {
+  q:"How do I post, comment, or add a photo?",
+  h:"Posting in a room",
+  body:`<p>Go into the room you want to post in and use the box at the top to write. You can add a photo, a video, a link, a GIF or an emoji to the same post.</p>`,
+  steps:["Open the room you want to post in.",
+         "Click the box at the top that invites you to write something.",
+         "Type your post. Use the icons to add a photo, video or link.",
+         "Post it."],
+  callout:`To reply to someone else, use the <b>comment</b> box underneath their post rather than writing a new one. That keeps the conversation together.`,
+  related:["how-feed-works","hashtags","find-room"]
+};
+
+A["how-feed-works"] = {
+  q:"What is the feed, and why do I see what I see?",
+  h:"How the feed works",
+  body:`<p>The feed gathers together what has been posted in the rooms <b>you have joined</b>. It is not everything in the community &mdash; it is your rooms.</p>
+        <p>That is why two members see different things, and why joining more rooms gives you more in your feed.</p>`,
+  steps:["Seeing too little? Join more rooms &mdash; use the room finder.",
+         "Seeing too much? You can leave a room you are not interested in.",
+         "Looking for one particular room? Go to it directly rather than scrolling the feed."],
+  cta:{label:"Find a room", action:"find-room"},
+  related:["find-room","how-to-post"]
+};
+
+A["hashtags"] = {
+  q:"How do hashtags work?",
+  h:"Hashtags group posts together",
+  body:`<p>A hashtag is a word with a # in front of it, like <b>#Texas</b>. Clicking one shows you every post using it, which is a quick way to find everything on one subject.</p>`,
+  steps:["To use one, type # and then the word, with <b>no spaces</b> &mdash; for example #Prayer or #Veterans.",
+         "To find posts, click any hashtag you see and you will get the full list."],
+  callout:`In the state rooms, county hashtags are how local members find each other. If your room uses them, add yours to your posts so people nearby can find you.`,
+  related:["how-to-post","find-room"]
+};
+
+/* ---------- platform ---------- */
+A["which-app"] = {
+  q:"Which app do I download, and can I use my computer instead?",
+  h:"App or computer &mdash; both work",
+  body:`<p>You do not need an app at all. Everything works in a normal web browser at <b>patriotchute.com</b>, on a computer, a tablet or a phone.</p>
+        <p>If you prefer an app, the community runs on <b>Mighty Networks</b> &mdash; that is the app name to search for in the App Store or Google Play. Sign in with the same email and password you already use.</p>`,
+  callout:`<b>If something is not working in the app</b>, open <b>patriotchute.com</b> in your browser instead. That fixes most problems on the spot.`,
+  callout2:{warn:true, html:`Changing your card or your billing is best done in a <b>browser</b>, not the app.`},
+  related:["app-trouble","change-card"]
+};
+
+A["privacy-data"] = {
+  q:"Is my information private? Do you sell my data?",
+  h:"Your information is not sold",
+  body:`<p>No. Your information is not sold to anyone, and what you post stays yours.</p>
+        <p>What other members can see is your profile &mdash; your name, your photo and anything you have chosen to put there &mdash; along with what you post publicly in the rooms. Your email address and payment details are not shown to other members.</p>`,
+  callout:`Be careful posting your <b>phone number or email address</b> in a room. Anyone in that room can read it. If you need help, ask in the chat instead.`,
+  related:["edit-profile","privacy-data"]
+};
+
 /* ---------- categories ---------- */
 const CATS = [
-  {name:"Getting started", color:"var(--navy-2)", qs:["start-here","talk-time","find-room","schedule"]},
+  {name:"Getting started", color:"var(--navy-2)", qs:["start-here","talk-time","find-room","schedule","privacy-data"]},
   {name:"Talk Time &amp; your state", color:"var(--red)", qs:["talk-time","state-group","lost-access","telegram"]},
   {name:"Live shows &amp; replays", color:"var(--denim)", qs:["watch-live","schedule","replays"]},
-  {name:"Your account &amp; billing", color:"var(--wheat)", qs:["cancel","change-card","still-charged"]},
-  {name:"Find a room", color:"var(--olive)", qs:["find-room","disappeared","humanitarian"]},
-  {name:"Something's not working", color:"var(--ink-3)", qs:["app-trouble","notifications","locked-out","text-small"]}
+  {name:"Your account &amp; billing", color:"var(--wheat)", qs:["cancel","change-card","still-charged","edit-profile","change-email","reset-password"]},
+  {name:"Using the community", color:"var(--olive)", qs:["how-to-post","how-feed-works","hashtags","find-room","humanitarian","disappeared","guidelines"]},
+  {name:"Something's not working", color:"var(--ink-3)", qs:["app-trouble","which-app","notifications","notif-settings","locked-out","text-small"]}
 ];
 
 /* ---------- rendering ---------- */
@@ -794,6 +913,14 @@ const SYN = {
   "small":"text-small","font":"text-small","read":"text-small","print":"text-small","big":"text-small",
   "new":"start-here","start":"start-here","begin":"start-here",
   "removed":"guidelines","muted":"guidelines","banned":"guidelines","rules":"guidelines",
+  "profile":"edit-profile","picture":"edit-profile","photo":"edit-profile","avatar":"edit-profile",
+  "my name":"edit-profile","change my email":"change-email","email address":"change-email",
+  "reset":"reset-password","forgot":"reset-password","new password":"reset-password",
+  "turn off":"notif-settings","too many emails":"notif-settings","settings":"notif-settings",
+  "how do i post":"how-to-post","comment":"how-to-post","upload":"how-to-post","picture in a post":"how-to-post",
+  "feed":"how-feed-works","hashtag":"hashtags","#":"hashtags",
+  "which app":"which-app","download":"which-app","store":"which-app","computer":"which-app",
+  "privacy":"privacy-data","private":"privacy-data","my data":"privacy-data","sell":"privacy-data",
   "disappeared":"disappeared","gone":"disappeared","missing":"disappeared"
 };
 
@@ -860,7 +987,8 @@ catch(e){ setSize(16,false); }
       <li><span class="tick">&#10004;</span><span><b>Getting started</b> &mdash; where to begin, how to find your way</span></li>
       <li><span class="tick">&#10004;</span><span><b>Talk Time &amp; your state</b> &mdash; it's inside the community now</span></li>
       <li><span class="tick">&#10004;</span><span><b>Live shows &amp; replays</b> &mdash; what's on, when, and where to watch</span></li>
-      <li><span class="tick">&#10004;</span><span><b>Your account</b> &mdash; billing, your card, cancelling</span></li>
+      <li><span class="tick">&#10004;</span><span><b>Your account</b> &mdash; your profile, email, password, billing</span></li>
+      <li><span class="tick">&#10004;</span><span><b>Using the community</b> &mdash; posting, the feed, hashtags</span></li>
       <li><span class="tick">&#10004;</span><span><b>Find a room</b> &mdash; all ${ROOMS.length} of them, with links</span></li>
     </ul>
     <hr class="divider">

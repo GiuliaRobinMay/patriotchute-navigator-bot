@@ -1,6 +1,20 @@
 # Mighty Networks member documentation — candidate FAQs
 
-**Status: FOR APPROVAL. Nothing here is implemented yet.**
+**Status: APPROVED AND IMPLEMENTED, 2026-08-27.**
+
+Giulia approved the Adopt list with two conditions:
+1. **No links to Mighty Networks documentation anywhere.** All of it rewritten
+   in the community's own voice.
+2. Streaks, leaderboard and member-created events dropped entirely — those
+   features are off at PPN, so the guidance would be wrong.
+
+Also dropped at her direction, as not worth an FAQ entry:
+- Deleting a comment ("there is simply a delete button, it's super simple")
+- What happens to posts after cancelling ("they stay in the community" — folded
+  into the cancel answer as one line instead)
+- Photo and video size limits
+- Managing a deceased relative's account ("if they don't have access they can't
+  ask the question, and if they do they can just cancel")
 
 Every page below sits under `docs.mightynetworks.com/for-members/` — the
 member-facing guides, not the host guides. Host pages were excluded.
@@ -98,3 +112,37 @@ Real questions from the PPN scan that Mighty's own member docs do not answer:
 - Making the text bigger (a device setting, not a platform one)
 
 These stay ours to write.
+
+
+---
+
+# What shipped
+
+Nine new answers, written in the community's voice, no external links:
+
+| Answer | Replaces which Mighty page |
+|---|---|
+| How do I set up my profile or change my picture? | Personal Settings |
+| How do I change the email address on my account? | Personal Settings |
+| I forgot my password — how do I reset it? | Set or Reset My Password |
+| How do I turn notifications on or off? | What Notifications Will I Get |
+| How do I post, comment, or add a photo? | How Do I Post |
+| What is the feed, and why do I see what I see? | How Does the Feed Work |
+| How do hashtags work? | How Do I Use Hashtags |
+| Which app do I download? | Can I Access From an App |
+| Is my information private? Do you sell my data? | Does Mighty Sell My Data |
+
+Two existing answers were extended rather than duplicated: **cancel** gained
+what leaving actually does, and **change-card** gained the "only you can change
+it" point.
+
+The Navigator now carries **28 answers in 6 categories**. A new category,
+**Using the community**, holds the posting, feed and hashtag answers.
+
+## Facts worth keeping
+
+- Profile photo: minimum **500 x 500 px**, cropped to a circle.
+- Phone push notifications are **off by default** — a likely cause of the
+  33 "my notifications are on but I get nothing" reports.
+- Email updates default to a **once-a-day summary**, not per-post.
+- Members who joined with **Google** have no password to reset.
