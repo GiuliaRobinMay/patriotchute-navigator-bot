@@ -1,5 +1,11 @@
-function mkEl(){const e={className:"",innerHTML:"",style:{},dataset:{},value:"",disabled:false,textContent:"",outerHTML:"<span></span>",classList:{add(){},toggle(){return true}},appendChild(){},remove(){},scrollIntoView(){},setAttribute(){},addEventListener(){},querySelector(){return mkEl()},querySelectorAll(){return []}};Object.defineProperty(e,"content",{get(){return{firstElementChild:mkEl()}}});return e;}
-global.document={createElement:mkEl,getElementById:mkEl,querySelector:mkEl,querySelectorAll:()=>[],documentElement:{style:{setProperty(){}}}};
+// Runs the real shipped script against how members actually type.
+//   python3 app/build_app.py && node app/test/matcher.test.js
+function mkEl(){const e={className:"",innerHTML:"",style:{},dataset:{},value:"",disabled:false,textContent:"",
+ outerHTML:"<span></span>",classList:{add(){},toggle(){return true}},appendChild(){},remove(){},
+ scrollIntoView(){},setAttribute(){},addEventListener(){},querySelector(){return mkEl()},querySelectorAll(){return []}};
+ Object.defineProperty(e,"content",{get(){return{firstElementChild:mkEl()}}});return e;}
+global.document={createElement:mkEl,getElementById:mkEl,querySelector:mkEl,querySelectorAll:()=>[],
+ documentElement:{style:{setProperty(){}}}};
 global.localStorage={getItem(){return null},setItem(){}};global.setTimeout=f=>f();
 
 const ROOMS = [{"t":"12 pm - PPN News","u":"https://www.patriotchute.com/spaces/24417514","c":"LIVE STREAMS | CST TIME","a":["noon show","12pm news","lunchtime news"]},{"t":"8 pm - PPN News","u":"https://www.patriotchute.com/spaces/4759408","c":"LIVE STREAMS | CST TIME","a":["8pm news","evening news","night show"]},{"t":"9 am - Coffee With Chas","u":"https://www.patriotchute.com/spaces/18992734","c":"LIVE STREAMS | CST TIME","a":["coffee with chas","9am show","morning show"]},{"t":"Canada","u":"https://www.patriotchute.com/spaces/12907547","c":"OTHER COUNTRIES","a":[]},{"t":"United Kingdom","u":"https://www.patriotchute.com/spaces/12907539","c":"OTHER COUNTRIES","a":[]},{"t":"Food & Dining Room","u":"https://www.patriotchute.com/spaces/4759370","c":"PATRIOT CHATS","a":[]},{"t":"In Memory","u":"https://www.patriotchute.com/spaces/19075784","c":"PATRIOT CHATS","a":[]},{"t":"Meme Room","u":"https://www.patriotchute.com/spaces/4787490","c":"PATRIOT CHATS","a":[]},{"t":"Music Room","u":"https://www.patriotchute.com/spaces/11155097","c":"PATRIOT CHATS","a":[]},{"t":"Patriot Families Hub","u":"https://www.patriotchute.com/spaces/4758510","c":"PATRIOT CHATS","a":[]},{"t":"Patriot Pics Album","u":"https://www.patriotchute.com/spaces/11173003","c":"PATRIOT CHATS","a":[]},{"t":"Prayer Request Chat","u":"https://www.patriotchute.com/spaces/13489977","c":"PATRIOT CHATS","a":[]},{"t":"Share Your Event Pics","u":"https://www.patriotchute.com/spaces/11183698","c":"PATRIOT CHATS","a":[]},{"t":"Assassinations/Executions/Resignations","u":"https://www.patriotchute.com/spaces/4765561","c":"PATRIOT FORUMS","a":[]},{"t":"Cabal Room","u":"https://www.patriotchute.com/spaces/4758532","c":"PATRIOT FORUMS","a":[]},{"t":"HOME | Members Lobby","u":"https://www.patriotchute.com/spaces/4755493","c":"PATRIOT FORUMS","a":["lobby","members lobby","home","main feed"]},{"t":"Health & Medical Room","u":"https://www.patriotchute.com/spaces/4758505","c":"PATRIOT FORUMS","a":["health","medical","health room"]},{"t":"Humanitarian Projects","u":"https://www.patriotchute.com/spaces/4758493","c":"PATRIOT FORUMS","a":["humanitarian project","humanitarian projects","humanitarian room","my project","submit a project","project room"]},{"t":"Patriot Companies & Job Board Room","u":"https://www.patriotchute.com/spaces/4759280","c":"PATRIOT FORUMS","a":[]},{"t":"Q-17 Room","u":"https://www.patriotchute.com/spaces/4758457","c":"PATRIOT FORUMS","a":[]},{"t":"Quantum Financial Room","u":"https://www.patriotchute.com/spaces/4757474","c":"PATRIOT FORUMS","a":[]},{"t":"RV | Currency Chat","u":"https://www.patriotchute.com/spaces/4759334","c":"PATRIOT FORUMS","a":[]},{"t":"The Epstein Files","u":"https://www.patriotchute.com/spaces/18595148","c":"PATRIOT FORUMS","a":[]},{"t":"WOW | Women Of Worth","u":"https://www.patriotchute.com/spaces/10601661","c":"PATRIOT FORUMS","a":[]},{"t":"Community News","u":"https://www.patriotchute.com/spaces/22399429","c":"PATRIOT NEWS ROOMS","a":["community news","announcements","what's new"]},{"t":"Midterms Election 2026","u":"https://www.patriotchute.com/spaces/5450744","c":"PATRIOT NEWS ROOMS","a":[]},{"t":"Patriot News Drops","u":"https://www.patriotchute.com/spaces/4758431","c":"PATRIOT NEWS ROOMS","a":[]},{"t":"Underground Patriot Newsroom","u":"https://www.patriotchute.com/spaces/6094172","c":"PATRIOT NEWS ROOMS","a":[]},{"t":"*State Director/County Coord Interest","u":"https://www.patriotchute.com/spaces/11424146","c":"PPN USA STATE GROUPS","a":["state director","county coordinator","become a director"]},{"t":"Alabama","u":"https://www.patriotchute.com/spaces/11400677","c":"PPN USA STATE GROUPS","a":["alabama","alabama group","alabama state group"]},{"t":"Alaska","u":"https://www.patriotchute.com/spaces/11400690","c":"PPN USA STATE GROUPS","a":["alaska","alaska group","alaska state group"]},{"t":"American Samoa","u":"https://www.patriotchute.com/spaces/11401791","c":"PPN USA STATE GROUPS","a":["american samoa","american samoa group","american samoa state group"]},{"t":"Arizona","u":"https://www.patriotchute.com/spaces/11400947","c":"PPN USA STATE GROUPS","a":["arizona","arizona group","arizona state group"]},{"t":"Arkansas","u":"https://www.patriotchute.com/spaces/11400963","c":"PPN USA STATE GROUPS","a":["arkansas","arkansas group","arkansas state group"]},{"t":"California","u":"https://www.patriotchute.com/spaces/11400970","c":"PPN USA STATE GROUPS","a":["california","california group","california state group"]},{"t":"Colorado","u":"https://www.patriotchute.com/spaces/11400980","c":"PPN USA STATE GROUPS","a":["colorado","colorado group","colorado state group"]},{"t":"Connecticut","u":"https://www.patriotchute.com/spaces/11400984","c":"PPN USA STATE GROUPS","a":["connecticut","connecticut group","connecticut state group"]},{"t":"Delaware","u":"https://www.patriotchute.com/spaces/11400994","c":"PPN USA STATE GROUPS","a":["delaware","delaware group","delaware state group"]},{"t":"District of Columbia (DC)","u":"https://www.patriotchute.com/spaces/11401772","c":"PPN USA STATE GROUPS","a":["district of columbia (dc)","district of columbia (dc) group","district of columbia (dc) state group"]},{"t":"Florida","u":"https://www.patriotchute.com/spaces/11400997","c":"PPN USA STATE GROUPS","a":["florida","florida group","florida state group"]},{"t":"Georgia","u":"https://www.patriotchute.com/spaces/11443357","c":"PPN USA STATE GROUPS","a":["georgia","georgia group","georgia state group"]},{"t":"Guam","u":"https://www.patriotchute.com/spaces/11401805","c":"PPN USA STATE GROUPS","a":["guam","guam group","guam state group"]},{"t":"Hawaii","u":"https://www.patriotchute.com/spaces/11401016","c":"PPN USA STATE GROUPS","a":["hawaii","hawaii group","hawaii state group"]},{"t":"Idaho","u":"https://www.patriotchute.com/spaces/11401026","c":"PPN USA STATE GROUPS","a":["idaho","idaho group","idaho state group"]},{"t":"Illinois","u":"https://www.patriotchute.com/spaces/11462416","c":"PPN USA STATE GROUPS","a":["illinois","illinois group","illinois state group"]},{"t":"Indiana","u":"https://www.patriotchute.com/spaces/11401046","c":"PPN USA STATE GROUPS","a":["indiana","indiana group","indiana state group"]},{"t":"Iowa","u":"https://www.patriotchute.com/spaces/11401056","c":"PPN USA STATE GROUPS","a":["iowa","iowa group","iowa state group"]},{"t":"Kansas","u":"https://www.patriotchute.com/spaces/11466607","c":"PPN USA STATE GROUPS","a":["kansas","kansas group","kansas state group"]},{"t":"Kentucky","u":"https://www.patriotchute.com/spaces/11469533","c":"PPN USA STATE GROUPS","a":["kentucky","kentucky group","kentucky state group"]},{"t":"Louisiana","u":"https://www.patriotchute.com/spaces/11401083","c":"PPN USA STATE GROUPS","a":["louisiana","louisiana group","louisiana state group"]},{"t":"Maine","u":"https://www.patriotchute.com/spaces/11401093","c":"PPN USA STATE GROUPS","a":["maine","maine group","maine state group"]},{"t":"Maryland","u":"https://www.patriotchute.com/spaces/11401103","c":"PPN USA STATE GROUPS","a":["maryland","maryland group","maryland state group"]},{"t":"Massachusetts","u":"https://www.patriotchute.com/spaces/11401286","c":"PPN USA STATE GROUPS","a":["massachusetts","massachusetts group","massachusetts state group"]},{"t":"Michigan","u":"https://www.patriotchute.com/spaces/11401298","c":"PPN USA STATE GROUPS","a":["michigan","michigan group","michigan state group"]},{"t":"Minnesota","u":"https://www.patriotchute.com/spaces/11401308","c":"PPN USA STATE GROUPS","a":["minnesota","minnesota group","minnesota state group"]},{"t":"Mississippi","u":"https://www.patriotchute.com/spaces/11401321","c":"PPN USA STATE GROUPS","a":["mississippi","mississippi group","mississippi state group"]},{"t":"Missouri","u":"https://www.patriotchute.com/spaces/11470928","c":"PPN USA STATE GROUPS","a":["missouri","missouri group","missouri state group"]},{"t":"Montana","u":"https://www.patriotchute.com/spaces/11401354","c":"PPN USA STATE GROUPS","a":["montana","montana group","montana state group"]},{"t":"Nebraska","u":"https://www.patriotchute.com/spaces/11401373","c":"PPN USA STATE GROUPS","a":["nebraska","nebraska group","nebraska state group"]},{"t":"Nevada","u":"https://www.patriotchute.com/spaces/11401380","c":"PPN USA STATE GROUPS","a":["nevada","nevada group","nevada state group"]},{"t":"New Hampshire","u":"https://www.patriotchute.com/spaces/11401387","c":"PPN USA STATE GROUPS","a":["new hampshire","new hampshire group","new hampshire state group"]},{"t":"New Jersey","u":"https://www.patriotchute.com/spaces/11401401","c":"PPN USA STATE GROUPS","a":["new jersey","new jersey group","new jersey state group"]},{"t":"New Mexico","u":"https://www.patriotchute.com/spaces/11401434","c":"PPN USA STATE GROUPS","a":["new mexico","new mexico group","new mexico state group"]},{"t":"New York","u":"https://www.patriotchute.com/spaces/11401439","c":"PPN USA STATE GROUPS","a":["new york","new york group","new york state group"]},{"t":"North Carolina","u":"https://www.patriotchute.com/spaces/11401463","c":"PPN USA STATE GROUPS","a":["north carolina","north carolina group","north carolina state group"]},{"t":"North Dakota","u":"https://www.patriotchute.com/spaces/11401471","c":"PPN USA STATE GROUPS","a":["north dakota","north dakota group","north dakota state group"]},{"t":"Northern Mariana Islands","u":"https://www.patriotchute.com/spaces/11401810","c":"PPN USA STATE GROUPS","a":["northern mariana islands","northern mariana islands group","northern mariana islands state group"]},{"t":"Ohio","u":"https://www.patriotchute.com/spaces/11401502","c":"PPN USA STATE GROUPS","a":["ohio","ohio group","ohio state group"]},{"t":"Oklahoma","u":"https://www.patriotchute.com/spaces/11401506","c":"PPN USA STATE GROUPS","a":["oklahoma","oklahoma group","oklahoma state group"]},{"t":"Oregon","u":"https://www.patriotchute.com/spaces/11401511","c":"PPN USA STATE GROUPS","a":["oregon","oregon group","oregon state group"]},{"t":"Pennsylvania","u":"https://www.patriotchute.com/spaces/11401637","c":"PPN USA STATE GROUPS","a":["pennsylvania","pennsylvania group","pennsylvania state group"]},{"t":"Puerto Rico","u":"https://www.patriotchute.com/spaces/11401823","c":"PPN USA STATE GROUPS","a":["puerto rico","puerto rico group","puerto rico state group"]},{"t":"Rhode Island","u":"https://www.patriotchute.com/spaces/11401642","c":"PPN USA STATE GROUPS","a":["rhode island","rhode island group","rhode island state group"]},{"t":"South Carolina","u":"https://www.patriotchute.com/spaces/11401652","c":"PPN USA STATE GROUPS","a":["south carolina","south carolina group","south carolina state group"]},{"t":"South Dakota","u":"https://www.patriotchute.com/spaces/11401665","c":"PPN USA STATE GROUPS","a":["south dakota","south dakota group","south dakota state group"]},{"t":"Tennessee","u":"https://www.patriotchute.com/spaces/11401677","c":"PPN USA STATE GROUPS","a":["tennessee","tennessee group","tennessee state group"]},{"t":"Texas","u":"https://www.patriotchute.com/spaces/17400769","c":"PPN USA STATE GROUPS","a":["texas","texas group","texas state group"]},{"t":"U.S. Virgin Islands","u":"https://www.patriotchute.com/spaces/11401829","c":"PPN USA STATE GROUPS","a":["u.s. virgin islands","u.s. virgin islands group","u.s. virgin islands state group"]},{"t":"Utah","u":"https://www.patriotchute.com/spaces/11401706","c":"PPN USA STATE GROUPS","a":["utah","utah group","utah state group"]},{"t":"Vermont","u":"https://www.patriotchute.com/spaces/11401719","c":"PPN USA STATE GROUPS","a":["vermont","vermont group","vermont state group"]},{"t":"Virginia","u":"https://www.patriotchute.com/spaces/11401732","c":"PPN USA STATE GROUPS","a":["virginia","virginia group","virginia state group"]},{"t":"Washington","u":"https://www.patriotchute.com/spaces/11401741","c":"PPN USA STATE GROUPS","a":["washington","washington group","washington state group"]},{"t":"West Virginia","u":"https://www.patriotchute.com/spaces/11401745","c":"PPN USA STATE GROUPS","a":["west virginia","west virginia group","west virginia state group"]},{"t":"Wisconsin","u":"https://www.patriotchute.com/spaces/11401750","c":"PPN USA STATE GROUPS","a":["wisconsin","wisconsin group","wisconsin state group"]},{"t":"Wyoming","u":"https://www.patriotchute.com/spaces/11401757","c":"PPN USA STATE GROUPS","a":["wyoming","wyoming group","wyoming state group"]},{"t":"New Member Launchpad","u":"https://www.patriotchute.com/spaces/22517254/content","c":"START HERE","a":["launchpad","new member launchpad","onboarding","badge"]},{"t":"Welcome & New Member Guide","u":"https://www.patriotchute.com/spaces/22517246/content","c":"START HERE","a":["welcome","new member guide","start here","getting started","tour"]}];
@@ -38,18 +44,14 @@ const TONE = {
   "disappeared":  ["olive","Find a room"],
   "humanitarian": ["olive","Find a room"],
   "guidelines":   ["slate","Community rules"],
-  "app-trouble":  ["slate","Something's not working"],
-  "notifications":["slate","Something's not working"],
-  "locked-out":   ["slate","Something's not working"],
-  "text-small":   ["slate","Something's not working"],
+  "text-small":   ["olive","Using the community"],
   "edit-profile": ["wheat","Your account & billing"],
   "change-email": ["wheat","Your account & billing"],
   "reset-password":["wheat","Your account & billing"],
-  "notif-settings":["slate","Something's not working"],
+  "notif-settings":["olive","Using the community"],
   "how-to-post":  ["olive","Using the community"],
   "how-feed-works":["olive","Using the community"],
   "hashtags":     ["olive","Using the community"],
-  "which-app":    ["slate","Something's not working"],
   "privacy-data": ["navy","Getting started"]
 };
 
@@ -217,7 +219,7 @@ A["text-small"] = {
       ["Windows computer","Settings &rarr; Accessibility &rarr; <b>Text size</b>, then drag the slider right"],
       ["Any computer browser","Hold <b>Ctrl</b> (or <b>&#8984;</b> on a Mac) and press <b>+</b> a few times"]
     ]},
-  related:["app-trouble"]
+  related:["notif-settings"]
 };
 
 A["start-here"] = {
@@ -242,62 +244,8 @@ A["guidelines"] = {
 };
 
 /* ---------- triage ---------- */
-A["app-trouble"] = {
-  q:"The app is not working properly",
-  h:"Let's narrow it down",
-  body:`<p>&ldquo;It's not working&rdquo; can be a dozen different things, so there's no single fix we can give you. Answer these three and we'll know where to look.</p>`,
-  triage:{
-    id:"app",
-    fields:[
-      {k:"url", label:"What web address are you using?", type:"text", ph:"e.g. patriotchute.com, or the phone app"},
-      {k:"device", label:"What are you using?", type:"select",
-       opts:["iPhone","iPad","Android phone","Android tablet","Windows computer","Mac computer","Not sure"]},
-      {k:"what", label:"What happens? Tell us a little more.", type:"textarea",
-       ph:"e.g. it goes back to the sign-in page every time I tap a room"}
-    ],
-    note:"A screenshot helps a lot &mdash; add one to your post if you can."
-  },
-  related:["text-small","find-room"]
-};
 
-A["notifications"] = {
-  q:"My notifications are on but I'm not getting any",
-  h:"Let's narrow it down",
-  body:`<p>Notifications travel three different ways &mdash; in the app, on your phone's lock screen, and by email &mdash; and each one can fail for a different reason. Answer these and we'll know which one to chase.</p>`,
-  triage:{
-    id:"notif",
-    fields:[
-      {k:"device", label:"What are you using?", type:"select",
-       opts:["iPhone","iPad","Android phone","Android tablet","Windows computer","Mac computer","Not sure"]},
-      {k:"how", label:"How do you normally open PPN?", type:"select",
-       opts:["The phone app","A web browser (Chrome, Safari, Edge)","Both","Not sure"]},
-      {k:"which", label:"Which notifications are missing?", type:"select",
-       opts:["Live show alerts","Replies to my posts","Emails","All of them","Not sure"]},
-      {k:"when", label:"When did it last work?", type:"text", ph:"e.g. it stopped about two weeks ago"}
-    ],
-    note:"A screenshot of your notification settings helps a lot."
-  },
-  related:["app-trouble"]
-};
 
-A["locked-out"] = {
-  q:"I'm locked out &mdash; I can't get in",
-  h:"Where are you locked out?",
-  body:`<p>You're signed in to the community right now, so whatever is refusing you is somewhere else. Tell us where and we can point you at the right fix.</p>`,
-  triage:{
-    id:"lock",
-    fields:[
-      {k:"where", label:"Where are you being locked out?", type:"select",
-       opts:["Talk Time","The phone app","The billing or account settings screen","The website in a browser","Somewhere else"]},
-      {k:"device", label:"What are you using?", type:"select",
-       opts:["iPhone","iPad","Android phone","Android tablet","Windows computer","Mac computer","Not sure"]},
-      {k:"msg", label:"What does the screen say?", type:"textarea",
-       ph:"Type the message you see, word for word if you can"}
-    ],
-    note:"A screenshot of the message is the fastest way for us to spot it."
-  },
-  related:["talk-time","cancel"]
-};
 
 
 /* ---------- account & profile ---------- */
@@ -332,7 +280,7 @@ A["reset-password"] = {
         <p>If you are locked out, use <b>Forgot password</b> on the sign-in screen and we will email you a link.</p>`,
   callout:`<b>If the email never arrives:</b> check your junk or spam folder first, and make sure you are using the same email address you joined with. If it still does not come, ask in the chat and we will help.`,
   callout2:{warn:true, html:`Some members sign in with <b>Google</b> instead of a password. If you joined that way, there is no password to reset &mdash; just use the Google button.`},
-  related:["change-email","locked-out"]
+  related:["change-email","edit-profile"]
 };
 
 A["notif-settings"] = {
@@ -351,7 +299,7 @@ A["notif-settings"] = {
       ["On your computer","Pop-ups from your browser."]
     ]},
   callout:`<b>Getting too much email?</b> Turn Email Updates down or off. <b>Getting nothing on your phone?</b> Phone alerts are off until you switch them on, in Notifications.`,
-  related:["notifications","edit-profile"]
+  related:["text-small","edit-profile"]
 };
 
 /* ---------- using the community ---------- */
@@ -390,15 +338,6 @@ A["hashtags"] = {
 };
 
 /* ---------- platform ---------- */
-A["which-app"] = {
-  q:"Which app do I download, and can I use my computer instead?",
-  h:"App or computer &mdash; both work",
-  body:`<p>You do not need an app at all. Everything works in a normal web browser at <b>patriotchute.com</b>, on a computer, a tablet or a phone.</p>
-        <p>If you prefer an app, the community runs on <b>Mighty Networks</b> &mdash; that is the app name to search for in the App Store or Google Play. Sign in with the same email and password you already use.</p>`,
-  callout:`<b>If something is not working in the app</b>, open <b>patriotchute.com</b> in your browser instead. That fixes most problems on the spot.`,
-  callout2:{warn:true, html:`Changing your card or your billing is best done in a <b>browser</b>, not the app.`},
-  related:["app-trouble","change-card"]
-};
 
 A["privacy-data"] = {
   q:"Is my information private? Do you sell my data?",
@@ -415,8 +354,7 @@ const CATS = [
   {name:"Talk Time &amp; your state", color:"var(--red)", qs:["talk-time","state-group","lost-access","telegram"]},
   {name:"Live shows &amp; replays", color:"var(--denim)", qs:["watch-live","schedule","replays"]},
   {name:"Your account &amp; billing", color:"var(--wheat)", qs:["cancel","change-card","still-charged","edit-profile","change-email","reset-password"]},
-  {name:"Using the community", color:"var(--olive)", qs:["how-to-post","how-feed-works","hashtags","find-room","humanitarian","disappeared","guidelines"]},
-  {name:"Something's not working", color:"var(--ink-3)", qs:["app-trouble","which-app","notifications","notif-settings","locked-out","text-small"]}
+  {name:"Using the community", color:"var(--olive)", qs:["how-to-post","how-feed-works","hashtags","notif-settings","text-small","find-room","humanitarian","disappeared","guidelines"]}
 ];
 
 /* ---------- rendering ---------- */
@@ -596,24 +534,21 @@ const KW = {
   "text-small":["small","tiny","font","text size","bigger","larger","cant read","hard to read","magnify","zoom in"],
   "start-here":["new","just joined","start","begin","getting started","first","beginner","newbie","where do i start"],
   "guidelines":["removed","muted","banned","blocked","rules","guidelines","censored","silenced","suspended","warning","why cant i post","deleted","why was my post","took my post down","taken down","post gone"],
-  "app-trouble":["crash","crashing","not working","broken","wont load","loading","frozen","freeze","slow","error","glitch","bug","stuck","nothing loads","wont load","doesnt load","nothing happens","blank screen","keeps closing"],
-  "notifications":["not getting notifications","no notifications","missing notifications","nothing comes through","not notified","alerts not working","not getting","getting nothing","no alerts","nothing comes","never get notified","notifications"],
-  "locked-out":["log in","login","sign in","signin","locked out","cant get in","password","access denied","wont let me in"],
   "edit-profile":["profile","picture","photo","avatar","my name","display name","bio","about me","change my picture","set up my profile"],
   "change-email":["email address","change my email","new email","update email","wrong email"],
   "reset-password":["password","forgot","reset","new password","change password","cant remember"],
-  "notif-settings":["notification settings","turn off","turn on","too many emails","stop emails","email settings","alerts","push","mute"],
+  "notif-settings":["notifications","notification","notification settings","turn off","turn on","too many emails","stop emails","email settings","alerts","push","mute"],
   "how-to-post":["post","posting","make a post","picture","photo","image","put a picture","write","publish","share something","comment","reply","upload","add a photo","add a picture","add a video","attach"],
   "how-feed-works":["feed","timeline","home page","what i see","why do i see","main page","stream of posts"],
   "hashtags":["hashtag","hashtags","tag","tagging","#"],
-  "which-app":["app","download","install","play store","app store","phone","tablet","ipad","iphone","android","computer","laptop","browser","which app"],
   "privacy-data":["privacy","private","my data","sell my data","personal information","who can see","secure","safe","sell my information","information","personal details","data"]
 };
 
 const STOP = new Set(["i","a","an","the","my","me","do","does","did","how","can","could","would","what",
   "where","when","why","is","are","am","was","it","to","in","on","for","of","and","or","you","we","this",
-  "that","be","get","got","have","has","there","here","please","help","need","want","with","from","at",
-  "if","so","but","just","some","any","not","dont","cant","wont","im","ive","us","our","your","yours"]);
+  "that","be","get","got","have","has","there","here","please","help","need","want","with","from","at","which",
+  "if","so","but","just","some","any","not","dont","cant","wont","im","ive","us","our","your","yours",
+  "keep","keeps","keeping","really","very","also","still","again","thing","things"]);
 
 function norm(t){ return t.toLowerCase().replace(/[^a-z0-9#\s]/g," ").replace(/\s+/g," ").trim(); }
 function toks(t){ return norm(t).split(" ").filter(w=>w && !STOP.has(w) && w.length>1); }
@@ -659,7 +594,13 @@ function editWithin(a,b,max){
 function correct(w){
   if(DF[w] || w.length<5) return null;
   const max = w.length>=8 ? 2 : 1;
-  for(const v of VOCAB) if(editWithin(w,v,max)) return v;
+  for(const v of VOCAB){
+    if(!editWithin(w,v,max)) continue;
+    // people mistype the middle and end of a word, rarely the first two letters.
+    // Without this, "crashing" becomes "charging".
+    if(max > 1 && w.slice(0,2) !== v.slice(0,2) && !editWithin(w,v,1)) continue;
+    return v;
+  }
   return null;
 }
 
@@ -694,7 +635,7 @@ function rank(qRaw){
 
 function search(qRaw){
   const r = rank(qRaw);
-  if(r.length && r[0].score >= 5) return r[0].key;
+  if(r.length && r[0].score >= 7) return r[0].key;
   const q = norm(qRaw);
   const room = ROOMS.find(x=>q.includes(norm(x.t)) || (x.a||[]).some(al=>q.includes(norm(al))));
   if(room) return "find-room";
@@ -713,10 +654,10 @@ document.getElementById("askform").addEventListener("submit",e=>{
     const card=document.createElement("div"); card.className="card";
     card.className="card toned";
     card.style.borderTopColor="var(--t-slate)";
-    card.innerHTML=`<p class="topic" style="color:var(--ti-slate)">No answer yet</p>
-      <h2>I don't have an answer for that yet</h2>
-      <p>This Navigator is new and we're still adding answers to it.</p>
-      <p>Pick a topic on the right, search all the rooms, or ask a real person in the chat.</p>
+    card.innerHTML=`<p class="topic" style="color:var(--ti-slate)">Let's get you help</p>
+      <h2>Let's get a real person on this</h2>
+      <p>I don't have an answer for that one, and if something isn't working properly the quickest route is to ask someone.</p>
+      <p>Post your question in the chat below and the team will pick it up. Tell them what you were doing and what happened &mdash; a screenshot helps.</p>
       <button class="cta" data-goto="find-room">Search all rooms</button>
       ${near.length ? `<hr class="divider"><p class="label">Did you mean one of these?</p><div class="chips">`
         + near.map(k=>`<button class="chip" data-goto="${k}">${A[k].q}</button>`).join("") + `</div>` : ""}
@@ -756,7 +697,7 @@ catch(e){ setSize(16,false); }
       <li><span class="tick">&#10004;</span><span><b>Talk Time &amp; your state</b> &mdash; it's inside the community now</span></li>
       <li><span class="tick">&#10004;</span><span><b>Live shows &amp; replays</b> &mdash; what's on, when, and where to watch</span></li>
       <li><span class="tick">&#10004;</span><span><b>Your account</b> &mdash; your profile, email, password, billing</span></li>
-      <li><span class="tick">&#10004;</span><span><b>Using the community</b> &mdash; posting, the feed, hashtags</span></li>
+      <li><span class="tick">&#10004;</span><span><b>Using the community</b> &mdash; posting, the feed, notifications</span></li>
       <li><span class="tick">&#10004;</span><span><b>Find a room</b> &mdash; all ${ROOMS.length} of them, with links</span></li>
     </ul>
     <hr class="divider">
@@ -771,10 +712,42 @@ catch(e){ setSize(16,false); }
   msg.appendChild(card); stream.appendChild(msg);
 })();
 
-console.log("spellcheck:", ["pikture","notifcations","passwrd","cancle","chnage","subscribtion","recieve"].map(w=>w+"->"+correct(w)).join("  "));
-const CASES=[["can I make a post?","how-to-post"],["how do i write something","how-to-post"],["can i put a picture in my post","how-to-post"],["where do i cancel","cancel"],["i want to stop paying","cancel"],["unsubscribe me","cancel"],["how do i change my credit card","change-card"],["my bank card expired","change-card"],["you charged me twice","still-charged"],["i want my money back","still-charged"],["wheres talk time","talk-time"],["how do i get into the chat","talk-time"],["what time is the show","schedule"],["is there a show tonight","schedule"],["where do i watch tonight","watch-live"],["i missed the show","replays"],["how do i join my state","state-group"],["how do i change my picture","edit-profile"],["i want to set up my profile","edit-profile"],["forgot my password","reset-password"],["change my email address","change-email"],["stop sending me so many emails","notif-settings"],["im not getting any notifications","notifications"],["the app keeps crashing","app-trouble"],["nothing loads","app-trouble"],["which app do i need","which-app"],["do you sell my information","privacy-data"],["the writing is too small","text-small"],["what is a hashtag","hashtags"],["why do i see these posts","how-feed-works"],["where is the humanitarian room","humanitarian"],["i am brand new here","start-here"],["why was my post deleted","guidelines"],["i cant log in","locked-out"],["do i need telegram","telegram"],["CAN I MAKE A POST???","how-to-post"],["how i put pikture on here","how-to-post"],["wher is talk time","talk-time"],["cancle my subscription","cancel"],["my notifcations dont work","notifications"],["chnage my passwrd","reset-password"],["where is the prayer room","find-room"]];
+const CASES=[
+ ["can I make a post?","how-to-post"],["how do i write something","how-to-post"],
+ ["can i put a picture in my post","how-to-post"],["where do i cancel","cancel"],
+ ["i want to stop paying","cancel"],["unsubscribe me","cancel"],
+ ["how do i change my credit card","change-card"],["my bank card expired","change-card"],
+ ["you charged me twice","still-charged"],["i want my money back","still-charged"],
+ ["wheres talk time","talk-time"],["how do i get into the chat","talk-time"],
+ ["what time is the show","schedule"],["is there a show tonight","schedule"],
+ ["where do i watch tonight","watch-live"],["i missed the show","replays"],
+ ["how do i join my state","state-group"],["how do i change my picture","edit-profile"],
+ ["i want to set up my profile","edit-profile"],["forgot my password","reset-password"],
+ ["change my email address","change-email"],["stop sending me so many emails","notif-settings"],
+ ["how do i turn off notifications","notif-settings"],["the writing is too small","text-small"],
+ ["do you sell my information","privacy-data"],["what is a hashtag","hashtags"],
+ ["why do i see these posts","how-feed-works"],["where is the humanitarian room","humanitarian"],
+ ["i am brand new here","start-here"],["why was my post deleted","guidelines"],
+ ["do i need telegram","telegram"],["CAN I MAKE A POST???","how-to-post"],
+ ["how i put pikture on here","how-to-post"],["wher is talk time","talk-time"],
+ ["cancle my subscription","cancel"],["chnage my passwrd","reset-password"],
+ ["where is the prayer room","find-room"]
+];
+// Troubleshooting was deliberately removed: these must fall through to the
+// "let's get a real person on this" card rather than answer with a guess.
+const TO_HUMAN=["the app keeps crashing","nothing loads","i cant log in",
+  "which app do i need","the site is broken","my screen is frozen"];
+
 let pass=0,fail=[];
-for(const [q,w] of CASES){const g=search(q);if(g===w)pass++;else fail.push([q,w,g,rank(q).slice(0,3).map(r=>r.key+":"+r.score).join(", ")]);}
-console.log(`
-MATCHER: ${pass}/${CASES.length} correct`);
-for(const [q,w,g,t] of fail)console.log(`  MISS "${q}" want=${w} got=${g}  [${t}]`);
+for(const [q,w] of CASES){const g=search(q);
+  if(g===w)pass++;else fail.push([q,w,g,rank(q).slice(0,3).map(r=>r.key+":"+r.score).join(", ")]);}
+let hpass=0,hfail=[];
+for(const q of TO_HUMAN){const g=search(q);
+  if(g===null)hpass++;else hfail.push([q,g,rank(q).slice(0,2).map(r=>r.key+":"+r.score).join(", ")]);}
+
+console.log(`MATCHER:        ${pass}/${CASES.length} correct`);
+console.log(`ROUTES TO HUMAN:${hpass}/${TO_HUMAN.length} fall through as intended`);
+for(const [q,w,g,t] of fail) console.log(`  MISS "${q}" want=${w} got=${g}  [${t}]`);
+for(const [q,g,t] of hfail) console.log(`  LEAK "${q}" answered with ${g}  [${t}]`);
+process.exit(fail.length+hfail.length ? 1 : 0);
+

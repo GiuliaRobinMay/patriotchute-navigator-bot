@@ -381,18 +381,14 @@ const TONE = {
   "disappeared":  ["olive","Find a room"],
   "humanitarian": ["olive","Find a room"],
   "guidelines":   ["slate","Community rules"],
-  "app-trouble":  ["slate","Something's not working"],
-  "notifications":["slate","Something's not working"],
-  "locked-out":   ["slate","Something's not working"],
-  "text-small":   ["slate","Something's not working"],
+  "text-small":   ["olive","Using the community"],
   "edit-profile": ["wheat","Your account & billing"],
   "change-email": ["wheat","Your account & billing"],
   "reset-password":["wheat","Your account & billing"],
-  "notif-settings":["slate","Something's not working"],
+  "notif-settings":["olive","Using the community"],
   "how-to-post":  ["olive","Using the community"],
   "how-feed-works":["olive","Using the community"],
   "hashtags":     ["olive","Using the community"],
-  "which-app":    ["slate","Something's not working"],
   "privacy-data": ["navy","Getting started"]
 };
 
@@ -560,7 +556,7 @@ A["text-small"] = {
       ["Windows computer","Settings &rarr; Accessibility &rarr; <b>Text size</b>, then drag the slider right"],
       ["Any computer browser","Hold <b>Ctrl</b> (or <b>&#8984;</b> on a Mac) and press <b>+</b> a few times"]
     ]},
-  related:["app-trouble"]
+  related:["notif-settings"]
 };
 
 A["start-here"] = {
@@ -585,62 +581,8 @@ A["guidelines"] = {
 };
 
 /* ---------- triage ---------- */
-A["app-trouble"] = {
-  q:"The app is not working properly",
-  h:"Let's narrow it down",
-  body:`<p>&ldquo;It's not working&rdquo; can be a dozen different things, so there's no single fix we can give you. Answer these three and we'll know where to look.</p>`,
-  triage:{
-    id:"app",
-    fields:[
-      {k:"url", label:"What web address are you using?", type:"text", ph:"e.g. patriotchute.com, or the phone app"},
-      {k:"device", label:"What are you using?", type:"select",
-       opts:["iPhone","iPad","Android phone","Android tablet","Windows computer","Mac computer","Not sure"]},
-      {k:"what", label:"What happens? Tell us a little more.", type:"textarea",
-       ph:"e.g. it goes back to the sign-in page every time I tap a room"}
-    ],
-    note:"A screenshot helps a lot &mdash; add one to your post if you can."
-  },
-  related:["text-small","find-room"]
-};
 
-A["notifications"] = {
-  q:"My notifications are on but I'm not getting any",
-  h:"Let's narrow it down",
-  body:`<p>Notifications travel three different ways &mdash; in the app, on your phone's lock screen, and by email &mdash; and each one can fail for a different reason. Answer these and we'll know which one to chase.</p>`,
-  triage:{
-    id:"notif",
-    fields:[
-      {k:"device", label:"What are you using?", type:"select",
-       opts:["iPhone","iPad","Android phone","Android tablet","Windows computer","Mac computer","Not sure"]},
-      {k:"how", label:"How do you normally open PPN?", type:"select",
-       opts:["The phone app","A web browser (Chrome, Safari, Edge)","Both","Not sure"]},
-      {k:"which", label:"Which notifications are missing?", type:"select",
-       opts:["Live show alerts","Replies to my posts","Emails","All of them","Not sure"]},
-      {k:"when", label:"When did it last work?", type:"text", ph:"e.g. it stopped about two weeks ago"}
-    ],
-    note:"A screenshot of your notification settings helps a lot."
-  },
-  related:["app-trouble"]
-};
 
-A["locked-out"] = {
-  q:"I'm locked out &mdash; I can't get in",
-  h:"Where are you locked out?",
-  body:`<p>You're signed in to the community right now, so whatever is refusing you is somewhere else. Tell us where and we can point you at the right fix.</p>`,
-  triage:{
-    id:"lock",
-    fields:[
-      {k:"where", label:"Where are you being locked out?", type:"select",
-       opts:["Talk Time","The phone app","The billing or account settings screen","The website in a browser","Somewhere else"]},
-      {k:"device", label:"What are you using?", type:"select",
-       opts:["iPhone","iPad","Android phone","Android tablet","Windows computer","Mac computer","Not sure"]},
-      {k:"msg", label:"What does the screen say?", type:"textarea",
-       ph:"Type the message you see, word for word if you can"}
-    ],
-    note:"A screenshot of the message is the fastest way for us to spot it."
-  },
-  related:["talk-time","cancel"]
-};
 
 
 /* ---------- account & profile ---------- */
@@ -675,7 +617,7 @@ A["reset-password"] = {
         <p>If you are locked out, use <b>Forgot password</b> on the sign-in screen and we will email you a link.</p>`,
   callout:`<b>If the email never arrives:</b> check your junk or spam folder first, and make sure you are using the same email address you joined with. If it still does not come, ask in the chat and we will help.`,
   callout2:{warn:true, html:`Some members sign in with <b>Google</b> instead of a password. If you joined that way, there is no password to reset &mdash; just use the Google button.`},
-  related:["change-email","locked-out"]
+  related:["change-email","edit-profile"]
 };
 
 A["notif-settings"] = {
@@ -694,7 +636,7 @@ A["notif-settings"] = {
       ["On your computer","Pop-ups from your browser."]
     ]},
   callout:`<b>Getting too much email?</b> Turn Email Updates down or off. <b>Getting nothing on your phone?</b> Phone alerts are off until you switch them on, in Notifications.`,
-  related:["notifications","edit-profile"]
+  related:["text-small","edit-profile"]
 };
 
 /* ---------- using the community ---------- */
@@ -733,15 +675,6 @@ A["hashtags"] = {
 };
 
 /* ---------- platform ---------- */
-A["which-app"] = {
-  q:"Which app do I download, and can I use my computer instead?",
-  h:"App or computer &mdash; both work",
-  body:`<p>You do not need an app at all. Everything works in a normal web browser at <b>patriotchute.com</b>, on a computer, a tablet or a phone.</p>
-        <p>If you prefer an app, the community runs on <b>Mighty Networks</b> &mdash; that is the app name to search for in the App Store or Google Play. Sign in with the same email and password you already use.</p>`,
-  callout:`<b>If something is not working in the app</b>, open <b>patriotchute.com</b> in your browser instead. That fixes most problems on the spot.`,
-  callout2:{warn:true, html:`Changing your card or your billing is best done in a <b>browser</b>, not the app.`},
-  related:["app-trouble","change-card"]
-};
 
 A["privacy-data"] = {
   q:"Is my information private? Do you sell my data?",
@@ -758,8 +691,7 @@ const CATS = [
   {name:"Talk Time &amp; your state", color:"var(--red)", qs:["talk-time","state-group","lost-access","telegram"]},
   {name:"Live shows &amp; replays", color:"var(--denim)", qs:["watch-live","schedule","replays"]},
   {name:"Your account &amp; billing", color:"var(--wheat)", qs:["cancel","change-card","still-charged","edit-profile","change-email","reset-password"]},
-  {name:"Using the community", color:"var(--olive)", qs:["how-to-post","how-feed-works","hashtags","find-room","humanitarian","disappeared","guidelines"]},
-  {name:"Something's not working", color:"var(--ink-3)", qs:["app-trouble","which-app","notifications","notif-settings","locked-out","text-small"]}
+  {name:"Using the community", color:"var(--olive)", qs:["how-to-post","how-feed-works","hashtags","notif-settings","text-small","find-room","humanitarian","disappeared","guidelines"]}
 ];
 
 /* ---------- rendering ---------- */
@@ -939,24 +871,21 @@ const KW = {
   "text-small":["small","tiny","font","text size","bigger","larger","cant read","hard to read","magnify","zoom in"],
   "start-here":["new","just joined","start","begin","getting started","first","beginner","newbie","where do i start"],
   "guidelines":["removed","muted","banned","blocked","rules","guidelines","censored","silenced","suspended","warning","why cant i post","deleted","why was my post","took my post down","taken down","post gone"],
-  "app-trouble":["crash","crashing","not working","broken","wont load","loading","frozen","freeze","slow","error","glitch","bug","stuck","nothing loads","wont load","doesnt load","nothing happens","blank screen","keeps closing"],
-  "notifications":["not getting notifications","no notifications","missing notifications","nothing comes through","not notified","alerts not working","not getting","getting nothing","no alerts","nothing comes","never get notified","notifications"],
-  "locked-out":["log in","login","sign in","signin","locked out","cant get in","password","access denied","wont let me in"],
   "edit-profile":["profile","picture","photo","avatar","my name","display name","bio","about me","change my picture","set up my profile"],
   "change-email":["email address","change my email","new email","update email","wrong email"],
   "reset-password":["password","forgot","reset","new password","change password","cant remember"],
-  "notif-settings":["notification settings","turn off","turn on","too many emails","stop emails","email settings","alerts","push","mute"],
+  "notif-settings":["notifications","notification","notification settings","turn off","turn on","too many emails","stop emails","email settings","alerts","push","mute"],
   "how-to-post":["post","posting","make a post","picture","photo","image","put a picture","write","publish","share something","comment","reply","upload","add a photo","add a picture","add a video","attach"],
   "how-feed-works":["feed","timeline","home page","what i see","why do i see","main page","stream of posts"],
   "hashtags":["hashtag","hashtags","tag","tagging","#"],
-  "which-app":["app","download","install","play store","app store","phone","tablet","ipad","iphone","android","computer","laptop","browser","which app"],
   "privacy-data":["privacy","private","my data","sell my data","personal information","who can see","secure","safe","sell my information","information","personal details","data"]
 };
 
 const STOP = new Set(["i","a","an","the","my","me","do","does","did","how","can","could","would","what",
   "where","when","why","is","are","am","was","it","to","in","on","for","of","and","or","you","we","this",
-  "that","be","get","got","have","has","there","here","please","help","need","want","with","from","at",
-  "if","so","but","just","some","any","not","dont","cant","wont","im","ive","us","our","your","yours"]);
+  "that","be","get","got","have","has","there","here","please","help","need","want","with","from","at","which",
+  "if","so","but","just","some","any","not","dont","cant","wont","im","ive","us","our","your","yours",
+  "keep","keeps","keeping","really","very","also","still","again","thing","things"]);
 
 function norm(t){ return t.toLowerCase().replace(/[^a-z0-9#\s]/g," ").replace(/\s+/g," ").trim(); }
 function toks(t){ return norm(t).split(" ").filter(w=>w && !STOP.has(w) && w.length>1); }
@@ -1002,7 +931,13 @@ function editWithin(a,b,max){
 function correct(w){
   if(DF[w] || w.length<5) return null;
   const max = w.length>=8 ? 2 : 1;
-  for(const v of VOCAB) if(editWithin(w,v,max)) return v;
+  for(const v of VOCAB){
+    if(!editWithin(w,v,max)) continue;
+    // people mistype the middle and end of a word, rarely the first two letters.
+    // Without this, "crashing" becomes "charging".
+    if(max > 1 && w.slice(0,2) !== v.slice(0,2) && !editWithin(w,v,1)) continue;
+    return v;
+  }
   return null;
 }
 
@@ -1037,7 +972,7 @@ function rank(qRaw){
 
 function search(qRaw){
   const r = rank(qRaw);
-  if(r.length && r[0].score >= 5) return r[0].key;
+  if(r.length && r[0].score >= 7) return r[0].key;
   const q = norm(qRaw);
   const room = ROOMS.find(x=>q.includes(norm(x.t)) || (x.a||[]).some(al=>q.includes(norm(al))));
   if(room) return "find-room";
@@ -1056,10 +991,10 @@ document.getElementById("askform").addEventListener("submit",e=>{
     const card=document.createElement("div"); card.className="card";
     card.className="card toned";
     card.style.borderTopColor="var(--t-slate)";
-    card.innerHTML=`<p class="topic" style="color:var(--ti-slate)">No answer yet</p>
-      <h2>I don't have an answer for that yet</h2>
-      <p>This Navigator is new and we're still adding answers to it.</p>
-      <p>Pick a topic on the right, search all the rooms, or ask a real person in the chat.</p>
+    card.innerHTML=`<p class="topic" style="color:var(--ti-slate)">Let's get you help</p>
+      <h2>Let's get a real person on this</h2>
+      <p>I don't have an answer for that one, and if something isn't working properly the quickest route is to ask someone.</p>
+      <p>Post your question in the chat below and the team will pick it up. Tell them what you were doing and what happened &mdash; a screenshot helps.</p>
       <button class="cta" data-goto="find-room">Search all rooms</button>
       ${near.length ? `<hr class="divider"><p class="label">Did you mean one of these?</p><div class="chips">`
         + near.map(k=>`<button class="chip" data-goto="${k}">${A[k].q}</button>`).join("") + `</div>` : ""}
@@ -1099,7 +1034,7 @@ catch(e){ setSize(16,false); }
       <li><span class="tick">&#10004;</span><span><b>Talk Time &amp; your state</b> &mdash; it's inside the community now</span></li>
       <li><span class="tick">&#10004;</span><span><b>Live shows &amp; replays</b> &mdash; what's on, when, and where to watch</span></li>
       <li><span class="tick">&#10004;</span><span><b>Your account</b> &mdash; your profile, email, password, billing</span></li>
-      <li><span class="tick">&#10004;</span><span><b>Using the community</b> &mdash; posting, the feed, hashtags</span></li>
+      <li><span class="tick">&#10004;</span><span><b>Using the community</b> &mdash; posting, the feed, notifications</span></li>
       <li><span class="tick">&#10004;</span><span><b>Find a room</b> &mdash; all ${ROOMS.length} of them, with links</span></li>
     </ul>
     <hr class="divider">

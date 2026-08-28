@@ -66,8 +66,14 @@ the score:
 Below the score threshold the member gets a "Did you mean one of these?" list
 of the three closest answers rather than a dead end.
 
-`node app/test/matcher.test.js` runs 42 real-wording cases against the built
-file. Keep it at 42/42.
+There is deliberately **no troubleshooting section**. "It's not working" is not
+a question a static answer can serve, and guessing at one reads worse than
+saying nothing. Anything of that kind falls through to a card that puts the
+member in touch with a person.
+
+`node app/test/matcher.test.js` checks both halves: 37 real-wording cases that
+must resolve to the right answer, and 6 broken-thing phrasings that must NOT
+resolve and must reach the human instead. It exits non-zero on either failure.
 
 ## Three answer types
 
@@ -82,6 +88,8 @@ answer:
 3. **Live data** — replays and the show calendar are actively changing, so
    these must be pulled from the community rather than stored. Currently
    hardcoded from verified event data; wire to the MCP server next.
+
+Triage was removed at the host's direction. See the note above.
 
 ## Room links
 
